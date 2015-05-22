@@ -1,0 +1,3434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<publishDetail>
+   <global>
+      <Param0>SoSe 2015</Param0>
+      <Param1>/QIS/images/</Param1>
+   </global>
+   <Vorlesungsverzeichnis>
+      <UeBez>Veranstaltungen der Universitätsbibliothek</UeBez>
+      <Semester>
+         <Kurztext>SoSe 2015</Kurztext>
+      </Semester>
+      <UebRootAn>
+         <FormattedText>
+            <p>
+               <strong>ERFOLGSBAUSTEIN BIBLIOTHEK</strong>
+            </p>
+            <p>
+               <br />
+               Erfolg im Studium ist eng verknüpft mit der Fähigkeit, Informationen verschiedenster Art richtig zu nutzen. Die Universitätsbibliothek steht Ihnen dabei als kompetenter Partner zur Seite. Nutzen Sie unsere vielfältigen Schulungsangebote und erhöhen Sie somit Ihre Erfolgsaussichten.
+            </p>
+            <p />
+            <p>
+               <br />
+               <strong>Bitte beachten Sie für unsere Schulungen</strong>
+               (diese Punkte gelten nicht für den Onlinekurs "Fit fürs Studium", den vhb-Kurs Informationskompetenz und das Seminar "Grundlagen der Informationskompetenz")
+               <strong>:</strong>
+            </p>
+            <p>
+               <br />
+               • alle unsere Schulungstermine sind Einzeltermine und Sie können sich pro Veranstaltung
+               <strong>EINEN</strong>
+               der angegebenen Termine aussuchen
+               <br />
+               • die Zeiten der Schulungen sind GENAU angegeben, d.h. eine Veranstaltung, die von 16.00-17.00 Uhr angegeben ist, dauert auch wirklich 60 Minuten
+               <br />
+               • Die Anmeldung zu den Schulungen erfolgt über: https://www.uni-regensburg.de/bibliothek/schulung/termine/index.html
+            </p>
+            <p />
+            <p>
+               <br />
+               <strong>Bei Fragen zum Schulungsangebot wenden Sie sich an:</strong>
+            </p>
+            <p>
+               <br />
+               Universitätsbibliothek Regensburg
+               <br />
+               Informationszentrum in der Zentralbibliothek
+               <br />
+               Telefon: 0941/943-3990
+               <br />
+               Email: info.ub@ur.de
+            </p>
+            <p>
+               <br />
+               Führungen für Gruppen ab fünf Personen können jederzeit im Informationszentrum angefragt werden.
+            </p>
+         </FormattedText>
+      </UebRootAn>
+      <Tree>
+         <Vorlesung ueebene="1">
+            <Ueberschrift>
+               <UeBez>Allgemeine Veranstaltungen</UeBez>
+               <Veranstaltung>
+                  <VeranstNummer>60173</VeranstNummer>
+                  <VName>Grundlagen der bibliothekarischen Informationskompetenz sowie Informationsrecherche und Informationsaufbereitung</VName>
+                  <VNummer>36611</VNummer>
+                  <VSWS>2</VSWS>
+                  <ECTS />
+                  <MaxTeilnehmer />
+                  <VTyp>Seminar</VTyp>
+                  <VDTyp>Seminar</VDTyp>
+                  <VHyper />
+                  <VZSemester>20151</VZSemester>
+                  <druck_vvz>J</druck_vvz>
+                  <r_vvzzuord.sortierung />
+                  <Bemerkung>
+                     <FormattedText>
+                        <p>Die erworbenen Leistungen können nicht ein weiteres Mal für ein anderes HF oder NF angerechnet werden. Studenten der Informationswissenschaft ersetzen die in diesem Modul vorgesehene Pflichtveranstaltung der informationswissenschaftlichen Studiengänge jeweils durch vertiefende Veranstaltungen des jeweiligen Themenbereichs.</p>
+                     </FormattedText>
+                  </Bemerkung>
+                  <Voraussetzung>
+                     <FormattedText>
+                        <p>Keine</p>
+                     </FormattedText>
+                  </Voraussetzung>
+                  <Lerninhalte>
+                     <FormattedText>
+                        <p>
+                           <b>Lernziele</b>
+                           <br />
+                           Vermittlung von Grundstrukturen des Information Retrieval, Vertiefung der Kenntnisse im Bereich Informationskompetenz sowie Aneignung von Kenntnissen angrenzender Bereiche wie Digital Humanities.
+                        </p>
+                     </FormattedText>
+                  </Lerninhalte>
+                  <VZeit>
+                     <veransttermin.vtid>101858</veransttermin.vtid>
+                     <veransttermin.rgid />
+                     <VZWoTag>Mittwoch</VZWoTag>
+                     <VZWoTagKurz>Mi</VZWoTagKurz>
+                     <VTSort />
+                     <VZBeginn>10:00</VZBeginn>
+                     <VZBeginnzus>c.t.</VZBeginnzus>
+                     <VZEnde>12:00</VZEnde>
+                     <VZBeginDat />
+                     <VZEndDat />
+                     <VZFindetStatt />
+                     <VZRhyth>wöch.</VZRhyth>
+                     <VZRhythmus>wöchentlich</VZRhythmus>
+                     <WoTagKurz />
+                     <VZBem />
+                     <VZParallel />
+                     <k_parallel.sortierung />
+                     <k_wochentag.sort>3</k_wochentag.sort>
+                     <VZPerson>
+                        <VerPersID>4790</VerPersID>
+                        <r_veranstpers.vtid>101858</r_veranstpers.vtid>
+                        <DozName>Doss</DozName>
+                        <DozVorname>Brigitte</DozVorname>
+                        <Namensbestandteil />
+                        <r_veranstpers.sort />
+                     </VZPerson>
+                     <TerminBemerkung>
+                        <FormattedText>
+                           <p>Ort: UB-Schulungsraum</p>
+                        </FormattedText>
+                     </TerminBemerkung>
+                  </VZeit>
+                  <VZLehrPerson>
+                     <VPesrID>4790</VPesrID>
+                     <DozName>Doss</DozName>
+                     <DozVorname>Brigitte</DozVorname>
+                     <Namensbestandteil />
+                     <r_verpers.veranstid>60173</r_verpers.veranstid>
+                     <r_verpers.sort />
+                  </VZLehrPerson>
+                  <Module>
+                     <ID>54303</ID>
+                     <Aktiv>A</Aktiv>
+                     <Unter>60173</Unter>
+                     <Ueber>1112</Ueber>
+                     <Sort />
+                     <UeberT />
+                     <UnterT>veranstaltung</UnterT>
+                     <MID>1112</MID>
+                     <ModCode>AVS - M 01.WB</ModCode>
+                     <LeistPkt>5</LeistPkt>
+                  </Module>
+                  <Module>
+                     <ID>54302</ID>
+                     <Aktiv>A</Aktiv>
+                     <Unter>60173</Unter>
+                     <Ueber>1111</Ueber>
+                     <Sort />
+                     <UeberT />
+                     <UnterT>veranstaltung</UnterT>
+                     <MID>1111</MID>
+                     <ModCode>INK - M 01.1</ModCode>
+                     <LeistPkt />
+                  </Module>
+                  <Module>
+                     <ID>54304</ID>
+                     <Aktiv>A</Aktiv>
+                     <Unter>60173</Unter>
+                     <Ueber>424</Ueber>
+                     <Sort />
+                     <UeberT />
+                     <UnterT>veranstaltung</UnterT>
+                     <MID>424</MID>
+                     <ModCode>RZ - M 51.1</ModCode>
+                     <LeistPkt />
+                  </Module>
+               </Veranstaltung>
+               <Veranstaltung>
+                  <VeranstNummer>58354</VeranstNummer>
+                  <VName>Fit fürs Studium</VName>
+                  <VNummer>60514</VNummer>
+                  <VSWS>2</VSWS>
+                  <ECTS />
+                  <MaxTeilnehmer />
+                  <VTyp>Kurs</VTyp>
+                  <VDTyp>Kurs</VDTyp>
+                  <VHyper>https://elearning.uni-regensburg.de/course/view.php?id=19319</VHyper>
+                  <VZSemester>20151</VZSemester>
+                  <druck_vvz>J</druck_vvz>
+                  <r_vvzzuord.sortierung />
+                  <Kommentar>
+                     <FormattedText>
+                        <p>Seminararbeiten und Referate meistern: Lernen Sie in dem 6-wöchigen Online-Kurs alle wichtigen Tools zum Recherchieren, Lernen, Präsentieren, Schreiben und Zitieren von Rechenzentrum und Bibliothek kennen. Entscheiden Sie dabei selbst, wann und wo Sie lernen möchten!</p>
+                        <p>Sie können sich in den Kurs selbst einschreiben: https://elearning.uni-regensburg.de/course/view.php?id=19319</p>
+                     </FormattedText>
+                  </Kommentar>
+                  <Nachweis>
+                     <FormattedText>
+                        <p>Übungsaufgaben und Abschlusstest</p>
+                     </FormattedText>
+                  </Nachweis>
+                  <Kurzkommentar>
+                     <FormattedText>
+                        <p>Onlinekurs vom 20.04.2015 - 07.06.2015</p>
+                     </FormattedText>
+                  </Kurzkommentar>
+                  <Lerninhalte>
+                     <FormattedText>
+                        <p>Der gemeinsame Kurs von Bibliothek und Rechenzentrum erleichtern Ihnen den Start ins Studium. Die Inhalte dieses Kurses sind in sechs Module aufgeteilt:</p>
+                        <ol>
+                           <li>
+                              Kennenlernen des Rechenzentrums
+                              <br />
+                              Sie lernen die verschiedenen Bereiche kennen, bei denen Ihnen das Rechenzentrum zur Seite steht.
+                           </li>
+                           <li>
+                              Kennenlernen der Bibliothek
+                              <br />
+                              Sie erfahren, wie Sie sich in der Universitätsbibliothek orientieren. Sie lernen die wichtigsten Anlaufstellen kennen und können sich mit den Funktionalitäten des Regensburger Katalogs vertraut machen.
+                           </li>
+                           <li>
+                              Online-Dienste
+                              <br />
+                              Dieses Modul behandelt die Online-Tools GRIPS und GroupWise.
+                              <span />
+                           </li>
+                           <li>
+                              Weitere Recherchetools
+                              <br />
+                              Sie lernen unsere E-Books und elektronische Zeitschriften kennen und erfahren, wie Sie weltweit wissenschaftliche Aufsätze und viele weitere Fachinformationen zu Ihrem Thema finden können.
+                           </li>
+                           <li>
+                              Offline-Dienste
+                              <br />
+                              Sie lernen den grundlegenden Umgang mit Word und Powerpoint.
+                           </li>
+                           <li>
+                              Zitieren und Literaturverwaltung
+                              <br />
+                              Neben den Grundregeln zum Zitieren lernen Sie das Literaturverwaltungssystem Citavi kennen und die wichtigsten Funktionen anzuwenden.
+                              <span />
+                           </li>
+                        </ol>
+                     </FormattedText>
+                  </Lerninhalte>
+                  <VZeit>
+                     <veransttermin.vtid>108238</veransttermin.vtid>
+                     <veransttermin.rgid />
+                     <VZWoTag>keine Angabe</VZWoTag>
+                     <VZWoTagKurz>-</VZWoTagKurz>
+                     <VTSort />
+                     <VZBeginn />
+                     <VZBeginnzus />
+                     <VZEnde />
+                     <VZBeginDat />
+                     <VZEndDat />
+                     <VZFindetStatt />
+                     <VZRhyth>-</VZRhyth>
+                     <VZRhythmus>nicht angegeben</VZRhythmus>
+                     <WoTagKurz />
+                     <VZBem />
+                     <VZParallel />
+                     <k_parallel.sortierung />
+                     <k_wochentag.sort>8</k_wochentag.sort>
+                     <TerminBemerkung>
+                        <FormattedText>
+                           <p>Onlinekurs ohne Präsenztermin</p>
+                        </FormattedText>
+                     </TerminBemerkung>
+                  </VZeit>
+                  <Module>
+                     <ID>51767</ID>
+                     <Aktiv>A</Aktiv>
+                     <Unter>58354</Unter>
+                     <Ueber>424</Ueber>
+                     <Sort />
+                     <UeberT />
+                     <UnterT>veranstaltung</UnterT>
+                     <MID>424</MID>
+                     <ModCode>RZ - M 51.1</ModCode>
+                     <LeistPkt />
+                  </Module>
+               </Veranstaltung>
+               <Veranstaltung>
+                  <VeranstNummer>58344</VeranstNummer>
+                  <VName>Informationskompetenz</VName>
+                  <VNummer>61511</VNummer>
+                  <VSWS>2</VSWS>
+                  <ECTS />
+                  <MaxTeilnehmer />
+                  <VTyp>Kurs</VTyp>
+                  <VDTyp>Kurs</VDTyp>
+                  <VHyper>http://kurse.vhb.org/VHBPORTAL/kursprogramm/kursprogramm.jsp?kDetail=true&amp;COURSEID=6343,61,673,1</VHyper>
+                  <VZSemester>20151</VZSemester>
+                  <druck_vvz>J</druck_vvz>
+                  <r_vvzzuord.sortierung />
+                  <Kurzkommentar>
+                     <FormattedText>
+                        <p>
+                           Virtuelles Kursangebot der VHB (LV_271_673_1_61_1).
+                           <br />
+                           <br />
+                           Alle Informationen auf der Website der VHB (http://www.vhb.org)
+                        </p>
+                     </FormattedText>
+                  </Kurzkommentar>
+                  <VZeit>
+                     <veransttermin.vtid>110880</veransttermin.vtid>
+                     <veransttermin.rgid />
+                     <VZWoTag>keine Angabe</VZWoTag>
+                     <VZWoTagKurz>-</VZWoTagKurz>
+                     <VTSort />
+                     <VZBeginn />
+                     <VZBeginnzus>c.t.</VZBeginnzus>
+                     <VZEnde />
+                     <VZBeginDat />
+                     <VZEndDat />
+                     <VZFindetStatt />
+                     <VZRhyth>wöch.</VZRhyth>
+                     <VZRhythmus>wöchentlich</VZRhythmus>
+                     <WoTagKurz />
+                     <VZBem />
+                     <VZParallel />
+                     <k_parallel.sortierung />
+                     <k_wochentag.sort>8</k_wochentag.sort>
+                  </VZeit>
+                  <Module>
+                     <ID>51761</ID>
+                     <Aktiv>A</Aktiv>
+                     <Unter>58344</Unter>
+                     <Ueber>424</Ueber>
+                     <Sort />
+                     <UeberT />
+                     <UnterT>veranstaltung</UnterT>
+                     <MID>424</MID>
+                     <ModCode>RZ - M 51.1</ModCode>
+                     <LeistPkt />
+                  </Module>
+               </Veranstaltung>
+               <Veranstaltung>
+                  <VeranstNummer>66612</VeranstNummer>
+                  <VName>Bibliothekseinführung für Erstsemester</VName>
+                  <VNummer />
+                  <VSWS />
+                  <ECTS />
+                  <MaxTeilnehmer>25</MaxTeilnehmer>
+                  <VTyp>SH</VTyp>
+                  <VDTyp>Schulung</VDTyp>
+                  <VHyper />
+                  <VZSemester>20151</VZSemester>
+                  <druck_vvz>J</druck_vvz>
+                  <r_vvzzuord.sortierung />
+                  <Bemerkung>
+                     <FormattedText>
+                        <p>Treffpunkt: Infozentrum der Zentralbibliothek</p>
+                        <p>Online-Anmeldung unter: https://www.uni-regensburg.de/bibliothek/schulung/termine/index.html</p>
+                     </FormattedText>
+                  </Bemerkung>
+                  <Lerninhalte>
+                     <FormattedText>
+                        <p>Sie lernen die Literatursuche im Regensburger Katalog kennen, die Ausleihe, die Fernleihe und erfahren alle Basics rund um die Bibliothek.</p>
+                     </FormattedText>
+                  </Lerninhalte>
+                  <VZeit>
+                     <veransttermin.vtid>114964</veransttermin.vtid>
+                     <veransttermin.rgid />
+                     <VZWoTag>Montag</VZWoTag>
+                     <VZWoTagKurz>Mo</VZWoTagKurz>
+                     <VTSort />
+                     <VZBeginn>11:00</VZBeginn>
+                     <VZBeginnzus />
+                     <VZEnde>11:45</VZEnde>
+                     <VZBeginDat>20.04.2015</VZBeginDat>
+                     <VZEndDat>20.04.2015</VZEndDat>
+                     <VZFindetStatt>J</VZFindetStatt>
+                     <VZRhyth>Einzel</VZRhyth>
+                     <VZRhythmus>Einzeltermin</VZRhythmus>
+                     <WoTagKurz />
+                     <VZBem />
+                     <VZParallel />
+                     <k_parallel.sortierung />
+                     <k_wochentag.sort>1</k_wochentag.sort>
+                     <VZPerson>
+                        <VerPersID>4885</VerPersID>
+                        <r_veranstpers.vtid>114964</r_veranstpers.vtid>
+                        <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                        <DozVorname />
+                        <Namensbestandteil />
+                        <r_veranstpers.sort />
+                     </VZPerson>
+                  </VZeit>
+                  <VZeit>
+                     <veransttermin.vtid>114953</veransttermin.vtid>
+                     <veransttermin.rgid />
+                     <VZWoTag>Dienstag</VZWoTag>
+                     <VZWoTagKurz>Di</VZWoTagKurz>
+                     <VTSort />
+                     <VZBeginn>10:00</VZBeginn>
+                     <VZBeginnzus />
+                     <VZEnde>10:45</VZEnde>
+                     <VZBeginDat>14.04.2015</VZBeginDat>
+                     <VZEndDat>14.04.2015</VZEndDat>
+                     <VZFindetStatt>J</VZFindetStatt>
+                     <VZRhyth>Einzel</VZRhyth>
+                     <VZRhythmus>Einzeltermin</VZRhythmus>
+                     <WoTagKurz />
+                     <VZBem />
+                     <VZParallel />
+                     <k_parallel.sortierung />
+                     <k_wochentag.sort>2</k_wochentag.sort>
+                     <VZPerson>
+                        <VerPersID>4885</VerPersID>
+                        <r_veranstpers.vtid>114953</r_veranstpers.vtid>
+                        <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                        <DozVorname />
+                        <Namensbestandteil />
+                        <r_veranstpers.sort />
+                     </VZPerson>
+                  </VZeit>
+                  <VZeit>
+                     <veransttermin.vtid>114966</veransttermin.vtid>
+                     <veransttermin.rgid />
+                     <VZWoTag>Dienstag</VZWoTag>
+                     <VZWoTagKurz>Di</VZWoTagKurz>
+                     <VTSort />
+                     <VZBeginn>14:30</VZBeginn>
+                     <VZBeginnzus />
+                     <VZEnde>15:15</VZEnde>
+                     <VZBeginDat>21.04.2015</VZBeginDat>
+                     <VZEndDat>21.04.2015</VZEndDat>
+                     <VZFindetStatt>J</VZFindetStatt>
+                     <VZRhyth>Einzel</VZRhyth>
+                     <VZRhythmus>Einzeltermin</VZRhythmus>
+                     <WoTagKurz />
+                     <VZBem />
+                     <VZParallel />
+                     <k_parallel.sortierung />
+                     <k_wochentag.sort>2</k_wochentag.sort>
+                     <VZPerson>
+                        <VerPersID>4885</VerPersID>
+                        <r_veranstpers.vtid>114966</r_veranstpers.vtid>
+                        <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                        <DozVorname />
+                        <Namensbestandteil />
+                        <r_veranstpers.sort />
+                     </VZPerson>
+                  </VZeit>
+                  <VZeit>
+                     <veransttermin.vtid>114967</veransttermin.vtid>
+                     <veransttermin.rgid />
+                     <VZWoTag>Mittwoch</VZWoTag>
+                     <VZWoTagKurz>Mi</VZWoTagKurz>
+                     <VTSort />
+                     <VZBeginn>14:30</VZBeginn>
+                     <VZBeginnzus />
+                     <VZEnde>15:15</VZEnde>
+                     <VZBeginDat>15.04.2015</VZBeginDat>
+                     <VZEndDat>15.04.2015</VZEndDat>
+                     <VZFindetStatt>J</VZFindetStatt>
+                     <VZRhyth>Einzel</VZRhyth>
+                     <VZRhythmus>Einzeltermin</VZRhythmus>
+                     <WoTagKurz />
+                     <VZBem />
+                     <VZParallel />
+                     <k_parallel.sortierung />
+                     <k_wochentag.sort>3</k_wochentag.sort>
+                     <VZPerson>
+                        <VerPersID>4885</VerPersID>
+                        <r_veranstpers.vtid>114967</r_veranstpers.vtid>
+                        <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                        <DozVorname />
+                        <Namensbestandteil />
+                        <r_veranstpers.sort />
+                     </VZPerson>
+                  </VZeit>
+                  <VZeit>
+                     <veransttermin.vtid>114970</veransttermin.vtid>
+                     <veransttermin.rgid />
+                     <VZWoTag>Mittwoch</VZWoTag>
+                     <VZWoTagKurz>Mi</VZWoTagKurz>
+                     <VTSort />
+                     <VZBeginn>14:30</VZBeginn>
+                     <VZBeginnzus />
+                     <VZEnde>15:15</VZEnde>
+                     <VZBeginDat>22.04.2015</VZBeginDat>
+                     <VZEndDat>22.04.2015</VZEndDat>
+                     <VZFindetStatt>J</VZFindetStatt>
+                     <VZRhyth>Einzel</VZRhyth>
+                     <VZRhythmus>Einzeltermin</VZRhythmus>
+                     <WoTagKurz />
+                     <VZBem />
+                     <VZParallel />
+                     <k_parallel.sortierung />
+                     <k_wochentag.sort>3</k_wochentag.sort>
+                     <VZPerson>
+                        <VerPersID>4885</VerPersID>
+                        <r_veranstpers.vtid>114970</r_veranstpers.vtid>
+                        <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                        <DozVorname />
+                        <Namensbestandteil />
+                        <r_veranstpers.sort />
+                     </VZPerson>
+                  </VZeit>
+                  <VZeit>
+                     <veransttermin.vtid>114972</veransttermin.vtid>
+                     <veransttermin.rgid />
+                     <VZWoTag>Donnerstag</VZWoTag>
+                     <VZWoTagKurz>Do</VZWoTagKurz>
+                     <VTSort />
+                     <VZBeginn>14:00</VZBeginn>
+                     <VZBeginnzus />
+                     <VZEnde>14:45</VZEnde>
+                     <VZBeginDat>09.04.2015</VZBeginDat>
+                     <VZEndDat>09.04.2015</VZEndDat>
+                     <VZFindetStatt>J</VZFindetStatt>
+                     <VZRhyth>Einzel</VZRhyth>
+                     <VZRhythmus>Einzeltermin</VZRhythmus>
+                     <WoTagKurz />
+                     <VZBem />
+                     <VZParallel />
+                     <k_parallel.sortierung />
+                     <k_wochentag.sort>4</k_wochentag.sort>
+                     <VZPerson>
+                        <VerPersID>4885</VerPersID>
+                        <r_veranstpers.vtid>114972</r_veranstpers.vtid>
+                        <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                        <DozVorname />
+                        <Namensbestandteil />
+                        <r_veranstpers.sort />
+                     </VZPerson>
+                  </VZeit>
+                  <VZeit>
+                     <veransttermin.vtid>114957</veransttermin.vtid>
+                     <veransttermin.rgid />
+                     <VZWoTag>Donnerstag</VZWoTag>
+                     <VZWoTagKurz>Do</VZWoTagKurz>
+                     <VTSort />
+                     <VZBeginn>14:00</VZBeginn>
+                     <VZBeginnzus />
+                     <VZEnde>14:45</VZEnde>
+                     <VZBeginDat>16.04.2015</VZBeginDat>
+                     <VZEndDat>16.04.2015</VZEndDat>
+                     <VZFindetStatt>J</VZFindetStatt>
+                     <VZRhyth>Einzel</VZRhyth>
+                     <VZRhythmus>Einzeltermin</VZRhythmus>
+                     <WoTagKurz />
+                     <VZBem />
+                     <VZParallel />
+                     <k_parallel.sortierung />
+                     <k_wochentag.sort>4</k_wochentag.sort>
+                     <VZPerson>
+                        <VerPersID>4885</VerPersID>
+                        <r_veranstpers.vtid>114957</r_veranstpers.vtid>
+                        <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                        <DozVorname />
+                        <Namensbestandteil />
+                        <r_veranstpers.sort />
+                     </VZPerson>
+                  </VZeit>
+                  <VZeit>
+                     <veransttermin.vtid>114961</veransttermin.vtid>
+                     <veransttermin.rgid />
+                     <VZWoTag>Donnerstag</VZWoTag>
+                     <VZWoTagKurz>Do</VZWoTagKurz>
+                     <VTSort />
+                     <VZBeginn>12:00</VZBeginn>
+                     <VZBeginnzus />
+                     <VZEnde>12:45</VZEnde>
+                     <VZBeginDat>23.04.2015</VZBeginDat>
+                     <VZEndDat>23.04.2015</VZEndDat>
+                     <VZFindetStatt>J</VZFindetStatt>
+                     <VZRhyth>Einzel</VZRhyth>
+                     <VZRhythmus>Einzeltermin</VZRhythmus>
+                     <WoTagKurz />
+                     <VZBem />
+                     <VZParallel />
+                     <k_parallel.sortierung />
+                     <k_wochentag.sort>4</k_wochentag.sort>
+                     <VZPerson>
+                        <VerPersID>4885</VerPersID>
+                        <r_veranstpers.vtid>114961</r_veranstpers.vtid>
+                        <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                        <DozVorname />
+                        <Namensbestandteil />
+                        <r_veranstpers.sort />
+                     </VZPerson>
+                  </VZeit>
+                  <VZeit>
+                     <veransttermin.vtid>114958</veransttermin.vtid>
+                     <veransttermin.rgid />
+                     <VZWoTag>Freitag</VZWoTag>
+                     <VZWoTagKurz>Fr</VZWoTagKurz>
+                     <VTSort />
+                     <VZBeginn>12:00</VZBeginn>
+                     <VZBeginnzus />
+                     <VZEnde>12:45</VZEnde>
+                     <VZBeginDat>17.04.2015</VZBeginDat>
+                     <VZEndDat>17.04.2015</VZEndDat>
+                     <VZFindetStatt>J</VZFindetStatt>
+                     <VZRhyth>Einzel</VZRhyth>
+                     <VZRhythmus>Einzeltermin</VZRhythmus>
+                     <WoTagKurz />
+                     <VZBem />
+                     <VZParallel />
+                     <k_parallel.sortierung />
+                     <k_wochentag.sort>5</k_wochentag.sort>
+                     <VZPerson>
+                        <VerPersID>4885</VerPersID>
+                        <r_veranstpers.vtid>114958</r_veranstpers.vtid>
+                        <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                        <DozVorname />
+                        <Namensbestandteil />
+                        <r_veranstpers.sort />
+                     </VZPerson>
+                  </VZeit>
+                  <VZLehrPerson>
+                     <VPesrID>4885</VPesrID>
+                     <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                     <DozVorname />
+                     <Namensbestandteil />
+                     <r_verpers.veranstid>66612</r_verpers.veranstid>
+                     <r_verpers.sort />
+                  </VZLehrPerson>
+               </Veranstaltung>
+               <Veranstaltung>
+                  <VeranstNummer>66616</VeranstNummer>
+                  <VName>Effizient recherchieren für Seminar- und Abschlussarbeit</VName>
+                  <VNummer />
+                  <VSWS />
+                  <ECTS />
+                  <MaxTeilnehmer>16</MaxTeilnehmer>
+                  <VTyp>SH</VTyp>
+                  <VDTyp>Schulung</VDTyp>
+                  <VHyper />
+                  <VZSemester>20151</VZSemester>
+                  <druck_vvz>J</druck_vvz>
+                  <r_vvzzuord.sortierung />
+                  <Bemerkung>
+                     <FormattedText>
+                        <p>Raum: UB-Schulungsraum in der Zentralbibliothek (Raum 602). Die Veranstaltung am 28.4.2015 findet im CIP-Pool BIB 1 (im Allgemeinen Lesesaal) statt.</p>
+                        <p>Online-Anmeldung unter: https://www.uni-regensburg.de/bibliothek/schulung/termine/index.html</p>
+                     </FormattedText>
+                  </Bemerkung>
+                  <Lerninhalte>
+                     <FormattedText>
+                        <p>
+                           Erfahren Sie, wo und wie Sie umfassend Literatur zu einem Thema sammeln.
+                           <br />
+                           Anhand von Beispielen und Übungen lernen Sie den Umgang mit wichtigen Informationsquellen kennen.
+                        </p>
+                     </FormattedText>
+                  </Lerninhalte>
+                  <VZeit>
+                     <veransttermin.vtid>114983</veransttermin.vtid>
+                     <veransttermin.rgid />
+                     <VZWoTag>Dienstag</VZWoTag>
+                     <VZWoTagKurz>Di</VZWoTagKurz>
+                     <VTSort />
+                     <VZBeginn>14:00</VZBeginn>
+                     <VZBeginnzus />
+                     <VZEnde>15:30</VZEnde>
+                     <VZBeginDat>28.04.2015</VZBeginDat>
+                     <VZEndDat>28.04.2015</VZEndDat>
+                     <VZFindetStatt>J</VZFindetStatt>
+                     <VZRhyth>Einzel</VZRhyth>
+                     <VZRhythmus>Einzeltermin</VZRhythmus>
+                     <WoTagKurz />
+                     <VZBem />
+                     <VZParallel />
+                     <k_parallel.sortierung />
+                     <k_wochentag.sort>2</k_wochentag.sort>
+                     <VZPerson>
+                        <VerPersID>4885</VerPersID>
+                        <r_veranstpers.vtid>114983</r_veranstpers.vtid>
+                        <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                        <DozVorname />
+                        <Namensbestandteil />
+                        <r_veranstpers.sort />
+                     </VZPerson>
+                  </VZeit>
+                  <VZeit>
+                     <veransttermin.vtid>114985</veransttermin.vtid>
+                     <veransttermin.rgid />
+                     <VZWoTag>Dienstag</VZWoTag>
+                     <VZWoTagKurz>Di</VZWoTagKurz>
+                     <VTSort />
+                     <VZBeginn>10:00</VZBeginn>
+                     <VZBeginnzus />
+                     <VZEnde>11:30</VZEnde>
+                     <VZBeginDat>09.06.2015</VZBeginDat>
+                     <VZEndDat>09.06.2015</VZEndDat>
+                     <VZFindetStatt>J</VZFindetStatt>
+                     <VZRhyth>Einzel</VZRhyth>
+                     <VZRhythmus>Einzeltermin</VZRhythmus>
+                     <WoTagKurz />
+                     <VZBem />
+                     <VZParallel />
+                     <k_parallel.sortierung />
+                     <k_wochentag.sort>2</k_wochentag.sort>
+                     <VZPerson>
+                        <VerPersID>4885</VerPersID>
+                        <r_veranstpers.vtid>114985</r_veranstpers.vtid>
+                        <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                        <DozVorname />
+                        <Namensbestandteil />
+                        <r_veranstpers.sort />
+                     </VZPerson>
+                  </VZeit>
+                  <VZeit>
+                     <veransttermin.vtid>114984</veransttermin.vtid>
+                     <veransttermin.rgid />
+                     <VZWoTag>Donnerstag</VZWoTag>
+                     <VZWoTagKurz>Do</VZWoTagKurz>
+                     <VTSort />
+                     <VZBeginn>14:00</VZBeginn>
+                     <VZBeginnzus />
+                     <VZEnde>15:30</VZEnde>
+                     <VZBeginDat>21.05.2015</VZBeginDat>
+                     <VZEndDat>21.05.2015</VZEndDat>
+                     <VZFindetStatt>J</VZFindetStatt>
+                     <VZRhyth>Einzel</VZRhyth>
+                     <VZRhythmus>Einzeltermin</VZRhythmus>
+                     <WoTagKurz />
+                     <VZBem />
+                     <VZParallel />
+                     <k_parallel.sortierung />
+                     <k_wochentag.sort>4</k_wochentag.sort>
+                     <VZPerson>
+                        <VerPersID>4885</VerPersID>
+                        <r_veranstpers.vtid>114984</r_veranstpers.vtid>
+                        <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                        <DozVorname />
+                        <Namensbestandteil />
+                        <r_veranstpers.sort />
+                     </VZPerson>
+                  </VZeit>
+                  <VZLehrPerson>
+                     <VPesrID>4885</VPesrID>
+                     <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                     <DozVorname />
+                     <Namensbestandteil />
+                     <r_verpers.veranstid>66616</r_verpers.veranstid>
+                     <r_verpers.sort />
+                  </VZLehrPerson>
+               </Veranstaltung>
+               <Veranstaltung>
+                  <VeranstNummer>66617</VeranstNummer>
+                  <VName>Führung durch das MultiMediaZentrum</VName>
+                  <VNummer />
+                  <VSWS />
+                  <ECTS />
+                  <MaxTeilnehmer>12</MaxTeilnehmer>
+                  <VTyp>SH</VTyp>
+                  <VDTyp>Schulung</VDTyp>
+                  <VHyper />
+                  <VZSemester>20151</VZSemester>
+                  <druck_vvz>J</druck_vvz>
+                  <r_vvzzuord.sortierung />
+                  <Bemerkung>
+                     <FormattedText>
+                        <p>Raum: MultiMediaZentrum in der Zentralbibliothek</p>
+                        <p>Online-Anmeldung unter: https://www.uni-regensburg.de/bibliothek/schulung/termine/index.html</p>
+                     </FormattedText>
+                  </Bemerkung>
+                  <Lerninhalte>
+                     <FormattedText>
+                        <p>Lernen Sie die Digitalisierungsmöglichkeiten und das Serviceangebot im MultiMediaZentrum kennen.</p>
+                     </FormattedText>
+                  </Lerninhalte>
+                  <VZeit>
+                     <veransttermin.vtid>114986</veransttermin.vtid>
+                     <veransttermin.rgid />
+                     <VZWoTag>Mittwoch</VZWoTag>
+                     <VZWoTagKurz>Mi</VZWoTagKurz>
+                     <VTSort />
+                     <VZBeginn>16:00</VZBeginn>
+                     <VZBeginnzus />
+                     <VZEnde>16:30</VZEnde>
+                     <VZBeginDat>29.04.2015</VZBeginDat>
+                     <VZEndDat>29.04.2015</VZEndDat>
+                     <VZFindetStatt>J</VZFindetStatt>
+                     <VZRhyth>Einzel</VZRhyth>
+                     <VZRhythmus>Einzeltermin</VZRhythmus>
+                     <WoTagKurz />
+                     <VZBem />
+                     <VZParallel />
+                     <k_parallel.sortierung />
+                     <k_wochentag.sort>3</k_wochentag.sort>
+                     <VZPerson>
+                        <VerPersID>4885</VerPersID>
+                        <r_veranstpers.vtid>114986</r_veranstpers.vtid>
+                        <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                        <DozVorname />
+                        <Namensbestandteil />
+                        <r_veranstpers.sort />
+                     </VZPerson>
+                  </VZeit>
+                  <VZeit>
+                     <veransttermin.vtid>114987</veransttermin.vtid>
+                     <veransttermin.rgid />
+                     <VZWoTag>Mittwoch</VZWoTag>
+                     <VZWoTagKurz>Mi</VZWoTagKurz>
+                     <VTSort />
+                     <VZBeginn>16:00</VZBeginn>
+                     <VZBeginnzus />
+                     <VZEnde>16:30</VZEnde>
+                     <VZBeginDat>01.07.2015</VZBeginDat>
+                     <VZEndDat>01.07.2015</VZEndDat>
+                     <VZFindetStatt>J</VZFindetStatt>
+                     <VZRhyth>Einzel</VZRhyth>
+                     <VZRhythmus>Einzeltermin</VZRhythmus>
+                     <WoTagKurz />
+                     <VZBem />
+                     <VZParallel />
+                     <k_parallel.sortierung />
+                     <k_wochentag.sort>3</k_wochentag.sort>
+                     <VZPerson>
+                        <VerPersID>4885</VerPersID>
+                        <r_veranstpers.vtid>114987</r_veranstpers.vtid>
+                        <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                        <DozVorname />
+                        <Namensbestandteil />
+                        <r_veranstpers.sort />
+                     </VZPerson>
+                  </VZeit>
+                  <VZLehrPerson>
+                     <VPesrID>4885</VPesrID>
+                     <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                     <DozVorname />
+                     <Namensbestandteil />
+                     <r_verpers.veranstid>66617</r_verpers.veranstid>
+                     <r_verpers.sort />
+                  </VZLehrPerson>
+               </Veranstaltung>
+               <Veranstaltung>
+                  <VeranstNummer>66622</VeranstNummer>
+                  <VName>Universitätsbibliothek für Einsteiger</VName>
+                  <VNummer />
+                  <VSWS />
+                  <ECTS />
+                  <MaxTeilnehmer>15</MaxTeilnehmer>
+                  <VTyp>SH</VTyp>
+                  <VDTyp>Schulung</VDTyp>
+                  <VHyper />
+                  <VZSemester>20151</VZSemester>
+                  <druck_vvz>J</druck_vvz>
+                  <r_vvzzuord.sortierung />
+                  <Bemerkung>
+                     <FormattedText>
+                        <p>Treffpunkt: Infozentrum in der Zentralbibliothek</p>
+                        <p>Online-Anmeldung unter: https://www.uni-regensburg.de/bibliothek/schulung/termine/index.html</p>
+                     </FormattedText>
+                  </Bemerkung>
+                  <Lerninhalte>
+                     <FormattedText>
+                        <p>Für alle, die den Studienbetrieb zwar schon kennen, aber neu an der Universität Regensburg sind.</p>
+                     </FormattedText>
+                  </Lerninhalte>
+                  <VZeit>
+                     <veransttermin.vtid>115001</veransttermin.vtid>
+                     <veransttermin.rgid />
+                     <VZWoTag>Dienstag</VZWoTag>
+                     <VZWoTagKurz>Di</VZWoTagKurz>
+                     <VTSort />
+                     <VZBeginn>14:00</VZBeginn>
+                     <VZBeginnzus />
+                     <VZEnde>14:45</VZEnde>
+                     <VZBeginDat>19.05.2015</VZBeginDat>
+                     <VZEndDat>19.05.2015</VZEndDat>
+                     <VZFindetStatt>J</VZFindetStatt>
+                     <VZRhyth>Einzel</VZRhyth>
+                     <VZRhythmus>Einzeltermin</VZRhythmus>
+                     <WoTagKurz />
+                     <VZBem />
+                     <VZParallel />
+                     <k_parallel.sortierung />
+                     <k_wochentag.sort>2</k_wochentag.sort>
+                  </VZeit>
+                  <VZLehrPerson>
+                     <VPesrID>4885</VPesrID>
+                     <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                     <DozVorname />
+                     <Namensbestandteil />
+                     <r_verpers.veranstid>66622</r_verpers.veranstid>
+                     <r_verpers.sort />
+                  </VZLehrPerson>
+               </Veranstaltung>
+            </Ueberschrift>
+            <Vorlesung ueebene="2">
+               <Ueberschrift>
+                  <UeBez>Citavi</UeBez>
+                  <Anmerkung>
+                     <FormattedText>
+                        <p>Zusätzlich zu den  Schulungsangeboten mit praktischen Übungen zur Literaturverwaltungssoftware Citavi bietet die Universitätsbibliothek Regensburg eine wöchentliche Citavi-Sprechstunde an.</p>
+                        <p>
+                           Für diese offene Sprechstunde ist
+                           <strong>keine</strong>
+                           Anmeldung nötig! Fragen können aber gerne vorab per E-Mail an info.ub@ur.de zugesandt werden.
+                        </p>
+                        <p>
+                           <br />
+                           Ort: Infozentrum in der Zentralbibliothek
+                           <br />
+                           Termin: Jeden Donnerstag von 11.00 – 12.00 Uhr
+                        </p>
+                     </FormattedText>
+                  </Anmerkung>
+                  <Veranstaltung>
+                     <VeranstNummer>66614</VeranstNummer>
+                     <VName>Citavi für Anfänger</VName>
+                     <VNummer />
+                     <VSWS />
+                     <ECTS />
+                     <MaxTeilnehmer>16</MaxTeilnehmer>
+                     <VTyp>SH</VTyp>
+                     <VDTyp>Schulung</VDTyp>
+                     <VHyper />
+                     <VZSemester>20151</VZSemester>
+                     <druck_vvz>J</druck_vvz>
+                     <r_vvzzuord.sortierung />
+                     <Bemerkung>
+                        <FormattedText>
+                           <p>Raum: UB-Schulungsraum in der Zentralbibliothek (Raum 602). Die Veranstaltung am 23.4.2015 findet im CIP-Pool BIB 1 (im Allgemeinen Lesesaal) statt.</p>
+                           <p>Online-Anmeldung unter: https://www.uni-regensburg.de/bibliothek/schulung/termine/index.html</p>
+                        </FormattedText>
+                     </Bemerkung>
+                     <Lerninhalte>
+                        <FormattedText>
+                           <p>Citavi ist eine Software zur Literaturverwaltung. Dieser Kurs bietet Ihnen Infos und Tipps zur Nutzung dieses Programms, das Sie durch eine Campuslizenz kostenlos verwenden können.</p>
+                        </FormattedText>
+                     </Lerninhalte>
+                     <VZeit>
+                        <veransttermin.vtid>114978</veransttermin.vtid>
+                        <veransttermin.rgid />
+                        <VZWoTag>Dienstag</VZWoTag>
+                        <VZWoTagKurz>Di</VZWoTagKurz>
+                        <VTSort />
+                        <VZBeginn>10:00</VZBeginn>
+                        <VZBeginnzus />
+                        <VZEnde>12:00</VZEnde>
+                        <VZBeginDat>19.05.2015</VZBeginDat>
+                        <VZEndDat>19.05.2015</VZEndDat>
+                        <VZFindetStatt>J</VZFindetStatt>
+                        <VZRhyth>Einzel</VZRhyth>
+                        <VZRhythmus>Einzeltermin</VZRhythmus>
+                        <WoTagKurz />
+                        <VZBem />
+                        <VZParallel />
+                        <k_parallel.sortierung />
+                        <k_wochentag.sort>2</k_wochentag.sort>
+                        <VZPerson>
+                           <VerPersID>4885</VerPersID>
+                           <r_veranstpers.vtid>114978</r_veranstpers.vtid>
+                           <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                           <DozVorname />
+                           <Namensbestandteil />
+                           <r_veranstpers.sort />
+                        </VZPerson>
+                     </VZeit>
+                     <VZeit>
+                        <veransttermin.vtid>114979</veransttermin.vtid>
+                        <veransttermin.rgid />
+                        <VZWoTag>Dienstag</VZWoTag>
+                        <VZWoTagKurz>Di</VZWoTagKurz>
+                        <VTSort />
+                        <VZBeginn>14:00</VZBeginn>
+                        <VZBeginnzus />
+                        <VZEnde>16:00</VZEnde>
+                        <VZBeginDat>02.06.2015</VZBeginDat>
+                        <VZEndDat>02.06.2015</VZEndDat>
+                        <VZFindetStatt>J</VZFindetStatt>
+                        <VZRhyth>Einzel</VZRhyth>
+                        <VZRhythmus>Einzeltermin</VZRhythmus>
+                        <WoTagKurz />
+                        <VZBem />
+                        <VZParallel />
+                        <k_parallel.sortierung />
+                        <k_wochentag.sort>2</k_wochentag.sort>
+                        <VZPerson>
+                           <VerPersID>4885</VerPersID>
+                           <r_veranstpers.vtid>114979</r_veranstpers.vtid>
+                           <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                           <DozVorname />
+                           <Namensbestandteil />
+                           <r_veranstpers.sort />
+                        </VZPerson>
+                     </VZeit>
+                     <VZeit>
+                        <veransttermin.vtid>114977</veransttermin.vtid>
+                        <veransttermin.rgid />
+                        <VZWoTag>Donnerstag</VZWoTag>
+                        <VZWoTagKurz>Do</VZWoTagKurz>
+                        <VTSort />
+                        <VZBeginn>14:00</VZBeginn>
+                        <VZBeginnzus />
+                        <VZEnde>16:00</VZEnde>
+                        <VZBeginDat>23.04.2015</VZBeginDat>
+                        <VZEndDat>23.04.2015</VZEndDat>
+                        <VZFindetStatt>J</VZFindetStatt>
+                        <VZRhyth>Einzel</VZRhyth>
+                        <VZRhythmus>Einzeltermin</VZRhythmus>
+                        <WoTagKurz />
+                        <VZBem />
+                        <VZParallel />
+                        <k_parallel.sortierung />
+                        <k_wochentag.sort>4</k_wochentag.sort>
+                        <VZPerson>
+                           <VerPersID>4885</VerPersID>
+                           <r_veranstpers.vtid>114977</r_veranstpers.vtid>
+                           <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                           <DozVorname />
+                           <Namensbestandteil />
+                           <r_veranstpers.sort />
+                        </VZPerson>
+                     </VZeit>
+                     <VZeit>
+                        <veransttermin.vtid>114980</veransttermin.vtid>
+                        <veransttermin.rgid />
+                        <VZWoTag>Donnerstag</VZWoTag>
+                        <VZWoTagKurz>Do</VZWoTagKurz>
+                        <VTSort />
+                        <VZBeginn>14:00</VZBeginn>
+                        <VZBeginnzus />
+                        <VZEnde>16:00</VZEnde>
+                        <VZBeginDat>02.07.2015</VZBeginDat>
+                        <VZEndDat>02.07.2015</VZEndDat>
+                        <VZFindetStatt>J</VZFindetStatt>
+                        <VZRhyth>Einzel</VZRhyth>
+                        <VZRhythmus>Einzeltermin</VZRhythmus>
+                        <WoTagKurz />
+                        <VZBem />
+                        <VZParallel />
+                        <k_parallel.sortierung />
+                        <k_wochentag.sort>4</k_wochentag.sort>
+                        <VZPerson>
+                           <VerPersID>4885</VerPersID>
+                           <r_veranstpers.vtid>114980</r_veranstpers.vtid>
+                           <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                           <DozVorname />
+                           <Namensbestandteil />
+                           <r_veranstpers.sort />
+                        </VZPerson>
+                     </VZeit>
+                     <VZLehrPerson>
+                        <VPesrID>4885</VPesrID>
+                        <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                        <DozVorname />
+                        <Namensbestandteil />
+                        <r_verpers.veranstid>66614</r_verpers.veranstid>
+                        <r_verpers.sort />
+                     </VZLehrPerson>
+                  </Veranstaltung>
+                  <Veranstaltung>
+                     <VeranstNummer>66613</VeranstNummer>
+                     <VName>Citavi für Juristen</VName>
+                     <VNummer />
+                     <VSWS />
+                     <ECTS />
+                     <MaxTeilnehmer>16</MaxTeilnehmer>
+                     <VTyp>SH</VTyp>
+                     <VDTyp>Schulung</VDTyp>
+                     <VHyper />
+                     <VZSemester>20151</VZSemester>
+                     <druck_vvz>J</druck_vvz>
+                     <r_vvzzuord.sortierung />
+                     <Bemerkung>
+                        <FormattedText>
+                           <p>Raum: UB-Schulungsraum in der Zentralbibliothek (Raum 602)</p>
+                           <p>Online-Anmeldung unter: https://www.uni-regensburg.de/bibliothek/schulung/termine/index.html</p>
+                        </FormattedText>
+                     </Bemerkung>
+                     <Lerninhalte>
+                        <FormattedText>
+                           <p>Citavi ist eine Software zur Literaturverwaltung. Dieser Kurs bietet Ihnen Infos und Tipps zur Nutzung dieses Programms, das Sie durch eine Campuslizenz kostenlos verwenden können.</p>
+                           <p>In diesem Anfängerkurs wird dabei die Arbeit mit den juristischen Fachdatenbanken und der juristische Zitierstil berücksichtigt.</p>
+                        </FormattedText>
+                     </Lerninhalte>
+                     <VZeit>
+                        <veransttermin.vtid>114976</veransttermin.vtid>
+                        <veransttermin.rgid />
+                        <VZWoTag>Mittwoch</VZWoTag>
+                        <VZWoTagKurz>Mi</VZWoTagKurz>
+                        <VTSort />
+                        <VZBeginn>14:00</VZBeginn>
+                        <VZBeginnzus />
+                        <VZEnde>16:00</VZEnde>
+                        <VZBeginDat>22.07.2015</VZBeginDat>
+                        <VZEndDat>22.07.2015</VZEndDat>
+                        <VZFindetStatt>J</VZFindetStatt>
+                        <VZRhyth>Einzel</VZRhyth>
+                        <VZRhythmus>Einzeltermin</VZRhythmus>
+                        <WoTagKurz />
+                        <VZBem />
+                        <VZParallel />
+                        <k_parallel.sortierung />
+                        <k_wochentag.sort>3</k_wochentag.sort>
+                        <VZPerson>
+                           <VerPersID>4885</VerPersID>
+                           <r_veranstpers.vtid>114976</r_veranstpers.vtid>
+                           <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                           <DozVorname />
+                           <Namensbestandteil />
+                           <r_veranstpers.sort />
+                        </VZPerson>
+                     </VZeit>
+                     <VZLehrPerson>
+                        <VPesrID>4885</VPesrID>
+                        <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                        <DozVorname />
+                        <Namensbestandteil />
+                        <r_verpers.veranstid>66613</r_verpers.veranstid>
+                        <r_verpers.sort />
+                     </VZLehrPerson>
+                  </Veranstaltung>
+                  <Veranstaltung>
+                     <VeranstNummer>66615</VeranstNummer>
+                     <VName>Citavi für Mediziner (Anfängerkurs)</VName>
+                     <VNummer />
+                     <VSWS />
+                     <ECTS />
+                     <MaxTeilnehmer>20</MaxTeilnehmer>
+                     <VTyp>SH</VTyp>
+                     <VDTyp>Schulung</VDTyp>
+                     <VHyper />
+                     <VZSemester>20151</VZSemester>
+                     <druck_vvz>J</druck_vvz>
+                     <r_vvzzuord.sortierung />
+                     <Bemerkung>
+                        <FormattedText>
+                           <p>Raum: Klinikum, Großer CIP-Pool A2 (Raum A2 4.01)</p>
+                           <p>Online-Anmeldung unter: https://www.uni-regensburg.de/bibliothek/schulung/termine/index.html</p>
+                        </FormattedText>
+                     </Bemerkung>
+                     <Lerninhalte>
+                        <FormattedText>
+                           <p>Citavi ist eine Software zur Literaturverwaltung. Dieser Kurs bietet Ihnen Infos und Tipps zur Nutzung dieses Programms, das Sie durch eine Campuslizenz kostenlos verwenden können.</p>
+                           <p>In diesem Anfängerkurs wird dabei auch die Arbeit mit medizinischen Fachdatenbanken (PubMed) berücksichtigt.</p>
+                        </FormattedText>
+                     </Lerninhalte>
+                     <VZeit>
+                        <veransttermin.vtid>114999</veransttermin.vtid>
+                        <veransttermin.rgid />
+                        <VZWoTag>Mittwoch</VZWoTag>
+                        <VZWoTagKurz>Mi</VZWoTagKurz>
+                        <VTSort />
+                        <VZBeginn>15:00</VZBeginn>
+                        <VZBeginnzus>s.t.</VZBeginnzus>
+                        <VZEnde>17:00</VZEnde>
+                        <VZBeginDat>20.05.2015</VZBeginDat>
+                        <VZEndDat>20.05.2015</VZEndDat>
+                        <VZFindetStatt>J</VZFindetStatt>
+                        <VZRhyth>Einzel</VZRhyth>
+                        <VZRhythmus>Einzeltermin</VZRhythmus>
+                        <WoTagKurz />
+                        <VZBem />
+                        <VZParallel />
+                        <k_parallel.sortierung />
+                        <k_wochentag.sort>3</k_wochentag.sort>
+                        <VZPerson>
+                           <VerPersID>4885</VerPersID>
+                           <r_veranstpers.vtid>114999</r_veranstpers.vtid>
+                           <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                           <DozVorname />
+                           <Namensbestandteil />
+                           <r_veranstpers.sort />
+                        </VZPerson>
+                     </VZeit>
+                     <VZeit>
+                        <veransttermin.vtid>115000</veransttermin.vtid>
+                        <veransttermin.rgid />
+                        <VZWoTag>Mittwoch</VZWoTag>
+                        <VZWoTagKurz>Mi</VZWoTagKurz>
+                        <VTSort />
+                        <VZBeginn>15:00</VZBeginn>
+                        <VZBeginnzus>s.t.</VZBeginnzus>
+                        <VZEnde>17:00</VZEnde>
+                        <VZBeginDat>10.06.2015</VZBeginDat>
+                        <VZEndDat>10.06.2015</VZEndDat>
+                        <VZFindetStatt>J</VZFindetStatt>
+                        <VZRhyth>Einzel</VZRhyth>
+                        <VZRhythmus>Einzeltermin</VZRhythmus>
+                        <WoTagKurz />
+                        <VZBem />
+                        <VZParallel />
+                        <k_parallel.sortierung />
+                        <k_wochentag.sort>3</k_wochentag.sort>
+                        <VZPerson>
+                           <VerPersID>4885</VerPersID>
+                           <r_veranstpers.vtid>115000</r_veranstpers.vtid>
+                           <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                           <DozVorname />
+                           <Namensbestandteil />
+                           <r_veranstpers.sort />
+                        </VZPerson>
+                     </VZeit>
+                     <VZeit>
+                        <veransttermin.vtid>114982</veransttermin.vtid>
+                        <veransttermin.rgid />
+                        <VZWoTag>Donnerstag</VZWoTag>
+                        <VZWoTagKurz>Do</VZWoTagKurz>
+                        <VTSort />
+                        <VZBeginn>15:00</VZBeginn>
+                        <VZBeginnzus>s.t.</VZBeginnzus>
+                        <VZEnde>17:00</VZEnde>
+                        <VZBeginDat>30.04.2015</VZBeginDat>
+                        <VZEndDat>30.04.2015</VZEndDat>
+                        <VZFindetStatt>J</VZFindetStatt>
+                        <VZRhyth>Einzel</VZRhyth>
+                        <VZRhythmus>Einzeltermin</VZRhythmus>
+                        <WoTagKurz />
+                        <VZBem />
+                        <VZParallel />
+                        <k_parallel.sortierung />
+                        <k_wochentag.sort>4</k_wochentag.sort>
+                        <VZPerson>
+                           <VerPersID>4885</VerPersID>
+                           <r_veranstpers.vtid>114982</r_veranstpers.vtid>
+                           <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                           <DozVorname />
+                           <Namensbestandteil />
+                           <r_veranstpers.sort />
+                        </VZPerson>
+                     </VZeit>
+                     <VZeit>
+                        <veransttermin.vtid>114981</veransttermin.vtid>
+                        <veransttermin.rgid />
+                        <VZWoTag>Donnerstag</VZWoTag>
+                        <VZWoTagKurz>Do</VZWoTagKurz>
+                        <VTSort />
+                        <VZBeginn>15:00</VZBeginn>
+                        <VZBeginnzus>s.t.</VZBeginnzus>
+                        <VZEnde>17:00</VZEnde>
+                        <VZBeginDat>07.05.2015</VZBeginDat>
+                        <VZEndDat>07.05.2015</VZEndDat>
+                        <VZFindetStatt>J</VZFindetStatt>
+                        <VZRhyth>Einzel</VZRhyth>
+                        <VZRhythmus>Einzeltermin</VZRhythmus>
+                        <WoTagKurz />
+                        <VZBem />
+                        <VZParallel />
+                        <k_parallel.sortierung />
+                        <k_wochentag.sort>4</k_wochentag.sort>
+                        <VZPerson>
+                           <VerPersID>4885</VerPersID>
+                           <r_veranstpers.vtid>114981</r_veranstpers.vtid>
+                           <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                           <DozVorname />
+                           <Namensbestandteil />
+                           <r_veranstpers.sort />
+                        </VZPerson>
+                     </VZeit>
+                     <VZLehrPerson>
+                        <VPesrID>4885</VPesrID>
+                        <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                        <DozVorname />
+                        <Namensbestandteil />
+                        <r_verpers.veranstid>66615</r_verpers.veranstid>
+                        <r_verpers.sort />
+                     </VZLehrPerson>
+                  </Veranstaltung>
+               </Ueberschrift>
+            </Vorlesung>
+         </Vorlesung>
+         <Vorlesung ueebene="1">
+            <Ueberschrift>
+               <UeBez>Fachspezifische Veranstaltungen</UeBez>
+            </Ueberschrift>
+            <Vorlesung ueebene="2">
+               <Ueberschrift>
+                  <UeBez>Allgemeine und Vergleichende Sprachwissenschaft (AVS)</UeBez>
+                  <Veranstaltung>
+                     <VeranstNummer>66492</VeranstNummer>
+                     <VName>Bib Advanced Allgemeine und Vergleichende Sprachwissenschaft (AVS)</VName>
+                     <VNummer />
+                     <VSWS />
+                     <ECTS />
+                     <MaxTeilnehmer>16</MaxTeilnehmer>
+                     <VTyp>SH</VTyp>
+                     <VDTyp>Schulung</VDTyp>
+                     <VHyper />
+                     <VZSemester>20151</VZSemester>
+                     <druck_vvz>J</druck_vvz>
+                     <r_vvzzuord.sortierung />
+                     <Bemerkung>
+                        <FormattedText>
+                           <p>Raum: UB-Schulungsraum in der Zentralbibliothek (Raum 602)</p>
+                           <p>Online-Anmeldung unter: https://www.uni-regensburg.de/bibliothek/schulung/termine/index.html</p>
+                        </FormattedText>
+                     </Bemerkung>
+                     <Lerninhalte>
+                        <FormattedText>
+                           <p>Sie erfahren anhand von Übungen alles Wichtige zur fortgeschrittenen Literatursuche für Ihr Studienfach (Fernleihe, Datenbanken, digitale Angebote).</p>
+                        </FormattedText>
+                     </Lerninhalte>
+                     <VZeit>
+                        <veransttermin.vtid>114504</veransttermin.vtid>
+                        <veransttermin.rgid />
+                        <VZWoTag>Donnerstag</VZWoTag>
+                        <VZWoTagKurz>Do</VZWoTagKurz>
+                        <VTSort />
+                        <VZBeginn>14:00</VZBeginn>
+                        <VZBeginnzus />
+                        <VZEnde>15:00</VZEnde>
+                        <VZBeginDat>16.04.2015</VZBeginDat>
+                        <VZEndDat>16.04.2015</VZEndDat>
+                        <VZFindetStatt>J</VZFindetStatt>
+                        <VZRhyth>Einzel</VZRhyth>
+                        <VZRhythmus>Einzeltermin</VZRhythmus>
+                        <WoTagKurz />
+                        <VZBem />
+                        <VZParallel />
+                        <k_parallel.sortierung />
+                        <k_wochentag.sort>4</k_wochentag.sort>
+                        <VZPerson>
+                           <VerPersID>4885</VerPersID>
+                           <r_veranstpers.vtid>114504</r_veranstpers.vtid>
+                           <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                           <DozVorname />
+                           <Namensbestandteil />
+                           <r_veranstpers.sort />
+                        </VZPerson>
+                     </VZeit>
+                     <VZLehrPerson>
+                        <VPesrID>4885</VPesrID>
+                        <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                        <DozVorname />
+                        <Namensbestandteil />
+                        <r_verpers.veranstid>66492</r_verpers.veranstid>
+                        <r_verpers.sort />
+                     </VZLehrPerson>
+                  </Veranstaltung>
+                  <Veranstaltung>
+                     <VeranstNummer>66493</VeranstNummer>
+                     <VName>Bib for Beginners Allgemeine und Vergleichende Sprachwissenschaft (AVS)</VName>
+                     <VNummer />
+                     <VSWS />
+                     <ECTS />
+                     <MaxTeilnehmer>25</MaxTeilnehmer>
+                     <VTyp>SH</VTyp>
+                     <VDTyp>Schulung</VDTyp>
+                     <VHyper />
+                     <VZSemester>20151</VZSemester>
+                     <druck_vvz>J</druck_vvz>
+                     <r_vvzzuord.sortierung />
+                     <Bemerkung>
+                        <FormattedText>
+                           <p>Raum: Infozentrum in der Zentralbibliothek</p>
+                           <p>Online-Anmeldung unter: https://www.uni-regensburg.de/bibliothek/schulung/termine/index.html</p>
+                        </FormattedText>
+                     </Bemerkung>
+                     <Lerninhalte>
+                        <FormattedText>
+                           <p>Sie erfahren, wie Sie im Regensburger Katalog Literatur für Ihr Studienfach finden und nutzen können, und lernen zudem auch den Fachlesesaal kennen.</p>
+                        </FormattedText>
+                     </Lerninhalte>
+                     <VZeit>
+                        <veransttermin.vtid>114505</veransttermin.vtid>
+                        <veransttermin.rgid />
+                        <VZWoTag>Donnerstag</VZWoTag>
+                        <VZWoTagKurz>Do</VZWoTagKurz>
+                        <VTSort />
+                        <VZBeginn>10:30</VZBeginn>
+                        <VZBeginnzus />
+                        <VZEnde>11:30</VZEnde>
+                        <VZBeginDat>09.04.2015</VZBeginDat>
+                        <VZEndDat>09.04.2015</VZEndDat>
+                        <VZFindetStatt>J</VZFindetStatt>
+                        <VZRhyth>Einzel</VZRhyth>
+                        <VZRhythmus>Einzeltermin</VZRhythmus>
+                        <WoTagKurz />
+                        <VZBem />
+                        <VZParallel />
+                        <k_parallel.sortierung />
+                        <k_wochentag.sort>4</k_wochentag.sort>
+                        <VZPerson>
+                           <VerPersID>4885</VerPersID>
+                           <r_veranstpers.vtid>114505</r_veranstpers.vtid>
+                           <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                           <DozVorname />
+                           <Namensbestandteil />
+                           <r_veranstpers.sort />
+                        </VZPerson>
+                     </VZeit>
+                     <VZLehrPerson>
+                        <VPesrID>4885</VPesrID>
+                        <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                        <DozVorname />
+                        <Namensbestandteil />
+                        <r_verpers.veranstid>66493</r_verpers.veranstid>
+                        <r_verpers.sort />
+                     </VZLehrPerson>
+                  </Veranstaltung>
+               </Ueberschrift>
+            </Vorlesung>
+            <Vorlesung ueebene="2">
+               <Ueberschrift>
+                  <UeBez>Anglistik/Amerikanistik</UeBez>
+                  <Veranstaltung>
+                     <VeranstNummer>66489</VeranstNummer>
+                     <VName>Bib for Beginners Anglistik/Amerikanistik</VName>
+                     <VNummer />
+                     <VSWS />
+                     <ECTS />
+                     <MaxTeilnehmer>25</MaxTeilnehmer>
+                     <VTyp>SH</VTyp>
+                     <VDTyp>Schulung</VDTyp>
+                     <VHyper />
+                     <VZSemester>20151</VZSemester>
+                     <druck_vvz>J</druck_vvz>
+                     <r_vvzzuord.sortierung />
+                     <Bemerkung>
+                        <FormattedText>
+                           <p>Raum: Infozentrum in der Zentralbibliothek</p>
+                           <p>Online-Anmeldung unter: https://www.uni-regensburg.de/bibliothek/schulung/termine/index.html</p>
+                        </FormattedText>
+                     </Bemerkung>
+                     <Lerninhalte>
+                        <FormattedText>
+                           <p>Sie erfahren, wie Sie im Regensburger Katalog Literatur für Ihr Studienfach finden und nutzen können, und lernen zudem auch den Fachlesesaal kennen.</p>
+                        </FormattedText>
+                     </Lerninhalte>
+                     <VZeit>
+                        <veransttermin.vtid>114500</veransttermin.vtid>
+                        <veransttermin.rgid />
+                        <VZWoTag>Mittwoch</VZWoTag>
+                        <VZWoTagKurz>Mi</VZWoTagKurz>
+                        <VTSort />
+                        <VZBeginn>13:30</VZBeginn>
+                        <VZBeginnzus />
+                        <VZEnde>14:30</VZEnde>
+                        <VZBeginDat>08.04.2015</VZBeginDat>
+                        <VZEndDat>08.04.2015</VZEndDat>
+                        <VZFindetStatt>J</VZFindetStatt>
+                        <VZRhyth>Einzel</VZRhyth>
+                        <VZRhythmus>Einzeltermin</VZRhythmus>
+                        <WoTagKurz />
+                        <VZBem />
+                        <VZParallel />
+                        <k_parallel.sortierung />
+                        <k_wochentag.sort>3</k_wochentag.sort>
+                        <VZPerson>
+                           <VerPersID>4885</VerPersID>
+                           <r_veranstpers.vtid>114500</r_veranstpers.vtid>
+                           <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                           <DozVorname />
+                           <Namensbestandteil />
+                           <r_veranstpers.sort />
+                        </VZPerson>
+                     </VZeit>
+                     <VZeit>
+                        <veransttermin.vtid>114503</veransttermin.vtid>
+                        <veransttermin.rgid />
+                        <VZWoTag>Donnerstag</VZWoTag>
+                        <VZWoTagKurz>Do</VZWoTagKurz>
+                        <VTSort />
+                        <VZBeginn>13:00</VZBeginn>
+                        <VZBeginnzus />
+                        <VZEnde>14:00</VZEnde>
+                        <VZBeginDat>09.04.2015</VZBeginDat>
+                        <VZEndDat>09.04.2015</VZEndDat>
+                        <VZFindetStatt>J</VZFindetStatt>
+                        <VZRhyth>Einzel</VZRhyth>
+                        <VZRhythmus>Einzeltermin</VZRhythmus>
+                        <WoTagKurz />
+                        <VZBem />
+                        <VZParallel />
+                        <k_parallel.sortierung />
+                        <k_wochentag.sort>4</k_wochentag.sort>
+                        <VZPerson>
+                           <VerPersID>4885</VerPersID>
+                           <r_veranstpers.vtid>114503</r_veranstpers.vtid>
+                           <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                           <DozVorname />
+                           <Namensbestandteil />
+                           <r_veranstpers.sort />
+                        </VZPerson>
+                     </VZeit>
+                     <VZLehrPerson>
+                        <VPesrID>4885</VPesrID>
+                        <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                        <DozVorname />
+                        <Namensbestandteil />
+                        <r_verpers.veranstid>66489</r_verpers.veranstid>
+                        <r_verpers.sort />
+                     </VZLehrPerson>
+                  </Veranstaltung>
+               </Ueberschrift>
+            </Vorlesung>
+            <Vorlesung ueebene="2">
+               <Ueberschrift>
+                  <UeBez>Geschichte</UeBez>
+                  <Veranstaltung>
+                     <VeranstNummer>66510</VeranstNummer>
+                     <VName>Bib Advanced Geschichte</VName>
+                     <VNummer />
+                     <VSWS />
+                     <ECTS />
+                     <MaxTeilnehmer>16</MaxTeilnehmer>
+                     <VTyp>SH</VTyp>
+                     <VDTyp>Schulung</VDTyp>
+                     <VHyper />
+                     <VZSemester>20151</VZSemester>
+                     <druck_vvz>J</druck_vvz>
+                     <r_vvzzuord.sortierung />
+                     <Bemerkung>
+                        <FormattedText>
+                           <p>Raum: UB-Schulungsraum in der Zentralbibliothek (Raum 602)</p>
+                           <p>Online-Anmeldung unter: https://www.uni-regensburg.de/bibliothek/schulung/termine/index.html</p>
+                        </FormattedText>
+                     </Bemerkung>
+                     <Lerninhalte>
+                        <FormattedText>
+                           <p>Sie erfahren anhand von Übungen alles Wichtige zur fortgeschrittenen Literatursuche für Ihr Studienfach (Fernleihe, Datenbanken, digitale Angebote).</p>
+                        </FormattedText>
+                     </Lerninhalte>
+                     <VZeit>
+                        <veransttermin.vtid>114545</veransttermin.vtid>
+                        <veransttermin.rgid />
+                        <VZWoTag>Montag</VZWoTag>
+                        <VZWoTagKurz>Mo</VZWoTagKurz>
+                        <VTSort />
+                        <VZBeginn>10:00</VZBeginn>
+                        <VZBeginnzus />
+                        <VZEnde>11:00</VZEnde>
+                        <VZBeginDat>04.05.2015</VZBeginDat>
+                        <VZEndDat>04.05.2015</VZEndDat>
+                        <VZFindetStatt>J</VZFindetStatt>
+                        <VZRhyth>Einzel</VZRhyth>
+                        <VZRhythmus>Einzeltermin</VZRhythmus>
+                        <WoTagKurz />
+                        <VZBem />
+                        <VZParallel />
+                        <k_parallel.sortierung />
+                        <k_wochentag.sort>1</k_wochentag.sort>
+                        <VZPerson>
+                           <VerPersID>4885</VerPersID>
+                           <r_veranstpers.vtid>114545</r_veranstpers.vtid>
+                           <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                           <DozVorname />
+                           <Namensbestandteil />
+                           <r_veranstpers.sort />
+                        </VZPerson>
+                     </VZeit>
+                     <VZLehrPerson>
+                        <VPesrID>4885</VPesrID>
+                        <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                        <DozVorname />
+                        <Namensbestandteil />
+                        <r_verpers.veranstid>66510</r_verpers.veranstid>
+                        <r_verpers.sort />
+                     </VZLehrPerson>
+                  </Veranstaltung>
+                  <Veranstaltung>
+                     <VeranstNummer>66496</VeranstNummer>
+                     <VName>Bib for Beginners Geschichte</VName>
+                     <VNummer />
+                     <VSWS />
+                     <ECTS />
+                     <MaxTeilnehmer>25</MaxTeilnehmer>
+                     <VTyp>SH</VTyp>
+                     <VDTyp>Schulung</VDTyp>
+                     <VHyper />
+                     <VZSemester>20151</VZSemester>
+                     <druck_vvz>J</druck_vvz>
+                     <r_vvzzuord.sortierung />
+                     <Bemerkung>
+                        <FormattedText>
+                           <p>Raum: Infozentrum in der Zentralbibliothek</p>
+                           <p>Online-Anmeldung unter: https://www.uni-regensburg.de/bibliothek/schulung/termine/index.html</p>
+                        </FormattedText>
+                     </Bemerkung>
+                     <Lerninhalte>
+                        <FormattedText>
+                           <p>Sie erfahren, wie Sie im Regensburger Katalog Literatur für Ihr Studienfach finden und nutzen können, und lernen zudem auch den Fachlesesaal kennen.</p>
+                        </FormattedText>
+                     </Lerninhalte>
+                     <VZeit>
+                        <veransttermin.vtid>114508</veransttermin.vtid>
+                        <veransttermin.rgid />
+                        <VZWoTag>Dienstag</VZWoTag>
+                        <VZWoTagKurz>Di</VZWoTagKurz>
+                        <VTSort />
+                        <VZBeginn>12:15</VZBeginn>
+                        <VZBeginnzus />
+                        <VZEnde>13:15</VZEnde>
+                        <VZBeginDat>28.04.2015</VZBeginDat>
+                        <VZEndDat>28.04.2015</VZEndDat>
+                        <VZFindetStatt>J</VZFindetStatt>
+                        <VZRhyth>Einzel</VZRhyth>
+                        <VZRhythmus>Einzeltermin</VZRhythmus>
+                        <WoTagKurz />
+                        <VZBem />
+                        <VZParallel />
+                        <k_parallel.sortierung />
+                        <k_wochentag.sort>2</k_wochentag.sort>
+                        <VZPerson>
+                           <VerPersID>4885</VerPersID>
+                           <r_veranstpers.vtid>114508</r_veranstpers.vtid>
+                           <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                           <DozVorname />
+                           <Namensbestandteil />
+                           <r_veranstpers.sort />
+                        </VZPerson>
+                     </VZeit>
+                     <VZLehrPerson>
+                        <VPesrID>4885</VPesrID>
+                        <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                        <DozVorname />
+                        <Namensbestandteil />
+                        <r_verpers.veranstid>66496</r_verpers.veranstid>
+                        <r_verpers.sort />
+                     </VZLehrPerson>
+                  </Veranstaltung>
+               </Ueberschrift>
+            </Vorlesung>
+            <Vorlesung ueebene="2">
+               <Ueberschrift>
+                  <UeBez>Medieninformatik, Informationswissenschaft</UeBez>
+                  <Veranstaltung>
+                     <VeranstNummer>66509</VeranstNummer>
+                     <VName>Bib Advanced Medieninformatik, Informationswissenschaft</VName>
+                     <VNummer />
+                     <VSWS />
+                     <ECTS />
+                     <MaxTeilnehmer>16</MaxTeilnehmer>
+                     <VTyp>SH</VTyp>
+                     <VDTyp>Schulung</VDTyp>
+                     <VHyper />
+                     <VZSemester>20151</VZSemester>
+                     <druck_vvz>J</druck_vvz>
+                     <r_vvzzuord.sortierung />
+                     <Bemerkung>
+                        <FormattedText>
+                           <p>Raum: UB-Schulungsraum in der Zentralbibliothek (Raum 602). Die Veranstaltung am 27.4.2015 findet im CIP-Pool BIB 1 (im Allgemeinen Lesesaal) statt.</p>
+                           <p>Online-Anmeldung unter: https://www.uni-regensburg.de/bibliothek/schulung/termine/index.html</p>
+                        </FormattedText>
+                     </Bemerkung>
+                     <Lerninhalte>
+                        <FormattedText>
+                           <p>Sie erfahren anhand von Übungen alles Wichtige zur fortgeschrittenen Literatursuche für Ihr Studienfach (Fernleihe, Datenbanken, digitale Angebote).</p>
+                        </FormattedText>
+                     </Lerninhalte>
+                     <VZeit>
+                        <veransttermin.vtid>114544</veransttermin.vtid>
+                        <veransttermin.rgid />
+                        <VZWoTag>Montag</VZWoTag>
+                        <VZWoTagKurz>Mo</VZWoTagKurz>
+                        <VTSort />
+                        <VZBeginn>16:00</VZBeginn>
+                        <VZBeginnzus />
+                        <VZEnde>17:30</VZEnde>
+                        <VZBeginDat>13.04.2015</VZBeginDat>
+                        <VZEndDat>13.04.2015</VZEndDat>
+                        <VZFindetStatt>J</VZFindetStatt>
+                        <VZRhyth>Einzel</VZRhyth>
+                        <VZRhythmus>Einzeltermin</VZRhythmus>
+                        <WoTagKurz />
+                        <VZBem />
+                        <VZParallel />
+                        <k_parallel.sortierung />
+                        <k_wochentag.sort>1</k_wochentag.sort>
+                        <VZPerson>
+                           <VerPersID>4885</VerPersID>
+                           <r_veranstpers.vtid>114544</r_veranstpers.vtid>
+                           <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                           <DozVorname />
+                           <Namensbestandteil />
+                           <r_veranstpers.sort />
+                        </VZPerson>
+                     </VZeit>
+                     <VZeit>
+                        <veransttermin.vtid>114550</veransttermin.vtid>
+                        <veransttermin.rgid />
+                        <VZWoTag>Montag</VZWoTag>
+                        <VZWoTagKurz>Mo</VZWoTagKurz>
+                        <VTSort />
+                        <VZBeginn>16:00</VZBeginn>
+                        <VZBeginnzus />
+                        <VZEnde>17:30</VZEnde>
+                        <VZBeginDat>27.04.2015</VZBeginDat>
+                        <VZEndDat>27.04.2015</VZEndDat>
+                        <VZFindetStatt>J</VZFindetStatt>
+                        <VZRhyth>Einzel</VZRhyth>
+                        <VZRhythmus>Einzeltermin</VZRhythmus>
+                        <WoTagKurz />
+                        <VZBem />
+                        <VZParallel />
+                        <k_parallel.sortierung />
+                        <k_wochentag.sort>1</k_wochentag.sort>
+                        <VZPerson>
+                           <VerPersID>4885</VerPersID>
+                           <r_veranstpers.vtid>114550</r_veranstpers.vtid>
+                           <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                           <DozVorname />
+                           <Namensbestandteil />
+                           <r_veranstpers.sort />
+                        </VZPerson>
+                     </VZeit>
+                     <VZLehrPerson>
+                        <VPesrID>4885</VPesrID>
+                        <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                        <DozVorname />
+                        <Namensbestandteil />
+                        <r_verpers.veranstid>66509</r_verpers.veranstid>
+                        <r_verpers.sort />
+                     </VZLehrPerson>
+                  </Veranstaltung>
+                  <Veranstaltung>
+                     <VeranstNummer>66500</VeranstNummer>
+                     <VName>Bib for Beginners Medieninformatik, Informationswissenschaft</VName>
+                     <VNummer />
+                     <VSWS />
+                     <ECTS />
+                     <MaxTeilnehmer>25</MaxTeilnehmer>
+                     <VTyp>SH</VTyp>
+                     <VDTyp>Schulung</VDTyp>
+                     <VHyper />
+                     <VZSemester>20151</VZSemester>
+                     <druck_vvz>J</druck_vvz>
+                     <r_vvzzuord.sortierung />
+                     <Bemerkung>
+                        <FormattedText>
+                           <p>Raum: Infozentrum in der Zentralbibliothek</p>
+                           <p>Online-Anmeldung unter: https://www.uni-regensburg.de/bibliothek/schulung/termine/index.html</p>
+                        </FormattedText>
+                     </Bemerkung>
+                     <Lerninhalte>
+                        <FormattedText>
+                           <p>Sie erfahren, wie Sie im Regensburger Katalog Literatur für Ihr Studienfach finden und nutzen können, und lernen zudem auch den Fachlesesaal kennen.</p>
+                        </FormattedText>
+                     </Lerninhalte>
+                     <VZeit>
+                        <veransttermin.vtid>114529</veransttermin.vtid>
+                        <veransttermin.rgid />
+                        <VZWoTag>Montag</VZWoTag>
+                        <VZWoTagKurz>Mo</VZWoTagKurz>
+                        <VTSort />
+                        <VZBeginn>16:00</VZBeginn>
+                        <VZBeginnzus />
+                        <VZEnde>17:00</VZEnde>
+                        <VZBeginDat>20.04.2015</VZBeginDat>
+                        <VZEndDat>20.04.2015</VZEndDat>
+                        <VZFindetStatt>J</VZFindetStatt>
+                        <VZRhyth>Einzel</VZRhyth>
+                        <VZRhythmus>Einzeltermin</VZRhythmus>
+                        <WoTagKurz />
+                        <VZBem />
+                        <VZParallel />
+                        <k_parallel.sortierung />
+                        <k_wochentag.sort>1</k_wochentag.sort>
+                        <VZPerson>
+                           <VerPersID>4885</VerPersID>
+                           <r_veranstpers.vtid>114529</r_veranstpers.vtid>
+                           <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                           <DozVorname />
+                           <Namensbestandteil />
+                           <r_veranstpers.sort />
+                        </VZPerson>
+                     </VZeit>
+                     <VZeit>
+                        <veransttermin.vtid>114524</veransttermin.vtid>
+                        <veransttermin.rgid />
+                        <VZWoTag>Mittwoch</VZWoTag>
+                        <VZWoTagKurz>Mi</VZWoTagKurz>
+                        <VTSort />
+                        <VZBeginn>15:00</VZBeginn>
+                        <VZBeginnzus />
+                        <VZEnde>16:00</VZEnde>
+                        <VZBeginDat>08.04.2015</VZBeginDat>
+                        <VZEndDat>08.04.2015</VZEndDat>
+                        <VZFindetStatt>J</VZFindetStatt>
+                        <VZRhyth>Einzel</VZRhyth>
+                        <VZRhythmus>Einzeltermin</VZRhythmus>
+                        <WoTagKurz />
+                        <VZBem />
+                        <VZParallel />
+                        <k_parallel.sortierung />
+                        <k_wochentag.sort>3</k_wochentag.sort>
+                        <VZPerson>
+                           <VerPersID>4885</VerPersID>
+                           <r_veranstpers.vtid>114524</r_veranstpers.vtid>
+                           <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                           <DozVorname />
+                           <Namensbestandteil />
+                           <r_veranstpers.sort />
+                        </VZPerson>
+                     </VZeit>
+                     <VZLehrPerson>
+                        <VPesrID>4885</VPesrID>
+                        <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                        <DozVorname />
+                        <Namensbestandteil />
+                        <r_verpers.veranstid>66500</r_verpers.veranstid>
+                        <r_verpers.sort />
+                     </VZLehrPerson>
+                  </Veranstaltung>
+               </Ueberschrift>
+            </Vorlesung>
+            <Vorlesung ueebene="2">
+               <Ueberschrift>
+                  <UeBez>Medienwissenschaft</UeBez>
+                  <Veranstaltung>
+                     <VeranstNummer>66508</VeranstNummer>
+                     <VName>Bib Advanced Medienwissenschaft</VName>
+                     <VNummer />
+                     <VSWS />
+                     <ECTS />
+                     <MaxTeilnehmer>16</MaxTeilnehmer>
+                     <VTyp>SH</VTyp>
+                     <VDTyp>Schulung</VDTyp>
+                     <VHyper />
+                     <VZSemester>20151</VZSemester>
+                     <druck_vvz>J</druck_vvz>
+                     <r_vvzzuord.sortierung />
+                     <Bemerkung>
+                        <FormattedText>
+                           <p>Raum: UB-Schulungsraum in der Zentralbibliothek (Raum 602)</p>
+                           <p>Online-Anmeldung unter: https://www.uni-regensburg.de/bibliothek/schulung/termine/index.html</p>
+                        </FormattedText>
+                     </Bemerkung>
+                     <Lerninhalte>
+                        <FormattedText>
+                           <p>Sie erfahren anhand von Übungen alles Wichtige zur fortgeschrittenen Literatursuche für Ihr Studienfach (Fernleihe, Datenbanken, digitale Angebote).</p>
+                        </FormattedText>
+                     </Lerninhalte>
+                     <VZeit>
+                        <veransttermin.vtid>114540</veransttermin.vtid>
+                        <veransttermin.rgid />
+                        <VZWoTag>Dienstag</VZWoTag>
+                        <VZWoTagKurz>Di</VZWoTagKurz>
+                        <VTSort />
+                        <VZBeginn>13:00</VZBeginn>
+                        <VZBeginnzus />
+                        <VZEnde>14:30</VZEnde>
+                        <VZBeginDat>21.04.2015</VZBeginDat>
+                        <VZEndDat>21.04.2015</VZEndDat>
+                        <VZFindetStatt>J</VZFindetStatt>
+                        <VZRhyth>Einzel</VZRhyth>
+                        <VZRhythmus>Einzeltermin</VZRhythmus>
+                        <WoTagKurz />
+                        <VZBem />
+                        <VZParallel />
+                        <k_parallel.sortierung />
+                        <k_wochentag.sort>2</k_wochentag.sort>
+                        <VZPerson>
+                           <VerPersID>4885</VerPersID>
+                           <r_veranstpers.vtid>114540</r_veranstpers.vtid>
+                           <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                           <DozVorname />
+                           <Namensbestandteil />
+                           <r_veranstpers.sort />
+                        </VZPerson>
+                     </VZeit>
+                     <VZeit>
+                        <veransttermin.vtid>114542</veransttermin.vtid>
+                        <veransttermin.rgid />
+                        <VZWoTag>Mittwoch</VZWoTag>
+                        <VZWoTagKurz>Mi</VZWoTagKurz>
+                        <VTSort />
+                        <VZBeginn>08:00</VZBeginn>
+                        <VZBeginnzus />
+                        <VZEnde>09:30</VZEnde>
+                        <VZBeginDat>06.05.2015</VZBeginDat>
+                        <VZEndDat>06.05.2015</VZEndDat>
+                        <VZFindetStatt>J</VZFindetStatt>
+                        <VZRhyth>Einzel</VZRhyth>
+                        <VZRhythmus>Einzeltermin</VZRhythmus>
+                        <WoTagKurz />
+                        <VZBem />
+                        <VZParallel />
+                        <k_parallel.sortierung />
+                        <k_wochentag.sort>3</k_wochentag.sort>
+                        <VZPerson>
+                           <VerPersID>4885</VerPersID>
+                           <r_veranstpers.vtid>114542</r_veranstpers.vtid>
+                           <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                           <DozVorname />
+                           <Namensbestandteil />
+                           <r_veranstpers.sort />
+                        </VZPerson>
+                     </VZeit>
+                     <VZLehrPerson>
+                        <VPesrID>4885</VPesrID>
+                        <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                        <DozVorname />
+                        <Namensbestandteil />
+                        <r_verpers.veranstid>66508</r_verpers.veranstid>
+                        <r_verpers.sort />
+                     </VZLehrPerson>
+                  </Veranstaltung>
+                  <Veranstaltung>
+                     <VeranstNummer>66499</VeranstNummer>
+                     <VName>Bib for Beginners Medienwissenschaft</VName>
+                     <VNummer />
+                     <VSWS />
+                     <ECTS />
+                     <MaxTeilnehmer>25</MaxTeilnehmer>
+                     <VTyp>SH</VTyp>
+                     <VDTyp>Schulung</VDTyp>
+                     <VHyper />
+                     <VZSemester>20151</VZSemester>
+                     <druck_vvz>J</druck_vvz>
+                     <r_vvzzuord.sortierung />
+                     <Bemerkung>
+                        <FormattedText>
+                           <p>Raum: Infozentrum in der Zentralbibliothek</p>
+                           <p>Online-Anmeldung unter: https://www.uni-regensburg.de/bibliothek/schulung/termine/index.html</p>
+                        </FormattedText>
+                     </Bemerkung>
+                     <Lerninhalte>
+                        <FormattedText>
+                           <p>Sie erfahren, wie Sie im Regensburger Katalog Literatur für Ihr Studienfach finden und nutzen können, und lernen zudem auch den Fachlesesaal kennen.</p>
+                        </FormattedText>
+                     </Lerninhalte>
+                     <VZeit>
+                        <veransttermin.vtid>114523</veransttermin.vtid>
+                        <veransttermin.rgid />
+                        <VZWoTag>Montag</VZWoTag>
+                        <VZWoTagKurz>Mo</VZWoTagKurz>
+                        <VTSort />
+                        <VZBeginn>14:00</VZBeginn>
+                        <VZBeginnzus />
+                        <VZEnde>15:00</VZEnde>
+                        <VZBeginDat>27.04.2015</VZBeginDat>
+                        <VZEndDat>27.04.2015</VZEndDat>
+                        <VZFindetStatt>J</VZFindetStatt>
+                        <VZRhyth>Einzel</VZRhyth>
+                        <VZRhythmus>Einzeltermin</VZRhythmus>
+                        <WoTagKurz />
+                        <VZBem />
+                        <VZParallel />
+                        <k_parallel.sortierung />
+                        <k_wochentag.sort>1</k_wochentag.sort>
+                        <VZPerson>
+                           <VerPersID>4885</VerPersID>
+                           <r_veranstpers.vtid>114523</r_veranstpers.vtid>
+                           <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                           <DozVorname />
+                           <Namensbestandteil />
+                           <r_veranstpers.sort />
+                        </VZPerson>
+                     </VZeit>
+                     <VZeit>
+                        <veransttermin.vtid>114521</veransttermin.vtid>
+                        <veransttermin.rgid />
+                        <VZWoTag>Dienstag</VZWoTag>
+                        <VZWoTagKurz>Di</VZWoTagKurz>
+                        <VTSort />
+                        <VZBeginn>09:00</VZBeginn>
+                        <VZBeginnzus />
+                        <VZEnde>10:00</VZEnde>
+                        <VZBeginDat>21.04.2015</VZBeginDat>
+                        <VZEndDat>21.04.2015</VZEndDat>
+                        <VZFindetStatt>J</VZFindetStatt>
+                        <VZRhyth>Einzel</VZRhyth>
+                        <VZRhythmus>Einzeltermin</VZRhythmus>
+                        <WoTagKurz />
+                        <VZBem />
+                        <VZParallel />
+                        <k_parallel.sortierung />
+                        <k_wochentag.sort>2</k_wochentag.sort>
+                        <VZPerson>
+                           <VerPersID>4885</VerPersID>
+                           <r_veranstpers.vtid>114521</r_veranstpers.vtid>
+                           <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                           <DozVorname />
+                           <Namensbestandteil />
+                           <r_veranstpers.sort />
+                        </VZPerson>
+                     </VZeit>
+                     <VZLehrPerson>
+                        <VPesrID>4885</VPesrID>
+                        <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                        <DozVorname />
+                        <Namensbestandteil />
+                        <r_verpers.veranstid>66499</r_verpers.veranstid>
+                        <r_verpers.sort />
+                     </VZLehrPerson>
+                  </Veranstaltung>
+               </Ueberschrift>
+            </Vorlesung>
+            <Vorlesung ueebene="2">
+               <Ueberschrift>
+                  <UeBez>Medizin</UeBez>
+                  <Veranstaltung>
+                     <VeranstNummer>66615</VeranstNummer>
+                     <VName>Citavi für Mediziner (Anfängerkurs)</VName>
+                     <VNummer />
+                     <VSWS />
+                     <ECTS />
+                     <MaxTeilnehmer>20</MaxTeilnehmer>
+                     <VTyp>SH</VTyp>
+                     <VDTyp>Schulung</VDTyp>
+                     <VHyper />
+                     <VZSemester>20151</VZSemester>
+                     <druck_vvz>J</druck_vvz>
+                     <r_vvzzuord.sortierung />
+                     <Bemerkung>
+                        <FormattedText>
+                           <p>Raum: Klinikum, Großer CIP-Pool A2 (Raum A2 4.01)</p>
+                           <p>Online-Anmeldung unter: https://www.uni-regensburg.de/bibliothek/schulung/termine/index.html</p>
+                        </FormattedText>
+                     </Bemerkung>
+                     <Lerninhalte>
+                        <FormattedText>
+                           <p>Citavi ist eine Software zur Literaturverwaltung. Dieser Kurs bietet Ihnen Infos und Tipps zur Nutzung dieses Programms, das Sie durch eine Campuslizenz kostenlos verwenden können.</p>
+                           <p>In diesem Anfängerkurs wird dabei auch die Arbeit mit medizinischen Fachdatenbanken (PubMed) berücksichtigt.</p>
+                        </FormattedText>
+                     </Lerninhalte>
+                     <VZeit>
+                        <veransttermin.vtid>114999</veransttermin.vtid>
+                        <veransttermin.rgid />
+                        <VZWoTag>Mittwoch</VZWoTag>
+                        <VZWoTagKurz>Mi</VZWoTagKurz>
+                        <VTSort />
+                        <VZBeginn>15:00</VZBeginn>
+                        <VZBeginnzus>s.t.</VZBeginnzus>
+                        <VZEnde>17:00</VZEnde>
+                        <VZBeginDat>20.05.2015</VZBeginDat>
+                        <VZEndDat>20.05.2015</VZEndDat>
+                        <VZFindetStatt>J</VZFindetStatt>
+                        <VZRhyth>Einzel</VZRhyth>
+                        <VZRhythmus>Einzeltermin</VZRhythmus>
+                        <WoTagKurz />
+                        <VZBem />
+                        <VZParallel />
+                        <k_parallel.sortierung />
+                        <k_wochentag.sort>3</k_wochentag.sort>
+                        <VZPerson>
+                           <VerPersID>4885</VerPersID>
+                           <r_veranstpers.vtid>114999</r_veranstpers.vtid>
+                           <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                           <DozVorname />
+                           <Namensbestandteil />
+                           <r_veranstpers.sort />
+                        </VZPerson>
+                     </VZeit>
+                     <VZeit>
+                        <veransttermin.vtid>115000</veransttermin.vtid>
+                        <veransttermin.rgid />
+                        <VZWoTag>Mittwoch</VZWoTag>
+                        <VZWoTagKurz>Mi</VZWoTagKurz>
+                        <VTSort />
+                        <VZBeginn>15:00</VZBeginn>
+                        <VZBeginnzus>s.t.</VZBeginnzus>
+                        <VZEnde>17:00</VZEnde>
+                        <VZBeginDat>10.06.2015</VZBeginDat>
+                        <VZEndDat>10.06.2015</VZEndDat>
+                        <VZFindetStatt>J</VZFindetStatt>
+                        <VZRhyth>Einzel</VZRhyth>
+                        <VZRhythmus>Einzeltermin</VZRhythmus>
+                        <WoTagKurz />
+                        <VZBem />
+                        <VZParallel />
+                        <k_parallel.sortierung />
+                        <k_wochentag.sort>3</k_wochentag.sort>
+                        <VZPerson>
+                           <VerPersID>4885</VerPersID>
+                           <r_veranstpers.vtid>115000</r_veranstpers.vtid>
+                           <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                           <DozVorname />
+                           <Namensbestandteil />
+                           <r_veranstpers.sort />
+                        </VZPerson>
+                     </VZeit>
+                     <VZeit>
+                        <veransttermin.vtid>114982</veransttermin.vtid>
+                        <veransttermin.rgid />
+                        <VZWoTag>Donnerstag</VZWoTag>
+                        <VZWoTagKurz>Do</VZWoTagKurz>
+                        <VTSort />
+                        <VZBeginn>15:00</VZBeginn>
+                        <VZBeginnzus>s.t.</VZBeginnzus>
+                        <VZEnde>17:00</VZEnde>
+                        <VZBeginDat>30.04.2015</VZBeginDat>
+                        <VZEndDat>30.04.2015</VZEndDat>
+                        <VZFindetStatt>J</VZFindetStatt>
+                        <VZRhyth>Einzel</VZRhyth>
+                        <VZRhythmus>Einzeltermin</VZRhythmus>
+                        <WoTagKurz />
+                        <VZBem />
+                        <VZParallel />
+                        <k_parallel.sortierung />
+                        <k_wochentag.sort>4</k_wochentag.sort>
+                        <VZPerson>
+                           <VerPersID>4885</VerPersID>
+                           <r_veranstpers.vtid>114982</r_veranstpers.vtid>
+                           <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                           <DozVorname />
+                           <Namensbestandteil />
+                           <r_veranstpers.sort />
+                        </VZPerson>
+                     </VZeit>
+                     <VZeit>
+                        <veransttermin.vtid>114981</veransttermin.vtid>
+                        <veransttermin.rgid />
+                        <VZWoTag>Donnerstag</VZWoTag>
+                        <VZWoTagKurz>Do</VZWoTagKurz>
+                        <VTSort />
+                        <VZBeginn>15:00</VZBeginn>
+                        <VZBeginnzus>s.t.</VZBeginnzus>
+                        <VZEnde>17:00</VZEnde>
+                        <VZBeginDat>07.05.2015</VZBeginDat>
+                        <VZEndDat>07.05.2015</VZEndDat>
+                        <VZFindetStatt>J</VZFindetStatt>
+                        <VZRhyth>Einzel</VZRhyth>
+                        <VZRhythmus>Einzeltermin</VZRhythmus>
+                        <WoTagKurz />
+                        <VZBem />
+                        <VZParallel />
+                        <k_parallel.sortierung />
+                        <k_wochentag.sort>4</k_wochentag.sort>
+                        <VZPerson>
+                           <VerPersID>4885</VerPersID>
+                           <r_veranstpers.vtid>114981</r_veranstpers.vtid>
+                           <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                           <DozVorname />
+                           <Namensbestandteil />
+                           <r_veranstpers.sort />
+                        </VZPerson>
+                     </VZeit>
+                     <VZLehrPerson>
+                        <VPesrID>4885</VPesrID>
+                        <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                        <DozVorname />
+                        <Namensbestandteil />
+                        <r_verpers.veranstid>66615</r_verpers.veranstid>
+                        <r_verpers.sort />
+                     </VZLehrPerson>
+                  </Veranstaltung>
+               </Ueberschrift>
+            </Vorlesung>
+            <Vorlesung ueebene="2">
+               <Ueberschrift>
+                  <UeBez>Pädagogik, Psychologie</UeBez>
+                  <Veranstaltung>
+                     <VeranstNummer>66505</VeranstNummer>
+                     <VName>Bib Advanced Pädagogik, Psychologie</VName>
+                     <VNummer />
+                     <VSWS />
+                     <ECTS />
+                     <MaxTeilnehmer>16</MaxTeilnehmer>
+                     <VTyp>SH</VTyp>
+                     <VDTyp>Schulung</VDTyp>
+                     <VHyper />
+                     <VZSemester>20151</VZSemester>
+                     <druck_vvz>J</druck_vvz>
+                     <r_vvzzuord.sortierung />
+                     <Bemerkung>
+                        <FormattedText>
+                           <p>Raum: UB-Schulungsraum in der Zentralbibliothek (Raum 602)</p>
+                           <p>Online-Anmeldung unter: https://www.uni-regensburg.de/bibliothek/schulung/termine/index.html</p>
+                        </FormattedText>
+                     </Bemerkung>
+                     <Lerninhalte>
+                        <FormattedText>
+                           <p>Sie erfahren anhand von Übungen alles Wichtige zur fortgeschrittenen Literatursuche für Ihr Studienfach (Fernleihe, Datenbanken, digitale Angebote).</p>
+                        </FormattedText>
+                     </Lerninhalte>
+                     <VZeit>
+                        <veransttermin.vtid>114535</veransttermin.vtid>
+                        <veransttermin.rgid />
+                        <VZWoTag>Donnerstag</VZWoTag>
+                        <VZWoTagKurz>Do</VZWoTagKurz>
+                        <VTSort />
+                        <VZBeginn>13:00</VZBeginn>
+                        <VZBeginnzus />
+                        <VZEnde>14:00</VZEnde>
+                        <VZBeginDat>16.04.2015</VZBeginDat>
+                        <VZEndDat>16.04.2015</VZEndDat>
+                        <VZFindetStatt>J</VZFindetStatt>
+                        <VZRhyth>Einzel</VZRhyth>
+                        <VZRhythmus>Einzeltermin</VZRhythmus>
+                        <WoTagKurz />
+                        <VZBem />
+                        <VZParallel />
+                        <k_parallel.sortierung />
+                        <k_wochentag.sort>4</k_wochentag.sort>
+                        <VZPerson>
+                           <VerPersID>4885</VerPersID>
+                           <r_veranstpers.vtid>114535</r_veranstpers.vtid>
+                           <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                           <DozVorname />
+                           <Namensbestandteil />
+                           <r_veranstpers.sort />
+                        </VZPerson>
+                     </VZeit>
+                     <VZLehrPerson>
+                        <VPesrID>4885</VPesrID>
+                        <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                        <DozVorname />
+                        <Namensbestandteil />
+                        <r_verpers.veranstid>66505</r_verpers.veranstid>
+                        <r_verpers.sort />
+                     </VZLehrPerson>
+                  </Veranstaltung>
+                  <Veranstaltung>
+                     <VeranstNummer>66495</VeranstNummer>
+                     <VName>Bib for Beginners Pädagogik, Psychologie</VName>
+                     <VNummer />
+                     <VSWS />
+                     <ECTS />
+                     <MaxTeilnehmer>25</MaxTeilnehmer>
+                     <VTyp>SH</VTyp>
+                     <VDTyp>Schulung</VDTyp>
+                     <VHyper />
+                     <VZSemester>20151</VZSemester>
+                     <druck_vvz>J</druck_vvz>
+                     <r_vvzzuord.sortierung />
+                     <Bemerkung>
+                        <FormattedText>
+                           <p>Raum: Infozentrum in der Zentralbibliothek</p>
+                           <p>Online-Anmeldung unter: https://www.uni-regensburg.de/bibliothek/schulung/termine/index.html</p>
+                        </FormattedText>
+                     </Bemerkung>
+                     <Lerninhalte>
+                        <FormattedText>
+                           <p>Sie erfahren, wie Sie im Regensburger Katalog Literatur für Ihr Studienfach finden und nutzen können, und lernen zudem auch den Fachlesesaal kennen.</p>
+                        </FormattedText>
+                     </Lerninhalte>
+                     <VZeit>
+                        <veransttermin.vtid>114531</veransttermin.vtid>
+                        <veransttermin.rgid />
+                        <VZWoTag>Dienstag</VZWoTag>
+                        <VZWoTagKurz>Di</VZWoTagKurz>
+                        <VTSort />
+                        <VZBeginn>14:00</VZBeginn>
+                        <VZBeginnzus />
+                        <VZEnde>15:00</VZEnde>
+                        <VZBeginDat>14.04.2015</VZBeginDat>
+                        <VZEndDat>14.04.2015</VZEndDat>
+                        <VZFindetStatt>J</VZFindetStatt>
+                        <VZRhyth>Einzel</VZRhyth>
+                        <VZRhythmus>Einzeltermin</VZRhythmus>
+                        <WoTagKurz />
+                        <VZBem />
+                        <VZParallel />
+                        <k_parallel.sortierung />
+                        <k_wochentag.sort>2</k_wochentag.sort>
+                        <VZPerson>
+                           <VerPersID>4885</VerPersID>
+                           <r_veranstpers.vtid>114531</r_veranstpers.vtid>
+                           <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                           <DozVorname />
+                           <Namensbestandteil />
+                           <r_veranstpers.sort />
+                        </VZPerson>
+                     </VZeit>
+                     <VZeit>
+                        <veransttermin.vtid>114507</veransttermin.vtid>
+                        <veransttermin.rgid />
+                        <VZWoTag>Donnerstag</VZWoTag>
+                        <VZWoTagKurz>Do</VZWoTagKurz>
+                        <VTSort />
+                        <VZBeginn>09:30</VZBeginn>
+                        <VZBeginnzus />
+                        <VZEnde>10:30</VZEnde>
+                        <VZBeginDat>09.04.2015</VZBeginDat>
+                        <VZEndDat>09.04.2015</VZEndDat>
+                        <VZFindetStatt>J</VZFindetStatt>
+                        <VZRhyth>Einzel</VZRhyth>
+                        <VZRhythmus>Einzeltermin</VZRhythmus>
+                        <WoTagKurz />
+                        <VZBem />
+                        <VZParallel />
+                        <k_parallel.sortierung />
+                        <k_wochentag.sort>4</k_wochentag.sort>
+                        <VZPerson>
+                           <VerPersID>4885</VerPersID>
+                           <r_veranstpers.vtid>114507</r_veranstpers.vtid>
+                           <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                           <DozVorname />
+                           <Namensbestandteil />
+                           <r_veranstpers.sort />
+                        </VZPerson>
+                     </VZeit>
+                     <VZLehrPerson>
+                        <VPesrID>4885</VPesrID>
+                        <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                        <DozVorname />
+                        <Namensbestandteil />
+                        <r_verpers.veranstid>66495</r_verpers.veranstid>
+                        <r_verpers.sort />
+                     </VZLehrPerson>
+                  </Veranstaltung>
+               </Ueberschrift>
+            </Vorlesung>
+            <Vorlesung ueebene="2">
+               <Ueberschrift>
+                  <UeBez>Philosophie</UeBez>
+                  <Veranstaltung>
+                     <VeranstNummer>66507</VeranstNummer>
+                     <VName>Bib Advanced Philosophie</VName>
+                     <VNummer />
+                     <VSWS />
+                     <ECTS />
+                     <MaxTeilnehmer>16</MaxTeilnehmer>
+                     <VTyp>SH</VTyp>
+                     <VDTyp>Schulung</VDTyp>
+                     <VHyper />
+                     <VZSemester>20151</VZSemester>
+                     <druck_vvz>J</druck_vvz>
+                     <r_vvzzuord.sortierung />
+                     <Bemerkung>
+                        <FormattedText>
+                           <p>Raum: UB-Schulungsraum in der Zentralbibliothek (Raum 602)</p>
+                           <p>Online-Anmeldung unter: https://www.uni-regensburg.de/bibliothek/schulung/termine/index.html</p>
+                        </FormattedText>
+                     </Bemerkung>
+                     <Lerninhalte>
+                        <FormattedText>
+                           <p>Sie erfahren anhand von Übungen alles Wichtige zur fortgeschrittenen Literatursuche für Ihr Studienfach (Fernleihe, Datenbanken, digitale Angebote).</p>
+                        </FormattedText>
+                     </Lerninhalte>
+                     <VZeit>
+                        <veransttermin.vtid>114538</veransttermin.vtid>
+                        <veransttermin.rgid />
+                        <VZWoTag>Dienstag</VZWoTag>
+                        <VZWoTagKurz>Di</VZWoTagKurz>
+                        <VTSort />
+                        <VZBeginn>10:00</VZBeginn>
+                        <VZBeginnzus />
+                        <VZEnde>11:00</VZEnde>
+                        <VZBeginDat>05.05.2015</VZBeginDat>
+                        <VZEndDat>05.05.2015</VZEndDat>
+                        <VZFindetStatt>J</VZFindetStatt>
+                        <VZRhyth>Einzel</VZRhyth>
+                        <VZRhythmus>Einzeltermin</VZRhythmus>
+                        <WoTagKurz />
+                        <VZBem />
+                        <VZParallel />
+                        <k_parallel.sortierung />
+                        <k_wochentag.sort>2</k_wochentag.sort>
+                        <VZPerson>
+                           <VerPersID>4885</VerPersID>
+                           <r_veranstpers.vtid>114538</r_veranstpers.vtid>
+                           <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                           <DozVorname />
+                           <Namensbestandteil />
+                           <r_veranstpers.sort />
+                        </VZPerson>
+                     </VZeit>
+                     <VZLehrPerson>
+                        <VPesrID>4885</VPesrID>
+                        <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                        <DozVorname />
+                        <Namensbestandteil />
+                        <r_verpers.veranstid>66507</r_verpers.veranstid>
+                        <r_verpers.sort />
+                     </VZLehrPerson>
+                  </Veranstaltung>
+                  <Veranstaltung>
+                     <VeranstNummer>64933</VeranstNummer>
+                     <VName>Bib for Beginners Philosophie</VName>
+                     <VNummer />
+                     <VSWS />
+                     <ECTS />
+                     <MaxTeilnehmer>25</MaxTeilnehmer>
+                     <VTyp>SH</VTyp>
+                     <VDTyp>Schulung</VDTyp>
+                     <VHyper />
+                     <VZSemester>20151</VZSemester>
+                     <druck_vvz>J</druck_vvz>
+                     <r_vvzzuord.sortierung />
+                     <Bemerkung>
+                        <FormattedText>
+                           <p>Raum: Infozentrum in der Zentralbibliothek</p>
+                           <p>Online-Anmeldung unter: https://www.uni-regensburg.de/bibliothek/schulung/termine/index.html</p>
+                        </FormattedText>
+                     </Bemerkung>
+                     <Lerninhalte>
+                        <FormattedText>
+                           <p>Sie erfahren, wie Sie im Regensburger Katalog Literatur für Ihr Studienfach finden und nutzen können, und lernen zudem auch den Fachlesesaal kennen.</p>
+                        </FormattedText>
+                     </Lerninhalte>
+                     <VZeit>
+                        <veransttermin.vtid>112572</veransttermin.vtid>
+                        <veransttermin.rgid />
+                        <VZWoTag>Dienstag</VZWoTag>
+                        <VZWoTagKurz>Di</VZWoTagKurz>
+                        <VTSort />
+                        <VZBeginn>10:00</VZBeginn>
+                        <VZBeginnzus />
+                        <VZEnde>11:00</VZEnde>
+                        <VZBeginDat>28.04.2015</VZBeginDat>
+                        <VZEndDat>28.04.2015</VZEndDat>
+                        <VZFindetStatt>J</VZFindetStatt>
+                        <VZRhyth>Einzel</VZRhyth>
+                        <VZRhythmus>Einzeltermin</VZRhythmus>
+                        <WoTagKurz />
+                        <VZBem />
+                        <VZParallel />
+                        <k_parallel.sortierung />
+                        <k_wochentag.sort>2</k_wochentag.sort>
+                        <VZPerson>
+                           <VerPersID>4885</VerPersID>
+                           <r_veranstpers.vtid>112572</r_veranstpers.vtid>
+                           <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                           <DozVorname />
+                           <Namensbestandteil />
+                           <r_veranstpers.sort />
+                        </VZPerson>
+                     </VZeit>
+                     <VZLehrPerson>
+                        <VPesrID>4885</VPesrID>
+                        <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                        <DozVorname />
+                        <Namensbestandteil />
+                        <r_verpers.veranstid>64933</r_verpers.veranstid>
+                        <r_verpers.sort />
+                     </VZLehrPerson>
+                  </Veranstaltung>
+               </Ueberschrift>
+            </Vorlesung>
+            <Vorlesung ueebene="2">
+               <Ueberschrift>
+                  <UeBez>Politikwissenschaft</UeBez>
+                  <Veranstaltung>
+                     <VeranstNummer>66506</VeranstNummer>
+                     <VName>Bib Advanced Politikwissenschaft</VName>
+                     <VNummer />
+                     <VSWS />
+                     <ECTS />
+                     <MaxTeilnehmer>25</MaxTeilnehmer>
+                     <VTyp>SH</VTyp>
+                     <VDTyp>Schulung</VDTyp>
+                     <VHyper />
+                     <VZSemester>20151</VZSemester>
+                     <druck_vvz>J</druck_vvz>
+                     <r_vvzzuord.sortierung />
+                     <Bemerkung>
+                        <FormattedText>
+                           <p>Raum: Infozentrum in der Zentralbibliothek</p>
+                           <p>Online-Anmeldung unter: https://www.uni-regensburg.de/bibliothek/schulung/termine/index.html</p>
+                        </FormattedText>
+                     </Bemerkung>
+                     <Lerninhalte>
+                        <FormattedText>
+                           <p>Sie erfahren anhand von Übungen alles Wichtige zur fortgeschrittenen Literatursuche für Ihr Studienfach (Fernleihe, Datenbanken, digitale Angebote).</p>
+                        </FormattedText>
+                     </Lerninhalte>
+                     <VZeit>
+                        <veransttermin.vtid>114536</veransttermin.vtid>
+                        <veransttermin.rgid />
+                        <VZWoTag>Dienstag</VZWoTag>
+                        <VZWoTagKurz>Di</VZWoTagKurz>
+                        <VTSort />
+                        <VZBeginn>10:00</VZBeginn>
+                        <VZBeginnzus />
+                        <VZEnde>11:15</VZEnde>
+                        <VZBeginDat>12.05.2015</VZBeginDat>
+                        <VZEndDat>12.05.2015</VZEndDat>
+                        <VZFindetStatt>J</VZFindetStatt>
+                        <VZRhyth>Einzel</VZRhyth>
+                        <VZRhythmus>Einzeltermin</VZRhythmus>
+                        <WoTagKurz />
+                        <VZBem />
+                        <VZParallel />
+                        <k_parallel.sortierung />
+                        <k_wochentag.sort>2</k_wochentag.sort>
+                        <VZPerson>
+                           <VerPersID>4885</VerPersID>
+                           <r_veranstpers.vtid>114536</r_veranstpers.vtid>
+                           <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                           <DozVorname />
+                           <Namensbestandteil />
+                           <r_veranstpers.sort />
+                        </VZPerson>
+                     </VZeit>
+                     <VZeit>
+                        <veransttermin.vtid>114537</veransttermin.vtid>
+                        <veransttermin.rgid />
+                        <VZWoTag>Mittwoch</VZWoTag>
+                        <VZWoTagKurz>Mi</VZWoTagKurz>
+                        <VTSort />
+                        <VZBeginn>10:00</VZBeginn>
+                        <VZBeginnzus />
+                        <VZEnde>11:15</VZEnde>
+                        <VZBeginDat>13.05.2015</VZBeginDat>
+                        <VZEndDat>13.05.2015</VZEndDat>
+                        <VZFindetStatt>J</VZFindetStatt>
+                        <VZRhyth>Einzel</VZRhyth>
+                        <VZRhythmus>Einzeltermin</VZRhythmus>
+                        <WoTagKurz />
+                        <VZBem />
+                        <VZParallel />
+                        <k_parallel.sortierung />
+                        <k_wochentag.sort>3</k_wochentag.sort>
+                        <VZPerson>
+                           <VerPersID>4885</VerPersID>
+                           <r_veranstpers.vtid>114537</r_veranstpers.vtid>
+                           <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                           <DozVorname />
+                           <Namensbestandteil />
+                           <r_veranstpers.sort />
+                        </VZPerson>
+                     </VZeit>
+                     <VZLehrPerson>
+                        <VPesrID>4885</VPesrID>
+                        <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                        <DozVorname />
+                        <Namensbestandteil />
+                        <r_verpers.veranstid>66506</r_verpers.veranstid>
+                        <r_verpers.sort />
+                     </VZLehrPerson>
+                  </Veranstaltung>
+                  <Veranstaltung>
+                     <VeranstNummer>66501</VeranstNummer>
+                     <VName>Bib for Beginners Politikwissenschaft</VName>
+                     <VNummer />
+                     <VSWS />
+                     <ECTS />
+                     <MaxTeilnehmer>25</MaxTeilnehmer>
+                     <VTyp>SH</VTyp>
+                     <VDTyp>Schulung</VDTyp>
+                     <VHyper />
+                     <VZSemester>20151</VZSemester>
+                     <druck_vvz>J</druck_vvz>
+                     <r_vvzzuord.sortierung />
+                     <Bemerkung>
+                        <FormattedText>
+                           <p>Raum: Infozentrum in der Zentralbibliothek</p>
+                           <p>Online-Anmeldung unter: https://www.uni-regensburg.de/bibliothek/schulung/termine/index.html</p>
+                        </FormattedText>
+                     </Bemerkung>
+                     <Lerninhalte>
+                        <FormattedText>
+                           <p>Sie erfahren, wie Sie im Regensburger Katalog Literatur für Ihr Studienfach finden und nutzen können, und lernen zudem auch den Fachlesesaal kennen.</p>
+                        </FormattedText>
+                     </Lerninhalte>
+                     <VZeit>
+                        <veransttermin.vtid>114526</veransttermin.vtid>
+                        <veransttermin.rgid />
+                        <VZWoTag>Dienstag</VZWoTag>
+                        <VZWoTagKurz>Di</VZWoTagKurz>
+                        <VTSort />
+                        <VZBeginn>14:00</VZBeginn>
+                        <VZBeginnzus />
+                        <VZEnde>15:00</VZEnde>
+                        <VZBeginDat>28.04.2015</VZBeginDat>
+                        <VZEndDat>28.04.2015</VZEndDat>
+                        <VZFindetStatt>J</VZFindetStatt>
+                        <VZRhyth>Einzel</VZRhyth>
+                        <VZRhythmus>Einzeltermin</VZRhythmus>
+                        <WoTagKurz />
+                        <VZBem />
+                        <VZParallel />
+                        <k_parallel.sortierung />
+                        <k_wochentag.sort>2</k_wochentag.sort>
+                        <VZPerson>
+                           <VerPersID>4885</VerPersID>
+                           <r_veranstpers.vtid>114526</r_veranstpers.vtid>
+                           <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                           <DozVorname />
+                           <Namensbestandteil />
+                           <r_veranstpers.sort />
+                        </VZPerson>
+                     </VZeit>
+                     <VZeit>
+                        <veransttermin.vtid>114525</veransttermin.vtid>
+                        <veransttermin.rgid />
+                        <VZWoTag>Donnerstag</VZWoTag>
+                        <VZWoTagKurz>Do</VZWoTagKurz>
+                        <VTSort />
+                        <VZBeginn>14:00</VZBeginn>
+                        <VZBeginnzus />
+                        <VZEnde>15:00</VZEnde>
+                        <VZBeginDat>30.04.2015</VZBeginDat>
+                        <VZEndDat>30.04.2015</VZEndDat>
+                        <VZFindetStatt>J</VZFindetStatt>
+                        <VZRhyth>Einzel</VZRhyth>
+                        <VZRhythmus>Einzeltermin</VZRhythmus>
+                        <WoTagKurz />
+                        <VZBem />
+                        <VZParallel />
+                        <k_parallel.sortierung />
+                        <k_wochentag.sort>4</k_wochentag.sort>
+                        <VZPerson>
+                           <VerPersID>4885</VerPersID>
+                           <r_veranstpers.vtid>114525</r_veranstpers.vtid>
+                           <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                           <DozVorname />
+                           <Namensbestandteil />
+                           <r_veranstpers.sort />
+                        </VZPerson>
+                     </VZeit>
+                     <VZLehrPerson>
+                        <VPesrID>4885</VPesrID>
+                        <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                        <DozVorname />
+                        <Namensbestandteil />
+                        <r_verpers.veranstid>66501</r_verpers.veranstid>
+                        <r_verpers.sort />
+                     </VZLehrPerson>
+                  </Veranstaltung>
+               </Ueberschrift>
+            </Vorlesung>
+            <Vorlesung ueebene="2">
+               <Ueberschrift>
+                  <UeBez>Rechtswissenschaft</UeBez>
+                  <Veranstaltung>
+                     <VeranstNummer>66504</VeranstNummer>
+                     <VName>Bib Advanced Rechtswissenschaft</VName>
+                     <VNummer />
+                     <VSWS />
+                     <ECTS />
+                     <MaxTeilnehmer>32</MaxTeilnehmer>
+                     <VTyp>SH</VTyp>
+                     <VDTyp>Schulung</VDTyp>
+                     <VHyper />
+                     <VZSemester>20151</VZSemester>
+                     <druck_vvz>J</druck_vvz>
+                     <r_vvzzuord.sortierung />
+                     <Bemerkung>
+                        <FormattedText>
+                           <p>Raum: UB-Schulungsraum in der Zentralbibliothek (Raum 602)</p>
+                           <p>Anmeldung: Eintragungslisten vor Lesesaal Recht I</p>
+                        </FormattedText>
+                     </Bemerkung>
+                     <Lerninhalte>
+                        <FormattedText>
+                           <p>Sie erfahren anhand von Übungen alles Wichtige zur fortgeschrittenen Literatursuche für Ihr Studienfach (Fernleihe, Datenbanken, digitale Angebote).</p>
+                        </FormattedText>
+                     </Lerninhalte>
+                     <VZeit>
+                        <veransttermin.vtid>114534</veransttermin.vtid>
+                        <veransttermin.rgid />
+                        <VZWoTag>Dienstag</VZWoTag>
+                        <VZWoTagKurz>Di</VZWoTagKurz>
+                        <VTSort />
+                        <VZBeginn>15:00</VZBeginn>
+                        <VZBeginnzus />
+                        <VZEnde>16:30</VZEnde>
+                        <VZBeginDat>14.07.2015</VZBeginDat>
+                        <VZEndDat>14.07.2015</VZEndDat>
+                        <VZFindetStatt>J</VZFindetStatt>
+                        <VZRhyth>Einzel</VZRhyth>
+                        <VZRhythmus>Einzeltermin</VZRhythmus>
+                        <WoTagKurz />
+                        <VZBem />
+                        <VZParallel />
+                        <k_parallel.sortierung />
+                        <k_wochentag.sort>2</k_wochentag.sort>
+                        <VZPerson>
+                           <VerPersID>4885</VerPersID>
+                           <r_veranstpers.vtid>114534</r_veranstpers.vtid>
+                           <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                           <DozVorname />
+                           <Namensbestandteil />
+                           <r_veranstpers.sort />
+                        </VZPerson>
+                     </VZeit>
+                     <VZLehrPerson>
+                        <VPesrID>4885</VPesrID>
+                        <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                        <DozVorname />
+                        <Namensbestandteil />
+                        <r_verpers.veranstid>66504</r_verpers.veranstid>
+                        <r_verpers.sort />
+                     </VZLehrPerson>
+                  </Veranstaltung>
+                  <Veranstaltung>
+                     <VeranstNummer>66498</VeranstNummer>
+                     <VName>Bib for Beginners Rechtswissenschaft</VName>
+                     <VNummer />
+                     <VSWS />
+                     <ECTS />
+                     <MaxTeilnehmer>12</MaxTeilnehmer>
+                     <VTyp>SH</VTyp>
+                     <VDTyp>Schulung</VDTyp>
+                     <VHyper />
+                     <VZSemester>20151</VZSemester>
+                     <druck_vvz>J</druck_vvz>
+                     <r_vvzzuord.sortierung />
+                     <Bemerkung>
+                        <FormattedText>
+                           <p>Raum: Infozentrum in der Zentralbibliothek</p>
+                           <p>Anmeldung: Eintragslisten vor Lesesaal Recht I</p>
+                        </FormattedText>
+                     </Bemerkung>
+                     <Lerninhalte>
+                        <FormattedText>
+                           <p>Sie erfahren, wie Sie im Regensburger Katalog Literatur für Ihr Studienfach finden und nutzen können, und lernen zudem auch den Fachlesesaal kennen.</p>
+                        </FormattedText>
+                     </Lerninhalte>
+                     <VZeit>
+                        <veransttermin.vtid>114511</veransttermin.vtid>
+                        <veransttermin.rgid />
+                        <VZWoTag>Montag</VZWoTag>
+                        <VZWoTagKurz>Mo</VZWoTagKurz>
+                        <VTSort />
+                        <VZBeginn>11:30</VZBeginn>
+                        <VZBeginnzus />
+                        <VZEnde>12:30</VZEnde>
+                        <VZBeginDat>13.04.2015</VZBeginDat>
+                        <VZEndDat>13.04.2015</VZEndDat>
+                        <VZFindetStatt>J</VZFindetStatt>
+                        <VZRhyth>Einzel</VZRhyth>
+                        <VZRhythmus>Einzeltermin</VZRhythmus>
+                        <WoTagKurz />
+                        <VZBem />
+                        <VZParallel />
+                        <k_parallel.sortierung />
+                        <k_wochentag.sort>1</k_wochentag.sort>
+                        <VZPerson>
+                           <VerPersID>4885</VerPersID>
+                           <r_veranstpers.vtid>114511</r_veranstpers.vtid>
+                           <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                           <DozVorname />
+                           <Namensbestandteil />
+                           <r_veranstpers.sort />
+                        </VZPerson>
+                     </VZeit>
+                     <VZeit>
+                        <veransttermin.vtid>114515</veransttermin.vtid>
+                        <veransttermin.rgid />
+                        <VZWoTag>Montag</VZWoTag>
+                        <VZWoTagKurz>Mo</VZWoTagKurz>
+                        <VTSort />
+                        <VZBeginn>13:00</VZBeginn>
+                        <VZBeginnzus />
+                        <VZEnde>14:00</VZEnde>
+                        <VZBeginDat>20.04.2015</VZBeginDat>
+                        <VZEndDat>20.04.2015</VZEndDat>
+                        <VZFindetStatt>J</VZFindetStatt>
+                        <VZRhyth>Einzel</VZRhyth>
+                        <VZRhythmus>Einzeltermin</VZRhythmus>
+                        <WoTagKurz />
+                        <VZBem />
+                        <VZParallel />
+                        <k_parallel.sortierung />
+                        <k_wochentag.sort>1</k_wochentag.sort>
+                        <VZPerson>
+                           <VerPersID>4885</VerPersID>
+                           <r_veranstpers.vtid>114515</r_veranstpers.vtid>
+                           <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                           <DozVorname />
+                           <Namensbestandteil />
+                           <r_veranstpers.sort />
+                        </VZPerson>
+                     </VZeit>
+                     <VZeit>
+                        <veransttermin.vtid>114519</veransttermin.vtid>
+                        <veransttermin.rgid />
+                        <VZWoTag>Montag</VZWoTag>
+                        <VZWoTagKurz>Mo</VZWoTagKurz>
+                        <VTSort />
+                        <VZBeginn>11:00</VZBeginn>
+                        <VZBeginnzus />
+                        <VZEnde>12:00</VZEnde>
+                        <VZBeginDat>27.04.2015</VZBeginDat>
+                        <VZEndDat>27.04.2015</VZEndDat>
+                        <VZFindetStatt>J</VZFindetStatt>
+                        <VZRhyth>Einzel</VZRhyth>
+                        <VZRhythmus>Einzeltermin</VZRhythmus>
+                        <WoTagKurz />
+                        <VZBem />
+                        <VZParallel />
+                        <k_parallel.sortierung />
+                        <k_wochentag.sort>1</k_wochentag.sort>
+                        <VZPerson>
+                           <VerPersID>4885</VerPersID>
+                           <r_veranstpers.vtid>114519</r_veranstpers.vtid>
+                           <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                           <DozVorname />
+                           <Namensbestandteil />
+                           <r_veranstpers.sort />
+                        </VZPerson>
+                     </VZeit>
+                     <VZeit>
+                        <veransttermin.vtid>114512</veransttermin.vtid>
+                        <veransttermin.rgid />
+                        <VZWoTag>Dienstag</VZWoTag>
+                        <VZWoTagKurz>Di</VZWoTagKurz>
+                        <VTSort />
+                        <VZBeginn>13:00</VZBeginn>
+                        <VZBeginnzus />
+                        <VZEnde>14:00</VZEnde>
+                        <VZBeginDat>14.04.2015</VZBeginDat>
+                        <VZEndDat>14.04.2015</VZEndDat>
+                        <VZFindetStatt>J</VZFindetStatt>
+                        <VZRhyth>Einzel</VZRhyth>
+                        <VZRhythmus>Einzeltermin</VZRhythmus>
+                        <WoTagKurz />
+                        <VZBem />
+                        <VZParallel />
+                        <k_parallel.sortierung />
+                        <k_wochentag.sort>2</k_wochentag.sort>
+                        <VZPerson>
+                           <VerPersID>4885</VerPersID>
+                           <r_veranstpers.vtid>114512</r_veranstpers.vtid>
+                           <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                           <DozVorname />
+                           <Namensbestandteil />
+                           <r_veranstpers.sort />
+                        </VZPerson>
+                     </VZeit>
+                     <VZeit>
+                        <veransttermin.vtid>114517</veransttermin.vtid>
+                        <veransttermin.rgid />
+                        <VZWoTag>Dienstag</VZWoTag>
+                        <VZWoTagKurz>Di</VZWoTagKurz>
+                        <VTSort />
+                        <VZBeginn>13:00</VZBeginn>
+                        <VZBeginnzus />
+                        <VZEnde>14:00</VZEnde>
+                        <VZBeginDat>21.04.2015</VZBeginDat>
+                        <VZEndDat>21.04.2015</VZEndDat>
+                        <VZFindetStatt>J</VZFindetStatt>
+                        <VZRhyth>Einzel</VZRhyth>
+                        <VZRhythmus>Einzeltermin</VZRhythmus>
+                        <WoTagKurz />
+                        <VZBem />
+                        <VZParallel />
+                        <k_parallel.sortierung />
+                        <k_wochentag.sort>2</k_wochentag.sort>
+                        <VZPerson>
+                           <VerPersID>4885</VerPersID>
+                           <r_veranstpers.vtid>114517</r_veranstpers.vtid>
+                           <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                           <DozVorname />
+                           <Namensbestandteil />
+                           <r_veranstpers.sort />
+                        </VZPerson>
+                     </VZeit>
+                     <VZeit>
+                        <veransttermin.vtid>114514</veransttermin.vtid>
+                        <veransttermin.rgid />
+                        <VZWoTag>Mittwoch</VZWoTag>
+                        <VZWoTagKurz>Mi</VZWoTagKurz>
+                        <VTSort />
+                        <VZBeginn>13:00</VZBeginn>
+                        <VZBeginnzus />
+                        <VZEnde>14:00</VZEnde>
+                        <VZBeginDat>15.04.2015</VZBeginDat>
+                        <VZEndDat>15.04.2015</VZEndDat>
+                        <VZFindetStatt>J</VZFindetStatt>
+                        <VZRhyth>Einzel</VZRhyth>
+                        <VZRhythmus>Einzeltermin</VZRhythmus>
+                        <WoTagKurz />
+                        <VZBem />
+                        <VZParallel />
+                        <k_parallel.sortierung />
+                        <k_wochentag.sort>3</k_wochentag.sort>
+                        <VZPerson>
+                           <VerPersID>4885</VerPersID>
+                           <r_veranstpers.vtid>114514</r_veranstpers.vtid>
+                           <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                           <DozVorname />
+                           <Namensbestandteil />
+                           <r_veranstpers.sort />
+                        </VZPerson>
+                     </VZeit>
+                     <VZeit>
+                        <veransttermin.vtid>114518</veransttermin.vtid>
+                        <veransttermin.rgid />
+                        <VZWoTag>Mittwoch</VZWoTag>
+                        <VZWoTagKurz>Mi</VZWoTagKurz>
+                        <VTSort />
+                        <VZBeginn>13:00</VZBeginn>
+                        <VZBeginnzus />
+                        <VZEnde>14:00</VZEnde>
+                        <VZBeginDat>22.04.2015</VZBeginDat>
+                        <VZEndDat>22.04.2015</VZEndDat>
+                        <VZFindetStatt>J</VZFindetStatt>
+                        <VZRhyth>Einzel</VZRhyth>
+                        <VZRhythmus>Einzeltermin</VZRhythmus>
+                        <WoTagKurz />
+                        <VZBem />
+                        <VZParallel />
+                        <k_parallel.sortierung />
+                        <k_wochentag.sort>3</k_wochentag.sort>
+                        <VZPerson>
+                           <VerPersID>4885</VerPersID>
+                           <r_veranstpers.vtid>114518</r_veranstpers.vtid>
+                           <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                           <DozVorname />
+                           <Namensbestandteil />
+                           <r_veranstpers.sort />
+                        </VZPerson>
+                     </VZeit>
+                     <VZeit>
+                        <veransttermin.vtid>114513</veransttermin.vtid>
+                        <veransttermin.rgid />
+                        <VZWoTag>Mittwoch</VZWoTag>
+                        <VZWoTagKurz>Mi</VZWoTagKurz>
+                        <VTSort />
+                        <VZBeginn>13:00</VZBeginn>
+                        <VZBeginnzus />
+                        <VZEnde>14:00</VZEnde>
+                        <VZBeginDat>29.04.2015</VZBeginDat>
+                        <VZEndDat>29.04.2015</VZEndDat>
+                        <VZFindetStatt>J</VZFindetStatt>
+                        <VZRhyth>Einzel</VZRhyth>
+                        <VZRhythmus>Einzeltermin</VZRhythmus>
+                        <WoTagKurz />
+                        <VZBem />
+                        <VZParallel />
+                        <k_parallel.sortierung />
+                        <k_wochentag.sort>3</k_wochentag.sort>
+                        <VZPerson>
+                           <VerPersID>4885</VerPersID>
+                           <r_veranstpers.vtid>114513</r_veranstpers.vtid>
+                           <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                           <DozVorname />
+                           <Namensbestandteil />
+                           <r_veranstpers.sort />
+                        </VZPerson>
+                     </VZeit>
+                     <VZLehrPerson>
+                        <VPesrID>4885</VPesrID>
+                        <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                        <DozVorname />
+                        <Namensbestandteil />
+                        <r_verpers.veranstid>66498</r_verpers.veranstid>
+                        <r_verpers.sort />
+                     </VZLehrPerson>
+                  </Veranstaltung>
+                  <Veranstaltung>
+                     <VeranstNummer>66613</VeranstNummer>
+                     <VName>Citavi für Juristen</VName>
+                     <VNummer />
+                     <VSWS />
+                     <ECTS />
+                     <MaxTeilnehmer>16</MaxTeilnehmer>
+                     <VTyp>SH</VTyp>
+                     <VDTyp>Schulung</VDTyp>
+                     <VHyper />
+                     <VZSemester>20151</VZSemester>
+                     <druck_vvz>J</druck_vvz>
+                     <r_vvzzuord.sortierung />
+                     <Bemerkung>
+                        <FormattedText>
+                           <p>Raum: UB-Schulungsraum in der Zentralbibliothek (Raum 602)</p>
+                           <p>Online-Anmeldung unter: https://www.uni-regensburg.de/bibliothek/schulung/termine/index.html</p>
+                        </FormattedText>
+                     </Bemerkung>
+                     <Lerninhalte>
+                        <FormattedText>
+                           <p>Citavi ist eine Software zur Literaturverwaltung. Dieser Kurs bietet Ihnen Infos und Tipps zur Nutzung dieses Programms, das Sie durch eine Campuslizenz kostenlos verwenden können.</p>
+                           <p>In diesem Anfängerkurs wird dabei die Arbeit mit den juristischen Fachdatenbanken und der juristische Zitierstil berücksichtigt.</p>
+                        </FormattedText>
+                     </Lerninhalte>
+                     <VZeit>
+                        <veransttermin.vtid>114976</veransttermin.vtid>
+                        <veransttermin.rgid />
+                        <VZWoTag>Mittwoch</VZWoTag>
+                        <VZWoTagKurz>Mi</VZWoTagKurz>
+                        <VTSort />
+                        <VZBeginn>14:00</VZBeginn>
+                        <VZBeginnzus />
+                        <VZEnde>16:00</VZEnde>
+                        <VZBeginDat>22.07.2015</VZBeginDat>
+                        <VZEndDat>22.07.2015</VZEndDat>
+                        <VZFindetStatt>J</VZFindetStatt>
+                        <VZRhyth>Einzel</VZRhyth>
+                        <VZRhythmus>Einzeltermin</VZRhythmus>
+                        <WoTagKurz />
+                        <VZBem />
+                        <VZParallel />
+                        <k_parallel.sortierung />
+                        <k_wochentag.sort>3</k_wochentag.sort>
+                        <VZPerson>
+                           <VerPersID>4885</VerPersID>
+                           <r_veranstpers.vtid>114976</r_veranstpers.vtid>
+                           <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                           <DozVorname />
+                           <Namensbestandteil />
+                           <r_veranstpers.sort />
+                        </VZPerson>
+                     </VZeit>
+                     <VZLehrPerson>
+                        <VPesrID>4885</VPesrID>
+                        <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                        <DozVorname />
+                        <Namensbestandteil />
+                        <r_verpers.veranstid>66613</r_verpers.veranstid>
+                        <r_verpers.sort />
+                     </VZLehrPerson>
+                  </Veranstaltung>
+                  <Veranstaltung>
+                     <VeranstNummer>66514</VeranstNummer>
+                     <VName>Spezialbaustein Datenbankschulung: Recherchieren in beck-online &amp; Rechercheübung</VName>
+                     <VNummer />
+                     <VSWS />
+                     <ECTS />
+                     <MaxTeilnehmer>32</MaxTeilnehmer>
+                     <VTyp>SH</VTyp>
+                     <VDTyp>Schulung</VDTyp>
+                     <VHyper />
+                     <VZSemester>20151</VZSemester>
+                     <druck_vvz>J</druck_vvz>
+                     <r_vvzzuord.sortierung />
+                     <Bemerkung>
+                        <FormattedText>
+                           <p>Raum: UB-Schulungsraum in der Zentralbibliothek (Raum 602)</p>
+                           <p>
+                              Anmeldung: Eintragungslisten vor Lesesaal Recht I
+                              <span />
+                           </p>
+                        </FormattedText>
+                     </Bemerkung>
+                     <Lerninhalte>
+                        <FormattedText>
+                           <p>Beck-Online ist eine umfassende rechtswissenschaftliche Volltextdatenbank mit Inhalten des Beck-Verlages. Neben Gesetzestexten sind grundlegende Standardwerke wie etwa Kommentare, Handbücher und Zeitschriften enthalten. Zudem findet man hier aktuelle Urteile aus der Rechtsprechung.</p>
+                           <p>Die Schulung bietet eine Einführung in die Datenbank  und zeigt die Suche mit logischen Operatoren nach Normen, Zeitschriften und Rechtsprechung. Anhand eines Arbeitsblattes, das in der Schulung bearbeitet und besprochen wird, werden die Kenntnisse vertieft.</p>
+                        </FormattedText>
+                     </Lerninhalte>
+                     <VZeit>
+                        <veransttermin.vtid>114552</veransttermin.vtid>
+                        <veransttermin.rgid />
+                        <VZWoTag>Donnerstag</VZWoTag>
+                        <VZWoTagKurz>Do</VZWoTagKurz>
+                        <VTSort />
+                        <VZBeginn>13:00</VZBeginn>
+                        <VZBeginnzus />
+                        <VZEnde>15:00</VZEnde>
+                        <VZBeginDat>16.07.2015</VZBeginDat>
+                        <VZEndDat>16.07.2015</VZEndDat>
+                        <VZFindetStatt>J</VZFindetStatt>
+                        <VZRhyth>Einzel</VZRhyth>
+                        <VZRhythmus>Einzeltermin</VZRhythmus>
+                        <WoTagKurz />
+                        <VZBem />
+                        <VZParallel />
+                        <k_parallel.sortierung />
+                        <k_wochentag.sort>4</k_wochentag.sort>
+                        <VZPerson>
+                           <VerPersID>4885</VerPersID>
+                           <r_veranstpers.vtid>114552</r_veranstpers.vtid>
+                           <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                           <DozVorname />
+                           <Namensbestandteil />
+                           <r_veranstpers.sort />
+                        </VZPerson>
+                     </VZeit>
+                     <VZLehrPerson>
+                        <VPesrID>4885</VPesrID>
+                        <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                        <DozVorname />
+                        <Namensbestandteil />
+                        <r_verpers.veranstid>66514</r_verpers.veranstid>
+                        <r_verpers.sort />
+                     </VZLehrPerson>
+                  </Veranstaltung>
+                  <Veranstaltung>
+                     <VeranstNummer>66515</VeranstNummer>
+                     <VName>Spezialbaustein Datenbankschulung: Recherchieren in Juris</VName>
+                     <VNummer />
+                     <VSWS />
+                     <ECTS />
+                     <MaxTeilnehmer>32</MaxTeilnehmer>
+                     <VTyp>SH</VTyp>
+                     <VDTyp>Schulung</VDTyp>
+                     <VHyper />
+                     <VZSemester>20151</VZSemester>
+                     <druck_vvz>J</druck_vvz>
+                     <r_vvzzuord.sortierung />
+                     <Bemerkung>
+                        <FormattedText>
+                           <p>Referentin: Frau Bothe von juris GmbH</p>
+                           <p>
+                              Raum: UB-Schulungsraum in der Zentralbibliothek (Raum 602)
+                              <br />
+                              Anmeldung: Eintragungslisten vor Lesesaal Recht I
+                           </p>
+                           <p>
+                              <strong>Bitte beachten: die Veranstaltung findet nur statt, wenn mindestens 10 Personen angemeldet sind.</strong>
+                           </p>
+                        </FormattedText>
+                     </Bemerkung>
+                     <Lerninhalte>
+                        <FormattedText>
+                           <p>Juris stellt die umfassendste Rechtsprechungsdatenbank Deutschland dar. Die Schulung ist für Anfänger und Fortgeschrittene geeignet, da Grundkenntnisse gefestigt werden, insbesondere aber auch die Einrichtung und die Möglichkeiten von „Mein Juris“ erklärt werden.</p>
+                        </FormattedText>
+                     </Lerninhalte>
+                     <VZeit>
+                        <veransttermin.vtid>114553</veransttermin.vtid>
+                        <veransttermin.rgid />
+                        <VZWoTag>Mittwoch</VZWoTag>
+                        <VZWoTagKurz>Mi</VZWoTagKurz>
+                        <VTSort />
+                        <VZBeginn>09:00</VZBeginn>
+                        <VZBeginnzus />
+                        <VZEnde>12:00</VZEnde>
+                        <VZBeginDat>15.07.2015</VZBeginDat>
+                        <VZEndDat>15.07.2015</VZEndDat>
+                        <VZFindetStatt>J</VZFindetStatt>
+                        <VZRhyth>Einzel</VZRhyth>
+                        <VZRhythmus>Einzeltermin</VZRhythmus>
+                        <WoTagKurz />
+                        <VZBem />
+                        <VZParallel />
+                        <k_parallel.sortierung />
+                        <k_wochentag.sort>3</k_wochentag.sort>
+                        <VZPerson>
+                           <VerPersID>4885</VerPersID>
+                           <r_veranstpers.vtid>114553</r_veranstpers.vtid>
+                           <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                           <DozVorname />
+                           <Namensbestandteil />
+                           <r_veranstpers.sort />
+                        </VZPerson>
+                     </VZeit>
+                     <VZLehrPerson>
+                        <VPesrID>4885</VPesrID>
+                        <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                        <DozVorname />
+                        <Namensbestandteil />
+                        <r_verpers.veranstid>66515</r_verpers.veranstid>
+                        <r_verpers.sort />
+                     </VZLehrPerson>
+                  </Veranstaltung>
+               </Ueberschrift>
+            </Vorlesung>
+            <Vorlesung ueebene="2">
+               <Ueberschrift>
+                  <UeBez>Romanistik</UeBez>
+                  <Veranstaltung>
+                     <VeranstNummer>66512</VeranstNummer>
+                     <VName>Bib Advanced Romanistik</VName>
+                     <VNummer />
+                     <VSWS />
+                     <ECTS />
+                     <MaxTeilnehmer>16</MaxTeilnehmer>
+                     <VTyp>SH</VTyp>
+                     <VDTyp>Schulung</VDTyp>
+                     <VHyper />
+                     <VZSemester>20151</VZSemester>
+                     <druck_vvz>J</druck_vvz>
+                     <r_vvzzuord.sortierung />
+                     <Bemerkung>
+                        <FormattedText>
+                           <p>Raum: UB-Schulungsraum in der Zentralbibliothek (Raum 602)</p>
+                           <p>Online-Anmeldung unter: https://www.uni-regensburg.de/bibliothek/schulung/termine/index.html</p>
+                        </FormattedText>
+                     </Bemerkung>
+                     <Lerninhalte>
+                        <FormattedText>
+                           <p>Sie erfahren anhand von Übungen alles Wichtige zur fortgeschrittenen Literatursuche für Ihr Studienfach (Fernleihe, Datenbanken, digitale Angebote).</p>
+                        </FormattedText>
+                     </Lerninhalte>
+                     <VZeit>
+                        <veransttermin.vtid>114549</veransttermin.vtid>
+                        <veransttermin.rgid />
+                        <VZWoTag>Donnerstag</VZWoTag>
+                        <VZWoTagKurz>Do</VZWoTagKurz>
+                        <VTSort />
+                        <VZBeginn>09:00</VZBeginn>
+                        <VZBeginnzus />
+                        <VZEnde>10:00</VZEnde>
+                        <VZBeginDat>16.04.2015</VZBeginDat>
+                        <VZEndDat>16.04.2015</VZEndDat>
+                        <VZFindetStatt>J</VZFindetStatt>
+                        <VZRhyth>Einzel</VZRhyth>
+                        <VZRhythmus>Einzeltermin</VZRhythmus>
+                        <WoTagKurz />
+                        <VZBem />
+                        <VZParallel />
+                        <k_parallel.sortierung />
+                        <k_wochentag.sort>4</k_wochentag.sort>
+                        <VZPerson>
+                           <VerPersID>4885</VerPersID>
+                           <r_veranstpers.vtid>114549</r_veranstpers.vtid>
+                           <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                           <DozVorname />
+                           <Namensbestandteil />
+                           <r_veranstpers.sort />
+                        </VZPerson>
+                     </VZeit>
+                     <VZLehrPerson>
+                        <VPesrID>4885</VPesrID>
+                        <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                        <DozVorname />
+                        <Namensbestandteil />
+                        <r_verpers.veranstid>66512</r_verpers.veranstid>
+                        <r_verpers.sort />
+                     </VZLehrPerson>
+                  </Veranstaltung>
+                  <Veranstaltung>
+                     <VeranstNummer>66497</VeranstNummer>
+                     <VName>Bib for Beginners Romanistik</VName>
+                     <VNummer />
+                     <VSWS />
+                     <ECTS />
+                     <MaxTeilnehmer>25</MaxTeilnehmer>
+                     <VTyp>SH</VTyp>
+                     <VDTyp>Schulung</VDTyp>
+                     <VHyper />
+                     <VZSemester>20151</VZSemester>
+                     <druck_vvz>J</druck_vvz>
+                     <r_vvzzuord.sortierung />
+                     <Bemerkung>
+                        <FormattedText>
+                           <p>Raum: Infozentrum in der Zentralbibliothek</p>
+                           <p>Online-Anmeldung unter: https://www.uni-regensburg.de/bibliothek/schulung/termine/index.html</p>
+                        </FormattedText>
+                     </Bemerkung>
+                     <Lerninhalte>
+                        <FormattedText>
+                           <p>Sie erfahren, wie Sie im Regensburger Katalog Literatur für Ihr Studienfach finden und nutzen können, und lernen zudem auch den Fachlesesaal kennen.</p>
+                        </FormattedText>
+                     </Lerninhalte>
+                     <VZeit>
+                        <veransttermin.vtid>114510</veransttermin.vtid>
+                        <veransttermin.rgid />
+                        <VZWoTag>Mittwoch</VZWoTag>
+                        <VZWoTagKurz>Mi</VZWoTagKurz>
+                        <VTSort />
+                        <VZBeginn>16:00</VZBeginn>
+                        <VZBeginnzus />
+                        <VZEnde>17:00</VZEnde>
+                        <VZBeginDat>08.04.2015</VZBeginDat>
+                        <VZEndDat>08.04.2015</VZEndDat>
+                        <VZFindetStatt>J</VZFindetStatt>
+                        <VZRhyth>Einzel</VZRhyth>
+                        <VZRhythmus>Einzeltermin</VZRhythmus>
+                        <WoTagKurz />
+                        <VZBem />
+                        <VZParallel />
+                        <k_parallel.sortierung />
+                        <k_wochentag.sort>3</k_wochentag.sort>
+                        <VZPerson>
+                           <VerPersID>4885</VerPersID>
+                           <r_veranstpers.vtid>114510</r_veranstpers.vtid>
+                           <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                           <DozVorname />
+                           <Namensbestandteil />
+                           <r_veranstpers.sort />
+                        </VZPerson>
+                     </VZeit>
+                     <VZLehrPerson>
+                        <VPesrID>4885</VPesrID>
+                        <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                        <DozVorname />
+                        <Namensbestandteil />
+                        <r_verpers.veranstid>66497</r_verpers.veranstid>
+                        <r_verpers.sort />
+                     </VZLehrPerson>
+                  </Veranstaltung>
+               </Ueberschrift>
+            </Vorlesung>
+            <Vorlesung ueebene="2">
+               <Ueberschrift>
+                  <UeBez>Wirtschaftswissenschaften</UeBez>
+                  <Veranstaltung>
+                     <VeranstNummer>66511</VeranstNummer>
+                     <VName>Bib Advanced Wirtschaftswissenschaften</VName>
+                     <VNummer />
+                     <VSWS />
+                     <ECTS />
+                     <MaxTeilnehmer>25</MaxTeilnehmer>
+                     <VTyp>SH</VTyp>
+                     <VDTyp>Schulung</VDTyp>
+                     <VHyper />
+                     <VZSemester>20151</VZSemester>
+                     <druck_vvz>J</druck_vvz>
+                     <r_vvzzuord.sortierung />
+                     <Bemerkung>
+                        <FormattedText>
+                           <p>Raum: Infozentrum in der Zentralbibliothek</p>
+                           <p>Online-Anmeldung unter: https://www.uni-regensburg.de/bibliothek/schulung/termine/index.html</p>
+                        </FormattedText>
+                     </Bemerkung>
+                     <Lerninhalte>
+                        <FormattedText>
+                           <p>Sie erfahren anhand von Übungen alles Wichtige zur fortgeschrittenen Literatursuche für Ihr Studienfach (Fernleihe, Datenbanken, digitale Angebote).</p>
+                        </FormattedText>
+                     </Lerninhalte>
+                     <VZeit>
+                        <veransttermin.vtid>114547</veransttermin.vtid>
+                        <veransttermin.rgid />
+                        <VZWoTag>Dienstag</VZWoTag>
+                        <VZWoTagKurz>Di</VZWoTagKurz>
+                        <VTSort />
+                        <VZBeginn>10:00</VZBeginn>
+                        <VZBeginnzus />
+                        <VZEnde>11:15</VZEnde>
+                        <VZBeginDat>05.05.2015</VZBeginDat>
+                        <VZEndDat>05.05.2015</VZEndDat>
+                        <VZFindetStatt>J</VZFindetStatt>
+                        <VZRhyth>Einzel</VZRhyth>
+                        <VZRhythmus>Einzeltermin</VZRhythmus>
+                        <WoTagKurz />
+                        <VZBem />
+                        <VZParallel />
+                        <k_parallel.sortierung />
+                        <k_wochentag.sort>2</k_wochentag.sort>
+                        <VZPerson>
+                           <VerPersID>4885</VerPersID>
+                           <r_veranstpers.vtid>114547</r_veranstpers.vtid>
+                           <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                           <DozVorname />
+                           <Namensbestandteil />
+                           <r_veranstpers.sort />
+                        </VZPerson>
+                     </VZeit>
+                     <VZeit>
+                        <veransttermin.vtid>114548</veransttermin.vtid>
+                        <veransttermin.rgid />
+                        <VZWoTag>Donnerstag</VZWoTag>
+                        <VZWoTagKurz>Do</VZWoTagKurz>
+                        <VTSort />
+                        <VZBeginn>10:00</VZBeginn>
+                        <VZBeginnzus />
+                        <VZEnde>11:15</VZEnde>
+                        <VZBeginDat>07.05.2015</VZBeginDat>
+                        <VZEndDat>07.05.2015</VZEndDat>
+                        <VZFindetStatt>J</VZFindetStatt>
+                        <VZRhyth>Einzel</VZRhyth>
+                        <VZRhythmus>Einzeltermin</VZRhythmus>
+                        <WoTagKurz />
+                        <VZBem />
+                        <VZParallel />
+                        <k_parallel.sortierung />
+                        <k_wochentag.sort>4</k_wochentag.sort>
+                        <VZPerson>
+                           <VerPersID>4885</VerPersID>
+                           <r_veranstpers.vtid>114548</r_veranstpers.vtid>
+                           <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                           <DozVorname />
+                           <Namensbestandteil />
+                           <r_veranstpers.sort />
+                        </VZPerson>
+                     </VZeit>
+                     <VZLehrPerson>
+                        <VPesrID>4885</VPesrID>
+                        <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                        <DozVorname />
+                        <Namensbestandteil />
+                        <r_verpers.veranstid>66511</r_verpers.veranstid>
+                        <r_verpers.sort />
+                     </VZLehrPerson>
+                  </Veranstaltung>
+                  <Veranstaltung>
+                     <VeranstNummer>66502</VeranstNummer>
+                     <VName>Bib for Beginners Wirtschaftswissenschaften</VName>
+                     <VNummer />
+                     <VSWS />
+                     <ECTS />
+                     <MaxTeilnehmer>25</MaxTeilnehmer>
+                     <VTyp>SH</VTyp>
+                     <VDTyp>Schulung</VDTyp>
+                     <VHyper />
+                     <VZSemester>20151</VZSemester>
+                     <druck_vvz>J</druck_vvz>
+                     <r_vvzzuord.sortierung />
+                     <Bemerkung>
+                        <FormattedText>
+                           <p>Raum: Infozentrum in der Zentralbibliothek</p>
+                           <p>Online-Anmeldung unter: https://www.uni-regensburg.de/bibliothek/schulung/termine/index.html</p>
+                        </FormattedText>
+                     </Bemerkung>
+                     <Lerninhalte>
+                        <FormattedText>
+                           <p>Sie erfahren, wie Sie im Regensburger Katalog Literatur für Ihr Studienfach finden und nutzen können, und lernen zudem auch den Fachlesesaal kennen.</p>
+                        </FormattedText>
+                     </Lerninhalte>
+                     <VZeit>
+                        <veransttermin.vtid>114527</veransttermin.vtid>
+                        <veransttermin.rgid />
+                        <VZWoTag>Montag</VZWoTag>
+                        <VZWoTagKurz>Mo</VZWoTagKurz>
+                        <VTSort />
+                        <VZBeginn>10:00</VZBeginn>
+                        <VZBeginnzus />
+                        <VZEnde>11:00</VZEnde>
+                        <VZBeginDat>04.05.2015</VZBeginDat>
+                        <VZEndDat>04.05.2015</VZEndDat>
+                        <VZFindetStatt>J</VZFindetStatt>
+                        <VZRhyth>Einzel</VZRhyth>
+                        <VZRhythmus>Einzeltermin</VZRhythmus>
+                        <WoTagKurz />
+                        <VZBem />
+                        <VZParallel />
+                        <k_parallel.sortierung />
+                        <k_wochentag.sort>1</k_wochentag.sort>
+                        <VZPerson>
+                           <VerPersID>4885</VerPersID>
+                           <r_veranstpers.vtid>114527</r_veranstpers.vtid>
+                           <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                           <DozVorname />
+                           <Namensbestandteil />
+                           <r_veranstpers.sort />
+                        </VZPerson>
+                     </VZeit>
+                     <VZeit>
+                        <veransttermin.vtid>114528</veransttermin.vtid>
+                        <veransttermin.rgid />
+                        <VZWoTag>Mittwoch</VZWoTag>
+                        <VZWoTagKurz>Mi</VZWoTagKurz>
+                        <VTSort />
+                        <VZBeginn>10:00</VZBeginn>
+                        <VZBeginnzus />
+                        <VZEnde>11:00</VZEnde>
+                        <VZBeginDat>06.05.2015</VZBeginDat>
+                        <VZEndDat>06.05.2015</VZEndDat>
+                        <VZFindetStatt>J</VZFindetStatt>
+                        <VZRhyth>Einzel</VZRhyth>
+                        <VZRhythmus>Einzeltermin</VZRhythmus>
+                        <WoTagKurz />
+                        <VZBem />
+                        <VZParallel />
+                        <k_parallel.sortierung />
+                        <k_wochentag.sort>3</k_wochentag.sort>
+                        <VZPerson>
+                           <VerPersID>4885</VerPersID>
+                           <r_veranstpers.vtid>114528</r_veranstpers.vtid>
+                           <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                           <DozVorname />
+                           <Namensbestandteil />
+                           <r_veranstpers.sort />
+                        </VZPerson>
+                     </VZeit>
+                     <VZLehrPerson>
+                        <VPesrID>4885</VPesrID>
+                        <DozName>Schulungsteam der Universitätsbibliothek</DozName>
+                        <DozVorname />
+                        <Namensbestandteil />
+                        <r_verpers.veranstid>66502</r_verpers.veranstid>
+                        <r_verpers.sort />
+                     </VZLehrPerson>
+                  </Veranstaltung>
+               </Ueberschrift>
+            </Vorlesung>
+         </Vorlesung>
+      </Tree>
+   </Vorlesungsverzeichnis>
+   <PageFormat>
+      <margin-left>1.5cm</margin-left>
+      <margin-right>1.5cm</margin-right>
+      <page-width>21.5cm</page-width>
+      <margin-bottom>1.0cm</margin-bottom>
+      <margin-top>1.5cm</margin-top>
+      <page-height>29.7cm</page-height>
+      <factor />
+   </PageFormat>
+</publishDetail>
+
