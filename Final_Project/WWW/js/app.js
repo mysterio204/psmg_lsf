@@ -10,7 +10,7 @@ var that = {},
  		_initUI();
  		_registerListeners();
     
-  console.log("meikel stinkt");
+        console.log(d3);
 
 
     
@@ -24,8 +24,7 @@ var that = {},
 
 	_initUI = function(){
 		$(document).ready(function(){
-     
-      $(".button-collapse").sideNav();
+            $(".button-collapse").sideNav();
      
     });
 	
