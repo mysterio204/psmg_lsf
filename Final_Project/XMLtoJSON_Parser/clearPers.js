@@ -11,6 +11,7 @@
             function clearJSON(data){
                     var clearedJSON = data.publishDetail.VVZPublish;
                     var  tree = clearedJSON[0].Einrichtungen[0].Tree;
+               
             writeJSON(tree, data)
 
              //delete data.publishDetail.global[1];
@@ -27,11 +28,11 @@
                 });
 
 
-                    fs.writeFile("PersonenDaten.json", JSON.stringify(raw), function(err){
-                    if(err){
-                        return console.log(err);
-                    }
-                });
+//                    fs.writeFile("PersonenDaten.json", JSON.stringify(raw), function(err){
+//                    if(err){
+//                        return console.log(err);
+//                    }
+//                });
                 console.log("file saved");
             }
 
@@ -45,7 +46,7 @@
                     parser.parseString(data, function (err, result) {
 
 
-                       clearJSON(result);
+                      // clearJSON(result);
 
 
 
