@@ -67,7 +67,10 @@
         
          server.use(cors());
         server.get("/api/get/fak", function (req, res) {
-            var fak = jsonPath.eval(peopledata, "$...Einrichtung[*]");
+            var fak = jsonPath.eval(peopledata, "$...Einrichtung[*].EinBez");
+            var l = Object.keys(fak).length;
+            console.log("Es gibt " + l + " Lehrstühle an der Universität Regensburg");
+
             res.send(JSON.stringify(fak));
         });
         

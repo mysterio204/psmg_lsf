@@ -10,7 +10,6 @@ var that = {},
  		_initUI();
  		_registerListeners();
     
-        console.log(d3);
 
 
     
