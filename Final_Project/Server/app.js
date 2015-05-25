@@ -8,6 +8,15 @@
     var fs = require("fs");
     var cors = require("cors");
     var csvtojson = require("csvtojson");
+    var jsonPath = require('JSONPath');
+    
+    
+    
+    /* JSONPath Object */
+    
+    
+    
+   
 
     /* http server */
     var server = express();
@@ -30,10 +39,15 @@
      */
     function initData() {
           fs.readFile(PEOPLE, function(err, data) {
+              
+              
                         
               peopledata = JSON.parse(data);
-              console.log(peopledata);
-              console.log("Read file: success");
+            console.log("server status : online ");
+            console.log("Read file: success");
+            
+              
+    
              
         });
             
@@ -50,6 +64,13 @@
             console.log(typeof JSON.stringify(peopledata));
             res.send(JSON.stringify(peopledata));
         });
+        
+         server.use(cors());
+        server.get("/api/get/fak", function (req, res) {
+            var fak = jsonPath.eval(peopledata, "$...Einrichtung[*]");
+            res.send(JSON.stringify(fak));
+        });
+        
 //        server.get("/api/get/meals/*", function (req, res) {
 //            var requestedDay = req.params[0];
 //            res.send({
