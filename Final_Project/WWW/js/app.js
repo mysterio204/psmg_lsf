@@ -29,14 +29,18 @@ var that = {},
     });
 	
 	
-	},
+	};
+    
+    
+
+
 
 
 
 
 	
 	
-	_registerListeners = function(){
+	var _registerListeners = function(){
    
 	
 
