@@ -6,6 +6,7 @@
    
             var fs = require('fs'),
             xml2js = require('xml2js');
+            var XML = require('index');
 
 
             /* This Function clears out the JSON - Data from all not necessary information 
@@ -50,11 +51,13 @@
 
                     var parser = new xml2js.Parser();
                     fs.readFile(__dirname + '/PersRaw.xml', function(err, data) {
-                    parser.parseString(data, function (err, result) {
-
-                       clearJSON(result);
-
-            });
+//                    parser.parseString(data, function (err, result) {
+//
+//                       clearJSON(result);
+//
+//            });
+                        
+                        
         });
 
       }
