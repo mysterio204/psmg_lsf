@@ -12,6 +12,7 @@
     
     
     
+    
     /* JSONPath Object */
     
     
@@ -61,19 +62,16 @@
     function start() {
         server.use(cors());
         server.get("/api/get/people", function (req, res) {
-            console.log(typeof JSON.stringify(peopledata));
             res.send(JSON.stringify(peopledata));
         });
         
-         server.use(cors());
+        server.use(cors());
         server.get("/api/get/fak", function (req, res) {
-            var fak = jsonPath.eval(peopledata, "$...Einrichtung[*].EinBez");
-            var l = Object.keys(fak).length;
-            console.log("Es gibt " + l + " Lehrstühle an der Universität Regensburg");
-
+            var fak = jsonPath.eval(peopledata, "$...Einrichtung[*].EinBez.[0]");
             res.send(JSON.stringify(fak));
         });
-        
+    
+    
 //        server.get("/api/get/meals/*", function (req, res) {
 //            var requestedDay = req.params[0];
 //            res.send({

@@ -3,10 +3,9 @@
     /* eslint-env node */
 
     /* required node modules */
-   
+           
             var fs = require('fs'),
             xml2js = require('xml2js');
-
 
             /* This Function clears out the JSON - Data from all not necessary information 
                It then parses the cleared JSON-File and the RAW-JSON-File to the "writeJSON" method   */
@@ -50,11 +49,11 @@
 
                     var parser = new xml2js.Parser();
                     fs.readFile(__dirname + '/PersRaw.xml', function(err, data) {
-                    parser.parseString(data, function (err, result) {
-
+                        parser.ParseString(data, function(err, result){
+  
                        clearJSON(result);
-
             });
+       
         });
 
       }
