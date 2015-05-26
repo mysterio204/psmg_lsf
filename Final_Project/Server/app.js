@@ -28,9 +28,11 @@
     /* configuration */
     var PORT = 3333;
     var WWW = path.join(__dirname, "./www/");
-    var DATA = path.join(__dirname, "./data/");
-    var PEOPLE = path.join(DATA, "PersTree.json");
-    var EVENTS = path.join(DATA, "vv1.json");
+    var PDATA = path.join(__dirname, "./parsedPD/");
+    var VDATA = path.join(__dirname, "./parsedVV/");
+    
+    var PEOPLE = path.join(PDATA, "PersonenDaten.json");
+    var EVENTS = path.join(VDATA, "vv1.json");
     
     var peopledata;
 
@@ -67,7 +69,7 @@
         
         server.use(cors());
         server.get("/api/get/fak", function (req, res) {
-            var fak = jsonPath.eval(peopledata, "$...Einrichtung[*].EinBez.[0]");
+            var fak = jsonPath.eval(peopledata, "$.Ueberschrift[*].Einrichtung.Funktion");
             res.send(JSON.stringify(fak));
         });
     
