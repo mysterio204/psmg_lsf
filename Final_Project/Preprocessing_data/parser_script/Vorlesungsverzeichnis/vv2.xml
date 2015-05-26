@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<publishDetail>
+   <global>
+      <Param0>SoSe 2015</Param0>
+      <Param1>/QIS/images/</Param1>
+   </global>
+   <Vorlesungsverzeichnis>
+      <UeBez>Veranstaltungen des Akademischen Auslandsamts</UeBez>
+      <Semester>
+         <Kurztext>SoSe 2015</Kurztext>
+      </Semester>
+      <VeranstaltungErsteEbene>
+         <VeranstNummer>70522</VeranstNummer>
+         <VName>Ambassador Info-Veranstaltung ERASMUS</VName>
+         <VNummer />
+         <VSWS />
+         <ECTS />
+         <MaxTeilnehmer />
+         <VTyp>nicht ange</VTyp>
+         <VDTyp>nicht angegeben</VDTyp>
+         <VHyper />
+         <VZSemester>20151</VZSemester>
+         <druck_vvz>J</druck_vvz>
+         <r_vvzzuord.sortierung />
+         <ueberschrift.ueid>21744</ueberschrift.ueid>
+         <VZeit>
+            <veransttermin.vtid>121630</veransttermin.vtid>
+            <veransttermin.rgid />
+            <VZWoTag>Dienstag</VZWoTag>
+            <VZWoTagKurz>Di</VZWoTagKurz>
+            <VTSort />
+            <VZBeginn>18:00</VZBeginn>
+            <VZBeginnzus>s.t.</VZBeginnzus>
+            <VZEnde>20:00</VZEnde>
+            <VZBeginDat>09.06.2015</VZBeginDat>
+            <VZEndDat>09.06.2015</VZEndDat>
+            <VZFindetStatt />
+            <VZRhyth>Einzel</VZRhyth>
+            <VZRhythmus>Einzeltermin</VZRhythmus>
+            <WoTagKurz />
+            <VZBem />
+            <VZParallel />
+            <k_parallel.sortierung />
+            <k_wochentag.sort>2</k_wochentag.sort>
+            <VZPerson>
+               <VerPersID>4182</VerPersID>
+               <r_veranstpers.vtid>121630</r_veranstpers.vtid>
+               <DozName>Auslandsamt</DozName>
+               <DozVorname>Akademisches</DozVorname>
+               <Namensbestandteil />
+               <r_veranstpers.sort />
+            </VZPerson>
+         </VZeit>
+      </VeranstaltungErsteEbene>
+      <VeranstaltungErsteEbene>
+         <VeranstNummer>63114</VeranstNummer>
+         <VName>Ausreise Veranstaltung: Austauschprogramme nach Asien</VName>
+         <VNummer />
+         <VSWS />
+         <ECTS />
+         <MaxTeilnehmer>40</MaxTeilnehmer>
+         <VTyp>Seminar</VTyp>
+         <VDTyp>Seminar</VDTyp>
+         <VHyper>http://www.uni-regensburg.de/international/ausland-studieren/austauschprogramme-uebersee/index.html</VHyper>
+         <VZSemester>20151</VZSemester>
+         <druck_vvz>J</druck_vvz>
+         <r_vvzzuord.sortierung />
+         <ueberschrift.ueid>21744</ueberschrift.ueid>
+         <Kommentar>
+            <FormattedText>
+               <p>Die Ausreise Veranstaltung für Austauschprogramme nach Asien richtet sich an Studierende, welche im akademischen Jahr 2015/16 ein Auslandsstudium an einer asiatischen Partneruniversität der UR antreten.</p>
+               <p>Die Veranstaltung ist für die Teilnehmer an den Austauschprogrammen der UR mit Asien verpflichtend und erläutert wichtige Formalitäten.</p>
+            </FormattedText>
+         </Kommentar>
+         <Voraussetzung>
+            <FormattedText>
+               <p>Zusage über die Teilnahme an einem Austauschprogramm der UR mit Asien.</p>
+            </FormattedText>
+         </Voraussetzung>
+         <Kurzkommentar>
+            <FormattedText>
+               <p>Die Ausreise Veranstaltung für Austauschprogramme nach Asien richtet sich an Studierende, welche im akademischen Jahr 2015/16 ein Auslandsstudium an einer asiatischen Partneruniversität der UR antreten.</p>
+               <p>Die Veranstaltung ist für die Teilnehmer an den Austauschprogrammen der UR mit Asien verpflichtend und erläutert wichtige Formalitäten.</p>
+               <p> </p>
+            </FormattedText>
+         </Kurzkommentar>
+         <Zielgruppe>
+            <FormattedText>
+               <p>Studierende, die im akademischen Jahr 2015/16 ein Auslandsstudium an einer asiatischen Partnerhochschule der UR antreten.</p>
+            </FormattedText>
+         </Zielgruppe>
+         <VZeit>
+            <veransttermin.vtid>107717</veransttermin.vtid>
+            <veransttermin.rgid>46</veransttermin.rgid>
+            <VZWoTag>Dienstag</VZWoTag>
+            <VZWoTagKurz>Di</VZWoTagKurz>
+            <VTSort />
+            <VZBeginn>18:00</VZBeginn>
+            <VZBeginnzus>s.t.</VZBeginnzus>
+            <VZEnde>20:00</VZEnde>
+            <VZBeginDat>28.04.2015</VZBeginDat>
+            <VZEndDat>28.04.2015</VZEndDat>
+            <VZFindetStatt>J</VZFindetStatt>
+            <VZRhyth>Einzel</VZRhyth>
+            <VZRhythmus>Einzeltermin</VZRhythmus>
+            <WoTagKurz />
+            <VZBem />
+            <VZParallel />
+            <k_parallel.sortierung />
+            <k_wochentag.sort>2</k_wochentag.sort>
+            <VZRaum>
+               <VZRaumName>H 3</VZRaumName>
+               <RaumLangText>H 3</RaumLangText>
+               <VZRaumForm>Hör-/Lehrsaal ansteigend ohne Experimentierbühne</VZRaumForm>
+               <GebKTxt />
+               <GebDTxt>Zentrales Hörsaalgebäude, ZHGB</GebDTxt>
+            </VZRaum>
+         </VZeit>
+         <VZLehrPerson>
+            <VPesrID>4182</VPesrID>
+            <DozName>Auslandsamt</DozName>
+            <DozVorname>Akademisches</DozVorname>
+            <Namensbestandteil />
+            <r_verpers.veranstid>63114</r_verpers.veranstid>
+            <r_verpers.sort />
+         </VZLehrPerson>
+      </VeranstaltungErsteEbene>
+      <VeranstaltungErsteEbene>
+         <VeranstNummer>63113</VeranstNummer>
+         <VName>Ausreise Veranstaltung: Austauschprogramme nach Lateinamerika</VName>
+         <VNummer />
+         <VSWS />
+         <ECTS />
+         <MaxTeilnehmer>40</MaxTeilnehmer>
+         <VTyp>-</VTyp>
+         <VDTyp>-</VDTyp>
+         <VHyper>http://www.uni-regensburg.de/international/ausland-studieren/austauschprogramme-uebersee/index.html</VHyper>
+         <VZSemester>20151</VZSemester>
+         <druck_vvz>J</druck_vvz>
+         <r_vvzzuord.sortierung />
+         <ueberschrift.ueid>21744</ueberschrift.ueid>
+         <Kommentar>
+            <FormattedText>
+               <p>Die Ausreise Veranstaltung "Ausreise Lateinamerika" richtet sich an Studierende, welche im akademischen Jahr 2015/16 ein Auslandsstudium an einer lateinamerikanischen Partneruniversität der UR  absolvieren.</p>
+               <p>Die Veranstaltung ist für die Teilnehmer an den Austauschprogrammen mit Lateinamerika verpflichtend und erläutert wichtige Formalitäten.</p>
+            </FormattedText>
+         </Kommentar>
+         <Voraussetzung>
+            <FormattedText>
+               <p>
+                  Zusage zur Teilnahme an einem Austauschprogramm der UR mit einer Partneruniversität in Lateinamerika.
+                  <span />
+               </p>
+            </FormattedText>
+         </Voraussetzung>
+         <Kurzkommentar>
+            <FormattedText>
+               <p />
+               <p>Die Ausreise Veranstaltung "Ausreise Lateinamerika" richtet sich an Studierende, welche im akademischen Jahr 2015/16 ein Auslandsstudium an einer lateinamerikanischen Partneruniversität der UR  absolvieren.</p>
+               <p />
+               <p>Die Veranstaltung ist für die Teilnehmer an den Austauschprogrammen mit Lateinamerika verpflichtend und erläutert wichtige Formalitäten.</p>
+               <p />
+            </FormattedText>
+         </Kurzkommentar>
+         <Zielgruppe>
+            <FormattedText>
+               <p>
+                  Studierende, die an einem Austauschprogramm
+                  <span>
+                     der UR nach Lateinamerika teilnehmen.
+                     <br />
+                  </span>
+               </p>
+            </FormattedText>
+         </Zielgruppe>
+         <VZeit>
+            <veransttermin.vtid>107716</veransttermin.vtid>
+            <veransttermin.rgid>46</veransttermin.rgid>
+            <VZWoTag>Donnerstag</VZWoTag>
+            <VZWoTagKurz>Do</VZWoTagKurz>
+            <VTSort />
+            <VZBeginn>18:00</VZBeginn>
+            <VZBeginnzus>s.t.</VZBeginnzus>
+            <VZEnde>20:00</VZEnde>
+            <VZBeginDat>23.04.2015</VZBeginDat>
+            <VZEndDat>23.04.2015</VZEndDat>
+            <VZFindetStatt>J</VZFindetStatt>
+            <VZRhyth>Einzel</VZRhyth>
+            <VZRhythmus>Einzeltermin</VZRhythmus>
+            <WoTagKurz />
+            <VZBem />
+            <VZParallel />
+            <k_parallel.sortierung />
+            <k_wochentag.sort>4</k_wochentag.sort>
+            <VZRaum>
+               <VZRaumName>H 3</VZRaumName>
+               <RaumLangText>H 3</RaumLangText>
+               <VZRaumForm>Hör-/Lehrsaal ansteigend ohne Experimentierbühne</VZRaumForm>
+               <GebKTxt />
+               <GebDTxt>Zentrales Hörsaalgebäude, ZHGB</GebDTxt>
+            </VZRaum>
+         </VZeit>
+      </VeranstaltungErsteEbene>
+      <VeranstaltungErsteEbene>
+         <VeranstNummer>63112</VeranstNummer>
+         <VName>Ausreise Veranstaltung: Austauschprogramme nach Nordamerika</VName>
+         <VNummer />
+         <VSWS />
+         <ECTS />
+         <MaxTeilnehmer>100</MaxTeilnehmer>
+         <VTyp>-</VTyp>
+         <VDTyp>-</VDTyp>
+         <VHyper>http://www.uni-regensburg.de/international/ausland-studieren/austauschprogramme-uebersee/index.html</VHyper>
+         <VZSemester>20151</VZSemester>
+         <druck_vvz>J</druck_vvz>
+         <r_vvzzuord.sortierung />
+         <ueberschrift.ueid>21744</ueberschrift.ueid>
+         <Kommentar>
+            <FormattedText>
+               <p>Die Ausreise Veranstaltung für Austauschprogramme nach Nordamerika richtet sich an Studierende, welche im akademischen Jahr 2015/16 ein Auslandsstudium im Rahmen eines Austauschprogramms der UR an einer nordamerikanischen Partnerhochschule antreten.</p>
+               <p>Die Veranstaltung ist für die Teilnehmer an den Austauschprogrammen nach Nordamerika verpflichtend und erläutert wichtige Formalitäten.</p>
+            </FormattedText>
+         </Kommentar>
+         <Voraussetzung>
+            <FormattedText>
+               <p>Zusage zur Teilnahme an einem Austauschprogramm der UR nach Nordamerika.</p>
+            </FormattedText>
+         </Voraussetzung>
+         <Kurzkommentar>
+            <FormattedText>
+               <p>Die Ausreise Veranstaltung für Austauschprogramme nach Nordamerika richtet sich an Studierende, welche im akademischen Jahr 2015/16 ein Auslandsstudium im Rahmen eines Austauschprogramms der UR an einer nordamerikanischen Partnerhochschule antreten.</p>
+               <p>Die Veranstaltung ist für die Teilnehmer an den Austauschprogrammen nach Nordamerika verpflichtend und erläutert wichtige Formalitäten.</p>
+            </FormattedText>
+         </Kurzkommentar>
+         <Zielgruppe>
+            <FormattedText>
+               <p>Studierende, die im akademischen Jahr 2015/16 an einem Austauschprogramm der UR nach Nordamerika teilnehmen.</p>
+            </FormattedText>
+         </Zielgruppe>
+         <VZeit>
+            <veransttermin.vtid>107715</veransttermin.vtid>
+            <veransttermin.rgid>46</veransttermin.rgid>
+            <VZWoTag>Dienstag</VZWoTag>
+            <VZWoTagKurz>Di</VZWoTagKurz>
+            <VTSort />
+            <VZBeginn>18:00</VZBeginn>
+            <VZBeginnzus>s.t.</VZBeginnzus>
+            <VZEnde>20:00</VZEnde>
+            <VZBeginDat>21.04.2015</VZBeginDat>
+            <VZEndDat>21.04.2015</VZEndDat>
+            <VZFindetStatt>J</VZFindetStatt>
+            <VZRhyth>Einzel</VZRhyth>
+            <VZRhythmus>Einzeltermin</VZRhythmus>
+            <WoTagKurz />
+            <VZBem />
+            <VZParallel />
+            <k_parallel.sortierung />
+            <k_wochentag.sort>2</k_wochentag.sort>
+            <VZRaum>
+               <VZRaumName>H 3</VZRaumName>
+               <RaumLangText>H 3</RaumLangText>
+               <VZRaumForm>Hör-/Lehrsaal ansteigend ohne Experimentierbühne</VZRaumForm>
+               <GebKTxt />
+               <GebDTxt>Zentrales Hörsaalgebäude, ZHGB</GebDTxt>
+            </VZRaum>
+         </VZeit>
+         <VZLehrPerson>
+            <VPesrID>4182</VPesrID>
+            <DozName>Auslandsamt</DozName>
+            <DozVorname>Akademisches</DozVorname>
+            <Namensbestandteil />
+            <r_verpers.veranstid>63112</r_verpers.veranstid>
+            <r_verpers.sort />
+         </VZLehrPerson>
+      </VeranstaltungErsteEbene>
+      <VeranstaltungErsteEbene>
+         <VeranstNummer>63592</VeranstNummer>
+         <VName>Infoveranstaltung - Austauschprogramme nach Nordamerika</VName>
+         <VNummer />
+         <VSWS />
+         <ECTS />
+         <MaxTeilnehmer>150</MaxTeilnehmer>
+         <VTyp>-</VTyp>
+         <VDTyp>-</VDTyp>
+         <VHyper>http://www.uni-regensburg.de/international/ausland-studieren/austauschprogramme-uebersee/index.html</VHyper>
+         <VZSemester>20151</VZSemester>
+         <druck_vvz>J</druck_vvz>
+         <r_vvzzuord.sortierung />
+         <ueberschrift.ueid>21744</ueberschrift.ueid>
+         <Kommentar>
+            <FormattedText>
+               <p>Diese Veranstaltung richtet sich an Studierende aller Fächer, die an einem Austauschprogramm der UR mit Nordamerika teilnehmen möchten. Vorgestellt werden die verschiedenen Partneruniversitäten und Austauschprogramme, der Bewerbungsablauf, sowie Stipendien- und Finanzierungsmöglichkeiten.</p>
+               <p>Besonders Studierende, die im akademischen Jahr 16/17 einen Studienaufenthalt in Nordamerika anstreben, sollten diese Veranstaltung besuchen.</p>
+            </FormattedText>
+         </Kommentar>
+         <Voraussetzung>
+            <FormattedText>
+               <p>Studierende aller Fächer ab dem ersten Semester</p>
+            </FormattedText>
+         </Voraussetzung>
+         <Kurzkommentar>
+            <FormattedText>
+               <p>Diese Veranstaltung richtet sich an Studierende aller Fächer, die an einem Austauschprogramm nach Nordamerika teilnehmen möchten.</p>
+            </FormattedText>
+         </Kurzkommentar>
+         <Zielgruppe>
+            <FormattedText>
+               <p>Studierende aller Fächer ab dem ersten Semester</p>
+            </FormattedText>
+         </Zielgruppe>
+         <VZeit>
+            <veransttermin.vtid>109122</veransttermin.vtid>
+            <veransttermin.rgid>46</veransttermin.rgid>
+            <VZWoTag>Dienstag</VZWoTag>
+            <VZWoTagKurz>Di</VZWoTagKurz>
+            <VTSort />
+            <VZBeginn>18:00</VZBeginn>
+            <VZBeginnzus>s.t.</VZBeginnzus>
+            <VZEnde>20:00</VZEnde>
+            <VZBeginDat>19.05.2015</VZBeginDat>
+            <VZEndDat>19.05.2015</VZEndDat>
+            <VZFindetStatt>J</VZFindetStatt>
+            <VZRhyth>Einzel</VZRhyth>
+            <VZRhythmus>Einzeltermin</VZRhythmus>
+            <WoTagKurz />
+            <VZBem />
+            <VZParallel />
+            <k_parallel.sortierung />
+            <k_wochentag.sort>2</k_wochentag.sort>
+            <VZRaum>
+               <VZRaumName>H 3</VZRaumName>
+               <RaumLangText>H 3</RaumLangText>
+               <VZRaumForm>Hör-/Lehrsaal ansteigend ohne Experimentierbühne</VZRaumForm>
+               <GebKTxt />
+               <GebDTxt>Zentrales Hörsaalgebäude, ZHGB</GebDTxt>
+            </VZRaum>
+         </VZeit>
+         <VZLehrPerson>
+            <VPesrID>3969</VPesrID>
+            <DozName>Sedlmeier</DozName>
+            <DozVorname>Marianne</DozVorname>
+            <Namensbestandteil />
+            <r_verpers.veranstid>63592</r_verpers.veranstid>
+            <r_verpers.sort />
+         </VZLehrPerson>
+      </VeranstaltungErsteEbene>
+      <VeranstaltungErsteEbene>
+         <VeranstNummer>63489</VeranstNummer>
+         <VName>Startklar Sommersemester 2015</VName>
+         <VNummer />
+         <VSWS />
+         <ECTS />
+         <MaxTeilnehmer />
+         <VTyp>Seminar</VTyp>
+         <VDTyp>Seminar</VDTyp>
+         <VHyper />
+         <VZSemester>20151</VZSemester>
+         <druck_vvz>J</druck_vvz>
+         <r_vvzzuord.sortierung />
+         <ueberschrift.ueid>21744</ueberschrift.ueid>
+         <VZeit>
+            <veransttermin.vtid>108900</veransttermin.vtid>
+            <veransttermin.rgid>2598</veransttermin.rgid>
+            <VZWoTag>Mittwoch</VZWoTag>
+            <VZWoTagKurz>Mi</VZWoTagKurz>
+            <VTSort />
+            <VZBeginn>08:00</VZBeginn>
+            <VZBeginnzus>c.t.</VZBeginnzus>
+            <VZEnde>16:00</VZEnde>
+            <VZBeginDat>01.04.2015</VZBeginDat>
+            <VZEndDat>10.04.2015</VZEndDat>
+            <VZFindetStatt />
+            <VZRhyth>wöch.</VZRhyth>
+            <VZRhythmus>wöchentlich</VZRhythmus>
+            <WoTagKurz />
+            <VZBem />
+            <VZParallel />
+            <k_parallel.sortierung />
+            <k_wochentag.sort>3</k_wochentag.sort>
+            <VZRaum>
+               <VZRaumName>CIP-PT4</VZRaumName>
+               <RaumLangText>CIP-Pool PT4 (PT 1.0.17A)</RaumLangText>
+               <VZRaumForm>CIP-Pool</VZRaumForm>
+               <GebKTxt />
+               <GebDTxt>Philosophie/Theologie PHTG</GebDTxt>
+            </VZRaum>
+         </VZeit>
+         <VZLehrPerson>
+            <VPesrID>3190</VPesrID>
+            <DozName>Balada Campo</DozName>
+            <DozVorname>Jordi</DozVorname>
+            <Namensbestandteil />
+            <r_verpers.veranstid>63489</r_verpers.veranstid>
+            <r_verpers.sort />
+         </VZLehrPerson>
+         <VZLehrPerson>
+            <VPesrID>3777</VPesrID>
+            <DozName>Yakovleva</DozName>
+            <DozVorname>Tetyana</DozVorname>
+            <Namensbestandteil />
+            <r_verpers.veranstid>63489</r_verpers.veranstid>
+            <r_verpers.sort />
+         </VZLehrPerson>
+      </VeranstaltungErsteEbene>
+      <Tree>
+         <Vorlesung ueebene="1">
+            <Ueberschrift>
+               <UeBez>Veranstaltungen für ausländische Studierende</UeBez>
+            </Ueberschrift>
+            <Vorlesung ueebene="2">
+               <Ueberschrift>
+                  <UeBez>Veranstaltungen für ausländische Austauschstudierende</UeBez>
+               </Ueberschrift>
+               <Vorlesung ueebene="3">
+                  <Ueberschrift>
+                     <UeBez>Intensivsprachkurse (ILC)</UeBez>
+                     <Veranstaltung>
+                        <VeranstNummer>61274</VeranstNummer>
+                        <VName>Intensivsprachkurse für Programmstudenten (ILC)</VName>
+                        <VNummer />
+                        <VSWS>12</VSWS>
+                        <ECTS>18</ECTS>
+                        <MaxTeilnehmer>25</MaxTeilnehmer>
+                        <VTyp>Sprachkurs</VTyp>
+                        <VDTyp>Sprachkurs</VDTyp>
+                        <VHyper>http://www.uni-regensburg.de/zentrum-sprache-kommunikation/daf/kurse/inhalte/intensiv/index.html</VHyper>
+                        <VZSemester>20151</VZSemester>
+                        <druck_vvz>J</druck_vvz>
+                        <r_vvzzuord.sortierung />
+                        <Bemerkung>
+                           <FormattedText>
+                              <p>ILC-Programm</p>
+                              <p>Ausbildungsprogramm DaF A1: Kurs 1</p>
+                           </FormattedText>
+                        </Bemerkung>
+                        <Kurzkommentar>
+                           <FormattedText>
+                              <p>nur für ILC-Teilnehmer/-innen</p>
+                           </FormattedText>
+                        </Kurzkommentar>
+                        <VZeit>
+                           <veransttermin.vtid>103523</veransttermin.vtid>
+                           <veransttermin.rgid />
+                           <VZWoTag>keine Angabe</VZWoTag>
+                           <VZWoTagKurz>-</VZWoTagKurz>
+                           <VTSort>1</VTSort>
+                           <VZBeginn>08:00</VZBeginn>
+                           <VZBeginnzus>s.t.</VZBeginnzus>
+                           <VZEnde>15:00</VZEnde>
+                           <VZBeginDat>03.09.2015</VZBeginDat>
+                           <VZEndDat>30.09.2015</VZEndDat>
+                           <VZFindetStatt />
+                           <VZRhyth>Block</VZRhyth>
+                           <VZRhythmus>Blockveranstaltung</VZRhythmus>
+                           <WoTagKurz />
+                           <VZBem />
+                           <VZParallel>Gruppe 1</VZParallel>
+                           <k_parallel.sortierung>1</k_parallel.sortierung>
+                           <k_wochentag.sort>8</k_wochentag.sort>
+                           <VZPerson>
+                              <VerPersID>222</VerPersID>
+                              <r_veranstpers.vtid>103523</r_veranstpers.vtid>
+                              <DozName>N.N.</DozName>
+                              <DozVorname />
+                              <Namensbestandteil />
+                              <r_veranstpers.sort />
+                           </VZPerson>
+                        </VZeit>
+                        <VZeit>
+                           <veransttermin.vtid>103522</veransttermin.vtid>
+                           <veransttermin.rgid />
+                           <VZWoTag>keine Angabe</VZWoTag>
+                           <VZWoTagKurz>-</VZWoTagKurz>
+                           <VTSort>2</VTSort>
+                           <VZBeginn>08:00</VZBeginn>
+                           <VZBeginnzus>s.t.</VZBeginnzus>
+                           <VZEnde>15:00</VZEnde>
+                           <VZBeginDat>03.09.2015</VZBeginDat>
+                           <VZEndDat>30.09.2015</VZEndDat>
+                           <VZFindetStatt />
+                           <VZRhyth>Block</VZRhyth>
+                           <VZRhythmus>Blockveranstaltung</VZRhythmus>
+                           <WoTagKurz />
+                           <VZBem />
+                           <VZParallel>Gruppe 2</VZParallel>
+                           <k_parallel.sortierung>2</k_parallel.sortierung>
+                           <k_wochentag.sort>8</k_wochentag.sort>
+                           <VZPerson>
+                              <VerPersID>222</VerPersID>
+                              <r_veranstpers.vtid>103522</r_veranstpers.vtid>
+                              <DozName>N.N.</DozName>
+                              <DozVorname />
+                              <Namensbestandteil />
+                              <r_veranstpers.sort />
+                           </VZPerson>
+                        </VZeit>
+                        <VZeit>
+                           <veransttermin.vtid>103524</veransttermin.vtid>
+                           <veransttermin.rgid />
+                           <VZWoTag>keine Angabe</VZWoTag>
+                           <VZWoTagKurz>-</VZWoTagKurz>
+                           <VTSort>3</VTSort>
+                           <VZBeginn>08:00</VZBeginn>
+                           <VZBeginnzus>s.t.</VZBeginnzus>
+                           <VZEnde>15:00</VZEnde>
+                           <VZBeginDat>03.09.2015</VZBeginDat>
+                           <VZEndDat>30.09.2015</VZEndDat>
+                           <VZFindetStatt />
+                           <VZRhyth>Block</VZRhyth>
+                           <VZRhythmus>Blockveranstaltung</VZRhythmus>
+                           <WoTagKurz />
+                           <VZBem />
+                           <VZParallel>Gruppe 3</VZParallel>
+                           <k_parallel.sortierung>3</k_parallel.sortierung>
+                           <k_wochentag.sort>8</k_wochentag.sort>
+                           <VZPerson>
+                              <VerPersID>222</VerPersID>
+                              <r_veranstpers.vtid>103524</r_veranstpers.vtid>
+                              <DozName>N.N.</DozName>
+                              <DozVorname />
+                              <Namensbestandteil />
+                              <r_veranstpers.sort />
+                           </VZPerson>
+                        </VZeit>
+                        <VZeit>
+                           <veransttermin.vtid>103525</veransttermin.vtid>
+                           <veransttermin.rgid />
+                           <VZWoTag>keine Angabe</VZWoTag>
+                           <VZWoTagKurz>-</VZWoTagKurz>
+                           <VTSort>4</VTSort>
+                           <VZBeginn>08:00</VZBeginn>
+                           <VZBeginnzus>s.t.</VZBeginnzus>
+                           <VZEnde>15:00</VZEnde>
+                           <VZBeginDat>03.09.2015</VZBeginDat>
+                           <VZEndDat>30.09.2015</VZEndDat>
+                           <VZFindetStatt />
+                           <VZRhyth>Block</VZRhyth>
+                           <VZRhythmus>Blockveranstaltung</VZRhythmus>
+                           <WoTagKurz />
+                           <VZBem />
+                           <VZParallel>Gruppe 4</VZParallel>
+                           <k_parallel.sortierung>4</k_parallel.sortierung>
+                           <k_wochentag.sort>8</k_wochentag.sort>
+                           <VZPerson>
+                              <VerPersID>222</VerPersID>
+                              <r_veranstpers.vtid>103525</r_veranstpers.vtid>
+                              <DozName>N.N.</DozName>
+                              <DozVorname />
+                              <Namensbestandteil />
+                              <r_veranstpers.sort />
+                           </VZPerson>
+                        </VZeit>
+                        <VZeit>
+                           <veransttermin.vtid>103526</veransttermin.vtid>
+                           <veransttermin.rgid />
+                           <VZWoTag>keine Angabe</VZWoTag>
+                           <VZWoTagKurz>-</VZWoTagKurz>
+                           <VTSort>5</VTSort>
+                           <VZBeginn>08:00</VZBeginn>
+                           <VZBeginnzus>s.t.</VZBeginnzus>
+                           <VZEnde>15:00</VZEnde>
+                           <VZBeginDat>03.09.2015</VZBeginDat>
+                           <VZEndDat>30.09.2015</VZEndDat>
+                           <VZFindetStatt />
+                           <VZRhyth>Block</VZRhyth>
+                           <VZRhythmus>Blockveranstaltung</VZRhythmus>
+                           <WoTagKurz />
+                           <VZBem />
+                           <VZParallel>Gruppe 5</VZParallel>
+                           <k_parallel.sortierung>5</k_parallel.sortierung>
+                           <k_wochentag.sort>8</k_wochentag.sort>
+                           <VZPerson>
+                              <VerPersID>222</VerPersID>
+                              <r_veranstpers.vtid>103526</r_veranstpers.vtid>
+                              <DozName>N.N.</DozName>
+                              <DozVorname />
+                              <Namensbestandteil />
+                              <r_veranstpers.sort />
+                           </VZPerson>
+                        </VZeit>
+                        <VZeit>
+                           <veransttermin.vtid>103527</veransttermin.vtid>
+                           <veransttermin.rgid />
+                           <VZWoTag>keine Angabe</VZWoTag>
+                           <VZWoTagKurz>-</VZWoTagKurz>
+                           <VTSort>6</VTSort>
+                           <VZBeginn>08:00</VZBeginn>
+                           <VZBeginnzus>s.t.</VZBeginnzus>
+                           <VZEnde>15:00</VZEnde>
+                           <VZBeginDat>03.09.2015</VZBeginDat>
+                           <VZEndDat>30.09.2015</VZEndDat>
+                           <VZFindetStatt />
+                           <VZRhyth>Block</VZRhyth>
+                           <VZRhythmus>Blockveranstaltung</VZRhythmus>
+                           <WoTagKurz />
+                           <VZBem />
+                           <VZParallel>Gruppe 6</VZParallel>
+                           <k_parallel.sortierung>6</k_parallel.sortierung>
+                           <k_wochentag.sort>8</k_wochentag.sort>
+                           <VZPerson>
+                              <VerPersID>222</VerPersID>
+                              <r_veranstpers.vtid>103527</r_veranstpers.vtid>
+                              <DozName>N.N.</DozName>
+                              <DozVorname />
+                              <Namensbestandteil />
+                              <r_veranstpers.sort />
+                           </VZPerson>
+                        </VZeit>
+                        <VZeit>
+                           <veransttermin.vtid>103528</veransttermin.vtid>
+                           <veransttermin.rgid />
+                           <VZWoTag>keine Angabe</VZWoTag>
+                           <VZWoTagKurz>-</VZWoTagKurz>
+                           <VTSort>7</VTSort>
+                           <VZBeginn>08:00</VZBeginn>
+                           <VZBeginnzus>s.t.</VZBeginnzus>
+                           <VZEnde>15:00</VZEnde>
+                           <VZBeginDat>03.09.2015</VZBeginDat>
+                           <VZEndDat>30.09.2015</VZEndDat>
+                           <VZFindetStatt />
+                           <VZRhyth>Block</VZRhyth>
+                           <VZRhythmus>Blockveranstaltung</VZRhythmus>
+                           <WoTagKurz />
+                           <VZBem />
+                           <VZParallel>Gruppe 7</VZParallel>
+                           <k_parallel.sortierung>7</k_parallel.sortierung>
+                           <k_wochentag.sort>8</k_wochentag.sort>
+                           <VZPerson>
+                              <VerPersID>222</VerPersID>
+                              <r_veranstpers.vtid>103528</r_veranstpers.vtid>
+                              <DozName>N.N.</DozName>
+                              <DozVorname />
+                              <Namensbestandteil />
+                              <r_veranstpers.sort />
+                           </VZPerson>
+                        </VZeit>
+                        <VZeit>
+                           <veransttermin.vtid>103521</veransttermin.vtid>
+                           <veransttermin.rgid />
+                           <VZWoTag>keine Angabe</VZWoTag>
+                           <VZWoTagKurz>-</VZWoTagKurz>
+                           <VTSort>8</VTSort>
+                           <VZBeginn>08:00</VZBeginn>
+                           <VZBeginnzus>s.t.</VZBeginnzus>
+                           <VZEnde>15:00</VZEnde>
+                           <VZBeginDat>03.09.2015</VZBeginDat>
+                           <VZEndDat>30.09.2015</VZEndDat>
+                           <VZFindetStatt />
+                           <VZRhyth>Block</VZRhyth>
+                           <VZRhythmus>Blockveranstaltung</VZRhythmus>
+                           <WoTagKurz />
+                           <VZBem />
+                           <VZParallel>Gruppe 8</VZParallel>
+                           <k_parallel.sortierung>8</k_parallel.sortierung>
+                           <k_wochentag.sort>8</k_wochentag.sort>
+                           <VZPerson>
+                              <VerPersID>222</VerPersID>
+                              <r_veranstpers.vtid>103521</r_veranstpers.vtid>
+                              <DozName>N.N.</DozName>
+                              <DozVorname />
+                              <Namensbestandteil />
+                              <r_veranstpers.sort />
+                           </VZPerson>
+                        </VZeit>
+                        <VZLehrPerson>
+                           <VPesrID>222</VPesrID>
+                           <DozName>N.N.</DozName>
+                           <DozVorname />
+                           <Namensbestandteil />
+                           <r_verpers.veranstid>61274</r_verpers.veranstid>
+                           <r_verpers.sort />
+                        </VZLehrPerson>
+                     </Veranstaltung>
+                  </Ueberschrift>
+               </Vorlesung>
+            </Vorlesung>
+         </Vorlesung>
+      </Tree>
+   </Vorlesungsverzeichnis>
+   <PageFormat>
+      <margin-left>1.5cm</margin-left>
+      <margin-right>1.5cm</margin-right>
+      <page-width>21.5cm</page-width>
+      <margin-bottom>1.0cm</margin-bottom>
+      <margin-top>1.5cm</margin-top>
+      <page-height>29.7cm</page-height>
+      <factor />
+   </PageFormat>
+</publishDetail>
+
