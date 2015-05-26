@@ -49,7 +49,7 @@
 
                     var parser = new xml2js.Parser();
                     fs.readFile(__dirname + '/PersRaw.xml', function(err, data) {
-                        parser.ParseString(data, function(err, result){
+                        parser.parseString(data, function(err, result){
   
                        clearJSON(result);
             });
