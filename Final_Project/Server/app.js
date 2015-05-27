@@ -17,19 +17,20 @@
     var data = {};
 
     /* configuration */
+    
     var PORT = 3333;
     var WWW = path.join(__dirname, "./www/");
     var PDATA = path.join(__dirname, "./parsedPD/");
     var VDATA = path.join(__dirname, "./parsedVV/");
-    
     var PEOPLE = path.join(PDATA, "PersonenDaten.json");
     var EVENTS = path.join(VDATA, "vv1.json");
     
     var peopledata;
 
 
-    /**
-     * loads the csv formatted mensa data (day,meal) and stores it in a lookup table
+    /*
+     * reads in the xml file needed and parses it into json. The Data is stored in a global variable
+     * console logs appear when the server is online and the file is read in 
      */
     function initData() {
           fs.readFile(PEOPLE, function(err, data) {
@@ -45,7 +46,7 @@
 
     /**
      * starts serving a static web site from ./www
-     * starts routing api requests from /api/get/
+     * starts routing api requests from /api/get/*
      */
     function start() {
         server.use(cors());
