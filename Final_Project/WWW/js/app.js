@@ -9,15 +9,18 @@ var that = {},
    
  		_initUI();
  		_registerListeners();
+        _fetchData();
     
 
-
-    
-
-
- 		
 		return that;
  	},
+    
+    fetchData = function () {
+        
+        //TODO
+        
+        
+    }, 
 
  	 
 
@@ -28,18 +31,11 @@ var that = {},
     });
 	
 	
-	};
-    
-    
+	},
 
-
-
-
-
-
-	
-	
 	var _registerListeners = function(){
+        
+        
    
 	
 

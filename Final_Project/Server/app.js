@@ -10,15 +10,6 @@
     var csvtojson = require("csvtojson");
     var jsonPath = require('JSONPath');
     
-    
-    
-    
-    /* JSONPath Object */
-    
-    
-    
-   
-
     /* http server */
     var server = express();
 
@@ -42,16 +33,11 @@
      */
     function initData() {
           fs.readFile(PEOPLE, function(err, data) {
-              
-              
-                        
-              peopledata = JSON.parse(data);
+                          
+            peopledata = JSON.parse(data);
             console.log("server status : online ");
             console.log("Read file: success");
-            
               
-    
-             
         });
             
        
