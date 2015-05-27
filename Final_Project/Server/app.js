@@ -59,6 +59,8 @@
             var fak = jsonPath.eval(peopledata, "$.Ueberschrift[*].Einrichtung.Funktion");
             res.send(JSON.stringify(fak));
         });
+        
+        
     
     
 //        server.get("/api/get/meals/*", function (req, res) {

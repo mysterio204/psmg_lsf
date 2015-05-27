@@ -4,17 +4,22 @@ var that = {},
 
 		
 
-
+        /* This function initializes everything needed for running the webApplication*/
 
  	init = function () {
    
  		_initUI();
  		_registerListeners();
         _fetchData();
-    
 
 		return that;
  	},
+    
+    /* This private Method fetches the data from the webserver when a request is made
+     * the data is fetched through the library "d3.js" 
+     * The Method throws an error when a error appears within fetching the data via d3
+     * If fetching is sucessfull the method calls the Method "_calculatePeoplePerFak"
+     */
     
   _fetchData = function () {
         
@@ -24,13 +29,10 @@ var that = {},
         }
             console.log(data);
             _calculatePeoplePerFak(data);
-        
-        
+
         });
-        
-        
+           
     }, 
-    
     
     _calculatePeoplePerFak=function(json){
         var countPeople=[];
@@ -48,8 +50,6 @@ var that = {},
             );
         
        }
-        
-        
         
         });
         
@@ -73,9 +73,6 @@ var that = {},
 
 	var _registerListeners = function(){
         
-        
-   
-	
 
 	};
 
