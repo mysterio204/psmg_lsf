@@ -1,5 +1,6 @@
 app = (function(){
 var that = {},
+    url = "http://localhost:3333/api/get/people",
 
 		
 
@@ -15,12 +16,46 @@ var that = {},
 		return that;
  	},
     
-    fetchData = function () {
+  _fetchData = function () {
         
-        //TODO
+        d3.json(url,function(err,data){
+        if(err){
+        console.log(err)
+        }
+            console.log(data);
+            _calculatePeoplePerFak(data);
+        
+        
+        });
         
         
     }, 
+    
+    
+    _calculatePeoplePerFak=function(json){
+        var countPeople=[];
+    
+    json.Ueberschrift.forEach(function(obj){
+        
+       if(obj.Einrichtung!=null){
+           
+            countPeople.push({
+                name: obj.Einrichtung.EinBez,
+                count: obj.Einrichtung.Funktion.length}
+            );
+        
+       }
+        
+//        countPeople.push({
+//            name: obj.Einrichtung.EinBez,
+//            count: obj.Einrichtung.Funktion.length}
+//            );
+        
+        
+        });
+    console.log(countPeople);
+    
+    },
 
  	 
 
@@ -31,7 +66,7 @@ var that = {},
     });
 	
 	
-	},
+	};
 
 	var _registerListeners = function(){
         
