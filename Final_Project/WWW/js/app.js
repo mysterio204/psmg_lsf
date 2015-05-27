@@ -37,23 +37,26 @@ var that = {},
     
     json.Ueberschrift.forEach(function(obj){
         
-       if(obj.Einrichtung!=null){
+       if(obj.Einrichtung!=null&&obj.Ueberschrift!=null){
            
             countPeople.push({
                 name: obj.Einrichtung.EinBez,
-                count: obj.Einrichtung.Funktion.length}
+                people: obj.Einrichtung.Funktion.length,
+                chairs: obj.Ueberschrift.length
+            
+            }
             );
         
        }
         
-//        countPeople.push({
-//            name: obj.Einrichtung.EinBez,
-//            count: obj.Einrichtung.Funktion.length}
-//            );
         
         
         });
-    console.log(countPeople);
+        
+        countPeople.forEach(function(obj){
+        console.log(obj.name+" hat "+obj.people+" direkte Angestellte und "+obj.chairs+" Lehrstühle");
+        });
+   // console.log(countPeople);
     
     },
 
