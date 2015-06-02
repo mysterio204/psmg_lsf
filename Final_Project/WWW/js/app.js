@@ -73,6 +73,12 @@ var that = {},
 
 	var _registerListeners = function(){
         
+       $(".fak").on("click", function (event) {
+            var target = event.target;
+
+            console.log(target.attributes.id);
+        });
+        
 
 	};
 

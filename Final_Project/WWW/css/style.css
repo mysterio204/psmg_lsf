@@ -71,4 +71,39 @@ background-color: #0087B2;
 background-color: #00556A;
 }
 
+.rw:hover{
+background-color: #A4A90C;
+}
+.wiwi:hover{
+background-color: #8B8600;
+}
+.theo:hover{
+background-color: #BD9600;
+}
+.phil:hover{
+background-color: #BD4E00;
+}
+.psych:hover{
+background-color: #990022;
+}
+.slk:hover{
+background-color: #7D003C;
+}
+
+.bio:hover{
+background-color: #3F9300;
+}
+.math:hover{
+background-color: #007C5F;
+}
+
+.phy:hover{
+background-color: #006E76;
+}
+.che:hover{
+background-color: #006C8E;
+}
+.med:hover{
+background-color: #004455;
+}
 
