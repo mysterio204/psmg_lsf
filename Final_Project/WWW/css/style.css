@@ -14,4 +14,25 @@ margin-left: 20px;
     margin-top:10px;
 }
 
+.daybutton{
+    text-align: center;
+   background-color: #9C004B;
+    margin: 20px;
+    color:white;
+    opacity: 1;
+  
+
+}
+.daybutton:hover{
+background-color:aquamarine;
+    
+}
+#days{
+text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    
+
+}
+
 
