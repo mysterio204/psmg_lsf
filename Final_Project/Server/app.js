@@ -26,6 +26,7 @@
     var EVENTS = path.join(VDATA, "vv1.json");
     
     var peopledata;
+    var eventdata =[];
 
 
     /*
@@ -40,9 +41,59 @@
             console.log("Read file: success");
               
         });
+        
+        _readAllVV();
+              
             
        
     }
+    
+    var _readAllVV = function(){
+    for(var i = 1; i<25;i++){
+     var EVENTS = path.join(VDATA, "vv"+i+".json");
+    fs.readFile(EVENTS, function(err, data) {
+            var file= JSON.parse(data);  
+            var name = file.UeBez;
+        var obj = {
+            Fak: name,
+            vv:JSON.stringify(file)
+            };
+        
+        eventdata.push(obj);
+           
+            console.log("Read file: success");
+              
+        });
+    }
+    console.log(eventdata);
+    
+    };
+    
+    
+    var count = function(name,ar){
+        console.log("\n\n"+name);
+    var array_elements = ar;
+
+    array_elements.sort();
+
+    var current = null;
+    var cnt = 0;
+    for (var i = 0; i < array_elements.length; i++) {
+        if (array_elements[i] != current) {
+            if (cnt > 0) {
+                console.log(current + ' comes --> ' + cnt + ' times ');
+            }
+            current = array_elements[i];
+            cnt = 1;
+        } else {
+            cnt++;
+        }
+    }
+    if (cnt > 0) {
+        console.log(current + ' comes --> ' + cnt + ' times');
+    }
+
+}
 
     /**
      * starts serving a static web site from ./www
@@ -50,8 +101,25 @@
      */
     function start() {
         server.use(cors());
-        server.get("/api/get/people", function (req, res) {
-            res.send(JSON.stringify(peopledata));
+        server.get("/api/get/vv", function (req, res) {
+            var summary = [];
+            
+            for(var f in eventdata){
+            var name =eventdata[f].Fak;;
+                var bums = JSON.parse(eventdata[f].vv)
+                //console.log(bums);
+         var days = jsonPath.eval(bums, "$..VZWoTag");
+            count(name,days);
+                summary.push({
+                fakultät: name,
+                tage: days
+                
+                })
+            }
+            
+          // var fakultät =jsonPath.eval(eventdata, "$..Fak");
+            //console.log(summary);
+            res.send(JSON.stringify(summary));
         });
         
         server.use(cors());
