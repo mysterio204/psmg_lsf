@@ -109,6 +109,46 @@
 
 }
     
+        var countHours = function(name,ar){
+        
+        var currentFak=[];
+        console.log("\n\n"+name);
+        var array_elements = ar;
+
+        array_elements.sort();
+            
+
+    var current = null;
+    var cnt = 0;
+    for (var i = 0; i < array_elements.length; i++) {
+        if (array_elements[i] != current) {
+            if (cnt > 0) {
+                //console.log(current + ' comes --> ' + cnt + ' times ');
+                var key = current;
+                var curD = {};
+                curD[key]=cnt
+                currentFak.push(curD);
+            }
+            current = array_elements[i];
+            cnt = 1;
+        } else {
+            cnt++;
+        }
+    }
+    if (cnt > 0) {
+        //console.log(current + ' comes --> ' + cnt + ' times');
+    }
+        var re = new RegExp(/.*Fakultät.*/);
+        if(re.test(name)){
+        var key = name;
+        var res ={};
+        res[key]= currentFak;
+    return currentFak;   }
+        return null;
+        
+
+}
+    
 
 
     /**
@@ -122,6 +162,7 @@
             
             for(var f in eventdata){
             var name =eventdata[f].Fak;;
+                
                 var bums = JSON.parse(eventdata[f].vv)
                 //console.log(bums);
          var days = jsonPath.eval(bums, "$..VZWoTag");
@@ -144,31 +185,63 @@
             res.send(JSON.stringify(summary));
         });
         
-             server.get("/api/get/hours", function (req, res) {
+            server.get("/api/get/hours", function (req, res) {
             var summary = [];
             
             for(var f in eventdata){
-            var name =eventdata[f].Fak;;
-                var bums = JSON.parse(eventdata[f].vv)
-                //console.log(bums);
-         var days = jsonPath.eval(bums, "$..VZBeginn");
-                if(count(name,days)!=null){
-                 summary.push(count(name,days));
+            var name =eventdata[f].Fak;
+                var bums = JSON.parse(eventdata[f].vv);
+                console.log(name);
+            var monday = jsonPath.eval(bums, "$..VZeit[?(@.VZWoTagKurz='Mo')].VZBeginn");
+            var tuesday = jsonPath.eval(bums, "$..VZeit[?(@.VZWoTagKurz='Di')].VZBeginn");
+            var wednesday = jsonPath.eval(bums, "$..VZeit[?(@.VZWoTagKurz='Mi')].VZBeginn");
+            var thursday = jsonPath.eval(bums, "$..VZeit[?(@.VZWoTagKurz='Do')].VZBeginn");
+            var friday = jsonPath.eval(bums, "$..VZeit[?(@.VZWoTagKurz='Fr')].VZBeginn");
+            var saturday = jsonPath.eval(bums, "$..VZeit[?(@.VZWoTagKurz='Sa')].VZBeginn");
+            var sunday = jsonPath.eval(bums, "$..VZeit[?(@.VZWoTagKurz='So')].VZBeginn");
+               console.log(monday);
+                var re = new RegExp(/.*Fakultät.*/);
+                if(re.test(name)){
+                    var mo = {monday:countHours(name,monday)};
+                    var di = {tuesday:countHours(name,tuesday)};
+                    var mi = {wednesday:countHours(name,wednesday)};
+                    var don = {thursday:countHours(name,thursday)};
+                    var fr = {friday:countHours(name,friday)};
+                    var sa = {saturday:countHours(name,saturday)};
+                    var so = {sunday: countHours(name,sunday)};
+                    
+                    var key = name;
+                    var result =[];
+                    result.push(mo);
+                    result.push(di);
+                    result.push(mi);
+                    result.push(don);
+                    result.push(fr);
+                    result.push(sa);
+                    result.push(so);
+                    
+                    
+                    
+                    
+                    var res2 ={};
+                    res2[key]=result;
+                   // console.log(res2);
+                    
+                    
+                    summary.push(res2);
+               
+                
                 }
            
                 
-//                summary.push({
-//                fakultät: name,
-//                tage: days
-//                
-//                })
+
             }
             
             
-            
-          // var fakultät =jsonPath.eval(eventdata, "$..Fak");
-            //console.log(summary);
+           // console.log(JSON.stringify(summary));
+    
             res.send(JSON.stringify(summary));
+            //res.send("Hallo Welt");
         });
         
         server.use(cors());
