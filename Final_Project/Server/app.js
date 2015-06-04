@@ -144,6 +144,33 @@
             res.send(JSON.stringify(summary));
         });
         
+             server.get("/api/get/hours", function (req, res) {
+            var summary = [];
+            
+            for(var f in eventdata){
+            var name =eventdata[f].Fak;;
+                var bums = JSON.parse(eventdata[f].vv)
+                //console.log(bums);
+         var days = jsonPath.eval(bums, "$..VZBeginn");
+                if(count(name,days)!=null){
+                 summary.push(count(name,days));
+                }
+           
+                
+//                summary.push({
+//                fakultät: name,
+//                tage: days
+//                
+//                })
+            }
+            
+            
+            
+          // var fakultät =jsonPath.eval(eventdata, "$..Fak");
+            //console.log(summary);
+            res.send(JSON.stringify(summary));
+        });
+        
         server.use(cors());
         server.get("/api/get/fak", function (req, res) {
             var fak = jsonPath.eval(peopledata, "$.Ueberschrift[*].Einrichtung.Funktion");
