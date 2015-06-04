@@ -71,10 +71,12 @@
     
     
     var count = function(name,ar){
+        
+        var currentFak=[];
         console.log("\n\n"+name);
-    var array_elements = ar;
+        var array_elements = ar;
 
-    array_elements.sort();
+        array_elements.sort();
 
     var current = null;
     var cnt = 0;
@@ -82,6 +84,10 @@
         if (array_elements[i] != current) {
             if (cnt > 0) {
                 console.log(current + ' comes --> ' + cnt + ' times ');
+                var key = current;
+                var curD = {};
+                curD[key]=cnt
+                currentFak.push(curD);
             }
             current = array_elements[i];
             cnt = 1;
@@ -92,8 +98,18 @@
     if (cnt > 0) {
         console.log(current + ' comes --> ' + cnt + ' times');
     }
+        var re = new RegExp(/.*Fakultät.*/);
+        if(re.test(name)){
+        var key = name;
+        var res ={};
+        res[key]= currentFak;
+    return res;   }
+        return null;
+        
 
 }
+    
+
 
     /**
      * starts serving a static web site from ./www
@@ -101,7 +117,7 @@
      */
     function start() {
         server.use(cors());
-        server.get("/api/get/vv", function (req, res) {
+        server.get("/api/get/days", function (req, res) {
             var summary = [];
             
             for(var f in eventdata){
@@ -109,13 +125,19 @@
                 var bums = JSON.parse(eventdata[f].vv)
                 //console.log(bums);
          var days = jsonPath.eval(bums, "$..VZWoTag");
-            count(name,days);
-                summary.push({
-                fakultät: name,
-                tage: days
+                if(count(name,days)!=null){
+                 summary.push(count(name,days));
+                }
+           
                 
-                })
+//                summary.push({
+//                fakultät: name,
+//                tage: days
+//                
+//                })
             }
+            
+            
             
           // var fakultät =jsonPath.eval(eventdata, "$..Fak");
             //console.log(summary);
