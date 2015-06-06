@@ -9,6 +9,7 @@
     var cors = require("cors");
     var csvtojson = require("csvtojson");
     var jsonPath = require('JSONPath');
+    
     var filesloaded = false;
     /* http server */
     var server = express();
@@ -117,6 +118,8 @@
                     
                     
                     allHours.push(res2);
+                    
+                    
                
                 
                 }
@@ -131,6 +134,9 @@
             
             
             };
+    
+
+    
     var _getDays = function(){
     
     for(var f in eventdata){
