@@ -1,6 +1,6 @@
 app = (function(){
 var that = {},
-    url = "http://localhost:3333/api/get/days",
+    url = "http://localhost:3333/api/get/hours",
 
 		
 
@@ -28,8 +28,12 @@ var that = {},
         console.log(err)
         }
             
+        
+            console.log(data);
+            
+            
            // _calculatePeoplePerFak(data);
-              _calculateEventsPerDay(data);
+           //   _calculateEventsPerDay(data);
 
         });
            
@@ -59,70 +63,7 @@ var that = {},
         });
     
     },
-      _calculateEventsPerDay = function (json){
-          var facs = [];
-          var numFac = json.length;
-        
-            for(var i = 0 ; i < numFac ; i ++){
-
-            var c = json[i];
-           
-            var objName = Object.getOwnPropertyNames(c)[0];
-                
-           var mo =  JSPath.apply('..Montag', c)[0],
-              di =  JSPath.apply('..Dienstag', c)[0],
-              mi =  JSPath.apply('..Mittwoch', c)[0],
-              don = JSPath.apply('..Donnerstag', c)[0],
-              fr =  JSPath.apply('..Freitag', c)[0],
-              sa =  JSPath.apply('..Samstag', c)[0],
-              so =  JSPath.apply('..Sonntag', c)[0];
-                
-                if(mo==undefined){
-                    mo = 0 ; 
-                }
-                
-                if(di==undefined){
-                    di = 0 ; 
-                }
-                if(mi==undefined){
-                    mi = 0 ; 
-                }
-                if(don==undefined){
-                    don = 0 ; 
-                }
-                if(fr==undefined){
-                    fr = 0 ; 
-                }
-                if(sa==undefined){
-                    sa = 0 ; 
-                }
-                if(so==undefined){
-                    so = 0 ; 
-                }
-                
-                var ges = mo+di+mi+don+fr+sa+so;
-                
-                   facs.push({
-                name: objName,
-                Montag:mo,
-                Dienstag:di,
-                Mittwoch:mi,
-                Donnerstag:don,
-                Freitag:fr,
-                Samstag:sa,
-                Sonntag:so,
-                Gesamt:ges      
-            
-            }
-            );
-
-            }
-          
-          console.log(facs);
-
-    },
-
-
+    
  	 
 
 	_initUI = function(){

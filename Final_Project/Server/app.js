@@ -30,6 +30,7 @@
     var eventdata =[];
     var allHours = [];
     var allDays = [];
+    var facs =[];
 
 
 
@@ -65,7 +66,6 @@
         
         eventdata.push(obj);
            
-            console.log("Read file: success");
               
         });
     }
@@ -74,12 +74,12 @@
     filesloaded = true;
     };
     var _getHours = function(){
-            console.log("calulating fuckin hours");
+            console.log("calulating hours...");
                  
             
             for(var f in eventdata){
             var name =eventdata[f].Fak;
-                var bums = JSON.parse(eventdata[f].vv);
+            var bums = JSON.parse(eventdata[f].vv);
                
             var monday = jsonPath.eval(bums, "$..VZeit[?(@.VZWoTagKurz='Mo')].VZBeginn");
             var tuesday = jsonPath.eval(bums, "$..VZeit[?(@.VZWoTagKurz='Di')].VZBeginn");
@@ -110,30 +110,100 @@
                     result.push(so);
                     
                     
-                    
-                    
                     var res2 ={};
                     res2[key]=result;
-                   // console.log(res2);
                     
                     
                     allHours.push(res2);
-                    
-                    
-               
-                
+
                 }
            
-                
-
             }
-            
-            
-            
+
             console.log("Hours: ready");
-            
-            
+                _implementNewDataStructure(allHours);
+
             };
+    
+    var _implementNewDataStructure = function(hours){
+        
+        
+       var arr = jsonPath.eval(hours, "$.*");
+       var monday,
+        tuesday,
+        wednesday, 
+        thursday, 
+        friday,
+        saturday,
+        sunday;
+        
+        
+      
+        
+      
+        
+        for( var faculties=0; faculties<arr.length;faculties++){
+              var currFac = arr[faculties];
+              var days = jsonPath.eval(currFac,"$.*");
+              var facName = Object.getOwnPropertyNames(currFac)[0];
+              var exactDays = days[0];
+            
+           
+            
+               for(var days = 0 ; days<exactDays.length; days++){
+                        
+                        var currDay = exactDays[days];
+                        var dayValue = jsonPath.eval(currDay, "$.*")[0];
+                        var dayName = Object.getOwnPropertyNames(currDay)[0];
+               
+                   
+                   if(dayName=="monday"){
+                       monday = dayValue;
+                   }
+                   
+                     if(dayName=="tuesday"){
+                       tuesday = dayValue;
+                   }
+                   
+                     if(dayName=="wednesday"){
+                       wednesday = dayValue;
+                   }
+                   
+                     if(dayName=="thursday"){
+                       thursday = dayValue;
+                   }
+                   
+                     if(dayName=="friday"){
+                       friday = dayValue;
+                   }
+                   
+                     if(dayName=="saturday"){
+                       saturday = dayValue;
+                   }
+                   
+                     if(dayName=="sunday"){
+                       sunday = dayValue;
+                   }
+                    
+                    
+                }
+             
+                 facs.push({
+                name: facName,
+                Montag:monday,
+                Dienstag:tuesday,
+                Mittwoch:wednesday,
+                Donnerstag:thursday,
+                Freitag:friday,
+                Samstag:saturday,
+                Sonntag:sunday            
+            }
+            );
+
+        }
+        
+        
+    };
     
 
     
@@ -143,7 +213,6 @@
             var name =eventdata[f].Fak;;
                 
                 var bums = JSON.parse(eventdata[f].vv)
-                //console.log(bums);
          var days = jsonPath.eval(bums, "$..VZWoTag");
                 if(count(name,days)!=null){
                  allDays.push(count(name,days));
@@ -249,7 +318,7 @@
             
             
 
-            res.send(JSON.stringify(allDays));
+            res.send(JSON.stringify(facs));
         });
         
             server.get("/api/get/hours", function (req, res) {
@@ -258,7 +327,7 @@
             
            
             
-            res.send(JSON.stringify(allHours));
+            res.send(JSON.stringify(facs));
           
         });
         
