@@ -27,6 +27,7 @@ var that = {},
         if(err){
         console.log(err)
         }
+            
            // _calculatePeoplePerFak(data);
               _calculateEventsPerDay(data);
 
@@ -56,10 +57,8 @@ var that = {},
         countPeople.forEach(function(obj){
         console.log(obj.name+" hat "+obj.people+" direkte Angestellte und "+obj.chairs+" Lehrstühle");
         });
-   // console.log(countPeople);
     
     },
-    
       _calculateEventsPerDay = function (json){
           var facs = [];
           var numFac = json.length;
