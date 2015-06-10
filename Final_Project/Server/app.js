@@ -129,13 +129,13 @@
         
         
        var arr = jsonPath.eval(hours, "$.*");
-       var monday,
+     /*  var monday,
         tuesday,
         wednesday, 
         thursday, 
         friday,
         saturday,
-        sunday;
+        sunday;*/
         
         
       
@@ -157,7 +157,7 @@
                         var dayName = Object.getOwnPropertyNames(currDay)[0];
                
                    
-                   if(dayName=="monday"){
+               /*    if(dayName=="monday"){
                        monday = dayValue;
                    }
                    
@@ -184,24 +184,28 @@
                      if(dayName=="sunday"){
                        sunday = dayValue;
                    }
-                    
-                    
-                }
-             
-                 facs.push({
+                   */
+                   
+                facs.push({
                 name: facName,
-                Montag:monday,
+               /* Montag:monday,
                 Dienstag:tuesday,
                 Mittwoch:wednesday,
                 Donnerstag:thursday,
                 Freitag:friday,
                 Samstag:saturday,
-                Sonntag:sunday            
+                Sonntag:sunday*/
+                day : dayName,
+                time : dayValue
             }
             );
 
-        }
-        
+                    
+                    
+                }
+             
+            
+        }        
         
     };
     
@@ -281,7 +285,10 @@
                 var key = current;
                 var curD = {};
                 curD[key]=cnt
-                currentFak.push(curD);
+                var hourobj = {"hour":current,"freq":cnt};
+                
+                
+                currentFak.push(hourobj);
             }
             current = array_elements[i];
             cnt = 1;

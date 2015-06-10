@@ -31,9 +31,8 @@ var that = {},
         
             console.log(data);
             
-            
            // _calculatePeoplePerFak(data);
-           //   _calculateEventsPerDay(data);
+           // _calculateEventsPerDay(data);
 
         });
            
