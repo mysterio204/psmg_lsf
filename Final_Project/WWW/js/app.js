@@ -22,11 +22,15 @@ var that = {},
      */
     
   _fetchData = function () {
+      
         
         d3.json(url,function(err,data){
         if(err){
         console.log(err)
         }
+            
+            
+            console.log(data);
            for(var i = 0 ; i < data.length; i++){
                 
                 if ( data[i].name=="Lehrveranstaltungen der Fakultät für Wirtschaftswissenschaften" && 
@@ -84,14 +88,21 @@ var that = {},
 
 	var _registerListeners = function(){
         
-       $(".fak").on("click", function (event) {
+        _facultybuttonListener();
+        
+        
+	};
+    
+    
+    var _facultybuttonListener = function () {
+        
+           $(".fak").on("click", function (event) {
             var target = event.target;
 
-            console.log(target.attributes.data);
+            console.log(target.attributes.id);
         });
         
-
-	};
+    };
 
 that.init = init;
 
