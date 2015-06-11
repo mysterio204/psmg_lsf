@@ -27,9 +27,17 @@ var that = {},
         if(err){
         console.log(err)
         }
+         
+           for(var i = 0 ; i < data.length; i++){
+                
+                if ( data[i].name=="Lehrveranstaltungen der Fakultät für Wirtschaftswissenschaften" && 
+                    data[i].day=="monday"){
+                 console.log(data[i]);
+                  
+                }
+            }
             
-        
-            console.log(data);
+            
             
            // _calculatePeoplePerFak(data);
            // _calculateEventsPerDay(data);
@@ -79,7 +87,7 @@ var that = {},
        $(".fak").on("click", function (event) {
             var target = event.target;
 
-            console.log(target.attributes.id);
+            console.log(target.attributes.data);
         });
         
 
@@ -90,3 +98,4 @@ that.init = init;
 return that;
 
 })();
+
