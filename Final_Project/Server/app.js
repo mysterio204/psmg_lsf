@@ -75,9 +75,9 @@
     };
     var _getHours = function(){
             console.log("calulating hours...");
-                 
-           fs.writeFile("bums.json", JSON.stringify(eventdata[1].vv));
-    for(var f in eventdata){
+        
+        for(var f in eventdata){
+            
             var name =eventdata[f].Fak;
             var bums = JSON.parse(eventdata[f].vv);
         
@@ -133,84 +133,29 @@
         
         
        var arr = jsonPath.query(hours, "$.*");
-     /*  var monday,
-        tuesday,
-        wednesday, 
-        thursday, 
-        friday,
-        saturday,
-        sunday;*/
-        
-        
-      
-        
-      
+   
         
         for( var faculties=0; faculties<arr.length;faculties++){
               var currFac = arr[faculties];
               var days = jsonPath.query(currFac,"$.*");
               var facName = Object.getOwnPropertyNames(currFac)[0];
               var exactDays = days[0];
-            
-           
-            
+
                for(var days = 0 ; days<exactDays.length; days++){
                         
                         var currDay = exactDays[days];
                         var dayValue = jsonPath.query(currDay, "$.*")[0];
                         var dayName = Object.getOwnPropertyNames(currDay)[0];
-               
-                   
-               /*    if(dayName=="monday"){
-                       monday = dayValue;
-                   }
-                   
-                     if(dayName=="tuesday"){
-                       tuesday = dayValue;
-                   }
-                   
-                     if(dayName=="wednesday"){
-                       wednesday = dayValue;
-                   }
-                   
-                     if(dayName=="thursday"){
-                       thursday = dayValue;
-                   }
-                   
-                     if(dayName=="friday"){
-                       friday = dayValue;
-                   }
-                   
-                     if(dayName=="saturday"){
-                       saturday = dayValue;
-                   }
-                   
-                     if(dayName=="sunday"){
-                       sunday = dayValue;
-                   }
-                   */
-                   
+        
                 facs.push({
                 name: facName,
-               /* Montag:monday,
-                Dienstag:tuesday,
-                Mittwoch:wednesday,
-                Donnerstag:thursday,
-                Freitag:friday,
-                Samstag:saturday,
-                Sonntag:sunday*/
                 day : dayName,
                 time : dayValue
             }
             );
-
-                    
-                    
-                }
-             
-            
-        }        
-        
+         
+             }
+        }         
     };
     
 
@@ -227,15 +172,12 @@
                 }
            
             }
-    
-    
     };
     
     
     var count = function(name,ar){
         
         var currentFak=[];
-       // console.log("\n\n"+name);
         var array_elements = ar;
 
         array_elements.sort();
@@ -245,7 +187,6 @@
     for (var i = 0; i < array_elements.length; i++) {
         if (array_elements[i] != current) {
             if (cnt > 0) {
-               // console.log(current + ' comes --> ' + cnt + ' times ');
                 var key = current;
                 var curD = {};
                 curD[key]=cnt
@@ -258,7 +199,6 @@
         }
     }
     if (cnt > 0) {
-        //console.log(current + ' comes --> ' + cnt + ' times');
     }
         var re = new RegExp(/.*Fakultät.*/);
         if(re.test(name)){
@@ -274,7 +214,6 @@
 var countHours = function(name,ar){
         
         var currentFak=[];
-       // console.log("\n\n"+name);
         var array_elements = ar;
 
         array_elements.sort();
@@ -285,7 +224,6 @@ var countHours = function(name,ar){
     for (var i = 0; i < array_elements.length; i++) {
         if (array_elements[i] != current) {
             if (cnt > 0) {
-                //console.log(current + ' comes --> ' + cnt + ' times ');
                 var key = current;
                 var curD = {};
                 curD[key]=cnt
@@ -301,7 +239,6 @@ var countHours = function(name,ar){
         }
     }
     if (cnt > 0) {
-        //console.log(current + ' comes --> ' + cnt + ' times');
     }
         var re = new RegExp(/.*Fakultät.*/);
         

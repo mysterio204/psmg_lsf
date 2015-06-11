@@ -33,6 +33,7 @@ var that = {},
                 if ( data[i].name=="Lehrveranstaltungen der Fakultät für Wirtschaftswissenschaften" && 
                     data[i].day=="monday"){
                  console.log(data[i]);
+                    break;
                   
                 }
             }
