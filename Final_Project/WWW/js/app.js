@@ -27,12 +27,13 @@ var that = {},
         if(err){
         console.log(err)
         }
-         
            for(var i = 0 ; i < data.length; i++){
                 
                 if ( data[i].name=="Lehrveranstaltungen der Fakultät für Wirtschaftswissenschaften" && 
                     data[i].day=="monday"){
-                 console.log(data[i]);
+                   
+                 console.log(data[i].time);
+                    break;
                   
                 }
             }

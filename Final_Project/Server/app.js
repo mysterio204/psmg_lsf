@@ -119,7 +119,7 @@
                     
                     
                     allHours.push(res2);
-
+                    
                 }
            
             }
@@ -151,6 +151,7 @@
               var days = jsonPath.query(currFac,"$.*");
               var facName = Object.getOwnPropertyNames(currFac)[0];
               var exactDays = days[0];
+            console.log(currFac);
             
            
             
