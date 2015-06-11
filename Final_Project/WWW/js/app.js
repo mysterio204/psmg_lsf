@@ -1,16 +1,29 @@
 app = (function(){
 var that = {},
     url = "http://localhost:3333/api/get/hours",
-
+    chart,
+    vvdata,
+     
 		
 
         /* This function initializes everything needed for running the webApplication*/
 
  	init = function () {
+           d3.json(url,function(err,data){
+               vvdata=data;
+        if(err){
+        console.log(err)
+        }
+        
+        chart = new ChartController({
+        chartContainer: document.querySelector(".chart"),
+        dataURL: "http://localhost:3333/api/get/hours",
+        detailURL: "http://localhost:3333/api/get/meals/"
+    });
    
  		_initUI();
  		_registerListeners();
-        _fetchData();
+        _fetchData(vvdata);
 
 		return that;
  	},
@@ -21,20 +34,20 @@ var that = {},
      * If fetching is sucessfull the method calls the Method "_calculatePeoplePerFak"
      */
     
-  _fetchData = function () {
+  _fetchData = function (data) {
+      var currentData = new Array();
       
         
-        d3.json(url,function(err,data){
-        if(err){
-        console.log(err)
-        }
+     
             
             
             console.log(data);
            for(var i = 0 ; i < data.length; i++){
                 
-                if ( data[i].name=="Lehrveranstaltungen der Fakultät für Wirtschaftswissenschaften" && 
-                    data[i].day=="monday"){
+                if ( data[i].name=="Lehrveranstaltungen der Fakultät für Wirtschaftswissenschaften"){
+                    currentData = data[i].time
+                    //console.log(currentData);
+                         chart.renderBarChart(currentData);
 
                     break;
                   
@@ -48,6 +61,8 @@ var that = {},
 
         });
            
+      
+      
     }, 
     
     _calculatePeoplePerFak=function(json){

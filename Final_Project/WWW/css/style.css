@@ -107,3 +107,32 @@ background-color: #006C8E;
 background-color: #004455;
 }
 
+.bar {
+    fill: #9C004B;
+}
+
+.bar:hover {
+    cursor: pointer;
+    fill: #E65A9D;
+}
+
+.axis text {
+    font-size: 10px;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #333;
+    shape-rendering: crispEdges;
+}
+
+.x.axis path {
+    display: none;
+}
+.chart {
+    
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
+}
