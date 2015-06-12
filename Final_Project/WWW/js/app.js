@@ -3,6 +3,8 @@ var that = {},
     url = "http://localhost:3333/api/get/hours",
     chart,
     vvdata,
+    currDay="monday",
+    currFak="Lehrveranstaltungen der Fakultät für Physik / Courses in Physics",
     
     names={"1":"Lehrveranstaltungen der Fakultät für Physik / Courses in Physics",
            "2":"Lehrveranstaltungen der Fakultät für Wirtschaftswissenschaften",
@@ -29,11 +31,9 @@ var that = {},
     "Lehrveranstaltungen der Fakultät für Physik / Courses in Physics",
     "Lehrveranstaltungen der Fakultät für Chemie und Pharmazie",
     "Lehrveranstaltungen der Fakultät für Medizin"
-         
-     
-     
-     
      ],
+    
+   
 		
 
         /* This function initializes everything needed for running the webApplication*/
@@ -64,23 +64,25 @@ var that = {},
      * If fetching is sucessfull the method calls the Method "_calculatePeoplePerFak"
      */
     
-  _fetchData = function (data) {
+  _fetchData = function (data,faculty,day) {
       var currentData = new Array();
       
         
      
             
             
-            console.log(data);
            for(var i = 0 ; i < data.length; i++){
                 
-                if ( data[i].name=="Lehrveranstaltungen der Fakultät für Wirtschaftswissenschaften"){
+                if ( data[i].name==faculty){
+                    if(data[i].day ==day){
                     currentData = data[i].time
                     //console.log(currentData);
+                    console.log(currDay);
+                        $('.chart').empty();
                          chart.renderBarChart(currentData);
 
                     break;
-                  
+                    }
                 }
             }
             
@@ -120,6 +122,34 @@ var that = {},
     
     },
     
+    _getDay = function(gerDay){
+  switch(gerDay) {
+    case "Mo":
+        return "monday"
+        break;
+    case "Di":
+        return "tuesday"
+        break;
+    case "Mi":
+        return "wednesday"
+        break;
+    case "Do":
+        return "thursday"
+        break;
+    case "Fr":
+        return "friday"
+        break;
+    case "Sa":
+        return "saturday"
+        break;
+    case "So":
+        return "sunday"
+        break;
+    default:
+         return "monday"
+}
+    },
+    
  	 
 
 	_initUI = function(){
@@ -153,10 +183,15 @@ var that = {},
             else
             {
                 $(target).addClass('selected');
+                var numer = target.id;
+               console.log(fakultäten[numer-1]);
+                var clickedFac = fakultäten[numer-1];
+                currFak=clickedFac;
+                
+                _fetchData(vvdata,currFak,currDay);
                 //Insert event handling logic
             }
-               var numer = target.id;
-               console.log(fakultäten[numer-1]);
+               
         });
         
         
@@ -175,6 +210,10 @@ var that = {},
             else
             {
                 $(target).addClass('btn-floating btn-large');
+                console.log(event.target.textContent);
+          var clickedDay = _getDay(event.target.textContent);
+                currDay= clickedDay;
+                _fetchData(vvdata,currFak,currDay);
                 //Insert event handling logic
             }
         });
