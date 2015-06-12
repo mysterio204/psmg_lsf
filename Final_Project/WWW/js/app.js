@@ -53,7 +53,7 @@ var that = {},
    
  		_initUI();
  		_registerListeners();
-        _fetchData(vvdata);
+        _fetchData(vvdata,currFak,currDay);
 
 		return that;
  	},
