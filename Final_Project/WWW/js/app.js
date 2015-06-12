@@ -3,7 +3,37 @@ var that = {},
     url = "http://localhost:3333/api/get/hours",
     chart,
     vvdata,
+    
+    names={"1":"Lehrveranstaltungen der Fakultät für Physik / Courses in Physics",
+           "2":"Lehrveranstaltungen der Fakultät für Wirtschaftswissenschaften",
+           "3":"Lehrveranstaltungen der Fakultät für Medizin",
+           "4":"Lehrveranstaltungen der Fakultät für Chemie und Pharmazie",
+           "5":"Lehrveranstaltungen der Fakultät für Psychologie, Pädagogik und Sportwissenschaft",
+           "6":"Lehrveranstaltungen der Fakultät für Mathematik",
+           "7":"Lehrveranstaltungen für Hörer aller Fakultäten",
+           "8":"Lehrveranstaltungen der Fakultät für Rechtswissenschaft",
+           "9":"Lehrveranstaltungen der Fakultät für Biologie und Vorklinische Medizin",
+           "10":"Lehrveranstaltungen der Fakultät für Philosophie, Kunst-, Geschichts- und Gesellschaftswissenschaften",
+           "11":"Lehrveranstaltungen der Fakultät für Katholische Theologie",
+           "12":"Lehrveranstaltungen der Fakultät für Sprach-, Literatur- und  Kulturwissenschaften", 
+          },
+     fakultäten=[
+    "Lehrveranstaltungen der Fakultät für Rechtswissenschaft",
+    "Lehrveranstaltungen der Fakultät für Wirtschaftswissenschaften",
+    "Lehrveranstaltungen der Fakultät für Katholische Theologie",
+    "Lehrveranstaltungen der Fakultät für Philosophie, Kunst-, Geschichts- und Gesellschaftswissenschaften",
+    "Lehrveranstaltungen der Fakultät für Psychologie, Pädagogik und Sportwissenschaft",
+    "Lehrveranstaltungen der Fakultät für Sprach-, Literatur- und  Kulturwissenschaften",
+    "Lehrveranstaltungen der Fakultät für Biologie und Vorklinische Medizin",
+    "Lehrveranstaltungen der Fakultät für Mathematik",
+    "Lehrveranstaltungen der Fakultät für Physik / Courses in Physics",
+    "Lehrveranstaltungen der Fakultät für Chemie und Pharmazie",
+    "Lehrveranstaltungen der Fakultät für Medizin"
+         
      
+     
+     
+     ],
 		
 
         /* This function initializes everything needed for running the webApplication*/
@@ -125,7 +155,11 @@ var that = {},
                 $(target).addClass('selected');
                 //Insert event handling logic
             }
+               var numer = target.id;
+               console.log(fakultäten[numer-1]);
         });
+        
+        
         
     };
         var _daybuttonListener = function () {
