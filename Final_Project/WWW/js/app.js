@@ -104,6 +104,7 @@ var that = {},
 	var _registerListeners = function(){
         
         _facultybuttonListener();
+        _daybuttonListener();
         
         
 	};
@@ -113,8 +114,35 @@ var that = {},
         
            $(".fak").on("click", function (event) {
             var target = event.target;
-
-            console.log(target.attributes.id);
+               $(".fak").removeClass('selected');
+            
+               if ($(target).hasClass('selected') ){
+                $(target).removeClass('selected');
+                //Insert logic if you want a type of optional click/off click code
+            } 
+            else
+            {
+                $(target).addClass('selected');
+                //Insert event handling logic
+            }
+        });
+        
+    };
+        var _daybuttonListener = function () {
+        
+           $(".daybutton").on("click", function (event) {
+            var target = event.target;
+               $(".daybutton").removeClass('btn-floating btn-large');
+            
+               if ($(target).hasClass('btn-floating btn-large') ){
+                $(target).removeClass('btn-floating btn-large');
+                //Insert logic if you want a type of optional click/off click code
+            } 
+            else
+            {
+                $(target).addClass('btn-floating btn-large');
+                //Insert event handling logic
+            }
         });
         
     };
