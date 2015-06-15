@@ -418,19 +418,14 @@ var that = {},
             {
                 $(target).addClass('selected');
                 var numer = target.id;
-<<<<<<< HEAD
+
                console.log(fakultäten[numer]);
                 var clickedFac = fakultäten[numer];
                 currFak=clickedFac;
                 
-                _fetchData(vvdata,currFak,currDay);
-               
-=======
-                var clickedFac = fakultäten[numer-1];
-                currFak=clickedFac;
-                
                 _fetchData(hourData,currFak,currDay);
->>>>>>> data-days
+               
+
                 //Insert event handling logic
             }
                
