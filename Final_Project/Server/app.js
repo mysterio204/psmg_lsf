@@ -31,7 +31,7 @@
     var allHours = [];
     var allDays = [];
     var facs =[];
-
+    var allData = {};
 
 
     /*
@@ -48,6 +48,7 @@
         });
         
         _readAllVV();
+        
         
             
        
@@ -126,6 +127,9 @@
 
             console.log("Hours: ready");
                 _implementNewDataStructure(allHours);
+        
+        
+            
 
             };
     
@@ -159,7 +163,13 @@
             );
          
              }
-        }         
+        }  
+        
+        
+         var hours = "hours";
+        
+        allData[hours]=facs;
+        
     };
     
 
@@ -170,14 +180,24 @@
             var name =eventdata[f].Fak;;
                 
                 var bums = JSON.parse(eventdata[f].vv)
-         var days = jsonPath.query(bums, "$..VZWoTag");
+                var days = jsonPath.query(bums, "$..VZWoTag");
                 if(count(name,days)!=null){
                  allDays.push(count(name,days));
                 }
+        
+        
            
             }
+        
+          
+        
+        var days = "days";
+        
+        allData[days]=allDays;
+        
     };
     
+  
     
     var count = function(name,ar){
         
@@ -191,10 +211,13 @@
     for (var i = 0; i < array_elements.length; i++) {
         if (array_elements[i] != current) {
             if (cnt > 0) {
-                var key = current;
-                var curD = {};
-                curD[key]=cnt
-                currentFak.push(curD);
+               // var key = current;
+               // var curD = {};
+               // curD[key]=cnt
+                currentFak.push({
+                weekday : current,
+                freq : cnt
+                });
             }
             current = array_elements[i];
             cnt = 1;
@@ -207,7 +230,7 @@
         var re = new RegExp(/.*Fakultät.*/);
         if(re.test(name)){
         var key = name;
-        var res ={};
+        var res = {};
         res[key]= currentFak;
     return res;   }
         return null;
@@ -291,6 +314,13 @@ var countHours = function(name,ar){
         server.get("/api/get/fak", function (req, res) {
             var fak = jsonPath.query(peopledata, "$.Ueberschrift[*].Einrichtung.Funktion");
             res.send(JSON.stringify(fak));
+        });
+        
+        
+           server.use(cors());
+        server.get("/api/get/allData", function (req, res) {
+          
+            res.send(allData);
         });
         
         
