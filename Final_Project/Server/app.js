@@ -274,7 +274,7 @@ var countHours = function(name,ar){
             
             
 
-            res.send(JSON.stringify(facs));
+            res.send(JSON.stringify(allDays));
         });
         
             server.get("/api/get/hours", function (req, res) {
