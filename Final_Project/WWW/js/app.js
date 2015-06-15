@@ -6,8 +6,9 @@ var that = {},
     hourData,
     daysData,
     daysAllFacs =[],
-    currDay="monday",
-    currFak="Lehrveranstaltungen der Fakultät für Physik / Courses in Physics",
+    arr = [],
+    currDay="all",
+    currFak= "Alle Fakultäten",
     
     names={"1":"Lehrveranstaltungen der Fakultät für Physik / Courses in Physics",
            "2":"Lehrveranstaltungen der Fakultät für Wirtschaftswissenschaften",
@@ -61,6 +62,7 @@ var that = {},
  		_registerListeners();
         _calculateFreqPerDayForAllFaculties();
         _fetchData(hourData,currFak,currDay);
+               
 
 		return that;
  	},
@@ -73,13 +75,31 @@ var that = {},
     
   _fetchData = function (data,faculty,day) {
       var currentData = new Array();
+               
+               console.log(faculty);
+               console.log(day);
+               
+        if(day == "all" && faculty!="Alle Fakultäten"){
+            console.log("alle Tage, eine Fakultät");
+            $('.chart').empty();
+            chart.renderBarChart(_daysPerFacluty(currFak),"days");
+            $(".bar").css("fill",_getFakClass);
+        } else
+         if(day != "all" && faculty=="Alle Fakultäten"){
+            console.log("ein Tag, alle Fakultäten");
+            $('.chart').empty();
+           chart.renderBarChart(_oneDayAllFac(day),"hours");
+             $(".bar").css("fill",_getFakClass);
+        } else
       
-        if(faculty=="Alle Fakultäten"){
+        if(day == "all" && faculty=="Alle Fakultäten"){
+            console.log("alle Tage, alle Fakultäten" );
             $('.chart').empty();
             chart.renderBarChart(daysAllFacs,"days");
             $(".bar").css("fill",_getFakClass);
         
-        }else{
+        }else if (day != "all" && faculty!="Alle Fakultäten"){
+            console.log("ein Tag, eine Fakultät");
      
             
             
@@ -88,15 +108,18 @@ var that = {},
                 if ( data[i].name==faculty){
                     if(data[i].day ==day){
                     currentData = data[i].time
+                        console.log(currentData);
                         $('.chart').empty();
                         var cl = _getFakClass();
                          chart.renderBarChart(currentData,"hours");
                          $(".bar").css("fill",_getFakClass);
+                        $('.daybutton').css("background_color",_getFakClass);
 
                     break;
                     }
                 }
-            }}
+            }
+        }
             
         });
            
@@ -151,6 +174,9 @@ var that = {},
         break;
     case "So":
         return "sunday"
+        break;
+          case "Alle Tage":
+        return "all"
         break;
     default:
          return "monday"
@@ -232,7 +258,7 @@ var that = {},
     
     var _calculateFreqPerDayForAllFaculties = function(){
         
-        var arr = [];
+        arr = [];
         daysAllFacs =[];
         
         
@@ -252,90 +278,85 @@ var that = {},
           
             
            var currMo = JSPath.apply('$..{.weekday=="Montag"}.freq[0]',currentFak);
+             if(currMo===undefined){
+                currMo = 0;
+            }
                arr.push({
                    
                    name:Object.getOwnPropertyNames(daysData[i])[0],
-                   day: "monday",
-                   value : currMo
+                   hour: "Montag",
+                   freq : currMo
                    
                });
            var currDi = JSPath.apply('$..{.weekday=="Dienstag"}.freq[0]',currentFak);
+               if(currDi===undefined){
+                currDi = 0;
+            }
                  arr.push({
                    
                    name:Object.getOwnPropertyNames(daysData[i])[0],
-                   day: "dienstag",
-                   value : currDi
+                   hour: "Dienstag",
+                   freq : currDi
                    
                });
            var currMi = JSPath.apply('$..{.weekday=="Mittwoch"}.freq[0]',currentFak);
+             if(currMi===undefined){
+                currMi = 0;
+            }
                   arr.push({
                    
                    name:Object.getOwnPropertyNames(daysData[i])[0],
-                   day: "mittwoch",
-                   value : currMi
+                   hour: "Mittwoch",
+                   freq : currMi
                    
                });
           var   currDon =  JSPath.apply('$..{.weekday=="Donnerstag"}.freq[0]',currentFak);
+           if(currDon===undefined){
+                currDon = 0;
+            }
               arr.push({
                    
                    name:Object.getOwnPropertyNames(daysData[i])[0],
-                   day: "donnerstag",
-                   value : currDon
+                   hour: "Donnerstag",
+                   freq : currDon
                    
                });
            var  currFr = JSPath.apply('$..{.weekday=="Freitag"}.freq[0]',currentFak);
-              arr.push({
-                   
-                   name:Object.getOwnPropertyNames(daysData[i])[0],
-                   day: "freitag",
-                   value : currFr
-                   
-               });
-             var currSa =  JSPath.apply('$..{.weekday=="Samstag"}.freq[0]',currentFak);
-              arr.push({
-                   
-                   name:Object.getOwnPropertyNames(daysData[i])[0],
-                   day: "samstag",
-                   value : currSa
-                   
-               });
-             var currSo =  JSPath.apply('$..{.weekday=="Sonntag"}.freq[0]',currentFak);
-              arr.push({
-                   
-                   name:Object.getOwnPropertyNames(daysData[i])[0],
-                   day: "Sonntag",
-                   value : currSo
-                   
-               });
-            
-            
-            if(currMo===undefined){
-                currMo = 0;
-            }
-            if(currDi===undefined){
-                currDi = 0;
-            }
-            
-            if(currMi===undefined){
-                currMi = 0;
-            }
-            
-            if(currDon===undefined){
-                currDon = 0;
-            }
-            
             if(currFr===undefined){
                 currFr = 0;
             }
-            
+              arr.push({
+                   
+                   name:Object.getOwnPropertyNames(daysData[i])[0],
+                   hour: "Freitag",
+                   freq : currFr
+                   
+               });
+             var currSa =  JSPath.apply('$..{.weekday=="Samstag"}.freq[0]',currentFak);
             if(currSa===undefined){
                 currSa = 0;
             }
-            
+              arr.push({
+                   
+                   name:Object.getOwnPropertyNames(daysData[i])[0],
+                   hour: "Samstag",
+                   freq : currSa
+                   
+               });
+             var currSo =  JSPath.apply('$..{.weekday=="Sonntag"}.freq[0]',currentFak);
             if(currSo===undefined){
                 currSo = 0;
             }
+              arr.push({
+                   
+                   name:Object.getOwnPropertyNames(daysData[i])[0],
+                   hour: "Sonntag",
+                   freq : currSo
+                   
+               });
             
+            
+           
 
             mo+=currMo;
             di+=currDi;
@@ -407,6 +428,62 @@ var that = {},
           
     };
     
+    
+    var _daysPerFacluty = function(fk){
+    var path = '$.{.name=="'+fk+'"}'
+    var resArray = JSPath.apply(path,arr);
+    return resArray;
+    };
+    
+    
+    
+    
+    var _oneDayAllFac = function(day){
+    var path = '$.{.day=="'+day+'"}.time'
+    var dt= JSON.stringify(hourData);
+        console.log(dt);
+    var resArray = JSPath.apply(path,JSON.parse(dt));
+        console.log(resArray);
+        
+       
+
+         
+         resArray.forEach(function(obj){
+             var s ="April, 16, 1992,"+ obj.hour+":00";
+             var d = new Date(s);
+         obj.hour = d;
+         
+         });
+         
+         
+    resArray.sort(function(a, b) {
+    return new Date(a.hour).getTime() - new Date(b.hour).getTime();
+});
+         
+    var secres = [];
+    var curT=new Date (resArray[0].hour).getTime();
+    var cnt=0;
+         
+    resArray.forEach(function(obj){
+    if(new Date (obj.hour).getTime() == curT){
+            cnt+= obj.freq
+    }else{
+        var h = new Date(curT).getHours();
+        var m = new Date(curT).getMinutes();
+        var t = ""+h.toString()+":"+m.toString();
+        secres.push({hour:t,freq:cnt});
+        cnt=obj.freq;
+        curT=new Date (obj.hour).getTime();
+    
+    }
+    
+    });
+    return secres;
+         
+         //return resArray;
+    };
+    
+    
   
     
     
@@ -430,6 +507,7 @@ var that = {},
                 currFak=clickedFac;
                 
                 _fetchData(hourData,currFak,currDay);
+                
                
 
                 //Insert event handling logic
