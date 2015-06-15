@@ -5,6 +5,7 @@ var that = {},
     allData,
     hourData,
     daysData,
+    daysAllFacs =[],
     currDay="monday",
     currFak="Lehrveranstaltungen der Fakultät für Physik / Courses in Physics",
     
@@ -73,7 +74,12 @@ var that = {},
   _fetchData = function (data,faculty,day) {
       var currentData = new Array();
       
+        if(faculty=="Alle Fakultäten"){
+            $('.chart').empty();
+            chart.renderBarChart(daysAllFacs,"days");
+            $(".bar").css("fill",_getFakClass);
         
+        }else{
      
             
             
@@ -84,13 +90,13 @@ var that = {},
                     currentData = data[i].time
                         $('.chart').empty();
                         var cl = _getFakClass();
-                         chart.renderBarChart(currentData);
+                         chart.renderBarChart(currentData,"hours");
                          $(".bar").css("fill",_getFakClass);
 
                     break;
                     }
                 }
-            }
+            }}
             
         });
            
@@ -227,7 +233,7 @@ var that = {},
     var _calculateFreqPerDayForAllFaculties = function(){
         
         var arr = [];
-        var daysAllFacs =[];
+        daysAllFacs =[];
         
         
         
@@ -344,7 +350,7 @@ var that = {},
         
         daysAllFacs.push({
             
-            day : "montag",
+            hour : "montag",
             freq : mo
             
             
@@ -353,35 +359,35 @@ var that = {},
        
          daysAllFacs.push({
             
-            day : "dienstag",
+            hour : "dienstag",
             freq : di
             
             
         });
          daysAllFacs.push({
             
-            day : "mittwoch",
+            hour : "mittwoch",
             freq : mi
             
             
         });
          daysAllFacs.push({
             
-            day : "donnerstag",
+            hour : "donnerstag",
             freq : don
             
             
         });
          daysAllFacs.push({
             
-            day : "freitag",
+            hour : "freitag",
             freq : fr
             
             
         });
          daysAllFacs.push({
             
-            day : "samstag",
+            hour : "samstag",
             freq : sa
             
             
@@ -389,7 +395,7 @@ var that = {},
         
          daysAllFacs.push({
             
-            day : "sonntag",
+            hour : "sonntag",
             freq : so
             
             

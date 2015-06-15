@@ -18,7 +18,7 @@ ChartController = function (options) {
         height = 250 - margin.top - margin.bottom;
 
     
-    function renderChart(JSONData){
+    function renderChart(JSONData,which){
         
          
         
@@ -26,19 +26,35 @@ ChartController = function (options) {
          var data = JSONData.slice()
          width = data.length*60 - margin.left - margin.right,
          console.log(data.length*40);
-         //if(wich.equals("hours")){
-         var xValues = function(d) { return d.hour }
-        var yValues = function(d) { return d.freq }
-         
-         
-        // }
-//         if(wich.equals("days")){
-//         var xValues = function(d) { return d.day }
+        
+//        switch(which){
+//            case "hours":
+//                
+//         var xValues = function(d) { return d.hour }
 //        var yValues = function(d) { return d.freq }
+//        break;
+//                
+//            case "days":
+//                 var xValues = function(d) { return d.day }
+//                var yValues = function(d) { return d.freq }
+//                break;
+//                
+//            default:
+//               var xValues = function(d) { return d.hour }
+//        var yValues = function(d) { return d.freq } 
 //         
-//         
-//         }
-  
+//        
+//        }
+        
+        var xValues = function(d) { return d.hour }
+        var yValues = function(d) { return d.freq }
+        
+        
+        
+        
+        
+        
+       
         
        
         
