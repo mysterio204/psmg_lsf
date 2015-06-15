@@ -20,10 +20,12 @@ ChartController = function (options) {
     
     function renderChart(JSONData){
         
+         
         
         console.log(JSONData);
          var data = JSONData.slice()
-         
+         width = data.length*60 - margin.left - margin.right,
+         console.log(data.length*40);
          //if(wich.equals("hours")){
          var xValues = function(d) { return d.hour }
         var yValues = function(d) { return d.freq }
@@ -44,7 +46,7 @@ ChartController = function (options) {
 //        var x = d3.scale.ordinal().rangeRoundBands([0,width]);
         
          var x = d3.scale.ordinal()
-                .rangeRoundBands([0,width])
+                .rangeRoundBands([0,width+50])
                 .domain(d3.extent(data, yValues))
 
          var y = d3.scale.linear()
