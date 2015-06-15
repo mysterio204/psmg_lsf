@@ -33,8 +33,8 @@ ChartController = function (options) {
          
         // }
 //         if(wich.equals("days")){
-//         var xValues = function(d) { return d.Day }
-//        var yValues = function(d) { return d.Value }
+//         var xValues = function(d) { return d.day }
+//        var yValues = function(d) { return d.freq }
 //         
 //         
 //         }

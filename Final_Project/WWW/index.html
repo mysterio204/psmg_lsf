@@ -28,41 +28,77 @@
     </div>
   </nav>
        </header> 
-    
-    <svg class="chart"></svg>
+    <span class="chartcont"> <svg class="chart"></svg><form action="#">
+                <p>
+       <input name="group1" type="radio" id="test1" />
+      <label for="test1">Stunden</label>
+    </p>
+    <p>
+      <input name="group1" type="radio" id="test2" />
+      <label for="test2">Tage</label>
+    </p>
+  
+  </form></span>
+   
+  
     <div class="container">
+        
+           
+        <div class="daybutton waves-effect waves-light btn">Ganze Woche</div>
         <div class="row" id="days">
            
+            
             <div class="daybutton waves-effect waves-light btn">Mo</div>
-            <div class=" daybutton waves-effect waves-light btn">Di</div>
-            <div class=" daybutton waves-effect waves-light btn">Mi</div>
-            <div class=" daybutton waves-effect waves-light btn">Do</div>
-            <div class=" daybutton waves-effect waves-light btn">Fr</div>
-            <div class=" daybutton waves-effect waves-light btn">Sa</div>
-            <div class=" daybutton waves-effect waves-light btn">So</div>
+            <div class="daybutton waves-effect waves-light btn">Di</div>
+            <div class="daybutton waves-effect waves-light btn">Mi</div>
+            <div class="daybutton waves-effect waves-light btn">Do</div>
+            <div class="daybutton waves-effect waves-light btn">Fr</div>
+            <div class="daybutton waves-effect waves-light btn">Sa</div>
+            <div class="daybutton waves-effect waves-light btn">So</div>
           
         
         
         
         </div>
+        <a class=
+        "btn-floating btn-large waves-effect waves-light ur tooltipped fak" data-delay="20" 
+        data-position="bottom" data-tooltip="Alle Fakultäten" id="0"></a> 
+         <div class="row" id="facs">
+            <a class=
+        "btn-floating btn-large waves-effect waves-light rw tooltipped fak" data-delay="20" 
+        data-position="bottom" data-tooltip="Recht" id="1"></a> 
+             <a class=
+        "btn-floating btn-large waves-effect waves-light wiwi tooltipped fak" data-delay="20"
+        data-position="bottom" data-tooltip="Wirtschaft" id="2"></a> 
+             <a class=
+        "btn-floating btn-large waves-effect waves-light theo tooltipped fak" data-delay="20"
+        data-position="bottom" data-tooltip="Theologie" id="3"></a> 
+             <a class=
+        "btn-floating btn-large waves-effect waves-light phil tooltipped fak" data-delay="20"
+        data-position="bottom" data-tooltip="Philosophie" id="4"></a> 
+             <a class=
+        "btn-floating btn-large waves-effect waves-light psych tooltipped fak" data-delay="20"
+        data-position="bottom" data-tooltip="Psychologie" id="5"></a> 
+             <a class=
+        "btn-floating btn-large waves-effect waves-light slk tooltipped fak" data-delay="20"
+        data-position="bottom" data-tooltip="SLK" id="6"></a> 
+             <a class=
+        "btn-floating btn-large waves-effect waves-light bio tooltipped fak" data-delay="20"
+        data-position="bottom" data-tooltip="Biologie" id="7"></a> 
+             <a class=
+        "btn-floating btn-large waves-effect waves-light math tooltipped fak" data-delay="20"
+        data-position="bottom" data-tooltip="Mathematik" id="8"></a> 
+             <a class=
+        "btn-floating btn-large waves-effect waves-light phy tooltipped fak" data-delay="20"
+        data-position="bottom" data-tooltip="Physik" id="9"></a> 
+             <a class=
+        "btn-floating btn-large waves-effect waves-light che tooltipped fak" data-delay="20"
+        data-position="bottom" data-tooltip="Chemie" id="10"></a> 
+             <a class=
+        "btn-floating btn-large waves-effect waves-light med tooltipped fak" data-delay="20"
+        data-position="bottom" data-tooltip="Medizin" id="11"></a>
+    </div>
         
-           <div class="row" id="facs">
-                <a id="1"class="btn-floating btn-large waves-effect waves-light rw tooltipped fak "data-position="bottom"data-delay="20" data-tooltip="Recht"> </a>
-                <a id="2"class="btn-floating btn-large waves-effect waves-light wiwi tooltipped fak"data-position="bottom"data-delay="20" data-tooltip="Wirtschaft"> </a>
-                <a id="3"class="btn-floating btn-large waves-effect waves-light theo tooltipped fak"data-position="bottom"data-delay="20" data-tooltip="Theologie"> </a>
-                <a id="4"class="btn-floating btn-large waves-effect waves-light phil tooltipped fak"data-position="bottom"data-delay="20" data-tooltip="Philosophie"> </a>
-                <a id="5"class="btn-floating btn-large waves-effect waves-light psych tooltipped fak"data-position="bottom"data-delay="20" data-tooltip="Psychologie"> </a>
-              <a  id="6"class="btn-floating btn-large waves-effect waves-light slk tooltipped fak"data-position="bottom"data-delay="20" data-tooltip="SLK"> </a>
-                <a id="7"class="btn-floating btn-large waves-effect waves-light bio tooltipped fak"data-position="bottom"data-delay="20" data-tooltip="Biologie"> </a>
-               <a id="8"class="btn-floating btn-large waves-effect waves-light math tooltipped fak"data-position="bottom"data-delay="20" data-tooltip="Mathematik"> </a>
-                <a id="9"class="btn-floating btn-large waves-effect waves-light phy tooltipped fak"data-position="bottom"data-delay="20" data-tooltip="Physik"> </a>
-               <a id="10"class="btn-floating btn-large waves-effect waves-light che tooltipped fak"data-position="bottom"data-delay="20" data-tooltip="Chemie"> </a>
-             <a id="11"class="btn-floating btn-large waves-effect waves-light med tooltipped fak"data-position="bottom"data-delay="20" data-tooltip="Medizin"> </a>
-         
-        
-        
-        
-        </div>
     
     </div>
   
@@ -70,7 +106,7 @@
 
 
 
-	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
     <script src="js/d3.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
      <script src="js/app.js"></script>

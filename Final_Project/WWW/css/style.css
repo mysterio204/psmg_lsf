@@ -54,27 +54,40 @@ margin: 10px;
 
 }
 
+.ur{
+background-color: #1D3F4B;
+fill:#1D3F4B
+}
 .rw{
 background-color: #CDD30F;
+    fill:#CDD30F;
 }
 .wiwi{
 background-color: #AEA700;
+    fill:#AEA700;
 }
 .theo{
 background-color: #ECBC00;
+    fill:#ECBC00;
 }
 .phil{
 background-color: #EC6200;
+    fill:#EC6200;
 }
 .psych{
 background-color: #BF002A;
+        fill:#BF002A;
+    
+
 }
 .slk{
 background-color: #9C004B;
+    fill:#9C004B;
 }
 
 .bio{
 background-color: #4FB800;
+    fill:#4FB800;
 }
 .math{
 background-color: #009B77;
@@ -133,7 +146,6 @@ background-color: #004455;
 }
 
 .bar:hover {
-    cursor: pointer;
     fill: #E65A9D;
 }
 
@@ -152,8 +164,14 @@ background-color: #004455;
     display: none;
 }
 .chart {
+  display: block;
+ 
+    margin-top: 100px;  
     
-    display: block;
-    margin: 0 auto;
-    margin-top: 100px;
+}
+.chartcont{
+display:flex;
+justify-content:center;
+align-items:center;
+
 }

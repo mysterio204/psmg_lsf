@@ -20,6 +20,7 @@ var that = {},
            "12":"Lehrveranstaltungen der Fakultät für Sprach-, Literatur- und  Kulturwissenschaften", 
           },
      fakultäten=[
+    "Alle Fakultäten",
     "Lehrveranstaltungen der Fakultät für Rechtswissenschaft",
     "Lehrveranstaltungen der Fakultät für Wirtschaftswissenschaften",
     "Lehrveranstaltungen der Fakultät für Katholische Theologie",
@@ -79,7 +80,9 @@ var that = {},
                     //console.log(currentData);
                     console.log(currDay);
                         $('.chart').empty();
+                        var cl = _getFakClass();
                          chart.renderBarChart(currentData);
+                         $(".bar").css("fill",_getFakClass);
 
                     break;
                     }
@@ -150,6 +153,60 @@ var that = {},
 }
     },
     
+    _getFakClass = function (){
+    switch (currFak){
+        case "Lehrveranstaltungen der Fakultät für Rechtswissenschaft":
+            return"#CDD30F"
+            break;
+            
+        case "Lehrveranstaltungen der Fakultät für Wirtschaftswissenschaften":
+            return"#AEA700"
+            break;
+        
+        case "Lehrveranstaltungen der Fakultät für Katholische Theologie":
+            return"#ECBC00"
+            break;
+            
+        case "Lehrveranstaltungen der Fakultät für Philosophie, Kunst-, Geschichts- und Gesellschaftswissenschaften":
+            return"#EC6200"
+            break;
+            
+        case "Lehrveranstaltungen der Fakultät für Psychologie, Pädagogik und Sportwissenschaft":
+            return"#BF002A"
+            break;
+        
+        case "Lehrveranstaltungen der Fakultät für Sprach-, Literatur- und  Kulturwissenschaften":
+            return"#9C004B"
+            break;
+            
+        case "Lehrveranstaltungen der Fakultät für Biologie und Vorklinische Medizin":
+            return"#4FB800"
+            break; 
+        
+        case "Lehrveranstaltungen der Fakultät für Mathematik":
+            return"#009B77"
+            break;
+            
+        case "Lehrveranstaltungen der Fakultät für Physik / Courses in Physics":
+            return"#008993"
+            break;
+            
+         case "Lehrveranstaltungen der Fakultät für Chemie und Pharmazie":
+            return"#0087B2"
+            break;
+            
+        case "Lehrveranstaltungen der Fakultät für Medizin":
+            return"#00556A"
+            break; 
+        
+        default:
+            return "#1D3F4B";
+    
+    }
+    
+    
+    },
+    
  	 
 
 	_initUI = function(){
@@ -184,11 +241,12 @@ var that = {},
             {
                 $(target).addClass('selected');
                 var numer = target.id;
-               console.log(fakultäten[numer-1]);
-                var clickedFac = fakultäten[numer-1];
+               console.log(fakultäten[numer]);
+                var clickedFac = fakultäten[numer];
                 currFak=clickedFac;
                 
                 _fetchData(vvdata,currFak,currDay);
+               
                 //Insert event handling logic
             }
                
