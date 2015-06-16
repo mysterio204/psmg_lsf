@@ -74,6 +74,13 @@ var that = {},
      */
     
   _fetchData = function (data,faculty,day) {
+               
+               if(day=="all"&&faculty=="Alle Fakultäten"){
+               $('#radiobuttons').show();
+               
+               }else{
+                $('#radiobuttons').hide();
+               }
       var currentData = new Array();
                
                console.log(faculty);
@@ -93,10 +100,26 @@ var that = {},
         } else
       
         if(day == "all" && faculty=="Alle Fakultäten"){
-            console.log("alle Tage, alle Fakultäten" );
+            
+            if(document.getElementById('hours').checked){
+            console.log("jez kommen stunden");
+                
+                console.log("alle Tage, alle Fakultäten" );
+            $('.chart').empty();
+            chart.renderBarChart(_oneDayAllFacHours(),"hours");
+            $(".bar").css("fill",_getFakClass);
+            
+            
+            }else if(document.getElementById('days').checked){
+            console.log("jez kommen tage");
+               console.log("alle Tage, alle Fakultäten" );
             $('.chart').empty();
             chart.renderBarChart(daysAllFacs,"days");
             $(".bar").css("fill",_getFakClass);
+            
+            }
+            
+            
         
         }else if (day != "all" && faculty!="Alle Fakultäten"){
             console.log("ein Tag, eine Fakultät");
@@ -252,9 +275,29 @@ var that = {},
         
         _facultybuttonListener();
         _daybuttonListener();
+        _radioListener();
+        
         
         
 	};
+    var _radioListener = function(){
+        
+        document.switcher.group1[1].checked = true;
+    //var radios = document.switcher;
+        $("#days").on("click", function (event) {
+            _fetchData(hourData,currFak,currDay);
+            console.log(event.target.value);
+        });
+        $("#hours").on("click", function (event) {
+            
+            _fetchData(hourData,currFak,currDay);
+            console.log(event.target.value);
+        });
+   
+
+    
+    
+    };
     
     var _calculateFreqPerDayForAllFaculties = function(){
         
@@ -441,22 +484,50 @@ var that = {},
     var _oneDayAllFac = function(day){
     var path = '$.{.day=="'+day+'"}.time'
     var dt= JSON.stringify(hourData);
-        console.log(dt);
+        
     var resArray = JSPath.apply(path,JSON.parse(dt));
-        console.log(resArray);
+       
         
        
 
          
-         resArray.forEach(function(obj){
+         
+         
+         var total = _countAllHours(resArray);
+ 
+    return total;
+         
+         //return resArray;
+    };
+    
+    var _oneDayAllFacHours = function(){
+    
+    var days = ["monday","tuesday","wednesday","thursday","friday","saturday","sunday"];
+    var allHours=[];
+        for(day in days){
+            console.log(days[day]);
+        var d = _oneDayAllFac(days[day]);
+            for(a in d){
+            allHours.push(d[a]);
+            }
+        
+        
+        }
+        
+        var total = _countAllHours(allHours)
+   return total;
+    
+    };
+    
+    var _countAllHours = function(resArray){
+        
+        resArray.forEach(function(obj){
              var s ="April, 16, 1992,"+ obj.hour+":00";
              var d = new Date(s);
          obj.hour = d;
          
          });
-         
-         
-    resArray.sort(function(a, b) {
+       resArray.sort(function(a, b) {
     return new Date(a.hour).getTime() - new Date(b.hour).getTime();
 });
          
@@ -478,9 +549,8 @@ var that = {},
     }
     
     });
-    return secres;
-         
-         //return resArray;
+        return secres;
+    
     };
     
     
