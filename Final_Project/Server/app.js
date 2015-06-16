@@ -32,6 +32,7 @@
     var allDays = [];
     var facs =[];
     var allData = {};
+    var d ;
 
 
     /*
@@ -39,14 +40,8 @@
      * console logs appear when the server is online and the file is read in 
      */
     function initData() {
-          fs.readFile(PEOPLE, function(err, data) {
-                          
-            peopledata = JSON.parse(data);
-            console.log("server status : online ");
-            console.log("Read file: success");
-              
-        });
-        
+       
+        _readPersData(); 
         _readAllVV();
         
         
@@ -170,6 +165,109 @@
         
         allData[hours]=facs;
         
+    };
+    
+    var _readPersData = function(){
+        
+        
+           fs.readFile(PEOPLE, function(err, data) {
+                          
+            peopledata = JSON.parse(data);
+            console.log("server status : online ");
+            console.log("Read file Person-Data : success");
+               
+            var structure = jsonPath.query(peopledata, "$.Ueberschrift[*].Einrichtung");
+            
+            var PersonArray = _fillArrayWithPersonData(structure);   
+               
+               
+              
+        });
+    
+    };
+    
+    var _fillArrayWithPersonData = function (data){
+        
+                var persArr = [];
+
+    
+        for(var i = 0 ; i < data.length; i++){
+            
+          var personalArray = [];
+
+          var name = data[i].EinBez;
+          var value = data[i].Funktion;
+            
+           
+        
+
+            
+            
+           
+
+           for(var j = 0 ; j < value.length; j++){
+               
+
+               
+               
+               if(value[j].hasOwnProperty('Personal')==true){
+
+               var person = value[j].Personal;
+                   
+                   
+               if(person.hasOwnProperty('PerID')==true ){
+                   
+               var id = person.PerID;
+
+                    personalArray.push({
+                    personID : id 
+                 });
+                                   
+               }
+                   else{
+                   
+                   
+                   for(var k = 0 ; k < person.length; k++){
+                       var id = person[k].PerID;
+                        personalArray.push({
+                        personID : id
+                     
+                 
+                     
+                 });
+                
+                   }
+               }
+               
+           }
+                     
+               
+           }
+            
+            
+            
+         var staffCount = personalArray.length;
+            
+            if(staffCount == 0){
+                staffCount=1;
+            }
+          
+         
+               persArr.push({
+                
+                FakName : name, 
+                Personal: staffCount
+            
+            });
+            
+            
+     }
+        
+        
+                    d = persArr;
+        
+
+         
     };
     
 
@@ -312,8 +410,8 @@ var countHours = function(name,ar){
         
         server.use(cors());
         server.get("/api/get/fak", function (req, res) {
-            var fak = jsonPath.query(peopledata, "$.Ueberschrift[*].Einrichtung.Funktion");
-            res.send(JSON.stringify(fak));
+            var fak = jsonPath.query(peopledata, "$.Ueberschrift[*].Einrichtung");
+            res.send(JSON.stringify(d));
         });
         
         
