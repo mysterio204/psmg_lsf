@@ -83,17 +83,16 @@ var that = {},
                }
       var currentData = new Array();
                
-               console.log(faculty);
-               console.log(day);
+               
                
         if(day == "all" && faculty!="Alle Fakultäten"){
-            console.log("alle Tage, eine Fakultät");
+           
             $('.chart').empty();
             chart.renderBarChart(_daysPerFacluty(currFak),"days");
             $(".bar").css("fill",_getFakClass);
         } else
          if(day != "all" && faculty=="Alle Fakultäten"){
-            console.log("ein Tag, alle Fakultäten");
+            
             $('.chart').empty();
            chart.renderBarChart(_oneDayAllFac(day),"hours");
              $(".bar").css("fill",_getFakClass);
@@ -102,17 +101,17 @@ var that = {},
         if(day == "all" && faculty=="Alle Fakultäten"){
             
             if(document.getElementById('hours').checked){
-            console.log("jez kommen stunden");
+            
                 
-                console.log("alle Tage, alle Fakultäten" );
+                
             $('.chart').empty();
             chart.renderBarChart(_oneDayAllFacHours(),"hours");
             $(".bar").css("fill",_getFakClass);
             
             
             }else if(document.getElementById('days').checked){
-            console.log("jez kommen tage");
-               console.log("alle Tage, alle Fakultäten" );
+            
+               
             $('.chart').empty();
             chart.renderBarChart(daysAllFacs,"days");
             $(".bar").css("fill",_getFakClass);
@@ -122,7 +121,7 @@ var that = {},
             
         
         }else if (day != "all" && faculty!="Alle Fakultäten"){
-            console.log("ein Tag, eine Fakultät");
+            
      
             
             
@@ -131,7 +130,7 @@ var that = {},
                 if ( data[i].name==faculty){
                     if(data[i].day ==day){
                     currentData = data[i].time
-                        console.log(currentData);
+                        
                         $('.chart').empty();
                         var cl = _getFakClass();
                          chart.renderBarChart(currentData,"hours");
@@ -286,12 +285,12 @@ var that = {},
     //var radios = document.switcher;
         $("#days").on("click", function (event) {
             _fetchData(hourData,currFak,currDay);
-            console.log(event.target.value);
+            
         });
         $("#hours").on("click", function (event) {
             
             _fetchData(hourData,currFak,currDay);
-            console.log(event.target.value);
+          
         });
    
 
@@ -465,8 +464,7 @@ var that = {},
             
         });
         
-        console.log(arr);
-        console.log(daysAllFacs);
+
         
           
     };
@@ -505,7 +503,7 @@ var that = {},
     var days = ["monday","tuesday","wednesday","thursday","friday","saturday","sunday"];
     var allHours=[];
         for(day in days){
-            console.log(days[day]);
+            
         var d = _oneDayAllFac(days[day]);
             for(a in d){
             allHours.push(d[a]);
@@ -572,7 +570,7 @@ var that = {},
                 $(target).addClass('selected');
                 var numer = target.id;
 
-               console.log(fakultäten[numer]);
+              
                 var clickedFac = fakultäten[numer];
                 currFak=clickedFac;
                 

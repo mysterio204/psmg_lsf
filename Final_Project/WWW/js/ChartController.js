@@ -22,10 +22,10 @@ ChartController = function (options) {
         
          
         
-        console.log(JSONData);
-         var data = JSONData.slice()
-         width = data.length*60 - margin.left - margin.right,
-         console.log(data.length*40);
+        
+         var data = JSONData.slice(),
+         width = data.length*60 - margin.left - margin.right;
+        
         
 //        switch(which){
 //            case "hours":
@@ -100,7 +100,7 @@ ChartController = function (options) {
         
         }).attr("width", "40px")
         .on("mouseover",function(d){
-        console.log(d)});
+        });
         
     }
     
