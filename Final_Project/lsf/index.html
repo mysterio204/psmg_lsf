@@ -1,0 +1,90 @@
+<!doctype>
+<head>
+        <link type="text/css" rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css">
+       <link href='http://fonts.googleapis.com/css?family=Roboto:400,900,100&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+       <link href='http://fonts.googleapis.com/css?family=Amaranth:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+        <link type="text/css" rel="stylesheet" href="src/css/graph.css">
+        <link type="text/css" rel="stylesheet" href="src/css/detail.css">
+        <link type="text/css" rel="stylesheet" href="src/css/legend.css">
+        <link type="text/css" rel="stylesheet" href="src/css/extensions.css?v=2">
+        
+
+        <script src="vendor/d3.v3.js"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+        <script>
+                jQuery.noConflict();
+        </script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.15/jquery-ui.min.js"></script>
+
+        <script src="src/js/Rickshaw.js"></script>
+         <script src="src/js/Rickshaw.Class.js"></script>
+         <script src="src/js/Rickshaw.Compat.ClassList.js"></script>
+         <script src="src/js/Rickshaw.Graph.js"></script>
+         <script src="src/js/Rickshaw.Graph.Renderer.js"></script>
+         <script src="src/js/Rickshaw.Graph.Renderer.Area.js"></script>
+         <script src="src/js/Rickshaw.Graph.Renderer.Line.js"></script>
+         <script src="src/js/Rickshaw.Graph.Renderer.Bar.js"></script>
+         <script src="src/js/Rickshaw.Graph.Renderer.ScatterPlot.js"></script>
+         <script src="src/js/Rickshaw.Graph.Renderer.Stack.js"></script>
+         <script src="src/js/Rickshaw.Graph.RangeSlider.js"></script>
+         <script src="src/js/Rickshaw.Graph.RangeSlider.Preview.js"></script>
+         <script src="src/js/Rickshaw.Graph.HoverDetail.js"></script>
+         <script src="src/js/Rickshaw.Graph.Annotate.js"></script>
+         <script src="src/js/Rickshaw.Graph.Legend.js"></script>
+         <script src="src/js/Rickshaw.Graph.Axis.Time.js"></script>
+         <script src="src/js/Rickshaw.Graph.Behavior.Series.Toggle.js"></script>
+         <script src="src/js/Rickshaw.Graph.Behavior.Series.Order.js"></script>
+         <script src="src/js/Rickshaw.Graph.Behavior.Series.Highlight.js"></script>
+         <script src="src/js/Rickshaw.Graph.Smoother.js"></script>
+         <script src="src/js/Rickshaw.Fixtures.Time.js"></script>
+         <script src="src/js/Rickshaw.Fixtures.Time.Local.js"></script>
+         <script src="src/js/Rickshaw.Fixtures.Number.js"></script>
+         <script src="src/js/Rickshaw.Fixtures.RandomData.js"></script>
+         <script src="src/js/Rickshaw.Fixtures.Color.js"></script>
+         <script src="src/js/Rickshaw.Color.Palette.js"></script>
+         <script src="src/js/Rickshaw.Graph.Axis.Y.js"></script>
+
+        <script src="src/extensions.js"></script>
+</head>
+<body>
+
+<header id="ue">
+<p id="uetext">Vorlesungsverzeichnis der Uni Regensburg</p>
+</header>
+
+<div id="content">
+  <div id="chart_container">
+                <div id="chart"></div>
+                <div id="timeline"></div>
+                <div id="preview"></div>
+        </div>
+
+        <form id="side_panel">
+                <h1 id ="graphtitle">Kurse im Sommerstemester 2015</h1>
+                <section><div id="legend"></div></section>
+                <section>
+                        <div id="renderer_form" class="toggler">
+                                <input type="radio" name="renderer" id="area" value="area" checked>
+                                <label for="area">area</label>
+                                <input type="radio" name="renderer" id="line" value="line">
+                                <label for="line">line</label>
+                                <input type="radio" name="renderer" id="scatter" value="scatterplot">
+                                <label for="scatter">scatter</label>
+                        </div>
+                </section>
+         
+                <section id="smoothingSection">
+                        <h6>Smoothing</h6>
+                        <div id="smoother"></div>
+                </section>
+                <section></section>
+        </form>
+
+      
+
+</div>
+
+<script src="chartOne.js"></script>

@@ -1,0 +1,16 @@
+
+body{
+
+	background-image: url("src/images/apple.png");
+	background-repeat: repeat-x;
+  background-attachment: fixed;
+  background-position: top left;
+}
+#chart_container{
+	
+	margin-left: 10px;
+}
+#side_panel{
+
+	margin-left:10px;
+}
