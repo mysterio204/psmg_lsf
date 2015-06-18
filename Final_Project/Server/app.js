@@ -644,7 +644,7 @@ var betweenDate= function(startDt, endDt,rythm) {
     initData();
     start();
     setTimeout(function(){ _getAllDates(); }, 3000);
-    //setTimeout(function(){ _getDays(); }, 1500);
-    //setTimeout(function(){ _getHours(); }, 1500);
+    setTimeout(function(){ _getDays(); }, 1500);
+    setTimeout(function(){ _getHours(); }, 1500);
     
 }());
