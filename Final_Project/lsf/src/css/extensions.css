@@ -4,6 +4,7 @@ body{
 	background-repeat: repeat-x;
   background-attachment: fixed;
   background-position: top left;
+    color:aliceblue;
 }
 
 div, span, p, td {
@@ -15,16 +16,17 @@ text-align: center;
 display:flex;
 justify-content:center;
 align-items:center;
-color:white;
+color:aliceblue;
 height:150px;
 background-color: rgba(0,0,0,0.3);
 margin-bottom: 50px;
+    border-radius: 4px;
 }
 #uetext{
 font-size: 60px;
 /*font-family: "Roboto";
 font-weight: 100;*/
-ont-family: 'Roboto';
+font-family: 'Roboto';
 	font-weight: 100;
 }
 #graphtitle{
@@ -39,19 +41,37 @@ ont-family: 'Roboto';
 	margin-top:30px;
 }
 .rickshaw_graph .x_tick.glow .title, .rickshaw_graph .y_ticks.glow text {
-  fill: white;
-  color: white;
+  fill: aliceblue;
+  color: aliceblue;
   text-shadow: -1px 1px 0 rgba(255, 255, 255, 0.1), 1px -1px 0 rgba(255, 255, 255, 0.1), 1px 1px 0 rgba(255, 255, 255, 0.1), 0px 1px 0 rgba(255, 255, 255, 0.1), 0px -1px 0 rgba(255, 255, 255, 0.1), 1px 0px 0 rgba(255, 255, 255, 0.1), -1px 0px 0 rgba(255, 255, 255, 0.1), -1px -1px 0 rgba(255, 255, 255, 0.1);
 }
 .x_tick.glow{
 	bottom:-20;
 	font-family: 'Roboto';
 	font-weight: 100;
+    border-left: 1px dotted rgba(255, 255, 255, 0.5);
 }
 .y_ticks.glow{
 	font-family: 'Roboto';
 	font-weight: 100;
+    
 }
+.rickshaw_graph .y_grid .tick {
+  z-index: -1;
+  stroke: rgba(255, 255, 255, 0.5);
+  stroke-width: 1px;
+  stroke-dasharray: 1 1;
+}
+/*
+.rickshaw_graph .x_tick {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 0px;
+  border-left: 1px dotted rgba(255, 255, 255, 1);
+  pointer-events: none;
+}
+*/
 #content {
 	width: 1200px;
 }
@@ -65,6 +85,7 @@ ont-family: 'Roboto';
 	margin-top: 10px;
 }
 #legend {
+    
 	display: inline-block;
 	position: relative;
 	left: 8px;
@@ -86,6 +107,7 @@ ont-family: 'Roboto';
 }
 .rickshaw_graph .detail {
 	left: -1000;
+    color:black;
 }
 #chart {
 	border: 1px solid #f0f0f0;
@@ -98,7 +120,7 @@ ont-family: 'Roboto';
 	vertical-align: top;
 }
 #side_panel section {
-	color: white;
+	color: aliceblue;
 	font-size: 12px;
 }
 #side_panel section h6 {
@@ -121,16 +143,17 @@ ont-family: 'Roboto';
 	cursor: pointer;
 }
 #legend {
+    
 	background-color: rgba(0,0,0,0.3);
 	margin-left: 0;
-	padding: 0;
+	padding: 5px;
 	left: 0;
 }
 #legend .label {
-	color: white;
+	color: aliceblue;
 }
 #legend .action {
-	color: white;
+	color: aliceblue;
 	opacity: 0.5;
 }
 #legend ul {
@@ -140,7 +163,7 @@ h1 {
 	font-family: "Roboto";
 	font-weight: normal;
 	font-size: 20px;
-	color:white;
+	color:aliceblue;
 }
 section {
 	border: none;
@@ -163,7 +186,7 @@ label.disabled {
 }
 #renderer_form.toggler input[type=radio] {
 	-moz-appearance: button;
-	background: white;
+	background: aliceblue;
 	margin: 0 7px;
 	width: 39px;
 	height: 26px;
@@ -176,7 +199,7 @@ label.disabled {
 	padding-top: 27px;
 	text-align: center;
 	font-size: 10px;
-	color: white;
+	color: aliceblue;
 	background-repeat: no-repeat;
 	position: relative;
 	margin: 0 7px;

@@ -25,7 +25,7 @@ graph.render();
 //document.getElementById("smoothingSection").style.visibility = "hidden";
 
 
-var preview = new Rickshaw.Graph.RangeSlider( {
+var preview = new Rickshaw.Graph.RangeSlider.Preview( {
         graph: graph,
         element: document.getElementById('preview'),
 } );
