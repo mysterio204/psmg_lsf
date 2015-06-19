@@ -557,14 +557,38 @@ var that = {},
   //console.log($(this).context.id);
         var num = $(this).context.id;
         var angle = num/12 * 2 * Math.PI;
-        var radius = 300;
+        var radius = 280;
         var x = Math.cos(angle)*radius;
         var y = Math.sin(angle)*radius;
+        var xabs= Math.abs(x);
+        var yabs= Math.abs(y);
     
+          if(x>=0&&y>=0){$(this).css({left: xabs});$(this).css({bottom: yabs});}
+        else if(x<=0&&y>=0){$(this).css({right: xabs});$(this).css({bottom: yabs});}
+        else if(x<=0&&y<=0){$(this).css({right: xabs});$(this).css({top: yabs});}
+        else if(x>=0&&y<=0){$(this).css({left: xabs});$(this).css({top: yabs});}
+        //$(this).css({right: x});$(this).css({top: y});
+
+});
+            $(".fak_label").each(function(index){
+  //console.log($(this).context.id);
+        var num = $(this).context.id;
+        var angle = num/12 * 2 * Math.PI;
+        console.log($(this).height());
+        console.log($(this).width());
         
-        
-        $(this).css({right: x});
-        $(this).css({top: y});
+
+        var radius = 330;
+        var x = Math.cos(angle)*radius;
+        var y = Math.sin(angle)*radius;
+        var xabs= Math.abs(x);
+        var yabs= Math.abs(y);
+    
+      if(x>=0&&y>=0){$(this).css({left: xabs});$(this).css({bottom: yabs});}
+        else if(x<=0&&y>=0){$(this).css({right: xabs});$(this).css({bottom: yabs});}
+        else if(x<=0&&y<=0){$(this).css({right: xabs});$(this).css({top: yabs});}
+        else if(x>=0&&y<=0){$(this).css({left: xabs});$(this).css({top: yabs});}
+//$(this).css({right: x});$(this).css({top: y});
 });
  
         
