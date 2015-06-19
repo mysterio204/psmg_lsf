@@ -1885,7 +1885,7 @@ input {
  * 1. Address box sizing set to `content-box` in IE 8/9/10.
  * 2. Remove excess padding in IE 8/9/10.
  */
-input[type="checkbox"], input[type="radio"] {
+input[type="checkbox"], input[type="radio"]:not(#area) {
   box-sizing: border-box;
   /* 1 */
   padding: 0;
@@ -3132,7 +3132,7 @@ span.badge {
 .mdi-av-queue-music:before {
   content: "\e6bf"; }
 
-.mdi-av-radio:before {
+.mdi-av-radio:before :not(#area) {
   content: "\e6c0"; }
 
 .mdi-av-recent-actors:before {
@@ -4773,10 +4773,10 @@ span.badge {
 .mdi-toggle-check-box-outline-blank:before {
   content: "\e8e2"; }
 
-.mdi-toggle-radio-button-off:before {
+.mdi-toggle-radio-button-off:before :not(#area) {
   content: "\e8e3"; }
 
-.mdi-toggle-radio-button-on:before {
+.mdi-toggle-radio-button-on:before :not(#area) {
   content: "\e8e4"; }
 
 .container {
@@ -6150,12 +6150,12 @@ textarea {
   Radio Buttons
 ***************/
 /* Remove default Radio Buttons */
-[type="radio"]:not(:checked), [type="radio"]:checked {
+[type="radio"]:not(:checked), [type="radio"]:checked :not(#area) {
   position: absolute;
   left: -9999px;
   visibility: hidden; }
 
-[type="radio"]:not(:checked) + label, [type="radio"]:checked + label {
+[type="radio"]:not(:checked) + label, [type="radio"]:checked + label :not(#area) {
   position: relative;
   padding-left: 35px;
   cursor: pointer;
@@ -6177,7 +6177,7 @@ textarea {
   -ms-user-select: none;
   /* IE10+ */ }
 
-[type="radio"] + label:before, [type="radio"] + label:after {
+[type="radio"] + label:before, [type="radio"] + label:after :not(#area) {
   content: '';
   position: absolute;
   left: 0;
@@ -6193,11 +6193,11 @@ textarea {
   transition: .28s ease; }
 
 /* Unchecked styles */
-[type="radio"]:not(:checked) + label:before {
+[type="radio"]:not(:checked) + label:before :not(#area) {
   border-radius: 50%;
   border: 2px solid #5a5a5a; }
 
-[type="radio"]:not(:checked) + label:after {
+[type="radio"]:not(:checked) + label:after :not(#area) {
   border-radius: 50%;
   border: 2px solid #5a5a5a;
   z-index: -1;
@@ -6208,11 +6208,11 @@ textarea {
   transform: scale(0); }
 
 /* Checked styles */
-[type="radio"]:checked + label:before {
+[type="radio"]:checked + label:before :not(#area) {
   border-radius: 50%;
   border: 2px solid transparent; }
 
-[type="radio"]:checked + label:after {
+[type="radio"]:checked + label:after :not(#area) {
   border-radius: 50%;
   border: 2px solid #26a69a;
   background-color: #26a69a;
@@ -6224,11 +6224,11 @@ textarea {
   transform: scale(1.02); }
 
 /* Radio With gap */
-[type="radio"].with-gap:checked + label:before {
+[type="radio"].with-gap:checked + label:before :not(#area) {
   border-radius: 50%;
   border: 2px solid #26a69a; }
 
-[type="radio"].with-gap:checked + label:after {
+[type="radio"].with-gap:checked + label:after :not(#area) {
   border-radius: 50%;
   border: 2px solid #26a69a;
   background-color: #26a69a;
@@ -6240,14 +6240,14 @@ textarea {
   transform: scale(.5); }
 
 /* Disabled style */
-[type="radio"]:disabled:not(:checked) + label:before, [type="radio"]:disabled:checked + label:before {
+[type="radio"]:disabled:not(:checked) + label:before, [type="radio"]:disabled:checked + label:before :not(#area) {
   background-color: transparent;
   border-color: rgba(0, 0, 0, 0.26); }
 
-[type="radio"]:disabled + label {
+[type="radio"]:disabled + label :not(#area) {
   color: rgba(0, 0, 0, 0.26); }
 
-[type="radio"]:disabled:not(:checked) + label:hover:before {
+[type="radio"]:disabled:not(:checked) + label:hover:before :not(#area) {
   border-color: rgba(0, 0, 0, 0.26); }
 
 /***************

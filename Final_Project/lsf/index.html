@@ -7,7 +7,7 @@
        <link href='http://fonts.googleapis.com/css?family=Amaranth:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 -->
         
-        <link type="text/css" rel="stylesheet" href="src/css/materialize.min.css"  media="screen,projection"/>
+        <link type="text/css" rel="stylesheet" href="src/css/materialize.css"  media="screen,projection"/>
         <link type="text/css" rel="stylesheet" href="src/css/graph.css">
         <link type="text/css" rel="stylesheet" href="src/css/detail.css">
         <link type="text/css" rel="stylesheet" href="src/css/legend.css">
@@ -17,18 +17,22 @@
 
         <script src="vendor/d3.v3.js"></script>
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-    <script src="src/js/jquery-2.1.1.min.js"></script>
+        <script src="src/js/jquery.min.js"></script>
         <script>
-                jQuery.noConflict();
-                
-              
+               jQuery= jQuery.noConflict(true);      
+        </script>
+    <script src="src/js/jquery-2.1.1.min.js"></script>
+    <script>
+               $= $.noConflict(true);      
+        </script>
+    
+
+        <script src="src/js/jquery-ui.min.js"></script>
+            <script>
+               jQuery= jQuery.noConflict(true);      
         </script>
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.15/jquery-ui.min.js"></script>
-            
-
-
+<!--        <script src="src/js/materialize.min.js"></script>-->
         <script src="src/js/Rickshaw.js"></script>
          <script src="src/js/Rickshaw.Class.js"></script>
          <script src="src/js/Rickshaw.Compat.ClassList.js"></script>
@@ -56,7 +60,7 @@
          <script src="src/js/Rickshaw.Fixtures.Color.js"></script>
          <script src="src/js/Rickshaw.Color.Palette.js"></script>
          <script src="src/js/Rickshaw.Graph.Axis.Y.js"></script>
-        <script src="src/js/materialize.min.js"></script>
+        
         <script src="src/js/d3.js"></script>
         <script src="src/js/jspath.min.js"></script>
 
@@ -67,7 +71,8 @@
 <body>
 
 <header id="ue">
-<p id="uetext">Vorlesungsverzeichnis der Uni Regensburg</p>
+<!--<p id="uetext">Vorlesungsverzeichnis der Uni Regensburg</p>-->
+    <img src="src/images/banner_lsf.png" background-repeat:no-repeat;width:1424px;height:150px;>
 </header>
 
 <div id="content">
@@ -93,9 +98,18 @@
          
                 <section id="smoothingSection">
                         <h6>Smoothing</h6>
-                        <div id="smoother"></div>
+                        <div id="smoother">
+                    </div>
+
+<!--
+                     <form action="#">
+                        <div class="range-field" id="smoother">
+                            <input type="range"  min="0" max="100" />
+                        </ div>
+                    </form>
+-->
                 </section>
-                <section></section>
+                
         </form>
 
       
@@ -225,16 +239,16 @@
         
     
     </div>
+    <script src="ChartController.js"></script>
+    
+    <script src="app.js"></script>
 
 
-<script src="chartOne.js"></script>
-<script src="app.js"></script>
-<script src="ChartController.js"></script>
+
        <script> 
 
 			app.init();
-			 $(document).ready(function(){
-    $('.tooltipped').tooltip({delay: 10});
-  });
+
 
 	</script>
+    <script src="chartOne.js"></script>

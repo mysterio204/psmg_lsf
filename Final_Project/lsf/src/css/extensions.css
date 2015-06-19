@@ -21,6 +21,12 @@ height:150px;
 background-color: rgba(0,0,0,0.3);
 margin-bottom: 50px;
     border-radius: 4px;
+/*
+    background-image: url(../images/banner_lsf.png);
+    background-repeat:no-repeat;
+    width:1424px;
+    height:150px;
+*/
 }
 #uetext{
 font-size: 60px;
@@ -164,6 +170,8 @@ h1 {
 	font-weight: normal;
 	font-size: 20px;
 	color:aliceblue;
+    line-height: 3rem;
+  margin: 2.1rem 0 1.68rem 0;
 }
 section {
 	border: none;
@@ -187,7 +195,7 @@ label.disabled {
 #renderer_form.toggler input[type=radio] {
 	-moz-appearance: button;
 	background: aliceblue;
-	margin: 0 7px;
+	margin: 5 7px;
 	width: 39px;
 	height: 26px;
 	position: absolute;

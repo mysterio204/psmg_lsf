@@ -44,8 +44,8 @@ var that = {},
         /* This function initializes everything needed for running the webApplication*/
 
  	init = function () {
-        $.noConflict();
-        $=jQuery;
+
+        
            d3.json(url,function(err,data){
               
                hourData = data.hours;
@@ -266,9 +266,9 @@ var that = {},
 	_initUI = function(){
         calcPositions();
      
-	 $(document).ready(function(){
-    $('.tooltipped').tooltip({delay: 10});
-  });
+//	 $(document).ready(function(){
+//    $('.tooltipped').tooltip({delay: 10});
+//  });
 	
 	};
 
@@ -560,7 +560,7 @@ var that = {},
         var radius = 300;
         var x = Math.cos(angle)*radius;
         var y = Math.sin(angle)*radius;
-        console.log("ID:"+ num+" x: "+x+" y: "+y);
+    
         
         
         $(this).css({right: x});
