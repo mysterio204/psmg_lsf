@@ -44,6 +44,8 @@ var that = {},
         /* This function initializes everything needed for running the webApplication*/
 
  	init = function () {
+        $.noConflict();
+        $=jQuery;
            d3.json(url,function(err,data){
               
                hourData = data.hours;
@@ -53,7 +55,7 @@ var that = {},
         }
         
         chart = new ChartController({
-        chartContainer: document.querySelector(".chart"),
+        chartContainer: document.querySelector(".chartTwo"),
         dataURL: "http://localhost:3333/api/get/hours",
         detailURL: "http://localhost:3333/api/get/meals/"
     });
@@ -76,7 +78,7 @@ var that = {},
   _fetchData = function (data,faculty,day) {
                
                if(day=="all"&&faculty=="Alle Fakultäten"){
-               $('#radiobuttons').show();
+               $('#radiobuttons').hide();
                
                }else{
                 $('#radiobuttons').hide();
@@ -87,13 +89,13 @@ var that = {},
                
         if(day == "all" && faculty!="Alle Fakultäten"){
            
-            $('.chart').empty();
+            $('.chartTwo').empty();
             chart.renderBarChart(_daysPerFacluty(currFak),"days");
             $(".bar").css("fill",_getFakClass);
         } else
          if(day != "all" && faculty=="Alle Fakultäten"){
             
-            $('.chart').empty();
+            $('.chartTwo').empty();
            chart.renderBarChart(_oneDayAllFac(day),"hours");
              $(".bar").css("fill",_getFakClass);
         } else
@@ -104,7 +106,7 @@ var that = {},
             
                 
                 
-            $('.chart').empty();
+            $('.chartTwo').empty();
             chart.renderBarChart(_oneDayAllFacHours(),"hours");
             $(".bar").css("fill",_getFakClass);
             
@@ -112,7 +114,7 @@ var that = {},
             }else if(document.getElementById('days').checked){
             
                
-            $('.chart').empty();
+            $('.chartTwo').empty();
             chart.renderBarChart(daysAllFacs,"days");
             $(".bar").css("fill",_getFakClass);
             
@@ -131,7 +133,7 @@ var that = {},
                     if(data[i].day ==day){
                     currentData = data[i].time
                         
-                        $('.chart').empty();
+                        $('.chartTwo').empty();
                         var cl = _getFakClass();
                          chart.renderBarChart(currentData,"hours");
                          $(".bar").css("fill",_getFakClass);
@@ -252,7 +254,7 @@ var that = {},
             break; 
         
         default:
-            return "#1D3F4B";
+            return "#F0F8FF";
     
     }
     
@@ -262,11 +264,11 @@ var that = {},
  	 
 
 	_initUI = function(){
-		$(document).ready(function(){
-            $(".button-collapse").sideNav();
+        calcPositions();
      
-    });
-	
+	 $(document).ready(function(){
+    $('.tooltipped').tooltip({delay: 10});
+  });
 	
 	};
 
@@ -550,10 +552,24 @@ var that = {},
         return secres;
     
     };
-    
-    
-  
-    
+    var calcPositions=function(){
+    $(".fak").each(function(index){
+  //console.log($(this).context.id);
+        var num = $(this).context.id;
+        var angle = num/12 * 2 * Math.PI;
+        var radius = 300;
+        var x = Math.cos(angle)*radius;
+        var y = Math.sin(angle)*radius;
+        console.log("ID:"+ num+" x: "+x+" y: "+y);
+        
+        
+        $(this).css({right: x});
+        $(this).css({top: y});
+});
+ 
+        
+    };
+
     
     var _facultybuttonListener = function () {
         
