@@ -264,6 +264,7 @@ var that = {},
  	 
 
 	_initUI = function(){
+        calcPositions();
      
 	 $(document).ready(function(){
     $('.tooltipped').tooltip({delay: 10});
@@ -551,10 +552,24 @@ var that = {},
         return secres;
     
     };
-    
-    
-  
-    
+    var calcPositions=function(){
+    $(".fak").each(function(index){
+  //console.log($(this).context.id);
+        var num = $(this).context.id;
+        var angle = num/12 * 2 * Math.PI;
+        var radius = 300;
+        var x = Math.cos(angle)*radius;
+        var y = Math.sin(angle)*radius;
+        console.log("ID:"+ num+" x: "+x+" y: "+y);
+        
+        
+        $(this).css({right: x});
+        $(this).css({top: y});
+});
+ 
+        
+    };
+
     
     var _facultybuttonListener = function () {
         

@@ -26,6 +26,11 @@ color:aliceblue;}
   
 
 }
+#middle{
+   
+position:relative;
+    left:210;
+}
 .daybutton:hover{
 background-color:aquamarine;
     
@@ -54,7 +59,7 @@ text-align: center;
 
 .fak{
 margin: 10px;
-
+position:absolute;
 }
 
 .ur{
@@ -173,6 +178,7 @@ background-color: #004455;
     
 }
 .chartcont{
+margin-top:200px;
 display:flex;
 justify-content:center;
 align-items:center;
