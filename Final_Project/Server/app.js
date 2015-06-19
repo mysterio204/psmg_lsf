@@ -18,7 +18,7 @@
     var data = {};
     var events= [];
     var timesgeneral=[];
-    
+    var eventsperfak=[];
     var possibleDates=[];
 
     /* configuration */
@@ -92,7 +92,9 @@
         
                    
                 var re = new RegExp(/.*Fakultät.*/);
+           
                 if(re.test(name)){
+                     if(hasFak(allHours,name)==false){
                     var mo = {monday:countHours(name,monday)};
                     var di = {tuesday:countHours(name,tuesday)};
                     var mi = {wednesday:countHours(name,wednesday)};
@@ -121,7 +123,7 @@
                     allHours.push(res2);
                     
                 }
-           
+            }
             }
 
             console.log("Hours: ready");
@@ -284,10 +286,11 @@
                 var bums = JSON.parse(eventdata[f].vv)
                 var days = jsonPath.query(bums, "$..VZWoTag");
                 if(count(name,days)!=null){
+                     if(hasFak(allDays,name)==false){
                  allDays.push(count(name,days));
                 }
         
-        
+                }
            
             }
         
@@ -331,6 +334,7 @@
     }
         var re = new RegExp(/.*Fakultät.*/);
         if(re.test(name)){
+            
         var key = name;
         var res = {};
         res[key]= currentFak;
@@ -372,9 +376,10 @@ var countHours = function(name,ar){
         var re = new RegExp(/.*Fakultät.*/);
         
     if(re.test(name)){
+        
     
         return currentFak;   
-    
+        
     }
     
     
@@ -399,6 +404,7 @@ var _getAllDates = function(){
                 
                 var bums = JSON.parse(eventdata[f].vv)
                 var ver = jsonPath.query(bums, "$..Veranstaltung[*]");
+       console.log("Fakultät: "+name+" Veranstaltungen: "+ver.length);
        
        for(var v in ver){
             var id = ver[v].VName;
@@ -451,11 +457,15 @@ var _getAllDates = function(){
        var re = new RegExp(/.*Fakultät\W.*/);
         
     if(re.test(name)){
-      var key = name.replace(/Lehrveranstaltungen der Fakultät für /,"");;
+      var key = name.replace(/Lehrveranstaltungen der Fakultät für /,"");
+        if(hasKey(timesgeneral,key)==false){
+               var fakk= {name:key,color: _getFakClass(name),data:sortAndCoutTimes(timesforfak)};
+                var fakcount = {name:key,data:ver.length,color: _getFakClass(name)};
+                eventsperfak.push(fakcount);
+               //fakk[key]= sortAndCoutTimes(timesforfak);
+               timesgeneral.push(fakk);
         
-       var fakk= {name:key,color: _getFakClass(name),data:sortAndCoutTimes(timesforfak)};
-       //fakk[key]= sortAndCoutTimes(timesforfak);
-       timesgeneral.push(fakk);
+        }
        totalfaks++;
            
     
@@ -562,6 +572,29 @@ var hasXValue = function (a, obj) {
     
         if (a[i].x == obj) {
             
+            return true;
+        }
+    }
+ 
+    return false;
+};
+var hasKey = function (a, obj) {
+    for (var i = 0; i < a.length; i++) {
+    
+        if (a[i].name == obj) {
+            
+            return true;
+        }
+    }
+ 
+    return false;
+};
+    var hasFak = function (a, obj) {
+    for (var i = 0; i < a.length; i++) {
+//    console.log(Object.keys(a[i]));
+//    console.log(obj);
+        if (Object.keys(a[i])[0] == obj) {
+            console.log(Object.keys(a[i])[0] == obj);
             return true;
         }
     }
@@ -724,6 +757,11 @@ var betweenDate= function(startDt, endDt,rythm) {
         server.get("/api/get/events", function (req, res) {
           
             res.send(timesgeneral);
+        });
+          server.use(cors());
+        server.get("/api/get/counter", function (req, res) {
+          
+            res.send(eventsperfak);
         });
         
     
