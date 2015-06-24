@@ -353,6 +353,9 @@
                                                   
                                                   if(temp.length == undefined){
                                                       
+                                                     var perrArr = [];
+
+                                                      
                                                      var persId =  temp.Personal.PerID;
                                                       var name = temp.Personal.PersName;
                                                       
@@ -465,6 +468,8 @@
             
         }
                     d = persArr;
+                    var personal = "personal";
+                    allData[personal] = d;
 
     };
     

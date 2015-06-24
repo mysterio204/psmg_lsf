@@ -5,6 +5,7 @@ var that = {},
     allData,
     hourData,
     daysData,
+    persData, 
     daysAllFacs =[],
     arr = [],
     currDay="all",
@@ -50,6 +51,7 @@ var that = {},
               
                hourData = data.hours;
                daysData = data.days;
+               persData = data.personal;
         if(err){
         console.log(err)
         }
