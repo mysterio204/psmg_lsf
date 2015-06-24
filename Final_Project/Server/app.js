@@ -173,7 +173,7 @@
         
     };
     
-    var _readPersData = function(){
+      var _readPersData = function(){
         
         
            fs.readFile(PEOPLE, function(err, data) {
@@ -182,7 +182,7 @@
             console.log("server status : online ");
             console.log("Read file Person-Data : success");
                
-            var structure = jsonPath.query(peopledata, "$.Ueberschrift[*].Einrichtung");
+            var structure = jsonPath.query(peopledata, "$.*");
             
             var PersonArray = _fillArrayWithPersonData(structure);   
                
@@ -192,89 +192,282 @@
     
     };
     
-    var _fillArrayWithPersonData = function (data){
+   var _fillArrayWithPersonData = function (data){
+        
+            
         
                 var persArr = [];
-
+              
+                var dataSet = data[0];
+                var chaircounter = 0 ;
     
-        for(var i = 0 ; i < data.length; i++){
+        for(var i = 0 ; i < dataSet.length; i++){
             
           var personalArray = [];
+              var chairArr = [];
 
-          var name = data[i].EinBez;
-          var value = data[i].Funktion;
+       
+              if(dataSet[i].hasOwnProperty('Einrichtung')==true ){
+                  
+                     var FacultyName = dataSet[i].Einrichtung.EinBez;
+                     var direct_Personal = dataSet[i].Einrichtung.Funktion;
+                  
             
-           
-        
-
-            
-            
-           
-
-           for(var j = 0 ; j < value.length; j++){
-               
-
+                        for(var j = 0 ; j < direct_Personal.length; j++){
                
                
-               if(value[j].hasOwnProperty('Personal')==true){
+               if(direct_Personal[j].hasOwnProperty('Personal')==true){
 
-               var person = value[j].Personal;
+               var person = direct_Personal[j].Personal;
                    
                    
-               if(person.hasOwnProperty('PerID')==true ){
+                    if(person.hasOwnProperty('PerID')==true ){
                    
-               var id = person.PerID;
+                    var id = person.PerID;
+                     var n = person.PersName;
 
                     personalArray.push({
-                    personID : id 
+                    personID : id ,
+                    name : n 
                  });
                                    
                }
                    else{
-                   
-                   
-                   for(var k = 0 ; k < person.length; k++){
+
+                    for(var k = 0 ; k < person.length; k++){
+                        
                        var id = person[k].PerID;
+                       var n = person[k].PersName;
+                
                         personalArray.push({
-                        personID : id
-                     
-                 
-                     
+                        personID : id,
+                            name : n
+   
                  });
                 
-                   }
-               }
-               
-           }
+                    }
+                }
+            }                 
+        }
+                  
+                  
+                  // get all the staff of the chairs 
+                  
+                  
+                  
+                if(dataSet[i].hasOwnProperty('Ueberschrift')==true ){
+                    var chairs = dataSet[i].Ueberschrift;
+                    
+                    
+                
+                    for(var x = 0 ; x < chairs.length; x ++){
+                        var perrArr = [];
+                        
+                         if(chairs[x].hasOwnProperty('Einrichtung')==true){
+                            
+                         if(chairs[x].Einrichtung.hasOwnProperty('EinBez')==true ){
                      
-               
-           }
+                           var chairNames = chairs[x].Einrichtung.EinBez;
+                                                           
+                            
+                             // siehe oben - methode die diese sachen in ein array pushed
+
+//                             chairArr.push({
+//                                 name : chairNames
+//                             
+//                             });
+//                             
+                              
+                                 if(chairs[x].Einrichtung.hasOwnProperty('Funktion')==true ){
+
+                             
+                             
+                                  var currChair =  chairs[x].Einrichtung.Funktion;
+                             
+                             for(var l = 0 ; l < currChair.length; l++){
+                                 
+                                    
+                                 
+                                   if(currChair[l].hasOwnProperty('Personal')==true &&
+                                     currChair[l].Personal.hasOwnProperty('PerID') == true){
+                                 
+                                 
+                                   var id = currChair[l].Personal.PerID;
+                                   var n = currChair[l].Personal.PersName;
+                                       perrArr.push({
+                                       persId : id,
+                                       name : n 
+                                       });
+                                       
+                             }
+  
+                         }
+                         }
+                         }
+                             
+                             
+                               chairArr.push({
+                                 name : chairNames,
+                                 personal : perrArr
+                             });
+                             
+                             
+                              
+                          if(chairs[x].hasOwnProperty('Einrichtung')==true){
+                              
+                              if(chairs[x].Einrichtung.hasOwnProperty('Funktion')==true){
+                                                          
+                              }
+                              
+                              
+                        
+                            
+                         if(chairs[x].Einrichtung.hasOwnProperty('EinBez')==true ){     
+                             
+                    
+                             
+                        if(chairs[x].hasOwnProperty('Ueberschrift')==true ){
+                            
+                        
+                            
+                                        
+                                  
+                                       var curr = chairs[x].Ueberschrift;
+                            
+                                    for(var l = 0 ; l < curr.length; l++){
+                                        
+                                        
+                                            var perrArr = [];
+
+
+                     
+                                                                             
+                                          if(curr[l].hasOwnProperty('Einrichtung')==true ){
+                                        var chairNames = curr[l].Einrichtung.EinBez;
+                                              
+                                    
+                                              
+                                              if(curr[l].Einrichtung.hasOwnProperty('Funktion')==true){
+                                                  
+                                                var temp = curr[l].Einrichtung.Funktion;
+                                                  
+                                                  if(temp.length == undefined){
+                                                      
+                                                     var persId =  temp.Personal.PerID;
+                                                      var name = temp.Personal.PersName;
+                                                      
+                                                               perrArr.push({
+                                                                persId : id,
+                                                                name : n 
+                                                                });
+                                                      
+                                                  }
+                                                  
+                                                  for( var k = 0 ; k < temp.length; k++){
+                                                      
+                                                            
+                                                if(temp[k].hasOwnProperty('Personal') == true){
+                                                     var pers = temp[k].Personal;
+                                                    for(var p = 0 ; p<pers.length; p++){
+                                                        
+                                                     var currPers = pers[p];
+                                                    
+                                                                                                                                                            if(currPers.hasOwnProperty('PerID') == true){
+                                                                                                                                                                
+    
+                                                   var id = currPers.PerID;
+                                                    var n = currPers.PersName;
+                                                    
+                                                    
+                                       perrArr.push({
+                                       persId : id,
+                                       name : n 
+                                       });
+                                       
+
+                                                    }
+                                                }
+                                              }
+                                              
+                                              
+                                          }
+                                              
+                                              }
+                                              
+                                              
+                                      chairArr.push({
+                                            name : chairNames,
+                                           personal : perrArr
+                                    });
+
+                                          }
+    
+                                    }
+                            
+                            
+                            //TODO:
+   
+                              if(chairs[x].Ueberschrift.hasOwnProperty('Einrichtung')==true ){
+                                 
+                                    var chairNames = chairs[x].Ueberschrift.Einrichtung.EinBez;
+
+                                        chairArr.push({
+                                        name : chairNames
+                                         });
+                                  
+
+                                        }
+                        }}
+                            
+                        
+                              
+                               if(chairs[x].hasOwnProperty('Einrichtung')==true){
+                            
+                         if(chairs[x].Einrichtung.hasOwnProperty('EinBez')==true ){     
+                             
+                    
+                        if(chairs[x].hasOwnProperty('Ueberschrift')==true ){
+                            
+                              if(chairs[x].Ueberschrift.hasOwnProperty('Ueberschrift')==true ){
+ 
+                                    var k = chairs[x].Ueberschrift.Ueberschrift;
+                                  
+                                   for(var p = 0 ; p < k.length; p++){
+                                     
+                                        var chairNames = k[p].Einrichtung.EinBez;
+ 
+                                         chairArr.push({
+                                        name : chairNames
+                                         });
+
+                                   }
+                                       
+                               }
+                        }
+                         
+                         }
+                             }
+                                }
+                            }
+                        }
+                    }
+
             
-            
-            
-         var staffCount = personalArray.length;
-            
-            if(staffCount == 0){
-                staffCount=1;
-            }
-          
-         
                persArr.push({
                 
-                FakName : name, 
-                Personal: staffCount
+                Faculty : FacultyName, 
+                Personal: personalArray,
+                Chairs  :   chairArr
+                
             
-            });
-            
-            
+            });   
      }
-        
-        
+            
+        }
                     d = persArr;
-        
 
-         
     };
+    
     
 
     
