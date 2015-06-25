@@ -658,7 +658,7 @@ var _getAllDates = function(){
       var key = name.replace(/Lehrveranstaltungen der Fakultät für /,"");
         if(hasKey(timesgeneral,key)==false){
                var fakk= {name:key,color: _getFakClass(name),data:sortAndCoutTimes(timesforfak)};
-                var fakcount = {name:key,data:ver.length,color: _getFakClass(name)};
+                var fakcount = {label:key,count:ver.length,color: _getFakClass(name)};
                 eventsperfak.push(fakcount);
                //fakk[key]= sortAndCoutTimes(timesforfak);
                timesgeneral.push(fakk);

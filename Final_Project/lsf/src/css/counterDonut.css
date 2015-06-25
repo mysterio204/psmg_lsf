@@ -1,36 +1,28 @@
 
 
-
-
-
- #piechart {
-<<<<<<< HEAD
+ #counterPiechart {
 
          
-           
-=======
             margin-right: auto;
->>>>>>> counterPIe
             float : left;
+            margin-bottom: 10%;
      }
 
-  #pielegend {
-<<<<<<< HEAD
-
-/*       float : ;*/
-=======
-    margin-top: 3%;
+  #counterPieLegend {
+        margin-top: 3%;
        float : right;
->>>>>>> counterPIe
+      margin-bottom: 10%;
     
       }
+
+
+
 
 .wrapperClass{
 
     
     height:100%;
     width: 100%;
-    margin-bottom:-20%;
 }
 
 
@@ -65,13 +57,5 @@
         font-size: 14px;                                              /* NEW */
         text-align: center;                                           /* NEW */
       }   
-#pieone{
-    width:90%;
 
-margin-left:auto;margin-right:auto;
-}
-.legend text{
-fill:aliceblue;
-    
-}
     

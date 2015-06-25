@@ -1,24 +1,18 @@
 
 var url = "http://localhost:3333/api/get/counter"
 var jData=new Array();
-var personalArr = [];
-
 
 
 d3.json(url,function(data){
 
-        personalArr=data;
-
-
-    
- //  _countPersonalForFaculties(jData); 
+        jData=data;
 
         (function(d3) {
         'use strict';
             
             
             
-    personalArr.forEach(function(d) {
+    jData.forEach(function(d) {
     
     d.enabled = true;
     });
@@ -31,11 +25,6 @@ d3.json(url,function(data){
         var legendSpacing = 8;
 
         var color = d3.scale.category20b();
-            
-           
-            
-           
-         
 
         var svg = d3.select('#piechart')
           .append('svg')
@@ -46,9 +35,9 @@ d3.json(url,function(data){
             ',' + (height / 2) + ')');
 
             
-               var test = d3.select('#pielegend')
+            var test = d3.select('#pielegend')
           .append('svg')
-          .attr('width', 700)
+          .attr('width', 600)
           .attr('height', 400)
           .append('g')
           .attr('transform', 'translate(' + (200 / 2) + 
@@ -79,23 +68,18 @@ d3.json(url,function(data){
        
 
           var path = svg.selectAll('path')
-            .data(pie(personalArr))
+            .data(pie(jData))
             .enter()
             .append('path')
             .attr('d', arc)
             .attr('fill', function(d, i) {
-<<<<<<< HEAD
-                var col = color(d.data.label)
-              return _getColor(d.data.label); 
-=======
               
               return color(d.data.label); 
->>>>>>> counterPIe
             })                                                       
             .each(function(d) { this._current = d; });             
 
           path.on('mouseover', function(d) {
-            var total = d3.sum(personalArr.map(function(d) {
+            var total = d3.sum(jData.map(function(d) {
               return (d.enabled) ? d.count : 0;                    
             }));
             var percent = Math.round(1000 * d.data.count / total) / 10;
@@ -133,20 +117,12 @@ d3.json(url,function(data){
           legend.append('rect')
             .attr('width', legendRectSize)
             .attr('height', legendRectSize)                                   
-            .style('fill', function(d){
-         var col = color;
-              console.log(d);
-              return _getColor(d);
-          })
-            .style('stroke', function(d){
-          var col = color;
-              console.log(d);
-              return _getColor(d);
-          })   
+            .style('fill', color)
+            .style('stroke', color)   
             .on('click', function(label) { 
               var rect = d3.select(this); 
               var enabled = true;                                    
-              var totalEnabled = d3.sum(personalArr.map(function(d) {
+              var totalEnabled = d3.sum(jData.map(function(d) {
                 return (d.enabled) ? 1 : 0; 
               
 
@@ -166,7 +142,7 @@ d3.json(url,function(data){
                 return (d.enabled) ? d.count : 0;                    
               });                                                    
 
-              path = path.data(pie(personalArr));                       
+              path = path.data(pie(jData));                       
 
               path.transition()                                     
                 .duration(750)                                        
@@ -196,108 +172,8 @@ d3.json(url,function(data){
     
 });
 
-    function _countPersonalForFaculties(data){
-        
-        for(var i = 0 ; i < data.length; i++){
-            
-            personalCounter = 0 ;
-            currentFaculty = data[i];
-            
-            personalCounter += currentFaculty.Personal.length;
-            
-            
-                for(var j = 0 ; j<currentFaculty.Chairs.length; j++){
-                    
-                    var personalOfFaculty = currentFaculty.Chairs;
-                    var chair = personalOfFaculty[j];
-                    
-                    if(chair.personal==undefined){
-                        personalCounter+=0;
-                    }else{
-                    var chairPersonal = chair.personal.length;
-                    personalCounter+=chairPersonal;                    
-                    }
-                }
-            
-            personalArr.push({
-                
-               label : currentFaculty.Faculty,
-               count: personalCounter
-                
-            
-            });
-            
-        }
-    };
+ 
 
-    function _countPersonalForChairs(faculty){
-        
-        
-    
-        
-        
-        
-    };
-
-
-<<<<<<< HEAD
-    function _getColor(currFak){
-    switch (currFak){
-        case "Fakultät für Rechtswissenschaft":
-            return"#CDD30F"
-            break;
-            
-        case "Fakultät für Wirtschaftswissenschaften":
-            return"#AEA700"
-            break;
-        
-        case "Fakultät für Katholische Theologie":
-            return"#ECBC00"
-            break;
-            
-        case "Fakultät für Philosophie, Kunst-, Geschichts- und Gesellschaftswissenschaften":
-            return"#EC6200"
-            break;
-            
-        case "Fakultät für Psychologie, Pädagogik und Sportwissenschaft":
-            return"#BF002A"
-            break;
-        
-        case "Fakultät für Sprach-, Literatur- und Kulturwissenschaften":
-            return"#9C004B"
-            break;
-            
-        case "Fakultät für Biologie und Vorklinische Medizin":
-            return"#4FB800"
-            break; 
-        
-        case "Fakultät für Mathematik":
-            return"#009B77"
-            break;
-            
-        case "Fakultät für Physik":
-            return"#008993"
-            break;
-            
-         case "Fakultät für Chemie und Pharmazie":
-            return"#0087B2"
-            break;
-            
-        case "Fakultät für Medizin":
-            return"#00556A"
-            break; 
-            
-   
-     
-        
-        default:
-            return "#F0F8FF";
-    
-    }
-  };
-
-=======
->>>>>>> counterPIe
 
 
 
