@@ -11,7 +11,8 @@
         <link type="text/css" rel="stylesheet" href="src/css/legend.css">
         <link type="text/css" rel="stylesheet" href="src/css/extensions.css?v=2">
         <link type="text/css" rel="stylesheet" href="src/css/barstyle.css">
-        
+        <link type="text/css" rel="stylesheet" href="src/css/personalDonut.css">
+
 
         <script src="vendor/d3.v3.js"></script>
 
@@ -187,8 +188,29 @@
     </span>
    
   
-    <div class="container">
+    
+    
+    <div id="infotext_container_2">
+    <p id="infotext">Diese Grafik stellt die Verteilung der direkten Angestellten an den Fakultäten wieder. Bei einem Klick auf eine Fakultät bekommt man eine detailierte Übersicht der Verteilung der Angestellten der jeweiligen Lehrstühle der Fakultäten. 
         
+        </p>
+    </div>
+    
+    
+    
+   
+        
+         <div id="piechart">  </div>
+    
+         <div id="pielegend" ></div>
+        
+     
+   
+        
+    
+
+
+     
            
 <!--        <div class="daybutton waves-effect waves-light btn">Alle Tage</div>-->
 <!--
@@ -251,8 +273,8 @@
         
     
     </div>
-    <script src="ChartController.js"></script>
-    
+   
+     
     <script src="app.js"></script>
 
 
@@ -263,4 +285,7 @@
 
 
 	</script>
+    <script src="ChartController.js"></script>   
+    <script src="PersonalDonutChart.js"></script>
     <script src="chartOne.js"></script>
+   
