@@ -50,8 +50,22 @@ align-items:center;
 color:aliceblue;
 height:150px;
 background-color: rgba(0,0,0,0.3);
-margin-top:20%;
-margin-bottom: 50px;
+margin-top:25%;
+margin-bottom: 10%;
+    padding:15px;
+
+}
+
+#infotext_container_3{
+text-align: center;
+display:flex;
+justify-content:center;
+align-items:center;
+color:aliceblue;
+height:150px;
+background-color: rgba(0,0,0,0.3);
+margin-top:10%;
+margin-bottom: 10%;
     padding:15px;
 
 }
