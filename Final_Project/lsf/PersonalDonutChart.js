@@ -32,7 +32,9 @@ d3.json(url,function(data){
 
         var color = d3.scale.category20b();
             
+           
             
+           
          
 
         var svg = d3.select('#piechart')
@@ -81,7 +83,7 @@ d3.json(url,function(data){
             .enter()
             .append('path')
             .attr('d', arc)
-            .attr('fill', function(d, i) { 
+            .attr('fill', function(d, i) {
               return color(d.data.label); 
             })                                                       
             .each(function(d) { this._current = d; });             
@@ -220,6 +222,59 @@ d3.json(url,function(data){
         
         
     };
+
+
+  function _getColor(currFak){
+    switch (currFak){
+        case "Lehrveranstaltungen der Fakultät für Rechtswissenschaft":
+            return"#CDD30F"
+            break;
+            
+        case "Lehrveranstaltungen der Fakultät für Wirtschaftswissenschaften":
+            return"#AEA700"
+            break;
+        
+        case "Lehrveranstaltungen der Fakultät für Katholische Theologie":
+            return"#ECBC00"
+            break;
+            
+        case "Lehrveranstaltungen der Fakultät für Philosophie, Kunst-, Geschichts- und Gesellschaftswissenschaften":
+            return"#EC6200"
+            break;
+            
+        case "Lehrveranstaltungen der Fakultät für Psychologie, Pädagogik und Sportwissenschaft":
+            return"#BF002A"
+            break;
+        
+        case "Lehrveranstaltungen der Fakultät für Sprach-, Literatur- und  Kulturwissenschaften":
+            return"#9C004B"
+            break;
+            
+        case "Lehrveranstaltungen der Fakultät für Biologie und Vorklinische Medizin":
+            return"#4FB800"
+            break; 
+        
+        case "Lehrveranstaltungen der Fakultät für Mathematik":
+            return"#009B77"
+            break;
+            
+        case "Lehrveranstaltungen der Fakultät für Physik / Courses in Physics":
+            return"#008993"
+            break;
+            
+         case "Lehrveranstaltungen der Fakultät für Chemie und Pharmazie":
+            return"#0087B2"
+            break;
+            
+        case "Lehrveranstaltungen der Fakultät für Medizin":
+            return"#00556A"
+            break; 
+        
+        default:
+            return "#F0F8FF";
+    
+    }
+  };
 
 
 
