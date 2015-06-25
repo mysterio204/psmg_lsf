@@ -951,6 +951,15 @@ var betweenDate= function(startDt, endDt,rythm) {
           
             res.send(allData);
         });
+        
+         
+           server.use(cors());
+        server.get("/api/get/personal", function (req, res) {
+          
+            res.send(d);
+        });
+        
+        
           server.use(cors());
         server.get("/api/get/events", function (req, res) {
           
