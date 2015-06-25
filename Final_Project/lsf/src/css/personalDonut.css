@@ -6,13 +6,13 @@
  #piechart {
 
          
-            margin-right: auto;
+           
             float : left;
      }
 
   #pielegend {
-        margin-top: 3%;
-       float : right;
+
+/*       float : ;*/
     
       }
 
@@ -50,5 +50,13 @@
         font-size: 14px;                                              /* NEW */
         text-align: center;                                           /* NEW */
       }   
+#pieone{
+    width:90%;
 
+margin-left:auto;margin-right:auto;
+}
+.legend text{
+fill:aliceblue;
+    
+}
     

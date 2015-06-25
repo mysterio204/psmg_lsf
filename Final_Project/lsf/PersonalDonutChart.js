@@ -84,7 +84,8 @@ d3.json(url,function(data){
             .append('path')
             .attr('d', arc)
             .attr('fill', function(d, i) {
-              return color(d.data.label); 
+                var col = color(d.data.label)
+              return _getColor(d.data.label); 
             })                                                       
             .each(function(d) { this._current = d; });             
 
@@ -127,8 +128,16 @@ d3.json(url,function(data){
           legend.append('rect')
             .attr('width', legendRectSize)
             .attr('height', legendRectSize)                                   
-            .style('fill', color)
-            .style('stroke', color)   
+            .style('fill', function(d){
+         var col = color;
+              console.log(d);
+              return _getColor(d);
+          })
+            .style('stroke', function(d){
+          var col = color;
+              console.log(d);
+              return _getColor(d);
+          })   
             .on('click', function(label) { 
               var rect = d3.select(this); 
               var enabled = true;                                    
@@ -224,57 +233,61 @@ d3.json(url,function(data){
     };
 
 
-  function _getColor(currFak){
+    function _getColor(currFak){
     switch (currFak){
-        case "Lehrveranstaltungen der Fakultät für Rechtswissenschaft":
+        case "Fakultät für Rechtswissenschaft":
             return"#CDD30F"
             break;
             
-        case "Lehrveranstaltungen der Fakultät für Wirtschaftswissenschaften":
+        case "Fakultät für Wirtschaftswissenschaften":
             return"#AEA700"
             break;
         
-        case "Lehrveranstaltungen der Fakultät für Katholische Theologie":
+        case "Fakultät für Katholische Theologie":
             return"#ECBC00"
             break;
             
-        case "Lehrveranstaltungen der Fakultät für Philosophie, Kunst-, Geschichts- und Gesellschaftswissenschaften":
+        case "Fakultät für Philosophie, Kunst-, Geschichts- und Gesellschaftswissenschaften":
             return"#EC6200"
             break;
             
-        case "Lehrveranstaltungen der Fakultät für Psychologie, Pädagogik und Sportwissenschaft":
+        case "Fakultät für Psychologie, Pädagogik und Sportwissenschaft":
             return"#BF002A"
             break;
         
-        case "Lehrveranstaltungen der Fakultät für Sprach-, Literatur- und  Kulturwissenschaften":
+        case "Fakultät für Sprach-, Literatur- und Kulturwissenschaften":
             return"#9C004B"
             break;
             
-        case "Lehrveranstaltungen der Fakultät für Biologie und Vorklinische Medizin":
+        case "Fakultät für Biologie und Vorklinische Medizin":
             return"#4FB800"
             break; 
         
-        case "Lehrveranstaltungen der Fakultät für Mathematik":
+        case "Fakultät für Mathematik":
             return"#009B77"
             break;
             
-        case "Lehrveranstaltungen der Fakultät für Physik / Courses in Physics":
+        case "Fakultät für Physik":
             return"#008993"
             break;
             
-         case "Lehrveranstaltungen der Fakultät für Chemie und Pharmazie":
+         case "Fakultät für Chemie und Pharmazie":
             return"#0087B2"
             break;
             
-        case "Lehrveranstaltungen der Fakultät für Medizin":
+        case "Fakultät für Medizin":
             return"#00556A"
             break; 
+            
+   
+     
         
         default:
             return "#F0F8FF";
     
     }
   };
+
 
 
 
