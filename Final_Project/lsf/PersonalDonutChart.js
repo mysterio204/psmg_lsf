@@ -73,7 +73,7 @@ d3.json(url,function(data){
           .attr('class', 'count');
             
             tooltip.append('div')                   
-  .attr('class', 'percent');   
+    .attr('class', 'percent');   
 
 
        
@@ -84,13 +84,13 @@ d3.json(url,function(data){
             .append('path')
             .attr('d', arc)
             .attr('fill', function(d, i) {
-<<<<<<< HEAD
+
                 var col = color(d.data.label)
               return _getColor(d.data.label); 
-=======
+
               
-              return color(d.data.label); 
->>>>>>> counterPIe
+        
+
             })                                                       
             .each(function(d) { this._current = d; });             
 
@@ -240,50 +240,50 @@ d3.json(url,function(data){
     };
 
 
-<<<<<<< HEAD
+
     function _getColor(currFak){
     switch (currFak){
-        case "Fakultät für Rechtswissenschaft":
+        case "Rechtswissenschaft":
             return"#CDD30F"
             break;
             
-        case "Fakultät für Wirtschaftswissenschaften":
+        case "Wirtschaftswissenschaften":
             return"#AEA700"
             break;
         
-        case "Fakultät für Katholische Theologie":
+        case "Katholische Theologie":
             return"#ECBC00"
             break;
             
-        case "Fakultät für Philosophie, Kunst-, Geschichts- und Gesellschaftswissenschaften":
+        case "Philosophie, Kunst-, Geschichts- und Gesellschaftswissenschaften":
             return"#EC6200"
             break;
             
-        case "Fakultät für Psychologie, Pädagogik und Sportwissenschaft":
+        case "Psychologie, Pädagogik und Sportwissenschaft":
             return"#BF002A"
             break;
         
-        case "Fakultät für Sprach-, Literatur- und Kulturwissenschaften":
+        case "Sprach-, Literatur- und  Kulturwissenschaften":
             return"#9C004B"
             break;
             
-        case "Fakultät für Biologie und Vorklinische Medizin":
+        case "Biologie und Vorklinische Medizin":
             return"#4FB800"
             break; 
         
-        case "Fakultät für Mathematik":
+        case "Mathematik":
             return"#009B77"
             break;
             
-        case "Fakultät für Physik":
+        case "Physik / Courses in Physics":
             return"#008993"
             break;
             
-         case "Fakultät für Chemie und Pharmazie":
+         case "Chemie und Pharmazie":
             return"#0087B2"
             break;
             
-        case "Fakultät für Medizin":
+        case "Medizin":
             return"#00556A"
             break; 
             
@@ -295,10 +295,6 @@ d3.json(url,function(data){
     
     }
   };
-
-=======
->>>>>>> counterPIe
-
 
 
 
