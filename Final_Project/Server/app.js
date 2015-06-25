@@ -822,11 +822,11 @@ switch(ryth){
         return 1;
         case 'nach Vereinbarung':
         return 1;
-    case '14-tägig':
+        case '14-tägig':
         return 14;
-    case 'dreiwöchentlich':
+        case 'dreiwöchentlich':
         return 21;
-    default:
+        default:
         return 1;
 
 }
