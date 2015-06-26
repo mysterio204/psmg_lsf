@@ -267,10 +267,9 @@ var that = {},
 
 	_initUI = function(){
         calcPositions();
+
      
-//	 $(document).ready(function(){
-//    $('.tooltipped').tooltip({delay: 10});
-//  });
+  
 	
 	};
 

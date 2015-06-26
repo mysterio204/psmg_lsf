@@ -4,6 +4,7 @@
         <link type="text/css" rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css">
        <link href='http://fonts.googleapis.com/css?family=Roboto:400,900,100&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
        <link href='http://fonts.googleapis.com/css?family=Amaranth:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
         
         <link type="text/css" rel="stylesheet" href="src/css/materialize.css"  media="screen,projection"/>
         <link type="text/css" rel="stylesheet" href="src/css/graph.css">
@@ -18,12 +19,20 @@
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
 
 
+<<<<<<< HEAD
 
 
          <script src="vendor/d3.v3.js"></script>
 
 
 <!--        <script src="src/js/materialize.min.js"></script>-->
+=======
+   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+    
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+      
+<!--        <script type="text/javascript" src="src/js/smoothscroll.js"></script>-->
+>>>>>>> origin/master
         <script src="src/js/Rickshaw.js"></script>
          <script src="src/js/Rickshaw.Class.js"></script>
          <script src="src/js/Rickshaw.Compat.ClassList.js"></script>
@@ -60,9 +69,13 @@
 
 
         <script src="src/extensions.js"></script>
+<<<<<<< HEAD
     <script src="http://code.highcharts.com/highcharts.js"></script>
 <script src="http://code.highcharts.com/modules/data.js"></script>
 <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+=======
+            <script src="src/js/materialize.js"></script>
+>>>>>>> origin/master
 
 </head>
 <body>
@@ -73,7 +86,7 @@
 </header>
 
 <div id="content">
-  <div id="chart_container">
+  <div id="chart_container" class="section scrollspy">
                 <div id="chart"></div>
                 <div id="timeline"></div>
                 <div id="preview"></div>
@@ -113,8 +126,8 @@
 
 </div>
     
-        <div id="infotext_container">
-    <p id="infotext">Dieser Visualisierung entimmt man die Verteilung der Kurse auf die jeweiligen Wochentage. Der "Default-Wert" zeigt die Verteilung aller Kurse aller Fakultäten. Eine spezifische Darstellung einer Fakultät kann mittels eines Klicks auf den - charakteristisch farbcodierten - Button erreicht werden. </p>
+        <div id="infotext_container" class="section scrollspy">
+    <p id="infotext"  >Dieser Visualisierung entimmt man die Verteilung der Kurse auf die jeweiligen Wochentage. Der "Default-Wert" zeigt die Verteilung aller Kurse aller Fakultäten. Eine spezifische Darstellung einer Fakultät kann mittels eines Klicks auf den - charakteristisch farbcodierten - Button erreicht werden. </p>
     </div>
     
     
@@ -188,7 +201,7 @@
   
    
     
-    <div id="infotext_container_2">
+    <div id="infotext_container_2" class="section scrollspy">
     <p id="infotext">Diese Grafik zeigt die Verteilung der Anzahl der Veranstaltungen über alle Fakultäten hinweg dar.  
         
         </p>
@@ -197,20 +210,29 @@
   
 
     
-    <div class="wrapperClass">
+    <div class="wrapperClass row ">
     
-
-         <div id="piechart">  </div>
-         <div id="pielegend" ></div>
-        
+        <div class="col s1"><p></p></div>
+         <div id="piechart" class="col s5">  </div>
+         <div id="pielegend" class="col s5"></div>
+        <div class="col s1"><p></p></div>
     </div>
     
+<<<<<<< HEAD
     
     
     
     <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+=======
+    <div id="spycontainer">
+     <ul class="section table-of-contents">
+        <li><a href="#chart_container">Timeline</a></li>
+        <li><a href="#infotext_container">Week Summary</a></li>
+        <li><a href="#infotext_container_2">All Events</a></li>
+      </ul>
+>>>>>>> origin/master
 
-   
+        </div>
 
     
     
@@ -295,6 +317,10 @@
        <script> 
 
 			app.init();
+             $(document).ready(function(){
+    $('.scrollspy').scrollSpy();
+  });
+   
 
 
 	</script>
