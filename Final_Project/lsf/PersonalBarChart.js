@@ -12,8 +12,8 @@ Highcharts.createElement('link', {
 }, null, document.getElementsByTagName('head')[0]);
 
 Highcharts.theme = {
-   colors: ["#2b908f", "#90ee7e", "#f45b5b", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee",
-      "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   colors: ["#ECBC00", "#CDD30F", "#AEA700", "#00556A", "#EC6200", "#BF002A", "#9C004B",
+      "#009B77", "#008993", "#4FB800", "#0087B2"],
    chart: {
       backgroundColor: {
          linearGradient: { x1: 0, y1: 0, x2: 1, y2: 1 },
