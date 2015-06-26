@@ -2312,6 +2312,9 @@ $(document).ready(function(){
 		  $('a[href=#' + $(element).attr('id') + ']').click(function(e) {
 		    e.preventDefault();
 		    var offset = $(this.hash).offset().top + 1;
+              if($(element).attr('id')=="first"){
+              offset = $('#infotext_container').offset().top + 1;
+              }
 
 //          offset - 200 allows elements near bottom of page to scroll
 			
