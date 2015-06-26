@@ -1,18 +1,20 @@
 
 var url = "http://localhost:3333/api/get/counter"
 var jData=new Array();
+var personalArr = [];
+
 
 
 d3.json(url,function(data){
 
-        jData=data;
+        personalArr=data;
 
         (function(d3) {
         'use strict';
             
             
             
-    jData.forEach(function(d) {
+    personalArr.forEach(function(d) {
     
     d.enabled = true;
     });
@@ -25,6 +27,11 @@ d3.json(url,function(data){
         var legendSpacing = 8;
 
         var color = d3.scale.category20b();
+            
+           
+            
+           
+         
 
         var svg = d3.select('#piechart')
           .append('svg')
@@ -35,9 +42,9 @@ d3.json(url,function(data){
             ',' + (height / 2) + ')');
 
             
-            var test = d3.select('#pielegend')
+               var test = d3.select('#pielegend')
           .append('svg')
-          .attr('width', 600)
+          .attr('width', 700)
           .attr('height', 400)
           .append('g')
           .attr('transform', 'translate(' + (200 / 2) + 
@@ -62,24 +69,29 @@ d3.json(url,function(data){
           .attr('class', 'count');
             
             tooltip.append('div')                   
-  .attr('class', 'percent');   
+    .attr('class', 'percent');   
 
 
        
 
           var path = svg.selectAll('path')
-            .data(pie(jData))
+            .data(pie(personalArr))
             .enter()
             .append('path')
             .attr('d', arc)
             .attr('fill', function(d, i) {
+
+                var col = color(d.data.label)
+              return _getColor(d.data.label); 
+
               
-              return color(d.data.label); 
+        
+
             })                                                       
             .each(function(d) { this._current = d; });             
 
           path.on('mouseover', function(d) {
-            var total = d3.sum(jData.map(function(d) {
+            var total = d3.sum(personalArr.map(function(d) {
               return (d.enabled) ? d.count : 0;                    
             }));
             var percent = Math.round(1000 * d.data.count / total) / 10;
@@ -117,12 +129,18 @@ d3.json(url,function(data){
           legend.append('rect')
             .attr('width', legendRectSize)
             .attr('height', legendRectSize)                                   
-            .style('fill', color)
-            .style('stroke', color)   
+            .style('fill', function(d){
+         var col = color;
+              return _getColor(d);
+          })
+            .style('stroke', function(d){
+          var col = color;
+              return _getColor(d);
+          })   
             .on('click', function(label) { 
               var rect = d3.select(this); 
               var enabled = true;                                    
-              var totalEnabled = d3.sum(jData.map(function(d) {
+              var totalEnabled = d3.sum(personalArr.map(function(d) {
                 return (d.enabled) ? 1 : 0; 
               
 
@@ -142,7 +160,7 @@ d3.json(url,function(data){
                 return (d.enabled) ? d.count : 0;                    
               });                                                    
 
-              path = path.data(pie(jData));                       
+              path = path.data(pie(personalArr));                       
 
               path.transition()                                     
                 .duration(750)                                        
@@ -172,9 +190,72 @@ d3.json(url,function(data){
     
 });
 
- 
+  
+    function _countPersonalForChairs(faculty){
+        
+        
+    
+        
+        
+        
+    };
 
 
+
+    function _getColor(currFak){
+    switch (currFak){
+        case "Rechtswissenschaft":
+            return"#CDD30F"
+            break;
+            
+        case "Wirtschaftswissenschaften":
+            return"#AEA700"
+            break;
+        
+        case "Katholische Theologie":
+            return"#ECBC00"
+            break;
+            
+        case "Philosophie, Kunst-, Geschichts- und Gesellschaftswissenschaften":
+            return"#EC6200"
+            break;
+            
+        case "Psychologie, Pädagogik und Sportwissenschaft":
+            return"#BF002A"
+            break;
+        
+        case "Sprach-, Literatur- und  Kulturwissenschaften":
+            return"#9C004B"
+            break;
+            
+        case "Biologie und Vorklinische Medizin":
+            return"#4FB800"
+            break; 
+        
+        case "Mathematik":
+            return"#009B77"
+            break;
+            
+        case "Physik / Courses in Physics":
+            return"#008993"
+            break;
+            
+         case "Chemie und Pharmazie":
+            return"#0087B2"
+            break;
+            
+        case "Medizin":
+            return"#00556A"
+            break; 
+            
+   
+     
+        
+        default:
+            return "#F0F8FF";
+    
+    }
+  };
 
 
 
