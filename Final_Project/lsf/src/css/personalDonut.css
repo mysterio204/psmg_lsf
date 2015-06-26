@@ -13,7 +13,7 @@
   #pielegend {
 
     margin-top: 3%;
-       float : right;
+/*       float : right;*/
     
       }
 
@@ -33,7 +33,7 @@
         display: none;
         font-size: 12px;
         left: 130px;
-        padding: 10px;
+/*        padding: 10px;*/
         position: absolute;
         text-align: center;
         top: 95px;

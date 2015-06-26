@@ -28,6 +28,12 @@ margin-bottom: 50px;
     height:150px;
 */
 }
+#spycontainer{
+
+position:fixed;
+    bottom:0;
+    right:15;
+}
 #infotext_container{
 text-align: center;
 display:flex;
@@ -71,10 +77,15 @@ margin-bottom: 10%;
 }
 #infotext{
     padding:15px;
+    font-family: "Oswald";
+    font-weight: 400;
+    font-size: 24;
+/*
     border: dotted;
     border-width: 2px;
     border-bottom-color: aliceblue;
 border-radius: 4px;
+*/
 
 }
 #uetext{
