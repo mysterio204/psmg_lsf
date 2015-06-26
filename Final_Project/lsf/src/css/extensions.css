@@ -31,8 +31,15 @@ margin-bottom: 50px;
 #spycontainer{
 
 position:fixed;
+    padding:10px;
     bottom:0;
     right:15;
+    background-color: rgba(0,0,0,0.3);
+    color:aliceblue;
+    
+}
+.table-of-contents a{
+color:aliceblue;
 }
 #infotext_container{
 text-align: center;
@@ -57,7 +64,7 @@ color:aliceblue;
 height:150px;
 background-color: rgba(0,0,0,0.3);
 margin-top:25%;
-margin-bottom: 10%;
+margin-bottom: 4%;
     padding:15px;
 
 }
@@ -71,7 +78,7 @@ color:aliceblue;
 height:150px;
 background-color: rgba(0,0,0,0.3);
 margin-top:10%;
-margin-bottom: 10%;
+margin-bottom: 4%;
     padding:15px;
 
 }

@@ -575,8 +575,7 @@ var that = {},
   //console.log($(this).context.id);
         var num = $(this).context.id;
         var angle = num/12 * 2 * Math.PI;
-        console.log($(this).height());
-        console.log($(this).width());
+      
         
 
         var radius = 330;
