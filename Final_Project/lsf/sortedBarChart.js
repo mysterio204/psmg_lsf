@@ -112,7 +112,7 @@ var proportionArr = [];
                     });
             var bio = data[8].count / persArrFak[9].freq;
                      proportionArr.push({
-                        name: "Biologie/vorkl. Medizin",
+                        name: "Biologie/Vorkl. Medizin",
                         frequency: bio
                     });
             var rel = data[9].count / persArrFak[0].freq;
