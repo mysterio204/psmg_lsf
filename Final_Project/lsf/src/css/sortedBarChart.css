@@ -5,7 +5,8 @@ body {
 }
 
 .axis text {
-  font: 8px sans-serif;
+  font: 10 Helvetica;
+    color: white;
 }
 
 .axis path,
