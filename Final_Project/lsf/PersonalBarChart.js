@@ -233,8 +233,8 @@ var persArrChairs = [];
     
         _countPersonalForFaculties(data);
                 
-                console.log(persArrChairs);
-            function _countPersonalForFaculties(data){
+
+                function _countPersonalForFaculties(data){
                 
                 
                 
