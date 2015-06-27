@@ -63,7 +63,7 @@
                     
             var wiwi = data[1].count / persArrFak[2].freq;
                      proportionArr.push({
-                        name: "Wirtschaftswis..",
+                        name: "Wirtschaft",
                         frequency: wiwi
                     });
             var medizin = data[2].count / persArrFak[3].freq;
@@ -73,12 +73,12 @@
                     });
             var chemie = data[3].count / persArrFak[10].freq;
                      proportionArr.push({
-                        name: "Chemie/Pharmazie",
+                        name: "Chemie",
                         frequency: chemie
                     });
             var psy = data[4].count / persArrFak[5].freq;
                      proportionArr.push({
-                        name: "Psychologie,Päda.. ",
+                        name: "Psychologie ",
                         frequency: psy
                     });
             var math = data[5].count / persArrFak[7].freq;
@@ -88,27 +88,27 @@
                     });
             var law = data[6].count / persArrFak[1].freq;
                      proportionArr.push({
-                        name: "Rechtswis..",
+                        name: "Recht",
                         frequency: law
                     });
             var phil = data[7].count / persArrFak[4].freq;
                      proportionArr.push({
-                        name: "Philosophie, Kunst-,..",
+                        name: "Philosophie",
                         frequency: phil
                     });
             var bio = data[8].count / persArrFak[9].freq;
                      proportionArr.push({
-                        name: "Biologie/Vorkl. Medizin",
+                        name: "Biologie",
                         frequency: bio
                     });
             var rel = data[9].count / persArrFak[0].freq;
                      proportionArr.push({
-                        name: "kath. Theologie",
+                        name: "Theologie",
                         frequency: rel
                     });
             var slk = data[10].count / persArrFak[6].freq;
                      proportionArr.push({
-                        name: "Sprach-, Liter..",
+                        name: "SLK",
                         frequency: slk
                     }); 
                     
@@ -164,7 +164,7 @@
               .attr("y", 6)
               .attr("dy", ".71em")
               .style("text-anchor", "end")
-              .text("Frequency");
+              .text("Verteilung");
 
           svg.selectAll(".bar")
               .data(data)
@@ -178,7 +178,7 @@
           d3.select("#sort").on("change", change);
 
           var sortTimeout = setTimeout(function() {
-            d3.select("#sort").property("checked", true).each(change);
+            d3.select("#sort").property("checked", false).each(change);
           }, 2000);
 
           function change() {
