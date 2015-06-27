@@ -139,13 +139,15 @@ var messages = [
 // addAnnotation(true);
 // setTimeout( function() { setInterval( addAnnotation, 6000 ) }, 6000 );
 
-// var previewXAxis = new Rickshaw.Graph.Axis.Time({
-//         graph: preview.previews[0],
-//         timeFixture: new Rickshaw.Fixtures.Time.Local(),
-//         ticksTreatment: ticksTreatment
-// });
+ var previewXAxis = new Rickshaw.Graph.Axis.Time({
+         graph: preview.previews[0],
+         timeFixture: new Rickshaw.Fixtures.Time.Local(),
+         ticksTreatment: ticksTreatment
+ });
 
-//previewXAxis.render();
+previewXAxis.render();
+    
+     setTimeout(function(){ graph.render(); }, 100);
 
 
 });
