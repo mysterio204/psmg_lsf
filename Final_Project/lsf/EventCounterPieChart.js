@@ -1,24 +1,21 @@
 
 var url = "http://localhost:3333/api/get/counter"
 var jData=new Array();
-var personalArr = [];
+var eventArr = [];
 
 
 
 d3.json(url,function(data){
 
-        personalArr=data;
+        eventArr=data;
 
         (function(d3) {
         'use strict';
-            
-            
-            
-    personalArr.forEach(function(d) {
+              
+    eventArr.forEach(function(d) {
     
     d.enabled = true;
     });
-
         var width = 450;
         var height = 450;
         var radius = Math.min(width, height) / 2;
@@ -27,11 +24,6 @@ d3.json(url,function(data){
         var legendSpacing = 8;
 
         var color = d3.scale.category20b();
-            
-           
-            
-           
-         
 
         var svg = d3.select('#piechart')
           .append('svg')
@@ -69,13 +61,10 @@ d3.json(url,function(data){
           .attr('class', 'count');
             
             tooltip.append('div')                   
-    .attr('class', 'percent');   
-
-
-       
+                .attr('class', 'percent');   
 
           var path = svg.selectAll('path')
-            .data(pie(personalArr))
+            .data(pie(eventArr))
             .enter()
             .append('path')
             .attr('d', arc)
@@ -84,14 +73,11 @@ d3.json(url,function(data){
                 var col = color(d.data.label)
               return _getColor(d.data.label); 
 
-              
-        
-
             })                                                       
             .each(function(d) { this._current = d; });             
 
           path.on('mouseover', function(d) {
-            var total = d3.sum(personalArr.map(function(d) {
+            var total = d3.sum(eventArr.map(function(d) {
               return (d.enabled) ? d.count : 0;                    
             }));
             var percent = Math.round(1000 * d.data.count / total) / 10;
@@ -122,8 +108,6 @@ d3.json(url,function(data){
               var horz = -2 * legendRectSize;
               var vert = i * height - offset;
               return 'translate(' + horz + ',' + vert + ')';
-                
-           
             });
 
           legend.append('rect')
@@ -140,7 +124,7 @@ d3.json(url,function(data){
             .on('click', function(label) { 
               var rect = d3.select(this); 
               var enabled = true;                                    
-              var totalEnabled = d3.sum(personalArr.map(function(d) {
+              var totalEnabled = d3.sum(eventArr.map(function(d) {
                 return (d.enabled) ? 1 : 0; 
               
 
@@ -160,7 +144,7 @@ d3.json(url,function(data){
                 return (d.enabled) ? d.count : 0;                    
               });                                                    
 
-              path = path.data(pie(personalArr));                       
+              path = path.data(pie(eventArr));                       
 
               path.transition()                                     
                 .duration(750)                                        
@@ -177,30 +161,10 @@ d3.json(url,function(data){
             .attr('x', legendRectSize + legendSpacing)
             .attr('y', legendRectSize - legendSpacing)
             .text(function(d) { return d; });
-            
-            
-            
-            
-       
-
-       
 
       })(window.d3);
           
-    
-});
-
-  
-    function _countPersonalForChairs(faculty){
-        
-        
-    
-        
-        
-        
-    };
-
-
+    });
 
     function _getColor(currFak){
     switch (currFak){
@@ -247,15 +211,12 @@ d3.json(url,function(data){
         case "Medizin":
             return"#00556A"
             break; 
-            
-   
-     
-        
+
         default:
             return "#F0F8FF";
     
-    }
-  };
+        }
+    };
 
 
 

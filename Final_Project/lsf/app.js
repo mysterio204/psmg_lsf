@@ -153,30 +153,7 @@ var that = {},
       
     }, 
     
-    _calculatePeoplePerFak=function(json){
-        var countPeople=[];
-    
-    json.Ueberschrift.forEach(function(obj){
-        
-       if(obj.Einrichtung!=null&&obj.Ueberschrift!=null){
-           
-            countPeople.push({
-                name: obj.Einrichtung.EinBez,
-                people: obj.Einrichtung.Funktion.length,
-                chairs: obj.Ueberschrift.length
-            
-            }
-            );
-        
-       }
-        
-        });
-        
-        countPeople.forEach(function(obj){
-        console.log(obj.name+" hat "+obj.people+" direkte Angestellte und "+obj.chairs+" Lehrstühle");
-        });
-    
-    },
+
     
     _getDay = function(gerDay){
   switch(gerDay) {
@@ -618,7 +595,7 @@ var that = {},
                 
                
 
-                //Insert event handling logic
+                
             }
                
         });

@@ -1,10 +1,12 @@
 <!doctype>
 <head>
     <meta charset="utf-8" />
-        <link type="text/css" rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css">
-       <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-       <link href='http://fonts.googleapis.com/css?family=Amaranth:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+        <link
+      type="text/css" rel="stylesheet"href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css">
+        <link                                                                                                                                               href='http://fonts.googleapis.com/cssfamily=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    
+       <link href='http://fonts.googleapis.com/css?family=Amaranth:400,700&subset=latin,latin-ext' rel='stylesheet'               type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
         
         <link type="text/css" rel="stylesheet" href="src/css/materialize.css"  media="screen,projection"/>
         <link type="text/css" rel="stylesheet" href="src/css/graph.css">
@@ -14,30 +16,14 @@
         <link type="text/css" rel="stylesheet" href="src/css/barstyle.css">
         <link type="text/css" rel="stylesheet" href="src/css/personalDonut.css">
         <link type="text/css" rel="stylesheet" href="src/css/sortedBarChart.css">
-<link type="text/css" rel="stylesheet" href="src/css/style.css"  media="screen,projection"/>
+        <link type="text/css" rel="stylesheet" href="src/css/style.css"  media="screen,projection"/>
 
-                    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
-    
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script src="vendor/d3.v3.js"></script>
+    <script src="src/js/materialize.js"></script>
 
-
-
-
-
-         <script src="vendor/d3.v3.js"></script>
-
-
-
-<!--        <script src="src/js/materialize.min.js"></script>-->
-
-   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
-    
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
-
-                  <script src="src/js/materialize.js"></script>
-
-
-        <script src="src/js/Rickshaw.js"></script>
+         <script src="src/js/Rickshaw.js"></script>
          <script src="src/js/Rickshaw.Class.js"></script>
          <script src="src/js/Rickshaw.Compat.ClassList.js"></script>
          <script src="src/js/Rickshaw.Graph.js"></script>
@@ -64,60 +50,51 @@
          <script src="src/js/Rickshaw.Fixtures.Color.js"></script>
          <script src="src/js/Rickshaw.Color.Palette.js"></script>
          <script src="src/js/Rickshaw.Graph.Axis.Y.js"></script>
-    
-    
-        
-        <script src="src/js/d3.js"></script>
-        <script src="src/js/jspath.min.js"></script>
+         <script src="src/js/d3.js"></script>
+         <script src="src/js/jspath.min.js"></script>
+         <script src="src/extensions.js"></script>
+         <script src="http://code.highcharts.com/highcharts.js"></script>
+         <script src="http://code.highcharts.com/modules/data.js"></script>
+         <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+    </head>
 
-
-
-        <script src="src/extensions.js"></script>
-
-    <script src="http://code.highcharts.com/highcharts.js"></script>
-<script src="http://code.highcharts.com/modules/data.js"></script>
-<script src="http://code.highcharts.com/modules/drilldown.js"></script>
-
-
-
-</head>
-<body>
+    <body>
 
 
 <!--<p id="uetext">Vorlesungsverzeichnis der Uni Regensburg</p>-->
 <!--    <img src="src/images/banner_lsf.png" background-repeat:no-repeat;width:1424px;height:150px;>-->
-    <div id="spycontainer">
-     <ul class="section table-of-contents">
+                
+                
+        <div id="spycontainer">
+            
+            <ul class="section table-of-contents">
          <li><a href="#starter">Start</a></li>
         <li><a href="#content">Timeline</a></li>
         <li><a href="#first">Week Summary</a></li>
         <li><a href="#second">All Events</a></li>
          <li><a href="#infotext_container_3">Personal</a></li>
-      </ul>
-
-
+            </ul>
         </div>
 
-  <div id="starter" class="valign-wrapper section scrollspy">
-      <div class="valign" id="wrap">
-     <p id="starttext"> Vorlesungsverzeichnis der Uni Regensburg</p>
-      <br>
-          <p id="starttext2"> Eine Visualisierung der Daten aus dem Vorlesungsverszeichnis</p>
-      <br>
-        <a class="waves-effect blue-grey darken-3 btn-large  " id="startbutton" href="#content">GET STARTED</a>
-        
-    </div>
-    </div>
+                
+      <div id="starter" class="valign-wrapper section scrollspy">
+          <div class="valign" id="wrap">
+         <p id="starttext"> Vorlesungsverzeichnis der Uni Regensburg</p><br>
+         <p id="starttext2"> Eine Visualisierung der Daten aus dem Vorlesungsverszeichnis des Sommersemester 2015</p><br>
+            <a class="waves-effect blue-grey darken-3 btn-large  " id="startbutton" href="#content">GET STARTED</a>  
+          </div>
+      </div>
 
-<div id="content" class="section scrollspy">
-  <div id="chart_container"  >
+            <div id="content" class="section scrollspy">
+                <div id="chart_container"  >
                 <div id="chart"></div>
                 <div id="timeline"  ></div>
                 <div id="preview"></div>
-        </div>
+            </div>
+                
 
         <form id="side_panel">
-                <h1 id ="graphtitle">Kurse im Sommerstemester 2015</h1>
+            <h1 id ="graphtitle">Kurse im Sommerstemester 2015</h1>
                 <section><div id="legend"></div></section>
                 <section>
                         <div id="renderer_form" class="toggler">
@@ -127,23 +104,12 @@
                                 <label for="line">line</label>
                                 <input type="radio" name="renderer" id="scatter" value="scatterplot">
                                 <label for="scatter">scatter</label>
-                        </div>
-                </section>
-         
-                <section id="smoothingSection">
-                        <h6>Smoothing</h6>
-                        <div id="smoother">
-                    </div>
-
-<!--
-                     <form action="#">
-                        <div class="range-field" id="smoother">
-                            <input type="range"  min="0" max="100" />
-                        </ div>
-                    </form>
--->
-                </section>
-                
+                                </div>
+                                    </section>
+                                    <section id="smoothingSection">
+                                        <h6>Smoothing</h6>
+                                        <div id="smoother"></div>
+                                    </section> 
         </form>
 
       
@@ -151,7 +117,7 @@
 </div>
     
         <div id="infotext_container" >
-    <p id="infotext"  >Dieser Visualisierung entimmt man die Verteilung der Kurse auf die jeweiligen Wochentage. Der "Default-Wert" zeigt die Verteilung aller Kurse aller Fakultäten. Eine spezifische Darstellung einer Fakultät kann mittels eines Klicks auf den - charakteristisch farbcodierten - Button erreicht werden. </p>
+        <p id="infotext"  >Dieser Visualisierung entimmt man die Verteilung der Kurse auf die jeweiligen Wochentage. Der "Default-Wert" zeigt die Verteilung aller Kurse aller Fakultäten. Eine spezifische Darstellung einer Fakultät kann mittels eines Klicks auf den - charakteristisch farbcodierten - Button erreicht werden. </p>
     </div>
     
     
@@ -225,11 +191,10 @@
   
    
     
-    <div id="infotext_container_2" >
+        <div id="infotext_container_2" >
     <p id="infotext">Diese Grafik zeigt die Verteilung der Anzahl der Veranstaltungen über alle Fakultäten hinweg dar.  
-        
-        </p>
-    </div>
+    </p>
+        </div>
 
   
 
@@ -241,76 +206,29 @@
          <div id="pielegend" class="col s5"></div>
         <div class="col s1"><p></p></div>
     </div>
-    
 
-    
      <div id="infotext_container_3" class="section scrollspy">
     <p id="infotext">Diese Grafik zeigt die Verteilung der Anzahl der Veranstaltungen über alle Fakultäten hinweg dar.  
         
-        </p>
+     </p>
     </div>
-    
-    <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
-
-    
-        <div id="sortedBarChart">
-    
-    <label>
-        
-        <input id = "sort" type="checkbox"> Sort values </label>
-
-    </div>
-
-    
-    
-<!--
-    
-    <div id="spycontainer">
-     <ul class="section table-of-contents">
-        <li><a href="#chart_container">Timeline</a></li>
-        <li><a href="#first">Week Summary</a></li>
-        <li><a href="#infotext_container_2">All Events</a></li>
-         <li><a href="#infotext_container_3">Personal</a></li>
-      </ul>
-
-
+        <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+                <div id="sortedBarChart">
+                <label> <input id = "sort" type="checkbox"> Sort values </label>
         </div>
 
--->
-
-
-    
         
-     
-
-        
-    
-
-
-     
-           
-
-    
-
-   
-     
     <script src="app.js"></script>
-
-
-
        <script> 
-
 			app.init();
              $(document).ready(function(){
-    $('.scrollspy').scrollSpy();
-  });
-   
-
-
+                $('.scrollspy').scrollSpy();
+            });
 	</script>
+                
     <script src="sortedBarChart.js"></script>
     <script src="ChartController.js"></script>   
     <script src="PersonalBarChart.js"></script>
     <script src="EventCounterPieChart.js"></script>
     <script src="chartOne.js"></script>
-   
+</body>
