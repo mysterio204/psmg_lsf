@@ -77,7 +77,7 @@ var proportionArr = [];
                     
             var wiwi = data[1].count / persArrFak[2].freq;
                      proportionArr.push({
-                        name: "Wirtschaftswissenschaften",
+                        name: "Wirtschaftswis..",
                         frequency: wiwi
                     });
             var medizin = data[2].count / persArrFak[3].freq;
@@ -87,12 +87,12 @@ var proportionArr = [];
                     });
             var chemie = data[3].count / persArrFak[10].freq;
                      proportionArr.push({
-                        name: "Chemie und Pharmazie",
+                        name: "Chemie/Pharmazie",
                         frequency: chemie
                     });
             var psy = data[4].count / persArrFak[5].freq;
                      proportionArr.push({
-                        name: "Psychologie,Pädagogik und Sportwissenschaften ",
+                        name: "Psychologie,Päda.. ",
                         frequency: psy
                     });
             var math = data[5].count / persArrFak[7].freq;
@@ -102,27 +102,27 @@ var proportionArr = [];
                     });
             var law = data[6].count / persArrFak[1].freq;
                      proportionArr.push({
-                        name: "Rechtswissenschaften",
+                        name: "Rechtswis..",
                         frequency: law
                     });
             var phil = data[7].count / persArrFak[4].freq;
                      proportionArr.push({
-                        name: "Philosophie, Kunst-, Geschichts- und Gesellschaftswissenschaften",
+                        name: "Philosophie, Kunst-,..",
                         frequency: phil
                     });
             var bio = data[8].count / persArrFak[9].freq;
                      proportionArr.push({
-                        name: "Biologie und Vorklinische Medizin",
+                        name: "Biologie/vorkl. Medizin",
                         frequency: bio
                     });
             var rel = data[9].count / persArrFak[0].freq;
                      proportionArr.push({
-                        name: "Katholische Theologie",
+                        name: "kath. Theologie",
                         frequency: rel
                     });
             var slk = data[10].count / persArrFak[6].freq;
                      proportionArr.push({
-                        name: "Sprach-, Literatur- und Kulturwissenschaften",
+                        name: "Sprach-, Liter..",
                         frequency: slk
                     }); 
                     
