@@ -1,1 +1,45 @@
+#starter{
+    background-image: url('../images/urblurdark.jpg');
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+  
+    height:100%;
 
+}
+#wrap{
+text-align: center;
+width:100%;
+height:100%;
+
+}
+#starttext{
+    margin-top:100px;
+    margin-bottom: 20px;
+    color:aliceblue;
+    font-size: 80px;
+    font-family: "Roboto";
+    font-weight: 100;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 200;
+
+}
+#starttext2{
+    
+    color:aliceblue;
+    font-size: 30px;
+    font-family: "Roboto";
+    font-weight: 100;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 200;
+
+}
+#startbutton{
+      margin-left: auto;
+    margin-right: auto;
+    z-index: 200;
+}
+@font-face { 
+    font-family: "Dispatch"; 
+    src: url(../font/dispatch.ttf) format('truetype'); }

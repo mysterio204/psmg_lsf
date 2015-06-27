@@ -14,7 +14,7 @@
         <link type="text/css" rel="stylesheet" href="src/css/barstyle.css">
         <link type="text/css" rel="stylesheet" href="src/css/personalDonut.css">
         <link type="text/css" rel="stylesheet" href="src/css/sortedBarChart.css">
-
+<link type="text/css" rel="stylesheet" href="src/css/style.css"  media="screen,projection"/>
 
                     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
     
@@ -83,8 +83,8 @@
 </head>
 <body>
 
-<header id="ue" >
-<p id="uetext">Vorlesungsverzeichnis der Uni Regensburg</p>
+
+<!--<p id="uetext">Vorlesungsverzeichnis der Uni Regensburg</p>-->
 <!--    <img src="src/images/banner_lsf.png" background-repeat:no-repeat;width:1424px;height:150px;>-->
     <div id="spycontainer">
      <ul class="section table-of-contents">
@@ -97,12 +97,16 @@
 
 
         </div>
-</header>
-    <div id="starter" class="valign-wrapper section scrollspy">
-    
-        <a class="waves-effect blue-grey lighten-1 btn-large valign " id="startbutton" href="#chart_container">GET STARTED</a>
+
+  <div id="starter" class="valign-wrapper section scrollspy">
+      <div class="valign" id="wrap">
+     <p id="starttext"> Vorlesungsverzeichnis der Uni Regensburg</p>
+      <br>
+          <p id="starttext2"> Eine Visualisierung der Daten aus dem Vorlesungsverszeichnis</p>
+      <br>
+        <a class="waves-effect blue-grey darken-3 btn-large  " id="startbutton" href="#content">GET STARTED</a>
         
-    
+    </div>
     </div>
 
 <div id="content" class="section scrollspy">
