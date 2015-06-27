@@ -5,11 +5,11 @@
  */
 
 // Load the fonts
-Highcharts.createElement('link', {
-   href: '//fonts.googleapis.com/css?family=Unica+One',
-   rel: 'stylesheet',
-   type: 'text/css'
-}, null, document.getElementsByTagName('head')[0]);
+//Highcharts.createElement('link', {
+//   href: '//fonts.googleapis.com/css?family=Unica+One',
+//   rel: 'stylesheet',
+//   type: 'text/css'
+//}, null, document.getElementsByTagName('head')[0]);
 
 Highcharts.theme = {
    colors: ["#ECBC00", "#CDD30F", "#AEA700", "#00556A", "#EC6200", "#BF002A", "#9C004B",
@@ -23,7 +23,7 @@ Highcharts.theme = {
          ]
       },
       style: {
-         fontFamily: "'Roboto', sans-serif"
+         fontFamily: " 'Roboto'"
       },
       plotBorderColor: '#606063'
    },

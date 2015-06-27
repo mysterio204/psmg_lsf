@@ -2,7 +2,7 @@
 <head>
     <meta charset="utf-8" />
         <link type="text/css" rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css">
-       <link href='http://fonts.googleapis.com/css?family=Roboto:400,900,100&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+       <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
        <link href='http://fonts.googleapis.com/css?family=Amaranth:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
         
@@ -81,13 +81,30 @@
 </head>
 <body>
 
-<header id="ue">
-<!--<p id="uetext">Vorlesungsverzeichnis der Uni Regensburg</p>-->
-    <img src="src/images/banner_lsf.png" background-repeat:no-repeat;width:1424px;height:150px;>
-</header>
+<header id="ue" >
+<p id="uetext">Vorlesungsverzeichnis der Uni Regensburg</p>
+<!--    <img src="src/images/banner_lsf.png" background-repeat:no-repeat;width:1424px;height:150px;>-->
+    <div id="spycontainer">
+     <ul class="section table-of-contents">
+         <li><a href="#starter">Start</a></li>
+        <li><a href="#content">Timeline</a></li>
+        <li><a href="#first">Week Summary</a></li>
+        <li><a href="#second">All Events</a></li>
+         <li><a href="#infotext_container_3">Personal</a></li>
+      </ul>
 
-<div id="content">
-  <div id="chart_container" class="section scrollspy" >
+
+        </div>
+</header>
+    <div id="starter" class="valign-wrapper section scrollspy">
+    
+        <a class="waves-effect blue-grey lighten-1 btn-large valign " id="startbutton" href="#chart_container">GET STARTED</a>
+        
+    
+    </div>
+
+<div id="content" class="section scrollspy">
+  <div id="chart_container"  >
                 <div id="chart"></div>
                 <div id="timeline"  ></div>
                 <div id="preview"></div>
@@ -202,7 +219,7 @@
   
    
     
-    <div id="infotext_container_2" class="section scrollspy">
+    <div id="infotext_container_2" >
     <p id="infotext">Diese Grafik zeigt die Verteilung der Anzahl der Veranstaltungen über alle Fakultäten hinweg dar.  
         
         </p>
@@ -211,7 +228,7 @@
   
 
     
-    <div class="wrapperClass row ">
+    <div class="wrapperClass row section scrollspy" id="second">
     
         <div class="col s1"><p></p></div>
          <div id="piechart" class="col s5">  </div>
@@ -231,6 +248,7 @@
 
     
     
+<!--
     
     <div id="spycontainer">
      <ul class="section table-of-contents">
@@ -242,6 +260,7 @@
 
 
         </div>
+-->
 
     
     

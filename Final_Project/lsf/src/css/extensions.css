@@ -12,14 +12,17 @@ div, span, p, td {
 	font-weight: 100;
 }
 #ue{
+/*    position:fixed;*/
 text-align: center;
 display:flex;
 justify-content:center;
 align-items:center;
 color:aliceblue;
-height:150px;
+height:200px;
+    width:100%;
 background-color: rgba(0,0,0,0.3);
-margin-bottom: 50px;
+    z-index: 100;
+/*margin-bottom: 50px;*/
     border-radius: 4px;
 /*
     background-image: url(../images/banner_lsf.png);
@@ -28,15 +31,38 @@ margin-bottom: 50px;
     height:150px;
 */
 }
-#spycontainer{
+#uetext{
+font-size: 80px;
+font-family: "Dispatch";
+font-weight: 100;
 
+}
+#spycontainer{
+text-align: left;
 position:fixed;
+    z-index: 150;
+    
     padding:10px;
-    bottom:0;
+    top:0;
     right:15;
     background-color: rgba(0,0,0,0.3);
     color:aliceblue;
     
+}
+#starter{
+/*
+    background-image: url('http://www.freebiesgallery.com/wp-content/uploads/2014/02/blurred-background-2.jpg');
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+  
+*/
+height:600px;
+}
+
+#startbutton{
+      margin-left: auto;
+    margin-right: auto;
+    z-index: 200;
 }
 .table-of-contents a{
 color:aliceblue;
@@ -95,13 +121,7 @@ border-radius: 4px;
 */
 
 }
-#uetext{
-font-size: 60px;
-/*font-family: "Roboto";
-font-weight: 100;*/
-font-family: "Roboto" sans-serif;
-	font-weight: 100;
-}
+
 #graphtitle{
 	font-family: "Roboto" sans-serif;
 	font-weight: 100;
@@ -148,6 +168,7 @@ font-family: "Roboto" sans-serif;
 */
 #content {
 	width: 1200px;
+    
 }
 #chart {
 	display: inline-block;
@@ -174,6 +195,7 @@ font-family: "Roboto" sans-serif;
 	position: relative;
 	display: inline-block;
 	margin-left: 10px;
+    
 }
 #smoother {
 	margin: 0 0 10px 16px;
@@ -335,4 +357,8 @@ label[for=linear] {
 label[for=step] {
 	background-image: url(../images/interp_step.png);
 }
+@font-face { 
+    font-family: "Dispatch"; 
+    src: url(../font/dispatch.ttf) format('truetype'); }
+
 
