@@ -17,15 +17,28 @@ body {
 }
 
 .bar {
-  fill: steelblue;
+/*  fill: steelblue;*/
   fill-opacity: .9;
 }
+.bar:hover{
+
+fill: white;}
 
 .x.axis path {
   display: none;
 }
 label{
-    margin-left:20%;
+color:aliceblue;
+}
+.switch label input[type=checkbox]:checked + .lever:after{
+/*    margin-left:20%;*/
+    background-color: aliceblue;
   
     
+}
+.switch label .lever:before{
+background-color: bisque;
+}
+#sortedBarChart{
+text-align: center;
 }

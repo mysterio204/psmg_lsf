@@ -18,14 +18,14 @@
        },
        title: {
           style: {
-             color: '#E0E0E3',
+             color: 'aliceblue',
              textTransform: 'uppercase',
              fontSize: '20px'
           }
        },
        subtitle: {
           style: {
-             color: '#E0E0E3',
+             color: 'aliceblue',
              textTransform: 'uppercase'
           }
        },
@@ -41,7 +41,7 @@
           tickColor: '#707073',
           title: {
              style: {
-                color: '#A0A0A3'
+                color: 'aliceblue'
 
              }
           }
@@ -59,7 +59,7 @@
           tickWidth: 1,
           title: {
              style: {
-                color: '#A0A0A3'
+                color: 'aliceblue'
              }
           }
        },

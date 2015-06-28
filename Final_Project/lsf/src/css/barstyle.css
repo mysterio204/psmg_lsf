@@ -152,13 +152,13 @@ background-color: #004455;
 }
 
 .bar {
-    fill: #9C004B;
+/*    fill: #9C004B;*/
     padding-left: 5px;
     padding-right: 5px;
 }
 
 .bar:hover {
-    fill: #E65A9D;
+/*    fill: #E65A9D;*/
 }
 
 .axis text {

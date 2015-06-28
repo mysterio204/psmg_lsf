@@ -21,8 +21,7 @@
         <link type="text/css" rel="stylesheet" href="src/css/style.css"  media="screen,projection"/>
 	    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 	    <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
-	    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
-	    <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+	  
 
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
@@ -226,7 +225,16 @@
     <p id="infotext">PersonalVerteilung </p>
     </div>
                 <div id="sortedBarChart">
-                <label> <input id = "sort" type="checkbox"> Sort values </label>
+                    <div class="switch">
+                        <p>Sortieren</p>
+                        <label>
+                          Off
+                          <input type="checkbox" id="sort">
+                          <span class="lever"></span>
+                          On
+                        </label>
+                    </div>
+<!--                <label> <input id = "sort" type="checkbox"> Sort values </label>-->
         </div>
 
         
@@ -298,8 +306,8 @@
 
 				<div class="footer-icons">
 
-					<a href="https://www.facebook.com/pages/Medieninformatik-Uni-Regensburg/138729356153755?fref=ts"><i class="fa fa-facebook"></i></a>
-					<a href="https://twitter.com/ubreg"><i class="fa fa-twitter"></i></a>
+					<a href="https://www.facebook.com/pages/Medieninformatik-Uni-Regensburg/138729356153755?fref=ts" class="icon_container"><i class="fa fa-facebook"></i></a>
+					<a href="https://twitter.com/MedienInfRgb"><i class="fa fa-twitter"></i></a>
 					<a href="https://github.com/mysterio204/psmg_lsf"><i class="fa fa-github"></i></a>
 
 				</div>

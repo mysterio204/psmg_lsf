@@ -93,13 +93,13 @@ var that = {},
            
             $('.chartTwo').empty();
             chart.renderBarChart(_daysPerFacluty(currFak),"days");
-            $(".bar").css("fill",_getFakClass);
+            $(".circlebar").css("fill",_getFakClass);
         } else
          if(day != "all" && faculty=="Alle Fakultäten"){
             
             $('.chartTwo').empty();
            chart.renderBarChart(_oneDayAllFac(day),"hours");
-             $(".bar").css("fill",_getFakClass);
+             $(".circlebar").css("fill",_getFakClass);
         } else
       
         if(day == "all" && faculty=="Alle Fakultäten"){
@@ -110,7 +110,7 @@ var that = {},
                 
             $('.chartTwo').empty();
             chart.renderBarChart(_oneDayAllFacHours(),"hours");
-            $(".bar").css("fill",_getFakClass);
+            $(".circlebar").css("fill",_getFakClass);
             
             
             }else if(document.getElementById('days').checked){
@@ -118,7 +118,7 @@ var that = {},
                
             $('.chartTwo').empty();
             chart.renderBarChart(daysAllFacs,"days");
-            $(".bar").css("fill",_getFakClass);
+            $(".circlebar").css("fill",_getFakClass);
             
             }
             
@@ -138,7 +138,7 @@ var that = {},
                         $('.chartTwo').empty();
                         var cl = _getFakClass();
                          chart.renderBarChart(currentData,"hours");
-                         $(".bar").css("fill",_getFakClass);
+                         $(".circlebar").css("fill",_getFakClass);
                         $('.daybutton').css("background_color",_getFakClass);
 
                     break;
