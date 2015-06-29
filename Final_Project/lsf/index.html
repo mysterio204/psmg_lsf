@@ -1,6 +1,7 @@
 <!doctype>
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
         <link
       type="text/css" rel="stylesheet"href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css">
         <link
@@ -8,7 +9,8 @@
     
        <link href='http://fonts.googleapis.com/css?family=Amaranth:400,700&subset=latin,latin-ext' rel='stylesheet'               type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-        
+        	    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
         <link type="text/css" rel="stylesheet" href="src/css/materialize.css"  media="screen,projection"/>
         <link type="text/css" rel="stylesheet" href="src/css/graph.css">
         <link type="text/css" rel="stylesheet" href="src/css/detail.css">
@@ -19,7 +21,6 @@
         <link type="text/css" rel="stylesheet" href="src/css/personalDonut.css">
         <link type="text/css" rel="stylesheet" href="src/css/sortedBarChart.css">
         <link type="text/css" rel="stylesheet" href="src/css/style.css"  media="screen,projection"/>
-	    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 	    <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
 	  
 
@@ -58,9 +59,9 @@
          <script src="src/js/d3.js"></script>
          <script src="src/js/jspath.min.js"></script>
          <script src="src/extensions.js"></script>
-         <script src="http://code.highcharts.com/highcharts.js"></script>
-         <script src="http://code.highcharts.com/modules/data.js"></script>
-         <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+         <script src="src/js/highcharts.src.js"></script>
+         <script src="src/modules/data.js"></script>
+         <script src="src/modules/drilldown.src.js"></script>
     </head>
 
     <body>
@@ -75,7 +76,10 @@
           <div class="valign" id="wrap">
          <p id="starttext"> Vorlesungsverzeichnis der Uni Regensburg</p><br>
          <p id="starttext2"> Eine Visualisierung der Daten aus dem Vorlesungsverszeichnis des Sommersemester 2015</p><br>
-            <a class="waves-effect blue-grey darken-3 btn-large  " id="startbutton" href="#content">GET STARTED</a>  
+<!--            <a class="waves-effect blue-grey darken-3 btn-large" id="startbutton" href="#content">GET STARTED</a>  -->
+              <div >
+<a href="#content" class="fa fa-angle-down arrow bounce"></a>
+</div>
           </div>
       </div>
                 
@@ -86,11 +90,14 @@
         <li><a href="#content">Timeline</a></li>
         <li><a href="#first">Week Summary</a></li>
         <li><a href="#second">All Events</a></li>
-         <li><a href="#infotext_container_3">Personal</a></li>
+         <li><a href="#container">Personal</a></li>
+        <li><a href="#sortedBarChart">Auslastung</a></li>
             </ul>
         </div>
 
-
+ <div id="infotext_one" >
+        <p id="infotext"  >Dieser Visualisierung entimmt man die Verteilung der Kurse auf die jeweiligen Wochentage. Der "Default-Wert" zeigt die Verteilung aller Kurse aller Fakultäten. Eine spezifische Darstellung einer Fakultät kann mittels eines Klicks auf den - charakteristisch farbcodierten - Button erreicht werden. </p>
+    </div>
 
             <div id="content" class="section scrollspy">
                 <div id="chart_container"  >
@@ -137,31 +144,31 @@
                 
                 <a class=
         "btn-floating btn-small waves-effect waves-light rw tooltipped fak" data-delay="20" 
-        data-position="bottom" data-tooltip="Recht" id="1"></a> 
+        data-position="bottom" data-tooltip="Rechtswissenschaft" id="1"></a> 
                 <p class="fak_label"id="1">Recht</p>
              <a class=
         "btn-floating btn-small waves-effect waves-light wiwi tooltipped fak" data-delay="20"
-        data-position="bottom" data-tooltip="Wirtschaft" id="2"></a> 
+        data-position="bottom" data-tooltip="Wirtschaftswissenschaften" id="2"></a> 
                 <p class="fak_label"id="2">Wirtschaft</p>
              <a class=
         "btn-floating btn-small waves-effect waves-light theo tooltipped fak" data-delay="20"
-        data-position="bottom" data-tooltip="Theologie" id="3"></a> 
+        data-position="bottom" data-tooltip="Katholische Theologie" id="3"></a> 
                 <p class="fak_label"id="3">Theologie</p>
              <a class=
         "btn-floating btn-small waves-effect waves-light phil tooltipped fak" data-delay="20"
-        data-position="bottom" data-tooltip="Philosophie" id="4"></a> 
+        data-position="bottom" data-tooltip="Philosophie, Kunst-, Geschichts- und Gesellschaftswissenschaften" id="4"></a> 
                 <p class="fak_label"id="4">Philosophie</p>
              <a class=
         "btn-floating btn-small waves-effect waves-light psych tooltipped fak" data-delay="20"
-        data-position="bottom" data-tooltip="Psychologie" id="5"></a> 
+        data-position="bottom" data-tooltip="Psychologie, Pädagogik und Sportwissenschaft" id="5"></a> 
                 <p class="fak_label"id="5">Psychologie</p>
              <a class=
         "btn-floating btn-small waves-effect waves-light slk tooltipped fak" data-delay="20"
-        data-position="bottom" data-tooltip="SLK" id="6"></a> 
+        data-position="bottom" data-tooltip="Sprach-, Literatur- und  Kulturwissenschaften" id="6"></a> 
                 <p class="fak_label"id="6">SLK</p>
              <a class=
         "btn-floating btn-small waves-effect waves-light bio tooltipped fak" data-delay="20"
-        data-position="bottom" data-tooltip="Biologie" id="7"></a>
+        data-position="bottom" data-tooltip="Biologie und Vorklinische Medizin" id="7"></a>
                 <p class="fak_label"id="7">Biologie</p>
              <a class=
         "btn-floating btn-small waves-effect waves-light math tooltipped fak" data-delay="20"
@@ -173,7 +180,7 @@
                 <p class="fak_label"id="9">Physik</p>
              <a class=
         "btn-floating btn-small waves-effect waves-light che tooltipped fak" data-delay="20"
-        data-position="bottom" data-tooltip="Chemie" id="10"></a> 
+        data-position="bottom" data-tooltip="Chemie und Pharmazie" id="10"></a> 
                 <p class="fak_label"id="10">Chemie</p>
              <a class=
         "btn-floating btn-small waves-effect waves-light med tooltipped fak" data-delay="20"
@@ -214,17 +221,19 @@
         <div class="col s1"><p></p></div>
     </div>
 
-     <div id="infotext_container_3" class="section scrollspy">
+     <div id="infotext_container_3">
     <p id="infotext">Diese Grafik zeigt die Verteilung der Anzahl der Veranstaltungen über alle Fakultäten hinweg dar.  
         
      </p>
     </div>
-        <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+        <div id="container" class="section scrollspy" style="min-width: 310px; width:90%;height: 400px; margin: 0 auto"></div>
         
-         <div id="infotext_container_3" class="section scrollspy">
+         
+        
+        <div id="infotext_container_4" >
     <p id="infotext">PersonalVerteilung </p>
     </div>
-                <div id="sortedBarChart">
+                <div id="sortedBarChart" class="section scrollspy">
                     <div class="switch">
                         <p>Sortieren</p>
                         <label>

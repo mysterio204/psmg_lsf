@@ -11,7 +11,9 @@
 (function (H) {
 
 	"use strict";
-
+     setTimeout(function(){ H.setOptions({animate:true});
+                          
+                          }, 3000);
 	var noop = function () {},
 		defaultOptions = H.getOptions(),
 		each = H.each,

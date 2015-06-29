@@ -2312,14 +2312,24 @@ $(document).ready(function(){
 		  $('a[href=#' + $(element).attr('id') + ']').click(function(e) {
 		    e.preventDefault();
 		    var offset = $(this.hash).offset().top + 1;
+            if($(element).attr('id')=="starter"){
+              offset = $('#starter').offset().top + 1;
+              }
+              if($(element).attr('id')=="content"){
+              offset = $('#infotext_one').offset().top + 1;
+              }
               if($(element).attr('id')=="first"){
               offset = $('#infotext_container').offset().top + 1;
               } if($(element).attr('id')=="second"){
               offset = $('#infotext_container_2').offset().top + 1;
               }
-                if($(element).attr('id')=="starter"){
-              offset = $('#ue').offset().top + 1;
+              if($(element).attr('id')=="container"){
+              offset = $('#infotext_container_3').offset().top + 1;
               }
+              if($(element).attr('id')=="sortedBarChart"){
+              offset = $('#infotext_container_4').offset().top + 1;
+              }
+             
 //          offset - 200 allows elements near bottom of page to scroll
 			
 	    	$('html, body').animate({ scrollTop: offset  }, {duration: 1000, queue: false, easing: 'easeOutCubic'});

@@ -7,8 +7,8 @@
           backgroundColor: {
              linearGradient: { x1: 0, y1: 0, x2: 1, y2: 1 },
              stops: [
-                [0, 'rgba(0,0,0,0.3)'],
-                [1, 'rgba(0,0,0,0.3)']
+                [0, 'rgba(0,0,0,0)'],
+                [1, 'rgba(0,0,0,0)']
              ]
           },
           style: {
@@ -64,7 +64,7 @@
           }
        },
        tooltip: {
-          backgroundColor: 'rgba(0, 0, 0, 0.85)',
+          backgroundColor: 'rgba(0, 0, 0, 0.5)',
           style: {
              color: '#F0F0F0'
           }
@@ -215,7 +215,7 @@
     var persArrFak = [];
     var persArrChairs = [];
 
-        
+     
             
             d3.json(url,function(data){
     
@@ -306,15 +306,25 @@
             type: 'column'
         },
         title: {
-            text: 'Personalverteilung der Fakultäten'
+            text: ' '
         },
         subtitle: {
-            text: 'Klicke auf die Balken, um Informationen über die Personalverteilung in der Lehrstühlen der Fakultäten                    zu bekommen'
+            text: ''
         },
                                    
 
         xAxis: {
-            type: 'category'
+            
+            type: 'category',
+            labels:{
+                formatter: function(){
+                    if (this.value.length > 20){
+                        return this.value.substr(0,20) + "...";
+                    }else{
+                         return this.value;   
+                    }                        
+                }
+            }
         },
         yAxis: {
             title: {
@@ -330,7 +340,8 @@
                 borderWidth: 0,
                 dataLabels: {
                     enabled: true,
-                    format: '{point.y:.1f}'
+                    allowOverlap: false,
+//                    format: '{point.y:.1f}'
                 }
             }
         },

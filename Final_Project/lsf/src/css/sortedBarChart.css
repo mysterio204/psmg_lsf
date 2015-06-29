@@ -1,12 +1,13 @@
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto","Helvetica Neue", Helvetica, Arial, sans-serif;
   position: relative;
   width: 100%;
 }
 
 .axis text {
-  font: 10 Helvetica;
-    color: white;
+  font: 10 "Roboto", Helvetica sans-serif;
+    color: aliceblue;
+    fill:aliceblue;
 }
 
 .axis path,

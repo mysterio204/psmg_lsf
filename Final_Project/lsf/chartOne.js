@@ -7,11 +7,12 @@ var jData=new Array();
 d3.json(url,function(data){
 
         jData=data;
+    jData.sort(function(a,b){d3.ascending(a.length,b.length)});
 
 var graph = new Rickshaw.Graph( {
         element: document.getElementById("chart"),
-        width: 800,
-        height: 400,
+        width: 600,
+        height: 300,
         renderer: 'area',
         unstack:true,
         stack:false,

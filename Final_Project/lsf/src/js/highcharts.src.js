@@ -5808,6 +5808,7 @@ Tick.prototype = {
 	 * Write the tick label
 	 */
 	addLabel: function () {
+        window.parent.document.body.style.zoom = 1;
 		var tick = this,
 			axis = tick.axis,
 			options = axis.options,
@@ -5888,6 +5889,7 @@ Tick.prototype = {
 	 * hide them if they collide into the neighbour label.
 	 */
 	handleOverflow: function (xy) {
+       
 		var axis = this.axis,
 			pxPos = xy.x,
 			chartWidth = axis.chart.chartWidth,
@@ -6014,6 +6016,8 @@ Tick.prototype = {
 	 * @param old {Boolean} Use old coordinates to prepare an animation into new position
 	 */
 	render: function (index, old, opacity) {
+            
+   
 		var tick = this,
 			axis = tick.axis,
 			options = axis.options,
