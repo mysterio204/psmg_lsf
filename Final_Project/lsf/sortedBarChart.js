@@ -102,7 +102,6 @@
                         frequency: law,
                          number:1
                     });
-                    console.log(law);
             var phil = data[7].count / persArrFak[4].freq;
                      proportionArr.push({
                         name: "Philosophie",

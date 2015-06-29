@@ -17,7 +17,6 @@ body {
 }
 
 .bar {
-/*  fill: steelblue;*/
   fill-opacity: .9;
 }
 .bar:hover{
@@ -28,7 +27,7 @@ fill: white;}
   display: none;
 }
 label{
-color:aliceblue;
+color:white;
 }
 .switch label input[type=checkbox]:checked + .lever:after{
 /*    margin-left:20%;*/
