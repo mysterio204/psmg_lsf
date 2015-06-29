@@ -10,8 +10,8 @@ d3.json(url,function(data){
 
 var graph = new Rickshaw.Graph( {
         element: document.getElementById("chart"),
-        width: 900,
-        height: 500,
+        width: 800,
+        height: 400,
         renderer: 'area',
         unstack:true,
         stack:false,
