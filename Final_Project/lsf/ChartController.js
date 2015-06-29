@@ -87,7 +87,7 @@ ChartController = function (options) {
         
         chart.append("g").attr("class","x axis").attr("transform","translate(0,"+height+")").call(xAxis);
         
-        chart.append("g").attr("class","y axis").call(yAxis);
+      //  chart.append("g").attr("class","y axis").call(yAxis);
         
         chart.selectAll(".bar").data(data).enter().append("rect").attr("class","bar").attr("class","circlebar").attr("x",function(d){
             return x(xValues(d));

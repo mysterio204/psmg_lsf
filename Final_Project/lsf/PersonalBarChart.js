@@ -220,10 +220,8 @@
             d3.json(url,function(data){
     
         _countPersonalForFaculties(data);
-                
 
-                
-                function _countPersonalForFaculties(data){
+        function _countPersonalForFaculties(data){
 
         for(var i = 0 ; i < data.length-2; i++){
  
@@ -351,11 +349,7 @@
             series: persArrChairs
         }
                 });
-                
-
             });
-            
-
         });
  
 

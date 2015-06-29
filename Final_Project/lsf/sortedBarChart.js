@@ -76,18 +76,20 @@
                         frequency: medizin,
                          number:11
                     });
-            var chemie = data[3].count / persArrFak[10].freq;
-                     proportionArr.push({
-                        name: "Chemie",
-                        frequency: chemie,
-                         number:10
-                    });
-            var psy = data[4].count / persArrFak[5].freq;
+                    
+            var psy = data[3].count / persArrFak[5].freq;
                      proportionArr.push({
                         name: "Psychologie",
                         frequency: psy,
                          number:5
                     });
+            var chemie = data[4].count / persArrFak[10].freq;
+                     proportionArr.push({
+                        name: "Chemie",
+                        frequency: chemie,
+                         number:10
+                    });
+         
             var math = data[5].count / persArrFak[7].freq;
                      proportionArr.push({
                         name: "Mathematik",
