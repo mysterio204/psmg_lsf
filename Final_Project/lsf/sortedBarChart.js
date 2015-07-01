@@ -165,6 +165,10 @@
 
           x.domain(data.map(function(d) { return d.name; }));
           y.domain([0, d3.max(data, function(d) { return d.frequency; })]);
+                
+         var div = d3.select("body").append("div")   
+            .attr("class", "bar_tooltip")               
+            .style("opacity", 0);
 
           svg.append("g")
               .attr("class", "x axis")
@@ -193,7 +197,21 @@
               .attr("x", function(d) { return x(d.name); })
               .attr("width", x.rangeBand())
               .attr("y", function(d) { return y(d.frequency); })
-              .attr("height", function(d) { return height - y(d.frequency); });
+              .attr("height", function(d) { return height - y(d.frequency); })
+             .on("mouseover", function(d) {      
+            div.transition()        
+                .duration(200)      
+                .style("opacity", .9);      
+            div.html(d.frequency)
+                .style("z-index","300")
+                .style("left", (d3.event.pageX) + "px")     
+                .style("top", (d3.event.pageY - 30) + "px");    
+            })                  
+        .on("mouseout", function(d) {       
+            div.transition()        
+                .duration(500)      
+                .style("opacity", 0);   
+        });
 
           d3.select("#sort").on("change", change);
 

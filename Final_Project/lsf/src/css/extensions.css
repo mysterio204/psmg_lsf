@@ -140,6 +140,23 @@ height:600px;
 .table-of-contents a{
 color:aliceblue;
 }
+
+div.bar_tooltip {   
+  position: absolute;           
+  text-align: center;           
+/*
+  width: 60px;                  
+  height: 28px;                 
+*/
+  padding: 10px;             
+  font: 12px "Roboto", sans-serif;        
+  background: rgba(0,0,0,0.5);   
+  border: 0px;      
+  border-radius: 2px;           
+  pointer-events: none;         
+}
+
+
 #infotext_one{
 text-align: center;
 display:flex;
