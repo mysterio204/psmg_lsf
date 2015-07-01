@@ -255,7 +255,12 @@ var that = {},
         _facultybuttonListener();
         _daybuttonListener();
         _radioListener();
-        
+        $('.circlebar').on("mouseover", function(event) {       
+             event.target.css("fill","aliceblue");
+        })                  
+        .on("mouseout", function(event) {       
+             event.target.css("fill",_getFakClass);
+        });
         
         
 	};

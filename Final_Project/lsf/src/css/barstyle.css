@@ -116,38 +116,49 @@ background-color: #00556A;
 }
 
 .rw:hover{
+    fill:aliceblue;
 background-color: #A4A90C;
 }
 .wiwi:hover{
+    fill:aliceblue;
 background-color: #8B8600;
 }
 .theo:hover{
+    fill:aliceblue;
 background-color: #BD9600;
 }
 .phil:hover{
+    fill:aliceblue;
 background-color: #BD4E00;
 }
 .psych:hover{
+    fill:aliceblue;
 background-color: #990022;
 }
 .slk:hover{
+    fill:aliceblue;
 background-color: #7D003C;
 }
 
 .bio:hover{
+    fill:aliceblue;
 background-color: #3F9300;
 }
 .math:hover{
+    fill:aliceblue;
 background-color: #007C5F;
 }
 
 .phy:hover{
+    fill:aliceblue;
 background-color: #006E76;
 }
 .che:hover{
+    fill:aliceblue;
 background-color: #006C8E;
 }
 .med:hover{
+    fill:aliceblue;
 background-color: #004455;
 }
 
@@ -157,9 +168,11 @@ background-color: #004455;
     padding-right: 5px;
 }
 
-.bar:hover {
-/*    fill: #E65A9D;*/
+/*
+.circlebar:hover {
+fill: aliceblue;
 }
+*/
 
 .axis text {
     font-size: 10px;

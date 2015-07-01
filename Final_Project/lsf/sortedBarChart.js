@@ -202,7 +202,7 @@
             div.transition()        
                 .duration(200)      
                 .style("opacity", .9);      
-            div.html(d.frequency)
+            div.html(extround(d.frequency,10))
                 .style("z-index","300")
                 .style("left", (d3.event.pageX) + "px")     
                 .style("top", (d3.event.pageY - 30) + "px");    
@@ -251,7 +251,10 @@
         });
 
 
-           
+    var  extround= function(zahl,n_stelle) {
+    zahl = (Math.round(zahl * n_stelle) / n_stelle);
+    return zahl;
+}
            
        var _getFakClass = function (currFak){
     switch (currFak){
