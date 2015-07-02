@@ -64,26 +64,26 @@
                     
                     
                     
-            var wiwi = data[1].count / persArrFak[2].freq;
+            var wiwi = data[3].count / persArrFak[2].freq;
                      proportionArr.push({
                         name: "Wirtschaft",
                         frequency: wiwi,
                          number:2
                     });
-            var medizin = data[2].count / persArrFak[3].freq;
+            var medizin = data[1].count / persArrFak[3].freq;
                      proportionArr.push({
                         name: "Medizin",
                         frequency: medizin,
                          number:11
                     });
                     
-            var psy = data[3].count / persArrFak[5].freq;
+            var psy = data[6].count / persArrFak[5].freq;
                      proportionArr.push({
                         name: "Psychologie",
                         frequency: psy,
                          number:5
                     });
-            var chemie = data[4].count / persArrFak[10].freq;
+            var chemie = data[2].count / persArrFak[10].freq;
                      proportionArr.push({
                         name: "Chemie",
                         frequency: chemie,
@@ -96,7 +96,7 @@
                         frequency: math,
                          number:8
                     });
-            var law = data[6].count / persArrFak[1].freq;
+            var law = data[4].count / persArrFak[1].freq;
                      proportionArr.push({
                         name: "Recht",
                         frequency: law,
