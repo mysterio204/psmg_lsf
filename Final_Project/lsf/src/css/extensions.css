@@ -241,7 +241,8 @@ margin-bottom: 4%;
 
 }
 #infotext{
-    padding:15px;
+    padding:40px;
+    margin-left:15%;
     font-family: "Oswald";
     font-weight: 400;
     font-size: 24;
