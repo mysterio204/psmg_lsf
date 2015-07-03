@@ -50,6 +50,7 @@ Rickshaw.Graph.RangeSlider.Preview = Rickshaw.Class.create({
 
 	onSlide: function(callback) {
 		this.slideCallbacks.push(callback);
+        
 	},
 
 	onConfigure: function(callback) {
@@ -418,6 +419,7 @@ Rickshaw.Graph.RangeSlider.Preview = Rickshaw.Class.create({
 			d3.select(document).on("touchmove.rickshaw_range_slider_preview", onMousemove);
 			d3.select(document).on("touchend.rickshaw_range_slider_preview", onMouseup);
 			d3.select(document).on("touchcancel.rickshaw_range_slider_preview", onMouseup);
+          
 		}
 
 		function onMousedownLeftHandle(datum, index) {

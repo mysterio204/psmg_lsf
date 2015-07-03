@@ -107,10 +107,21 @@ var rendererForm = document.getElementById('renderer_form');
                         graph.setRenderer('area');
                 } else if (renderMode == 'scatterplot') {
                         graph.setRenderer('scatterplot');
-                }           
+                }  
+            
                 graph.render();
+//            console.log(new Date(extround(graph.window.xMax,1)*1000));
+//            console.log(new Date(extround(graph.window.xMin,1)*1000));
+
+
+
 
         }, false);
+    
+        var  extround= function(zahl,n_stelle) {
+    zahl = (Math.round(zahl * n_stelle) / n_stelle);
+    return zahl;
+}
 
 var messages = [
         "Changed home page welcome message",
@@ -149,6 +160,25 @@ var messages = [
 previewXAxis.render();
     
      setTimeout(function(){ graph.render(); }, 100);
+    graph.onUpdate(function(){
+        console.log();
+        var min;
+        var max;
+        if(graph.window.xMin==undefined){
+        min=1427781600;
+        }else{
+        min = extround(graph.window.xMin,1)
+        }
+        if(graph.window.xMax==undefined){
+        max =1443510000;
+        }else{
+        max = extround(graph.window.xMax,1)
+        }
+        console.log(new Date(min*1000));
+        console.log(new Date(max*1000)); 
+         $('#range').html('<b>Range:</b> '+new Date(min*1000)+' - '+new Date(max*1000));         
+    
+    });
 
 
 });
