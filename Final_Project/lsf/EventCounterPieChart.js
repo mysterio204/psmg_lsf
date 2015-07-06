@@ -16,8 +16,8 @@ d3.json(url,function(data){
     
     d.enabled = true;
     });
-        var width = 450;
-        var height = 450;
+        var width = 350;
+        var height = 350;
         var radius = Math.min(width, height) / 2;
         var donutWidth = 100;
         var legendRectSize = 20;

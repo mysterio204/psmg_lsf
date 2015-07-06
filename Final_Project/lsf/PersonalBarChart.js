@@ -318,10 +318,23 @@
             type: 'category',
             labels:{
                 formatter: function(){
-                    if (this.value.length > 20){
-                        return this.value.substr(0,20) + "...";
+                    var label =this.value;
+                    var lehr = new RegExp(/.*Lehrstuhl.*/);
+           
+                if(lehr.test(label)){
+                label = label.replace(/Lehrstuhl für /gi," ");
+                }
+                        var inst = new RegExp(/.*Institut.*/);
+           
+                if(inst.test(label)){
+                label = label.replace(/Institut für /,"");
+                }
+                
+                    
+                    if (label.length > 15){
+                        return label.substr(0,15) + "...";
                     }else{
-                         return this.value;   
+                         return label;   
                     }                        
                 }
             }

@@ -255,6 +255,7 @@ var that = {},
         _facultybuttonListener();
         _daybuttonListener();
         _radioListener();
+        _helpListener();
         $('.circlebar').on("mouseover", function(event) {       
              event.target.css("fill","aliceblue");
         })                  
@@ -262,8 +263,32 @@ var that = {},
              event.target.css("fill",_getFakClass);
         });
         
+   
+        
         
 	};
+    
+    
+    var _helpListener = function(){
+    
+         $('.helparrow').on("click", function(event){
+       
+            if($(this).children(":first").hasClass('fa-angle-right')){
+                $(this).children(":first").removeClass('fa-angle-right');
+                $(this).children(":first").addClass('fa-angle-left'); 
+                $(this).next().css("left",0);
+            }else{
+                $(this).children(":first").removeClass('fa-angle-left');
+                $(this).children(":first").addClass('fa-angle-right');
+                $(this).next().css("left",-200);
+            
+            }
+        
+        });
+    
+    
+    
+    };
     var _radioListener = function(){
         
         document.switcher.group1[1].checked = true;

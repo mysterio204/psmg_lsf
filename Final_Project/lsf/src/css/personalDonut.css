@@ -7,12 +7,13 @@
 
             margin-right: auto;
 
-            float : left;
+            text-align: center;
+     margin-left: 100px;
      }
 
   #pielegend {
 
-    margin-top: 3%;
+/*    margin-top: 3%;*/
 /*       float : right;*/
     
       }
