@@ -1,164 +1,166 @@
 <!doctype>
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
-        <link
-      type="text/css" rel="stylesheet"href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css">
-        <link
-              href='http://fonts.googleapis.com/cssfamily=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-    
-       <link href='http://fonts.googleapis.com/css?family=Amaranth:400,700&subset=latin,latin-ext' rel='stylesheet'               type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-        	    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link type="text/css" rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css">
+   <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 
-        <link type="text/css" rel="stylesheet" href="src/css/materialize.css"  media="screen,projection"/>
-        <link type="text/css" rel="stylesheet" href="src/css/graph.css">
-        <link type="text/css" rel="stylesheet" href="src/css/detail.css">
-        <link type="text/css" rel="stylesheet" href="src/css/legend.css">
-        <link type="text/css" rel="stylesheet" href="src/css/footer-distributed-with-address-and-phones.css">
-        <link type="text/css" rel="stylesheet" href="src/css/extensions.css?v=2">
-        <link type="text/css" rel="stylesheet" href="src/css/barstyle.css">
-        <link type="text/css" rel="stylesheet" href="src/css/personalDonut.css">
-        <link type="text/css" rel="stylesheet" href="src/css/sortedBarChart.css">
-        <link type="text/css" rel="stylesheet" href="src/css/style.css"  media="screen,projection"/>
-	    <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
-	  
+    <link href='http://fonts.googleapis.com/css?family=Amaranth:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
+    <link type="text/css" rel="stylesheet" href="src/css/materialize.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="src/css/graph.css">
+    <link type="text/css" rel="stylesheet" href="src/css/detail.css">
+    <link type="text/css" rel="stylesheet" href="src/css/legend.css">
+    <link type="text/css" rel="stylesheet" href="src/css/footer-distributed-with-address-and-phones.css">
+    <link type="text/css" rel="stylesheet" href="src/css/extensions.css?v=2">
+    <link type="text/css" rel="stylesheet" href="src/css/barstyle.css">
+    <link type="text/css" rel="stylesheet" href="src/css/personalDonut.css">
+    <link type="text/css" rel="stylesheet" href="src/css/sortedBarChart.css">
+    <link type="text/css" rel="stylesheet" href="src/css/style.css" media="screen,projection" />
+    <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+
 
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
     <script src="vendor/d3.v3.js"></script>
     <script src="src/js/materialize.js"></script>
 
-         <script src="src/js/Rickshaw.js"></script>
-         <script src="src/js/Rickshaw.Class.js"></script>
-         <script src="src/js/Rickshaw.Compat.ClassList.js"></script>
-         <script src="src/js/Rickshaw.Graph.js"></script>
-         <script src="src/js/Rickshaw.Graph.Renderer.js"></script>
-         <script src="src/js/Rickshaw.Graph.Renderer.Area.js"></script>
-         <script src="src/js/Rickshaw.Graph.Renderer.Line.js"></script>
-         <script src="src/js/Rickshaw.Graph.Renderer.Bar.js"></script>
-         <script src="src/js/Rickshaw.Graph.Renderer.ScatterPlot.js"></script>
-         <script src="src/js/Rickshaw.Graph.Renderer.Stack.js"></script>
-         <script src="src/js/Rickshaw.Graph.RangeSlider.js"></script>
-         <script src="src/js/Rickshaw.Graph.RangeSlider.Preview.js"></script>
-         <script src="src/js/Rickshaw.Graph.HoverDetail.js"></script>
-         <script src="src/js/Rickshaw.Graph.Annotate.js"></script>
-         <script src="src/js/Rickshaw.Graph.Legend.js"></script>
-         <script src="src/js/Rickshaw.Graph.Axis.Time.js"></script>
-         <script src="src/js/Rickshaw.Graph.Behavior.Series.Toggle.js"></script>
-         <script src="src/js/Rickshaw.Graph.Behavior.Series.Order.js"></script>
-         <script src="src/js/Rickshaw.Graph.Behavior.Series.Highlight.js"></script>
-         <script src="src/js/Rickshaw.Graph.Smoother.js"></script>
-         <script src="src/js/Rickshaw.Fixtures.Time.js"></script>
-         <script src="src/js/Rickshaw.Fixtures.Time.Local.js"></script>
-         <script src="src/js/Rickshaw.Fixtures.Number.js"></script>
-         <script src="src/js/Rickshaw.Fixtures.RandomData.js"></script>
-         <script src="src/js/Rickshaw.Fixtures.Color.js"></script>
-         <script src="src/js/Rickshaw.Color.Palette.js"></script>
-         <script src="src/js/Rickshaw.Graph.Axis.Y.js"></script>
-         <script src="src/js/d3.js"></script>
-         <script src="src/js/jspath.min.js"></script>
-         <script src="src/extensions.js"></script>
-         <script src="src/js/highcharts.src.js"></script>
-         <script src="src/modules/data.js"></script>
-         <script src="src/modules/drilldown.src.js"></script>
-    </head>
+    <script src="src/js/Rickshaw.js"></script>
+    <script src="src/js/Rickshaw.Class.js"></script>
+    <script src="src/js/Rickshaw.Compat.ClassList.js"></script>
+    <script src="src/js/Rickshaw.Graph.js"></script>
+    <script src="src/js/Rickshaw.Graph.Renderer.js"></script>
+    <script src="src/js/Rickshaw.Graph.Renderer.Area.js"></script>
+    <script src="src/js/Rickshaw.Graph.Renderer.Line.js"></script>
+    <script src="src/js/Rickshaw.Graph.Renderer.Bar.js"></script>
+    <script src="src/js/Rickshaw.Graph.Renderer.ScatterPlot.js"></script>
+    <script src="src/js/Rickshaw.Graph.Renderer.Stack.js"></script>
+    <script src="src/js/Rickshaw.Graph.RangeSlider.js"></script>
+    <script src="src/js/Rickshaw.Graph.RangeSlider.Preview.js"></script>
+    <script src="src/js/Rickshaw.Graph.HoverDetail.js"></script>
+    <script src="src/js/Rickshaw.Graph.Annotate.js"></script>
+    <script src="src/js/Rickshaw.Graph.Legend.js"></script>
+    <script src="src/js/Rickshaw.Graph.Axis.Time.js"></script>
+    <script src="src/js/Rickshaw.Graph.Behavior.Series.Toggle.js"></script>
+    <script src="src/js/Rickshaw.Graph.Behavior.Series.Order.js"></script>
+    <script src="src/js/Rickshaw.Graph.Behavior.Series.Highlight.js"></script>
+    <script src="src/js/Rickshaw.Graph.Smoother.js"></script>
+    <script src="src/js/Rickshaw.Fixtures.Time.js"></script>
+    <script src="src/js/Rickshaw.Fixtures.Time.Local.js"></script>
+    <script src="src/js/Rickshaw.Fixtures.Number.js"></script>
+    <script src="src/js/Rickshaw.Fixtures.RandomData.js"></script>
+    <script src="src/js/Rickshaw.Fixtures.Color.js"></script>
+    <script src="src/js/Rickshaw.Color.Palette.js"></script>
+    <script src="src/js/Rickshaw.Graph.Axis.Y.js"></script>
+    <script src="src/js/d3.js"></script>
+    <script src="src/js/jspath.min.js"></script>
+    <script src="src/js_own/extensions.js"></script>
+    <script src="src/js/highcharts.src.js"></script>
+    <script src="src/modules/data.js"></script>
+    <script src="src/modules/drilldown.src.js"></script>
+</head>
 
-    <body>
+<body>
 
 
-<!--<p id="uetext">Vorlesungsverzeichnis der Uni Regensburg</p>-->
-<!--    <img src="src/images/banner_lsf.png" background-repeat:no-repeat;width:1424px;height:150px;>-->
-               
-        
-        
-           <div id="starter" class="valign-wrapper section scrollspy">
-          <div class="valign" id="wrap">
-         <p id="starttext"> Vorlesungsverzeichnis der Uni Regensburg</p><br>
-         <p id="starttext2"> Eine Visualisierung der Daten des Vorlesungsverszeichnises aus dem Sommersemester 2015</p><br>
-<!--            <a class="waves-effect blue-grey darken-3 btn-large" id="startbutton" href="#content">GET STARTED</a>  -->
-              <div >
-<a href="#content" class="fa fa-angle-down arrow bounce"></a>
-</div>
-          </div>
-      </div>
-                
-        <div id="spycontainer">
-            
-            <ul class="section table-of-contents">
-         <li><a href="#starter">Start</a></li>
-        <li><a href="#content">Timeline</a></li>
-        <li><a href="#first">Week Summary</a></li>
-        <li><a href="#second">All Events</a></li>
-         <li><a href="#container">Personal</a></li>
-        <li><a href="#sortedBarChart">Auslastung</a></li>
-            </ul>
+
+
+
+
+    <div id="starter" class="valign-wrapper section scrollspy">
+        <div class="valign" id="wrap">
+            <p id="starttext"> Vorlesungsverzeichnis der Uni Regensburg</p>
+            <br>
+            <p id="starttext2"> Eine Visualisierung der Daten des Vorlesungsverszeichnises aus dem Sommersemester 2015</p>
+            <br>
+            <!--            <a class="waves-effect blue-grey darken-3 btn-large" id="startbutton" href="#content">GET STARTED</a>  -->
+            <div>
+                <a href="#content" class="fa fa-angle-down arrow bounce"></a>
+            </div>
+        </div>
+    </div>
+
+    <div id="spycontainer">
+
+        <ul class="section table-of-contents">
+            <li><a href="#starter">Start</a></li>
+            <li><a href="#content">Timeline</a></li>
+            <li><a href="#first">Week Summary</a></li>
+            <li><a href="#second">All Events</a></li>
+            <li><a href="#container">Personal</a></li>
+            <li><a href="#sortedBarChart">Auslastung</a></li>
+        </ul>
+    </div>
+
+    <div id="infotext_one">
+        <p id="infotext">Detailierte und interagierbare Semesterübersicht aller Fakultäten der Universität </p>
+    </div>
+    <div class="help_container">
+        <div class="helparrow z-depth-3"><i id="arrowsign" class="fa fa-angle-right"></i> <i class="fa fa-info"></i></div>
+        <div id="help">
+
+            Hier wird die Verteilung der Kurse über das Sommersemester 2015 gezeigt. Die Veranstaltungen sind nach Fakultäten geordnet, und können über die Legende einzeln ausgewählt oder ausgeblendet werden. Die Betrachtung eines kleineren Zeitraumes ist ebenfalls möglich.
         </div>
 
- <div id="infotext_one" >
-        <p id="infotext"  >Detailierte und interagierbare Semesterübersicht aller Fakultäten der Universität </p>
     </div>
-        <div class="help_container">
-            <div class="helparrow z-depth-3"><i id ="arrowsign" class="fa fa-angle-right"></i>   <i class="fa fa-info"></i></div>
-            <div id="help">
 
-Hier wird die Verteilung der Kurse über das Sommersemester 2015 gezeigt. Die Veranstaltungen sind nach Fakultäten geordnet, und können über die Legende einzeln ausgewählt oder ausgeblendet werden. Die Betrachtung eines kleineren Zeitraumes ist ebenfalls möglich.
-            </div>        
-        
-</div>
+    <div id="content" class="section scrollspy">
+        <div id="chart_container">
+            <div id="chart"></div>
+            <div id="timeline"></div>
+            <div id="preview"></div>
+            <div id="range"></div>
+        </div>
 
-            <div id="content" class="section scrollspy">
-                <div id="chart_container"  >
-                <div id="chart"></div>
-                <div id="timeline"  ></div>
-                <div id="preview"></div>
-                <div id="range"></div>
-            </div>
-                
 
         <form id="side_panel">
-            <h1 id ="graphtitle">Kurse im Sommerstemester 2015</h1>
-                <section><div id="legend"></div></section>
-                <section>
-                        <div id="renderer_form" class="toggler">
-                                <input type="radio" name="renderer" id="area" value="area" checked>
-                                <label for="area">area</label>
-                                <input type="radio" name="renderer" id="line" value="line">
-                                <label for="line">line</label>
-                                <input type="radio" name="renderer" id="scatter" value="scatterplot">
-                                <label for="scatter">scatter</label>
-                                </div>
-                                    </section>
-                                    <section id="smoothingSection">
-                                        <h6>Smoothing</h6>
-                                        <div id="smoother"></div>
-                                    </section> 
+            <h1 id="graphtitle">Kurse im Sommerstemester 2015</h1>
+            <section>
+                <div id="legend"></div>
+            </section>
+            <section>
+                <div id="renderer_form" class="toggler">
+                    <input type="radio" name="renderer" id="area" value="area" checked>
+                    <label for="area">area</label>
+                    <input type="radio" name="renderer" id="line" value="line">
+                    <label for="line">line</label>
+                    <input type="radio" name="renderer" id="scatter" value="scatterplot">
+                    <label for="scatter">scatter</label>
+                </div>
+            </section>
+            <section id="smoothingSection">
+                <h6>Smoothing</h6>
+                <div id="smoother"></div>
+            </section>
         </form>
 
-      
 
-</div>
-    <br>
-        <div>
-        <span id="range"></span>
-        </div>
-        <div id="infotext_container" >
-        <p id="infotext" >Kursverteilung auf die jeweiligen Wochentage. Eine spezifische Darstellung einer Fakultät kann mittels eines Klicks auf den - charakteristisch farbcodierten - Button erreicht werden.</p>
+
     </div>
-        
-<div class="help_container">
-            <div class="helparrow z-depth-3"><i id ="arrowsign" class="fa fa-angle-right"></i>   <i class="fa fa-info"></i></div>
-            <div id="help">
-Hier wird die Verteilung der Veranstaltungen auf die Wochentage dargestellt. Die Darstellung ist absolut, d.h. die Anzahl der Veranstaltungen werden addiert. Wählen Sie eine Fakultät, oder "Alle Fakultäten aus".
-            </div>        
-        
-</div>
-    
-        
-        
-        
-        
-        <span class="chartcont">
+    <br>
+    <div>
+        <span id="range"></span>
+    </div>
+    <div id="infotext_container">
+        <p id="infotext">Verteilung der Veranstaltungen auf die jeweiligen Wochentage. </p>
+    </div>
+
+    <div class="help_container">
+        <div class="helparrow z-depth-3"><i id="arrowsign" class="fa fa-angle-right"></i> <i class="fa fa-info"></i></div>
+        <div id="help">
+            Hier wird die Verteilung der Veranstaltungen auf die Wochentage dargestellt. Die Darstellung ist absolut, d.h. die Anzahl der Veranstaltungen werden addiert. Wählen Sie eine Fakultät, oder "Alle Fakultäten aus".
+        </div>
+
+    </div>
+
+
+
+
+
+    <span class="chartcont">
             <div id="middle">
                 <a class=
         "btn-floating btn-small waves-effect waves-light ur tooltipped fak selected" data-delay="10" 
@@ -224,147 +226,146 @@ Hier wird die Verteilung der Veranstaltungen auf die Wochentage dargestellt. Die
   
         </form>
     </span>
-   
-  
-   
-    
-        <div id="infotext_container_2" >
-    <p id="infotext">Veranstaltungsverteilung aller Fakultäten der Universität Regensburg<br>
-         Informationen werden durch hovern über die gewünschten Bereiche angezeigt
-    </p>
+
+
+
+
+    <div id="infotext_container_2">
+        <p id="infotext">Veranstaltungsverteilung aller Fakultäten der Universität Regensburg
+            
+        </p>
+    </div>
+    <div class="help_container">
+        <div class="helparrow z-depth-3"><i id="arrowsign" class="fa fa-angle-right"></i> <i class="fa fa-info"></i></div>
+        <div id="help">Dieser Pie-Chart zeigt die absolute Anzahl an Veranstaltungen pro Fakultät. Einzelne Fakultäten können in der Legende ausgeblendet werden.
         </div>
-<div class="help_container">
-            <div class="helparrow z-depth-3"><i id ="arrowsign" class="fa fa-angle-right"></i>   <i class="fa fa-info"></i></div>
-            <div id="help">Dieser Pie-Chart zeigt die absolute Anzahl an Veranstaltungen pro Fakultät. Einzelne Fakultäten können in der Legende ausgeblendet werden.
-            </div>        
-        
-</div>
-    
+
+    </div>
 
 
-    
+
+
     <div class="wrapperClass row section scrollspy" id="second">
-    
-        <div class="col s1"><p></p></div>
-         <div id="piechart" class="col s5">  </div>
-         <div id="pielegend" class="col s5"></div>
-        <div class="col s1"><p></p></div>
+
+        <div class="col s1">
+            <p></p>
+        </div>
+        <div id="piechart" class="col s3"> </div>
+        <div id="pielegend" class="col s5"></div>
+        <div class="col s2">
+            <p></p>
+        </div>
     </div>
 
-     <div id="infotext_container_3">
-    <p id="infotext">Personalverteilung der Fakultäten der Universität Regensburg<br>
-        Durch einen Klick auf eine Fakultät erhalten sie mehr Information
-        
-     </p>
+    <div id="infotext_container_3">
+        <p id="infotext">Personalverteilung der Fakultäten der Universität Regensburg
+           
+        </p>
     </div>
-        <div class="help_container">
-            <div class="helparrow z-depth-3"><i id ="arrowsign" class="fa fa-angle-right"></i>   <i class="fa fa-info"></i></div>
-            <div id="help">Hier wird die Anzahl der Angestellten pro Fakultät dargestellt. Wählen Sie eine Fakultät aus um die Verteilung auf die Lehrstühle und Institute, innerhalb der Fakultäten, anzuzeigen.  
-            </div>        
-        
-</div>
-        <div id="container" class="section scrollspy" style="min-width: 310px; width:70% ;height: 400px; margin: 0 auto"></div>
-        
-         
-        
-        <div id="infotext_container_4" >
-    <p id="infotext"> Auslastungsinformationen bezüglich der Veranstaltungsanzahl pro Angestellten.  </p>
-    </div>
-        <div class="help_container">
-            <div class="helparrow z-depth-3"><i id ="arrowsign" class="fa fa-angle-right"></i>   <i class="fa fa-info"></i></div>
-            <div id="help">Diese Grafik soll die Auslastung der Angestellten Visualisieren. Hierzu werden die Anzahl an Kursen pro Angestellter herangezogen.</div>        
-        
-</div>
-                <div id="sortedBarChart" class="section scrollspy">
-                    <div class="switch">
-                        <p>Sortieren</p>
-                        <label>
-                          Off
-                          <input type="checkbox" id="sort">
-                          <span class="lever"></span>
-                          On
-                        </label>
-                    </div>
-<!--                <label> <input id = "sort" type="checkbox"> Sort values </label>-->
+    <div class="help_container">
+        <div class="helparrow z-depth-3"><i id="arrowsign" class="fa fa-angle-right"></i> <i class="fa fa-info"></i></div>
+        <div id="help">Hier wird die Anzahl der Angestellten pro Fakultät dargestellt. Wählen Sie eine Fakultät aus um die Verteilung auf die Lehrstühle und Institute, innerhalb der Fakultäten, anzuzeigen.
         </div>
 
-        
-    <script src="app.js"></script>
-       <script> 
-			app.init();
-             $(document).ready(function(){
-                $('.scrollspy').scrollSpy();
-            });
-	</script>
-                
-    <script src="sortedBarChart.js"></script>
-    <script src="ChartController.js"></script>   
-    <script src="PersonalBarChart.js"></script>
-    <script src="EventCounterPieChart.js"></script>
-    <script src="chartOne.js"></script>
+    </div>
+    <div id="container" class="section scrollspy" style="min-width: 310px; width:70% ;height: 400px; margin: 0 auto"></div>
 
-		<footer class="footer-distributed">
 
-			<div class="footer-left">
 
-				<h3>Uni <span> Regensburg</span></h3>
+    <div id="infotext_container_4">
+        <p id="infotext"> Auslastungsinformationen bezüglich der Veranstaltungsanzahl pro Angestellten. </p>
+    </div>
+    <div class="help_container">
+        <div class="helparrow z-depth-3"><i id="arrowsign" class="fa fa-angle-right"></i> <i class="fa fa-info"></i></div>
+        <div id="help">Diese Grafik soll die Auslastung der Angestellten Visualisieren. Hierzu werden die Anzahl an Kursen pro Angestellter herangezogen.</div>
 
-				<p class="footer-links">
-                    <a target="_blank" href="http://www.codecademy.com/en/tracks/javascript">JavaScript</a>
-					·
-					<a target="_blank" href="https://nodejs.org/">Node</a>
-					·
-					<a target="_blank" href="http://d3js.org/">D3</a>
-					·
-					<a target="_blank" href="http://code.shutterstock.com/rickshaw/">Rickshaw</a>
-					·
-					<a target="_blank" href="http://www.highcharts.com/">Highcharts</a>
-				</p>
+    </div>
+    <div id="sortedBarChart" class="section scrollspy">
+        <div class="switch">
+            <p>Sortieren</p>
+            <label>
+                Off
+                <input type="checkbox" id="sort">
+                <span class="lever"></span> On
+            </label>
+        </div>
+        <!--                <label> <input id = "sort" type="checkbox"> Sort values </label>-->
+    </div>
 
-				<p class="footer-company-name">Kersting & Ratz &copy; 2015</p>
-			</div>
 
-			<div class="footer-center">
 
-				<div>
-					<i class="fa fa-map-marker"></i>
-					<p><span>Landshuterstraße 26</span> Regensburg, Germany</p>
-				</div>
 
-				<div>
-					<i class="fa fa-phone"></i>
-					<p>0151/44239972</p>
-				</div>
+    <footer class="footer-distributed">
 
-				<div>
-					<i class="fa fa-envelope"></i>
-					<p><a href="mailto:support@company.com">meikel.ratz@stud.ur.de</a></p>
+        <div class="footer-left">
 
-				</div>
+            <h3>Uni <span> Regensburg</span></h3>
 
-			</div>
+            <p class="footer-links">
+                <a target="_blank" href="http://www.codecademy.com/en/tracks/javascript">JavaScript</a> ·
+                <a target="_blank" href="https://nodejs.org/">Node</a> ·
+                <a target="_blank" href="http://d3js.org/">D3</a> ·
+                <a target="_blank" href="http://code.shutterstock.com/rickshaw/">Rickshaw</a> ·
+                <a target="_blank" href="http://www.highcharts.com/">Highcharts</a>
+            </p>
 
-			<div class="footer-right">
+            <p class="footer-company-name">Kersting & Ratz &copy; 2015</p>
+        </div>
 
-				<p class="footer-company-about">
-					<span>Projektseminar Mediengestaltung</span>
-                    Sommersemester 2015 <br>
-                    Kursleitung:<br>
-                    Alexander Bazo, Dr.Raphael Wimmer
-					
-                    
-				</p>
+        <div class="footer-center">
 
-				<div class="footer-icons">
-					<a target="_blank"
-                       href="https://www.facebook.com/pages/Medieninformatik-Uni-  Regensburg/138729356153755?fref=ts"                          class="icon_container"><i class="fa fa-facebook"></i></a>
-					<a target="_blank" href="https://twitter.com/MedienInfRgb"><i class="fa fa-twitter"></i></a>
-					<a target="_blank" href="https://github.com/mysterio204/psmg_lsf"><i class="fa fa-github"></i></a>
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>Landshuterstraße 26</span> Regensburg, Germany</p>
+            </div>
 
-				</div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <p><span>0151/44239972</span></p>
 
-			</div>
+            </div>
 
-		</footer>
-        
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><span><a href="mailto:meikel.ratz@stud.ur.de">meikel.ratz@stud.ur.de</a></span><span><a href="mailto:thiemo.kersting@googlemail.com">thiemo.kersting@googlemail.com</a></span></p>
+
+            </div>
+
+        </div>
+
+        <div class="footer-right">
+
+            <p class="footer-company-about">
+                <span>Projektseminar Mediengestaltung</span> Sommersemester 2015
+                <br> Kursleitung:
+                <br> Alexander Bazo, Dr.Raphael Wimmer
+
+
+            </p>
+
+            <div class="footer-icons">
+                <a target="_blank" href="https://www.facebook.com/pages/Medieninformatik-Uni-  Regensburg/138729356153755?fref=ts" class="icon_container"><i class="fa fa-facebook"></i></a>
+                <a target="_blank" href="https://twitter.com/MedienInfRgb"><i class="fa fa-twitter"></i></a>
+                <a target="_blank" href="https://github.com/mysterio204/psmg_lsf"><i class="fa fa-github"></i></a>
+
+            </div>
+
+        </div>
+
+    </footer>
+    <script src="src/js_own/weekBarChart.js"></script>
+    <script>
+        weekBarChart.init();
+        $(document).ready(function() {
+            $('.scrollspy').scrollSpy();
+        });
+
+    </script>
+
+    <script src="src/js_own/sortedBarChart.js"></script>
+    <script src="src/js_own/ChartController.js"></script>
+    <script src="src/js_own/PersonalBarChart.js"></script>
+    <script src="src/js_own/EventCounterPieChart.js"></script>
+    <script src="src/js_own/chartOne.js"></script>
+
 </body>

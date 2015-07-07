@@ -62,7 +62,7 @@ Rickshaw.Graph.Legend = Rickshaw.Class.create( {
 		var label = document.createElement('span');
 		label.className = 'label';
 		label.innerHTML = series.name;
-
+        
 		line.appendChild(label);
 		this.list.appendChild(line);
 
