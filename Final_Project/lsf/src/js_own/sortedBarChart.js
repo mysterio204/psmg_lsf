@@ -52,80 +52,134 @@ d3.json(personalurl, function (data) {
 
 
         function _calculateProportion(data) {
-
-
-
-            var phy = data[0].count / persArrFak[8].freq;
-            proportionArr.push({
-                name: "Physik",
-                frequency: phy,
-                number: 9
+            
+                for(var i = 0 ; i < data.length; i++){
+                    
+                    
+                    if(data[i].label =="Physik / Courses in Physics" ){
+                            var phy = data[i].count / persArrFak[8].freq;
+                        proportionArr.push({
+                        name: "Physik",
+                        frequency: phy,
+                        number: 9
             });
 
-
-
-            var wiwi = data[3].count / persArrFak[2].freq;
+                       }
+                       
+                        if(data[i].label == "Wirtschaftswissenschaften" ){
+                           
+                           
+                 var wiwi = data[i].count / persArrFak[2].freq;
             proportionArr.push({
                 name: "Wirtschaft",
                 frequency: wiwi,
                 number: 2
             });
-            var medizin = data[1].count / persArrFak[3].freq;
+                       }
+                    
+                     if(data[i].label == "Medizin"){
+                        
+                           var medizin = data[i].count / persArrFak[3].freq;
             proportionArr.push({
                 name: "Medizin",
                 frequency: medizin,
                 number: 11
             });
-
-            var psy = data[6].count / persArrFak[5].freq;
+                       
+                       }
+                        
+                         if(data[i].label == "Psychologie, Pädagogik und Sportwissenschaft"){
+                            
+                              var psy = data[i].count / persArrFak[5].freq;
             proportionArr.push({
                 name: "Psychologie",
                 frequency: psy,
                 number: 5
             });
-            var chemie = data[2].count / persArrFak[10].freq;
+                       
+                       }
+                    
+                     if(data[i].label =="Chemie und Pharmazie" ){
+                        
+                           var chemie = data[i].count / persArrFak[10].freq;
             proportionArr.push({
                 name: "Chemie",
                 frequency: chemie,
                 number: 10
             });
-
-            var math = data[5].count / persArrFak[7].freq;
+                       
+                       }
+                        
+                         if(data[i].label == "Mathematik" ){
+                            
+                               var math = data[i].count / persArrFak[7].freq;
             proportionArr.push({
                 name: "Mathematik",
                 frequency: math,
                 number: 8
             });
-            var law = data[4].count / persArrFak[1].freq;
+                       
+                       }
+                    
+                     if(data[i].label == "Rechtswissenschaft"){
+                        
+                         var law = data[i].count / persArrFak[1].freq;
             proportionArr.push({
                 name: "Recht",
                 frequency: law,
                 number: 1
             });
-            var phil = data[7].count / persArrFak[4].freq;
+                       
+                       }
+                        
+                        
+                         if(data[i].label == "Philosophie, Kunst-, Geschichts- und Gesellschaftswissenschaften" ){
+                            
+                              var phil = data[i].count / persArrFak[4].freq;
             proportionArr.push({
                 name: "Philosophie",
                 frequency: phil,
                 number: 4
             });
-            var bio = data[8].count / persArrFak[9].freq;
+                       
+                       }
+                    
+                     if(data[i].label =="Biologie und Vorklinische Medizin" ){
+                        
+                          var bio = data[i].count / persArrFak[9].freq;
             proportionArr.push({
                 name: "Biologie",
                 frequency: bio,
                 number: 7
             });
-            var rel = data[9].count / persArrFak[0].freq;
+                       
+                       }
+                        
+                         if(data[i].label =="Katholische Theologie" ){
+                            
+                             var rel = data[i].count / persArrFak[0].freq;
             proportionArr.push({
                 name: "Theologie",
                 frequency: rel,
                 number: 3
             });
-            var slk = data[10].count / persArrFak[6].freq;
+                       
+                       }
+                    
+                        if(data[i].label =="Sprach-, Literatur- und  Kulturwissenschaften" ){
+                            
+                            var slk = data[i].count / persArrFak[6].freq;
             proportionArr.push({
                 name: "SLK",
                 frequency: slk,
                 number: 6
             });
+                       
+                       }
+                    
+ 
+                    
+                }
 
         };
 
