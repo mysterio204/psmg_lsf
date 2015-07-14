@@ -954,16 +954,7 @@ var betweenDate= function(startDt, endDt,rythm) {
           
             res.send(eventsperfak);
         });
-        
-    
-    
-//        server.get("/api/get/meals/*", function (req, res) {
-//            var requestedDay = req.params[0];
-//            res.send({
-//                day: requestedDay,
-//                meal: getMealForDay(requestedDay)
-//            });
-//        });
+
         server.use(express.static(WWW));
         server.listen(PORT);
     }

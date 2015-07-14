@@ -309,7 +309,7 @@ $(function () {
                 type: 'column'
             },
             title: {
-                text: ' '
+                text: ''
             },
             subtitle: {
                 text: ''
