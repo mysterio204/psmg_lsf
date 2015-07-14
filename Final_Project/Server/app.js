@@ -37,6 +37,7 @@
     var facs =[];
     var allData = {};
     var d ;
+    var persCount=0;
 
 
     /*
@@ -454,7 +455,7 @@
                             }
                         }
                     }
-
+                  persCount+= personalArray.length;
             
                persArr.push({
                 
@@ -470,6 +471,7 @@
                     d = persArr;
                     var personal = "personal";
                     allData[personal] = d;
+       console.log("Personen: "+persCount);
 
     };
     
@@ -671,7 +673,7 @@ var _getAllDates = function(){
      
        
    }
-   timesgeneral= fillUp(timesgeneral);
+  // timesgeneral= fillUp(timesgeneral);
     
 
    //console.log("Termine konnten von "+events.length+" Veranstaltungen ermittelt werden");
@@ -680,7 +682,7 @@ var _getAllDates = function(){
      console.log("keine zeitangaben: "+nodates);
     console.log("fakultäten: "+ totalfaks);
     console.log("events: "+totalevents);
-    console.log(possibleDates.length);
+   
     
 };
     
@@ -735,22 +737,11 @@ var fillUp = function(arr){
         return new Date(a.x) - new Date(b.x);
         
 });
-        console.log(arr[f].data.length)
+       // console.log(arr[f].data.length)
      
     }
     
-//    for(var f in arr){
-//        console.log(arr[f].data.length);
-//        console.log(possibleDates.length);
-//      for (var i in possibleDates){
-//        if(hasXValue(arr[f].data,possibleDates[i])==false) {
-//                    
-//                    var filler = {x:new Date(possibleDates[i]).getTime(),y:0};
-//                    arr[f].data.push(filler);
-//            
-//        } 
-//      }
-//    }
+
 
 
 return arr;
@@ -789,8 +780,7 @@ var hasKey = function (a, obj) {
 };
     var hasFak = function (a, obj) {
     for (var i = 0; i < a.length; i++) {
-//    console.log(Object.keys(a[i]));
-//    console.log(obj);
+
         if (Object.keys(a[i])[0] == obj) {
             console.log(Object.keys(a[i])[0] == obj);
             return true;
@@ -799,14 +789,7 @@ var hasKey = function (a, obj) {
  
     return false;
 };
-//    [ 'Blockveranstaltung',
-//  'nicht angegeben',
-//  'wöchentlich',
-//  'Blockveranstaltung + Sa',
-//  'Einzeltermin',
-//  'nach Vereinbarung',
-//  '14-tägig',
-//  'dreiwöchentlich' ]
+
     
 var getRythm = function(ryth){
 switch(ryth){
@@ -899,8 +882,9 @@ switch(ryth){
 var betweenDate= function(startDt, endDt,rythm) {
     var error = ((isDate(endDt)) && (isDate(startDt)) && isValidRange(startDt, endDt)) ? false : true;
     var between = [];
-    if (error) console.log('error occured!!!... Please Enter Valid Dates');
-    else {
+    if (error) {
+        //console.log('error occured!!!... Please Enter Valid Dates');
+    } else {
         var currentDate = new Date(startDt),
             end = new Date(endDt);
         while (currentDate <= end) {

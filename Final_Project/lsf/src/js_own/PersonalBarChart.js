@@ -332,6 +332,11 @@ $(function () {
                         if (inst.test(label)) {
                             label = label.replace(/Institut für /, "");
                         }
+                        var inst = new RegExp(/.*Fakultät.*/);
+
+                        if (inst.test(label)) {
+                            label = label.replace(/Fakultät für /, "");
+                        }
 
 
                         if (label.length > 15) {
