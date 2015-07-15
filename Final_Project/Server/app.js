@@ -127,7 +127,7 @@
             }
             }
 
-            console.log("Hours: ready");
+            console.log("Done");
                 _implementNewDataStructure(allHours);
         
         
@@ -472,7 +472,7 @@
                     d = persArr;
                     var personal = "personal";
                     allData[personal] = d;
-       console.log("Personen: "+persCount);
+//       console.log("Personen: "+persCount);
 
     };
     
@@ -678,12 +678,12 @@ var _getAllDates = function(){
     
 
 
-    console.log("kein rythmus angegeben: "+norythmcounter);
-    console.log("kein zeitobjekt: "+notimecounter);
-     console.log("keine zeitangaben: "+nodates);
-    console.log("fakultäten: "+ totalfaks);
-    console.log("events: "+totalevents);
-    console.log("Done");
+//    console.log("kein rythmus angegeben: "+norythmcounter);
+//    console.log("kein zeitobjekt: "+notimecounter);
+//     console.log("keine zeitangaben: "+nodates);
+//    console.log("fakultäten: "+ totalfaks);
+//    console.log("events: "+totalevents);
+
     console.log("server status : online ");
     
    
