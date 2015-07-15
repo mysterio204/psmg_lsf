@@ -312,7 +312,7 @@ $(function () {
                 text: ''
             },
             subtitle: {
-                text: ''
+                text: 'Wählen Sie eine Fakultät für detailierte Informationen'
             },
 
 
