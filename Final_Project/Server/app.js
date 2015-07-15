@@ -180,7 +180,7 @@
            fs.readFile(PEOPLE, function(err, data) {
                           
             peopledata = JSON.parse(data);
-            console.log("server status : online ");
+            
             console.log("Read file Person-Data : success");
                
             var structure = jsonPath.query(peopledata, "$.*");
@@ -201,6 +201,7 @@
               
                 var dataSet = data[0];
                 var chaircounter = 0 ;
+       
     
         for(var i = 0 ; i < dataSet.length; i++){
             
@@ -597,6 +598,7 @@ var _getAllDates = function(){
     var nodates =0;
     var totalfaks=0;
     var totalevents =0;
+   
     
    for(var f in eventdata){
        var timesforfak=[];
@@ -604,7 +606,7 @@ var _getAllDates = function(){
                 
                 var bums = JSON.parse(eventdata[f].vv)
                 var ver = jsonPath.query(bums, "$..Veranstaltung[*]");
-       console.log("Fakultät: "+name+" Veranstaltungen: "+ver.length);
+
        
        for(var v in ver){
             var id = ver[v].VName;
@@ -615,15 +617,13 @@ var _getAllDates = function(){
            if(vt.VZBeginn!=undefined){var td = vt.VZBeginn;}
            }
          
-        //console.log(id+"  "+vt);
-//           if(id!=undefined){
-           //console.log(id+"  "+sd+"  "+ed+"  "+td );
+
                if(sd!=undefined&&ed!=undefined&&td!=undefined){
               var beg= new Date( sd.replace( /(\d{2})\.(\d{2})\.(\d{4})/, "$2/$1/$3") );
                    beg.setHours(td.slice(0,2));
                    beg.setMinutes(td.slice(3));
                 var end= new Date( ed.replace( /(\d{2})\.(\d{2})\.(\d{4})/, "$2/$1/$3") );
-               //"VZRhythmus": "wöchentlich"
+        
                    
                    if(vt!=undefined){
                    if(vt.VZRhythmus!=undefined){
@@ -640,19 +640,19 @@ var _getAllDates = function(){
                    }
                  
                }
-                   }else{//console.log("no rythm" );
+                   }else{
                         norythmcounter++;}
-               }else{//console.log("no time object");
+               }else{
                     notimecounter++;}
        
-       }else{//console.log("no start or end or time");
+       }else{
             nodates++;}
 
                 
 
         
            totalevents++;
-//            }else{console.log("no id")}
+
    }
        var re = new RegExp(/.*Fakultät\W.*/);
         
@@ -662,11 +662,12 @@ var _getAllDates = function(){
                var fakk= {name:key,color: _getFakClass(name),data:sortAndCoutTimes(timesforfak)};
                 var fakcount = {label:key,count:ver.length,color: _getFakClass(name)};
                 eventsperfak.push(fakcount);
-               //fakk[key]= sortAndCoutTimes(timesforfak);
+           
                timesgeneral.push(fakk);
         
         }
        totalfaks++;
+        
            
     
     }
@@ -676,12 +677,15 @@ var _getAllDates = function(){
   // timesgeneral= fillUp(timesgeneral);
     
 
-   //console.log("Termine konnten von "+events.length+" Veranstaltungen ermittelt werden");
+
     console.log("kein rythmus angegeben: "+norythmcounter);
     console.log("kein zeitobjekt: "+notimecounter);
      console.log("keine zeitangaben: "+nodates);
     console.log("fakultäten: "+ totalfaks);
     console.log("events: "+totalevents);
+    console.log("Done");
+    console.log("server status : online ");
+    
    
     
 };
@@ -737,7 +741,7 @@ var fillUp = function(arr){
         return new Date(a.x) - new Date(b.x);
         
 });
-       // console.log(arr[f].data.length)
+
      
     }
     
@@ -782,7 +786,7 @@ var hasKey = function (a, obj) {
     for (var i = 0; i < a.length; i++) {
 
         if (Object.keys(a[i])[0] == obj) {
-            console.log(Object.keys(a[i])[0] == obj);
+            
             return true;
         }
     }
