@@ -514,7 +514,7 @@
         
     };
     
-  // TODO:
+  // counts same elements in array
     
     var count = function(name,ar){
         
@@ -554,7 +554,7 @@
 
 }
     
-      // TODO:
+      // counts occurance of same hour values in array
 
     
 var countHours = function(name,ar){
@@ -602,7 +602,7 @@ var countHours = function(name,ar){
 
 }
 
-          // TODO:
+          // calculates all dates where a event takes place. If only start and end date are given, the events between are calculated (if rythm is given)
 
 var _getAllDates = function(){
     var types=[];
@@ -696,7 +696,7 @@ var _getAllDates = function(){
     
 };
     
-          // TODO:
+          // sorts dates and counts occurance
 
     
     var sortAndCoutTimes = function(arr){
@@ -733,7 +733,7 @@ var _getAllDates = function(){
     
     };
     
-      // TODO:
+      // fills all positions with zero to where other faculties have a value
 
     
     
@@ -765,7 +765,7 @@ return arr;
         
 }; 
     
-      // TODO:
+      // checks if array has a specific value
 
 var contains = function (a, obj) {
     for (var i = 0; i < a.length; i++) {
@@ -776,7 +776,7 @@ var contains = function (a, obj) {
     return false;
 };
     
-      // TODO:
+      // checks if array has object with specific value for variable "x"
 
     
 var hasXValue = function (a, obj) {
@@ -791,7 +791,7 @@ var hasXValue = function (a, obj) {
     return false;
 };
     
-      // TODO:
+      // checks if array has object with specific key
 
 var hasKey = function (a, obj) {
     for (var i = 0; i < a.length; i++) {
@@ -805,7 +805,7 @@ var hasKey = function (a, obj) {
     return false;
 };
     
-      // TODO:
+      // checks if array has object with specifik faculty
 
     var hasFak = function (a, obj) {
     for (var i = 0; i < a.length; i++) {
@@ -904,7 +904,7 @@ switch(ryth){
     
     };
     
-      // TODO:
+      // checks if instance is a valid date object
 
     
  var isDate = function(dateArg) {
@@ -912,7 +912,7 @@ switch(ryth){
     return !isNaN(t.valueOf());
 }
  
-   // TODO:
+   // checks if date is in a valid range
 
  
  var isValidRange=function(minDate, maxDate) {
@@ -920,7 +920,7 @@ switch(ryth){
 }
  
  
-      // TODO:
+      // checks if date is between two given dates
 
 var betweenDate= function(startDt, endDt,rythm) {
     var error = ((isDate(endDt)) && (isDate(startDt)) && isValidRange(startDt, endDt)) ? false : true;
