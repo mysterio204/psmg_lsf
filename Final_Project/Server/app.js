@@ -41,8 +41,7 @@
 
 
     /*
-     * reads in the xml file needed and parses it into json. The Data is stored in a global variable
-     * console logs appear when the server is online and the file is read in 
+    Call the functions that load the json files
      */
     function initData() {
        
@@ -53,6 +52,10 @@
             
        
     }
+    
+    /*
+    read all files that contain the information about the events 
+    */
     
     var _readAllVV = function(){
     for(var i = 1; i<25;i++){
@@ -70,25 +73,29 @@
               
         });
     }
-//    console.log(eventdata);
+
      
     filesloaded = true;
     };
+    
+    /*
+    get the time of all events, sorted by the day of the week they take place
+    */
     var _getHours = function(){
             console.log("calulating hours...");
         
         for(var f in eventdata){
             
             var name =eventdata[f].Fak;
-            var bums = JSON.parse(eventdata[f].vv);
+            var onefak = JSON.parse(eventdata[f].vv);
         
-            var monday = jsonPath.query(bums, "$..VZeit[?(@.VZWoTagKurz=='Mo')].VZBeginn");
-            var tuesday = jsonPath.query(bums, "$..VZeit[?(@.VZWoTagKurz=='Di')].VZBeginn");
-            var wednesday = jsonPath.query(bums, "$..VZeit[?(@.VZWoTagKurz=='Mi')].VZBeginn");
-            var thursday = jsonPath.query(bums, "$..VZeit[?(@.VZWoTagKurz=='Do')].VZBeginn");
-            var friday = jsonPath.query(bums, "$..VZeit[?(@.VZWoTagKurz=='Fr')].VZBeginn");
-            var saturday = jsonPath.query(bums, "$..VZeit[?(@.VZWoTagKurz=='Sa')].VZBeginn");
-            var sunday = jsonPath.query(bums, "$..VZeit[?(@.VZWoTagKurz=='So')].VZBeginn");
+            var monday = jsonPath.query(onefak, "$..VZeit[?(@.VZWoTagKurz=='Mo')].VZBeginn");
+            var tuesday = jsonPath.query(onefak, "$..VZeit[?(@.VZWoTagKurz=='Di')].VZBeginn");
+            var wednesday = jsonPath.query(onefak, "$..VZeit[?(@.VZWoTagKurz=='Mi')].VZBeginn");
+            var thursday = jsonPath.query(onefak, "$..VZeit[?(@.VZWoTagKurz=='Do')].VZBeginn");
+            var friday = jsonPath.query(onefak, "$..VZeit[?(@.VZWoTagKurz=='Fr')].VZBeginn");
+            var saturday = jsonPath.query(onefak, "$..VZeit[?(@.VZWoTagKurz=='Sa')].VZBeginn");
+            var sunday = jsonPath.query(onefak, "$..VZeit[?(@.VZWoTagKurz=='So')].VZBeginn");
               
         
                    
@@ -134,7 +141,9 @@
             
 
             };
-    
+    /*
+    arrange the data in a new json style which is more easy to handle 
+    */
     var _implementNewDataStructure = function(hours){
         
         
@@ -173,7 +182,9 @@
         allData[hours]=facs;
         
     };
-    
+    /*
+    read the json file which contains the information about the staff
+    */
       var _readPersData = function(){
         
         
@@ -192,7 +203,9 @@
         });
     
     };
-    
+    /*
+    get the needed information about the staff and their relations
+    */
    var _fillArrayWithPersonData = function (data){
         
             
@@ -472,20 +485,22 @@
                     d = persArr;
                     var personal = "personal";
                     allData[personal] = d;
-//       console.log("Personen: "+persCount);
+
 
     };
     
     
 
-    
+    /*
+    get the days where events take place
+    */
     var _getDays = function(){
     
     for(var f in eventdata){
             var name =eventdata[f].Fak;;
                 
-                var bums = JSON.parse(eventdata[f].vv)
-                var days = jsonPath.query(bums, "$..VZWoTag");
+                var onefak = JSON.parse(eventdata[f].vv)
+                var days = jsonPath.query(onefak, "$..VZWoTag");
                 if(count(name,days)!=null){
                      if(hasFak(allDays,name)==false){
                  allDays.push(count(name,days));
@@ -604,8 +619,8 @@ var _getAllDates = function(){
        var timesforfak=[];
             var name =eventdata[f].Fak;;
                 
-                var bums = JSON.parse(eventdata[f].vv)
-                var ver = jsonPath.query(bums, "$..Veranstaltung[*]");
+                var onefak = JSON.parse(eventdata[f].vv)
+                var ver = jsonPath.query(onefak, "$..Veranstaltung[*]");
 
        
        for(var v in ver){
