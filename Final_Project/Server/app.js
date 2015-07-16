@@ -13,15 +13,16 @@
     var filesloaded = false;
     /* http server */
     var server = express();
+    
+    /* vars needed */
 
-    /* mensa data */
     var data = {};
     var events= [];
     var timesgeneral=[];
     var eventsperfak=[];
     var possibleDates=[];
 
-    /* configuration */
+    /* configuration of the server */
     
     var PORT = 3333;
     var WWW = path.join(__dirname, "./www/");
@@ -29,6 +30,8 @@
     var VDATA = path.join(__dirname, "./parsedVV/");
     var PEOPLE = path.join(PDATA, "PersonenDaten.json");
     var EVENTS = path.join(VDATA, "vv1.json");
+    
+    /*vars needed */
     
     var peopledata;
     var eventdata =[];
@@ -81,6 +84,7 @@
     /*
     get the time of all events, sorted by the day of the week they take place
     */
+    
     var _getHours = function(){
             console.log("calulating hours...");
         
@@ -205,16 +209,16 @@
     };
     /*
     get the needed information about the staff and their relations
+    @Exception: Some of the Staff is not fetched due to inconsitency of the raw-data.
     */
    var _fillArrayWithPersonData = function (data){
-        
-            
-        
+
                 var persArr = [];
-              
                 var dataSet = data[0];
                 var chaircounter = 0 ;
        
+       
+       /* get all the Staff that is directly employed at the faculties */
     
         for(var i = 0 ; i < dataSet.length; i++){
             
@@ -266,7 +270,7 @@
         }
                   
                   
-                  // get all the staff of the chairs 
+                  // get all the staff of the chairs and the smaller instituts 
                   
                   
                   
@@ -283,15 +287,7 @@
                          if(chairs[x].Einrichtung.hasOwnProperty('EinBez')==true ){
                      
                            var chairNames = chairs[x].Einrichtung.EinBez;
-                                                           
-                            
-                             // siehe oben - methode die diese sachen in ein array pushed
-
-//                             chairArr.push({
-//                                 name : chairNames
-//                             
-//                             });
-//                             
+                                                    
                               
                                  if(chairs[x].Einrichtung.hasOwnProperty('Funktion')==true ){
 
@@ -421,10 +417,7 @@
                                           }
     
                                     }
-                            
-                            
-                            //TODO:
-   
+                               
                               if(chairs[x].Ueberschrift.hasOwnProperty('Einrichtung')==true ){
                                  
                                     var chairNames = chairs[x].Ueberschrift.Einrichtung.EinBez;
@@ -469,6 +462,9 @@
                             }
                         }
                     }
+                  
+                  /*The Final Array which is parsed is filled here*/
+                  
                   persCount+= personalArray.length;
             
                persArr.push({
@@ -518,7 +514,7 @@
         
     };
     
-  
+  // TODO:
     
     var count = function(name,ar){
         
@@ -532,9 +528,7 @@
     for (var i = 0; i < array_elements.length; i++) {
         if (array_elements[i] != current) {
             if (cnt > 0) {
-               // var key = current;
-               // var curD = {};
-               // curD[key]=cnt
+              
                 currentFak.push({
                 weekday : current,
                 freq : cnt
@@ -559,6 +553,9 @@
         
 
 }
+    
+      // TODO:
+
     
 var countHours = function(name,ar){
         
@@ -604,6 +601,9 @@ var countHours = function(name,ar){
         
 
 }
+
+          // TODO:
+
 var _getAllDates = function(){
     var types=[];
     
@@ -689,21 +689,15 @@ var _getAllDates = function(){
      
        
    }
-  // timesgeneral= fillUp(timesgeneral);
-    
-
-
-//    console.log("kein rythmus angegeben: "+norythmcounter);
-//    console.log("kein zeitobjekt: "+notimecounter);
-//     console.log("keine zeitangaben: "+nodates);
-//    console.log("fakultäten: "+ totalfaks);
-//    console.log("events: "+totalevents);
 
     console.log("server status : online ");
     
    
     
 };
+    
+          // TODO:
+
     
     var sortAndCoutTimes = function(arr){
     
@@ -739,6 +733,9 @@ var _getAllDates = function(){
     
     };
     
+      // TODO:
+
+    
     
 var fillUp = function(arr){
     
@@ -767,6 +764,9 @@ return arr;
 
         
 }; 
+    
+      // TODO:
+
 var contains = function (a, obj) {
     for (var i = 0; i < a.length; i++) {
         if (a[i] === obj) {
@@ -775,6 +775,10 @@ var contains = function (a, obj) {
     }
     return false;
 };
+    
+      // TODO:
+
+    
 var hasXValue = function (a, obj) {
     for (var i = 0; i < a.length; i++) {
     
@@ -786,6 +790,9 @@ var hasXValue = function (a, obj) {
  
     return false;
 };
+    
+      // TODO:
+
 var hasKey = function (a, obj) {
     for (var i = 0; i < a.length; i++) {
     
@@ -797,6 +804,9 @@ var hasKey = function (a, obj) {
  
     return false;
 };
+    
+      // TODO:
+
     var hasFak = function (a, obj) {
     for (var i = 0; i < a.length; i++) {
 
@@ -808,8 +818,9 @@ var hasKey = function (a, obj) {
  
     return false;
 };
-
     
+      /* This method returns the rythm of a event wether it is weekly, single, in 14-days, etc.*/
+
 var getRythm = function(ryth){
 switch(ryth){
         case 'Blockveranstaltung':
@@ -835,6 +846,9 @@ switch(ryth){
 
 
 };    
+    
+    
+    /* This method is for getting the specific hex-code of each faculty */ 
     
     var _getFakClass = function (currFak){
     switch (currFak){
@@ -889,15 +903,25 @@ switch(ryth){
     
     
     };
+    
+      // TODO:
+
+    
  var isDate = function(dateArg) {
     var t = (dateArg instanceof Date) ? dateArg : (new Date(dateArg));
     return !isNaN(t.valueOf());
 }
  
+   // TODO:
+
+ 
  var isValidRange=function(minDate, maxDate) {
     return (new Date(minDate) <= new Date(maxDate));
 }
  
+ 
+      // TODO:
+
 var betweenDate= function(startDt, endDt,rythm) {
     var error = ((isDate(endDt)) && (isDate(startDt)) && isValidRange(startDt, endDt)) ? false : true;
     var between = [];
@@ -914,43 +938,20 @@ var betweenDate= function(startDt, endDt,rythm) {
     return between;
 }
         
-         
-    
-
 
     /**
      * starts serving a static web site from ./www
      * starts routing api requests from /api/get/*
      */
     function start() {
-        server.use(cors());
-        
-        server.get("/api/get/days", function (req, res) {
-            
-            
-
-            res.send(JSON.stringify(allDays));
-        });
-        
-            server.get("/api/get/hours", function (req, res) {
+      
        
-            
-            
-           
-            
-            res.send(JSON.stringify(facs));
-          
-        });
         
-        server.use(cors());
-        server.get("/api/get/fak", function (req, res) {
-            var fak = jsonPath.query(peopledata, "$.Ueberschrift[*].Einrichtung");
-            res.send(JSON.stringify(d));
-        });
-        
-        
+   
            server.use(cors());
         server.get("/api/get/allData", function (req, res) {
+            
+              console.log("hier sind alldata");
           
             res.send(allData);
         });
@@ -958,6 +959,8 @@ var betweenDate= function(startDt, endDt,rythm) {
          
            server.use(cors());
         server.get("/api/get/personal", function (req, res) {
+            
+              console.log("hier sind personal");
           
             res.send(d);
         });
@@ -965,11 +968,15 @@ var betweenDate= function(startDt, endDt,rythm) {
         
           server.use(cors());
         server.get("/api/get/events", function (req, res) {
+            
+              console.log("hier sind events");
           
             res.send(timesgeneral);
         });
           server.use(cors());
         server.get("/api/get/counter", function (req, res) {
+            
+              console.log("hier sind counter");
           
             res.send(eventsperfak);
         });
